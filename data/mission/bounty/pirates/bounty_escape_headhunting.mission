@@ -25,7 +25,7 @@ newmission = bounty.bounty (0, 0, 10420, 1, 1, 'pirates')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="bounty"/>
 		<script name="initgame">
 			<exec module="bounty" name="init">

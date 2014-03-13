@@ -25,7 +25,7 @@ newmission = escort_mission.initrandom ('ISO', 0, 11490, 80, 2)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="escort_mission"/>
 		<script name="initgame">
 			<exec module="escort_mission" name="initrandom">

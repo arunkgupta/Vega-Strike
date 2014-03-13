@@ -29,7 +29,7 @@
 			<pos x="51500" y="2000" z="23000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		</flightgroup>
-<!--				<flightgroup name="brown" faction="aera" type="fleetcarrier" ainame="default" waves="1" nr_ships="1">
+				<flightgroup name="brown" faction="aera" type="fleetcarrier" ainame="default" waves="1" nr_ships="1">
 			<pos x="51500" y="2000" z="23000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		</flightgroup>-->

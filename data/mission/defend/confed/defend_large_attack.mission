@@ -25,7 +25,7 @@ newmission = defend.initrandom ('aera', 0, 3, 6, 1695, 1, 1)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="defend"/>
 		<script name="initgame">
 			<exec module="defend" name="initrandom">

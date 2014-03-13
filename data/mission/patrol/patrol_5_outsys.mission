@@ -25,7 +25,7 @@ newmission = patrol.patrol (1, 6, 300, 9200)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="patrol"/>
 		<script name="initgame">
 			<exec module="patrol" name="init">

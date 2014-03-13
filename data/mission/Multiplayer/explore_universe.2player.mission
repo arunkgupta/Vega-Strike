@@ -38,7 +38,7 @@ from privateer import privateer
 my_obj=privateer(20000,40000,500,3,2,.6,.25,.02,400000,2000)
 </python>
 
-	<madule name="director">
+	<module name="director">
 		<import name="privateer"/>
 		<script name="initgame">
 			<exec module="privateer" name="init">

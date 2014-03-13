@@ -26,7 +26,7 @@ newmission = wingman.wingman (8000, 'hunter', 1,2)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="patrol"/>
 		<script name="initgame">
 			<exec module="patrol" name="init">
