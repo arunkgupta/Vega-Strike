@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="We wish to place a bounty on the leader of an aera scout pair last sighted two systems from here.  If you find and destroy him we will reward you with 16345 credits." />
+		<var name="mission_name" value="_(Bounty Mission)" />
+		<var name="description" value="_(We wish to place a bounty on the leader of an aera scout pair last sighted two systems from here.  If you find and destroy him we will reward you with 16345 credits.)" />
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
