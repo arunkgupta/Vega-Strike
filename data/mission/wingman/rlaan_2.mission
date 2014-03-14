@@ -7,8 +7,8 @@
 		<var name="defaultplayer" value="blue"/>
 		<var name="credits" value="00000"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="HireWingman" />
-		<var name="description" value="Rlaan escort duo will service users for 12400. No tolerance for any foulplay." />
+		<var name="mission_name">HireWingman</var>
+		<var name="description">Rlaan escort duo will service users for 12400. No tolerance for any foulplay.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="1">

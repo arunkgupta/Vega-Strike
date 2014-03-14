@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="A lone confed scout has penetrated into this system, and must be destroyed. The scout is believed to be alone, and should be an easy target once he is located.  He is flying a standard confed military starship and can't be much of a threat. You will be payed 9190 credits for success on this mission." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">A lone confed scout has penetrated into this system, and must be destroyed. The scout is believed to be alone, and should be an easy target once he is located.  He is flying a standard confed military starship and can't be much of a threat. You will be payed 9190 credits for success on this mission.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

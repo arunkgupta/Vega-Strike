@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort--Distress Critical" />
-		<var name="description" value="A wealthy corporation has a shipment that is under attack by pirates.  If you can defend it, this corporation will reward you 9520 credits for your efforts in preserving their shipment." />
+		<var name="mission_name">Escort--Distress Critical</var>
+		<var name="description">A wealthy corporation has a shipment that is under attack by pirates.  If you can defend it, this corporation will reward you 9520 credits for your efforts in preserving their shipment.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

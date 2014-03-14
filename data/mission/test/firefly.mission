@@ -8,10 +8,10 @@
 <!--		<var name="difficulty" value=".1" />-->
 		<var name="credits" value="10000"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
                 <var name="system" value="stage_sector/stage" />
-		<var name="description" value="4vs4.txt" />
+		<var name="description">4vs4.txt</var>
 	</variables>
 
         <flightgroups>
@@ -30,9 +30,9 @@
                         <pos x="1200000000" y="4010000" z="50000000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		    </flightgroup>
-		    
-              
- 
+
+
+
 
         </flightgroups>
 </mission>

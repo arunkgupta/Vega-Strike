@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Fleet Cargo Delivery" />
-		<var name="description" value="A corporation (name withheld for information protection) would like a small supply of goods to be delivered to a far system over 9 suns away. It must all be delivered or you will not be paid. Upon success, your pay will be 1340 per system traversed in a minimal path to the destination.  Time is not infinite, so get moving."/>
+		<var name="mission_name">Fleet Cargo Delivery</var>
+		<var name="description">A corporation (name withheld for information protection) would like a small supply of goods to be delivered to a far system over 9 suns away. It must all be delivered or you will not be paid. Upon success, your pay will be 1340 per system traversed in a minimal path to the destination.  Time is not infinite, so get moving.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

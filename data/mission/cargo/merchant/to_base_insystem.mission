@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Cargo Mission" />
-		<var name="description" value="A small private corporation needs a specific ammount of cargo insystem. The corporation and cargo will be disclosed upon mission accept. The pay is 2450." />
+		<var name="mission_name">Cargo Mission</var>
+		<var name="description">A small private corporation needs a specific ammount of cargo insystem. The corporation and cargo will be disclosed upon mission accept. The pay is 2450.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

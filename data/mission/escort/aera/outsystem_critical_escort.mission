@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="A critical craft carying weapons for the front lines is under attack. You must assist it in reaching our escort craft on the other side of the jump point before it is too late. If you succeed we will offer 18280. Failure is unacceptible to us as Aera and results in execution." />
+		<var name="mission_name">Escort</var>
+		<var name="description">A critical craft carying weapons for the front lines is under attack. You must assist it in reaching our escort craft on the other side of the jump point before it is too late. If you succeed we will offer 18280. Failure is unacceptible to us as Aera and results in execution.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

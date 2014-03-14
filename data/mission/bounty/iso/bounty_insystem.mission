@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Pirate Bounty Mission" />
-		<var name="description" value="A lone socialist fanatic has been causing trouble in this system, trying to cause riot and plan revolution, and he must be destroyed. This insurgent is believed to be alone, and should be an easy target once he is located. You will be payed 8070 credits for success on this mission." />
+		<var name="mission_name">Pirate Bounty Mission</var>
+		<var name="description">A lone socialist fanatic has been causing trouble in this system, trying to cause riot and plan revolution, and he must be destroyed. This insurgent is believed to be alone, and should be an easy target once he is located. You will be payed 8070 credits for success on this mission.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="Comrade, we require assistance to stave off these greedy pirates.  They are attempting to attack our starships and collect the escape pods as slaves.  Please defend us." />
+		<var name="mission_name">Escort</var>
+		<var name="description">Comrade, we require assistance to stave off these greedy pirates.  They are attempting to attack our starships and collect the escape pods as slaves.  Please defend us.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

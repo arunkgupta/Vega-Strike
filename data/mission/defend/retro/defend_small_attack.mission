@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Strategic Point" />
-		<var name="description" value="A small retro-religious wing has jumped in and started terrorizing freighters in this system, demanding they turn over all of their technology. Your task is to eliminate them--reward is 4900 credits per ship" />
+		<var name="mission_name">Defend Strategic Point</var>
+		<var name="description">A small retro-religious wing has jumped in and started terrorizing freighters in this system, demanding they turn over all of their technology. Your task is to eliminate them--reward is 4900 credits per ship</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="Critical party members are in a craft attempting to jump.  Hostiles have approached and begun to attack us. Comrade, your assistance is required!" />
+		<var name="mission_name">Escort</var>
+		<var name="description">Critical party members are in a craft attempting to jump.  Hostiles have approached and begun to attack us. Comrade, your assistance is required!</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

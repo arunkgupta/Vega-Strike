@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="An extremist religious group has raided one of our valuable cargo shipments. We have a heavy placed a price on the leader's head, so make sure he does not escape alive!  His wingmen may go through lengths to protect him, but one who has stolen so much from all must serve as a lesson for all pirates.  Upon leader's destruction you will earn 15395 credits." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">An extremist religious group has raided one of our valuable cargo shipments. We have a heavy placed a price on the leader's head, so make sure he does not escape alive!  His wingmen may go through lengths to protect him, but one who has stolen so much from all must serve as a lesson for all pirates.  Upon leader's destruction you will earn 15395 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Deliver Urgent Cargo" />
-		<var name="description" value="Aera needs important cargo delivered to a military base on an installation in system ASAP. If the mission is completed you will be credited 3420.  This cargo is critical for our operations, you must deliver immediately, within 3 minutes. Failure will be punished." />
+		<var name="mission_name">Deliver Urgent Cargo</var>
+		<var name="description">Aera needs important cargo delivered to a military base on an installation in system ASAP. If the mission is completed you will be credited 3420.  This cargo is critical for our operations, you must deliver immediately, within 3 minutes. Failure will be punished.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

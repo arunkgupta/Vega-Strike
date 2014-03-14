@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/enigma" />
-		<var name="mission_name" value="Defend Against Pirate" />
-		<var name="description" value="A lone socialist has been reportedly violating Navy order in this system. Your task is to eliminate this politically ignorant space monger.  If he is destroyed, you will be rewarded is 4150 credits" />
+		<var name="mission_name">Defend Against Pirate</var>
+		<var name="description">A lone socialist has been reportedly violating Navy order in this system. Your task is to eliminate this politically ignorant space monger.  If he is destroyed, you will be rewarded is 4150 credits</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

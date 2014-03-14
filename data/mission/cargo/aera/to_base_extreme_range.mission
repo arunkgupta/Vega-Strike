@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Extreme Range Base Cargo Delivery" />
-		<var name="description" value="A long range Aera base requires a resupply. We will disclose the location upon mission acceptance. The base is over 8 systems away. Your pay will be 1200 per system traversed in a minimal path to the destination. It can use any and all supplies you bring to it."/>
+		<var name="mission_name">Extreme Range Base Cargo Delivery</var>
+		<var name="description">A long range Aera base requires a resupply. We will disclose the location upon mission acceptance. The base is over 8 systems away. Your pay will be 1200 per system traversed in a minimal path to the destination. It can use any and all supplies you bring to it.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

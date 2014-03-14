@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Patrol Mission" />
-		<var name="description" value="We require military data for a neighboring system. We will pay 9200 for a privateer to scan various strategic points in this system and report them to us." />
+		<var name="mission_name">Patrol Mission</var>
+		<var name="description">We require military data for a neighboring system. We will pay 9200 for a privateer to scan various strategic points in this system and report them to us.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

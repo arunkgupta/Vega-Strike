@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Patrol Mission" />
-		<var name="description" value="Patrol 8 locations in a distant star systems. We need detailed navigational data to plan an assault on this system.  Your reward will be 20025 credits." />
+		<var name="mission_name">Patrol Mission</var>
+		<var name="description">Patrol 8 locations in a distant star systems. We need detailed navigational data to plan an assault on this system.  Your reward will be 20025 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

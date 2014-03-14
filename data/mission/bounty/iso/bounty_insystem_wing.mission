@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="ISO Bounty Mission" />
-		<var name="description" value="We believe that destroying the wing leader of a pitiful band of socialists in this system will disrupt their recent plotting of revolution in the area sufficiently to stave off any potential political damage.  Upon leader's destruction you will earn 14000 credits." />
+		<var name="mission_name">ISO Bounty Mission</var>
+		<var name="description">We believe that destroying the wing leader of a pitiful band of socialists in this system will disrupt their recent plotting of revolution in the area sufficiently to stave off any potential political damage.  Upon leader's destruction you will earn 14000 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

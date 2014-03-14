@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="This is a message from a merchant vessel under attack. All friendly craft please assist! I will reward you with 7840 credits if you can help me get out of this alive!" />
+		<var name="mission_name">Escort</var>
+		<var name="description">This is a message from a merchant vessel under attack. All friendly craft please assist! I will reward you with 7840 credits if you can help me get out of this alive!</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

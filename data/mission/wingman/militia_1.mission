@@ -7,8 +7,8 @@
 		<var name="defaultplayer" value="blue"/>
 		<var name="credits" value="00000"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="HireWingman" />
-		<var name="description" value="Former Militia member out of work. I could use some quick cash, so I'll propose an escort job for 5000 for a day." />
+		<var name="mission_name">HireWingman</var>
+		<var name="description">Former Militia member out of work. I could use some quick cash, so I'll propose an escort job for 5000 for a day.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="1">

@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Base" />
-		<var name="description" value="A large confed assault wing has jumped in and started attacking one of the bases in this system. Your task is to eliminate them--reward is 1695 credits per scout" />
+		<var name="mission_name">Defend Base</var>
+		<var name="description">A large confed assault wing has jumped in and started attacking one of the bases in this system. Your task is to eliminate them--reward is 1695 credits per scout</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

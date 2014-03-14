@@ -6,12 +6,12 @@
 	<variables>
 		<var name="credits" value="20000"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="Networking" />
+		<var name="mission_name">Networking</var>
 		<var name="num_players" value="1"/>
 		<var name="unit_to_dock_with" value="1"/>
 		<var name="system" value="Special/Network" />
 		<!--<var name="system" value="testsystems/absolutelynothing" />-->
-		<var name="description" value="Default mission used on a private server." />
+		<var name="description">Default mission used on a private server.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="privateer" type="wayfarer.begin" ainame="default" waves="1" nr_ships="1">

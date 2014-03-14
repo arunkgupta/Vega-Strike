@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Base Cargo Delivery" />
-		<var name="description" value="A nearby factory requires a small load of cargo. We will disclose the location upon mission acceptance. The base lies within 5 systems. Your pay will be 1225 per system traversed in a minimal path to the destination. Thanks you, privateer."/>
+		<var name="mission_name">Base Cargo Delivery</var>
+		<var name="description">A nearby factory requires a small load of cargo. We will disclose the location upon mission acceptance. The base lies within 5 systems. Your pay will be 1225 per system traversed in a minimal path to the destination. Thanks you, privateer.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

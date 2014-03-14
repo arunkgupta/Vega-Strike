@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value= "Bounty Mission" />
-		<var name="description" value="A lone fanatic naming himself the true chosen one has been causing trouble in this system, and must be destroyed. The crazy is believed to be alone, and should be an easy target once he is located. You will be payed 8170 credits for success on this mission." />
+		<var name="mission_name" value= "Bounty Mission</var>
+		<var name="description">A lone fanatic naming himself the true chosen one has been causing trouble in this system, and must be destroyed. The crazy is believed to be alone, and should be an easy target once he is located. You will be payed 8170 credits for success on this mission.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

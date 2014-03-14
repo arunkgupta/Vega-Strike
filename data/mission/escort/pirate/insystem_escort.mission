@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="Please assist our starship--we are under attack, and have done no wrong.  Our bounty is high, and we will share over 18250 credits in riches with you; however, do not fail otherwise we will be forced to eliminate you as a confed traitor." />
+		<var name="mission_name">Escort</var>
+		<var name="description">Please assist our starship--we are under attack, and have done no wrong.  Our bounty is high, and we will share over 18250 credits in riches with you; however, do not fail otherwise we will be forced to eliminate you as a confed traitor.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

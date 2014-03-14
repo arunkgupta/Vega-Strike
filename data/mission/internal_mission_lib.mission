@@ -3,8 +3,8 @@
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/enigma" />
 		<var name="savegame" value="" />
-		<var name="mission_name" value="Mission" />
-		<var name="description" value="INTERNAL MISSION: DO NOT RUN THIS MISSION!!!"/>
+		<var name="mission_name">Mission</var>
+		<var name="description">INTERNAL MISSION: DO NOT RUN THIS MISSION!!!</var>
 	</variables>
 	<flightgroups>
 		<flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

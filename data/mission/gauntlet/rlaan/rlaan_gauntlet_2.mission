@@ -6,7 +6,7 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="mission_sector/blockade_tango" />
-		<var name="description" value="You and your wingmen\battle starships" />
+		<var name="description">You and your wingmen\battle starships</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="rlaan" type="dumbfire" ainame="default" waves="1" nr_ships="1">

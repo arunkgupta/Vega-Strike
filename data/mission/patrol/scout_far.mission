@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Scout Mission" />
-		<var name="description" value="We require a scout to journey to a distant system and return data to us about a particular location in it.  This is confidential, but you will be paid 18000 for success." />
+		<var name="mission_name">Scout Mission</var>
+		<var name="description">We require a scout to journey to a distant system and return data to us about a particular location in it.  This is confidential, but you will be paid 18000 for success.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

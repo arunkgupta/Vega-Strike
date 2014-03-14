@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="We wish to place a bounty on the leader of an rlaan wing cruising between 1 and 3 systems from here.  If you find and destroy the leader we will reward you with 19230 credits.  The dispersion of the rest of the wing will most likely continue after the leader combusts." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">We wish to place a bounty on the leader of an rlaan wing cruising between 1 and 3 systems from here.  If you find and destroy the leader we will reward you with 19230 credits.  The dispersion of the rest of the wing will most likely continue after the leader combusts.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Base Cargo Delivery" />
-		<var name="description" value="A small ISO contingent needs to be resupplied with some cargo. Please deliver it to them, comrade, and you will serve the people well. The people need you!"/>
+		<var name="mission_name">Base Cargo Delivery</var>
+		<var name="description">A small ISO contingent needs to be resupplied with some cargo. Please deliver it to them, comrade, and you will serve the people well. The people need you!</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="An rlaan wing has penetrated this system.  We believe that destroying the wing leader will disrupt their forces sufficiently.  Upon leader's destruction you will earn 15092 credits." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">An rlaan wing has penetrated this system.  We believe that destroying the wing leader will disrupt their forces sufficiently.  Upon leader's destruction you will earn 15092 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

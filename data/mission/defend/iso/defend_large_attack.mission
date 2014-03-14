@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Base" />
-		<var name="description" value="After not complying with recent, un-called-for wage increase demands, a socialist assault wing has jumped in and demanded we turn over our facilities in this system. Your task is to eliminate them.  Upon success you will earn 900 credits per scout" />
+		<var name="mission_name">Defend Base</var>
+		<var name="description">After not complying with recent, un-called-for wage increase demands, a socialist assault wing has jumped in and demanded we turn over our facilities in this system. Your task is to eliminate them.  Upon success you will earn 900 credits per scout</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

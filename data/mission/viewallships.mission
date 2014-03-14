@@ -5,10 +5,10 @@
 
     <variables>
         <var name="defaultplayer" value="blue"/>
-        <var name="mission_name" value="4 versus 4" />
+        <var name="mission_name">4 versus 4</var>
         <var name="splashscreen" value="" />
         <var name="system" value="testsystems/nothing" />
-        <var name="description" value="4vs4.txt" />
+        <var name="description">4vs4.txt</var>
     </variables>
     <flightgroups>
         <flightgroup name="Knight" faction="confed" type="Dostoevsky" ainame="ai_sitting_duck.py" waves="1" nr_ships="1">

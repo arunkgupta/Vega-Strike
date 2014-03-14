@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/enigma" />
-		<var name="mission_name" value="Defend Strategic Point" />
-		<var name="description" value="A lone confed scout has jumped in and disrupted our plans. Your task is to eliminate this scout--reward is 7296 credits" />
+		<var name="mission_name">Defend Strategic Point</var>
+		<var name="description">A lone confed scout has jumped in and disrupted our plans. Your task is to eliminate this scout--reward is 7296 credits</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

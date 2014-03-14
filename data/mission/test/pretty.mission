@@ -8,10 +8,10 @@
 <!--		<var name="difficulty" value=".1" />-->
 		<var name="credits" value="10000"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
                 <var name="system" value="stage_sector/stage" />
-		<var name="description" value="4vs4.txt" />
+		<var name="description">4vs4.txt</var>
 	</variables>
 
         <flightgroups>
@@ -85,13 +85,13 @@
                         <pos x="105000" y="20000" z="30000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		    </flightgroup>
-		    
+
      <flightgroup name="pancho" faction="confed" type="vidar" ainame="macho" waves="1" nr_ships="2">
                         <pos x="230000" y="30000" z="30000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		    </flightgroup>
 
-        
+
                 <flightgroup name="contras" faction="confed" type="thrud" ainame="macho" waves="1" nr_ships="2">
                         <pos x="225000" y="30000" z="30000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
@@ -102,7 +102,7 @@
 			<rot x="180.0" y="180.0" z="180.0"/>
 		    </flightgroup>
 
-		   
+
                     <flightgroup name="losfederales" faction="confed" type="idun" ainame="macho" waves="1" nr_ships="2">
                         <pos x="110000" y="30000" z="25000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>

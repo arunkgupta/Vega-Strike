@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="Destroy an confed starship sited 1 system away. This starship is responsible for the destruction of a number of light fighters and cargo containers and must be eliminated. Your reward will be 13990." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">Destroy an confed starship sited 1 system away. This starship is responsible for the destruction of a number of light fighters and cargo containers and must be eliminated. Your reward will be 13990.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

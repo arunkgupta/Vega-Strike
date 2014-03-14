@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="We wish to place on some Interplanetary Socialists causing trouble in this area.  After being tagged by authorities 2 systems away, contact has been lost; yet, if you find and destroy the leader we will reward you with 16666 credits." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">We wish to place on some Interplanetary Socialists causing trouble in this area.  After being tagged by authorities 2 systems away, contact has been lost; yet, if you find and destroy the leader we will reward you with 16666 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

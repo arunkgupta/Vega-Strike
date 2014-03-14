@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Freighter" />
-		<var name="description" value="An fanatic religious assault wing has jumped in and is moving for an attack on one of our starships in this system. Your task is to eliminate them before they eliminate or capture our starship--reward is 2055 credits per fighter" />
+		<var name="mission_name">Defend Freighter</var>
+		<var name="description">An fanatic religious assault wing has jumped in and is moving for an attack on one of our starships in this system. Your task is to eliminate them before they eliminate or capture our starship--reward is 2055 credits per fighter</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -29,7 +29,7 @@ newmission=0
 		<import name="defend"/>
 		<script name="initgame">
 			<exec module="defend" name="initrandom">
-			<const type="object" object="string" value="retro"/> 
+			<const type="object" object="string" value="retro"/>
 			<const type="int" value="0"/> <!--num systems away the delivery point is -->
 			<const type="int" value="2"/><!--ammt of enemies guaranteed -->
 			<const type="int" value="4"/><!--ammt of enemies guaranteed -->

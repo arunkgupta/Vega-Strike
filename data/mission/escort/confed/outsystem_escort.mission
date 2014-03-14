@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="A craft carying soldiers is in distress. Please assure it can make it to our escort in the neighboring system before it is destroyed. For this heoric task we offer 11320." />
+		<var name="mission_name">Escort</var>
+		<var name="description">A craft carying soldiers is in distress. Please assure it can make it to our escort in the neighboring system before it is destroyed. For this heoric task we offer 11320.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

@@ -7,11 +7,11 @@
 <!--		<var name="continuousterrain" value="continuousterrain.txt"/>-->
 		<var name="credits" value="3500"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="num_players" value="2"/>
 		<var name="difficulty" value="1"/>
 		<var name="system" value="vega_sector/kursawa" />
-		<var name="description" value="Enjoy troy in a nova." />
+		<var name="description">Enjoy troy in a nova.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="aera" type="butterfly" ainame="default" waves="1" nr_ships="2">
