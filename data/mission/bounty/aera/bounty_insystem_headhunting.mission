@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="_(Bounty Mission)" />
-		<var name="description" value="_(A pair of aera ships has been sighted in this system.  We require a bounty hunter to eliminate this threat and restore peace to this system. When the wing's leader is eliminated, you will earn 12260 credits for your effort.)" />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">A pair of aera ships has been sighted in this system.  We require a bounty hunter to eliminate this threat and restore peace to this system. When the wing's leader is eliminated, you will earn 12260 credits for your effort.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

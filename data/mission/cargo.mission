@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Cargo Mission" />
-		<var name="description" value="Deliver cargo to a system" />
+		<var name="mission_name">Cargo Mission</var>
+		<var name="description" >Deliver cargo to a system</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -44,7 +44,7 @@
 
 			<const type="bool" value="false"/><!-- if they send a capship or prefer to have you drop it at a planet -->
 			<const type="float" value="300"/> <!-- how much tmie -->
-			<const type="object" object="string" value=""/> 
+			<const type="object" object="string" value=""/>
 			</exec>
 		</script>
 		<script name="gameloop">
