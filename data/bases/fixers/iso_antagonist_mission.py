@@ -15,4 +15,4 @@ elif (fixers.checkSaveValue(playernum,"iso_evil4",0) and VS.numActiveMissions()<
     VS.LoadMission ("defend/iso/attack_iso_force.mission")
     #load mission 3
 else:
-    Base.message ("Ahh but you are already completing a mission. Come back to me when you're done with that contract first.")
+    Base.message (_("Ahh but you are already completing a mission. Come back to me when you're done with that contract first."))
