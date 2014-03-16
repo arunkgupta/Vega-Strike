@@ -4,11 +4,11 @@ import VS
 shipsize = VS.getPlayer().rSize()/35
 #print "Ship Size: " + str(shipsize) #debug
 
-landing = Base.Room (_('Landing Pad'))
+landing = Base.Room ('Landing Pad')
 Base.Texture (landing, 'tex', 'bases/Lava/landing.sprite', 0, 0)
 Base.Ship (landing, 'ship', (-0.3, -0.3, 10/shipsize), (0, 0.93, -0.34), (-1, 0, -1))
 
-landscape = Base.Room (_('Planet Exterior'))
+landscape = Base.Room ('Planet Exterior')
 Base.Texture (landscape, 'tex', 'bases/Lava/landscape.sprite', 0, 0)
 
 Base.Link (landing, 'ExtLink', 0.40, 0.02, 0.30, 0.22, _('Planet Exterior'), landscape)
