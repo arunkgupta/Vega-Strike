@@ -21,9 +21,9 @@ class quest_racene (quest.quest):
         launch.launch_wave_around_significant ('terran_rescue_fleet',conf,faction_ships.getRandomCapitolInt(faction_ships.confed),'default',1,10000,100000,4)
         launch.launch_wave_around_significant ('terran_rescue_fleet',conf,faction_ships.getRandomCapitolInt(faction_ships.confed),'default',1,10000,100000,4)
         launch.launch_wave_around_significant ('terran_rescue_fleet',conf,faction_ships.getRandomCapitolInt(faction_ships.confed),'default',1,10000,100000,4)
-        VS.IOmessage (0,"game","all","[Aera] Scanning for terran capships... [ping] [ping]")
-        VS.IOmessage (3,"game","all","[Computer] Analysis of pattern focuses on scan for attacks on Devils Fort...")
-        VS.IOmessage (4,"game","all","[Computer] Area class fighter vessels outfitted with powerful radar appear to be used as scouts in the aera...")
+        VS.IOmessage (0,"game","all",_("[Aera] Scanning for terran capships... [ping] [ping]"))
+        VS.IOmessage (3,"game","all",_("[Computer] Analysis of pattern focuses on scan for attacks on Devils Fort..."))
+        VS.IOmessage (4,"game","all",_("[Computer] Area class fighter vessels outfitted with powerful radar appear to be used as scouts in the aera..."))
     def Execute (self):
         playa=VS.getPlayer()
         if (playa.isNull()):
@@ -33,7 +33,7 @@ class quest_racene (quest.quest):
                 if (VS.getSystemFile()!=self.sysfile):
                     return 0
                 if (len (self.aera)==0):
-                    VS.IOmessage (0,"game","all","[Aera Burst Transmission] No targets detected--resistance encountered ca--&$&(*!@^6")
+                    VS.IOmessage (0,"game","all",_("[Aera Burst Transmission] No targets detected--resistance encountered ca--&$&(*!@^6"))
                     self.gametime=VS.GetGameTime()
                     self.removeQuest();
                     self.stage=1
@@ -44,11 +44,11 @@ class quest_racene (quest.quest):
             if (VS.GetGameTime()-self.gametime>100):
                 if (not self.devil.isNull()):
                     self.devil.DealDamageToHull((10,0,0),self.devil.GetHull()*100)
-                VS.IOmessage (0,"game","all","[Computer] Large energy release detected...")
-                VS.IOmessage (0,"game","all","[Computer] Aera Starbase destroyed!")
-                VS.IOmessage (0,"game","all","[Computer] Star Confederacy Starships detected on far side of planet!")
-                VS.IOmessage (5,"game","all","[Computer] Message from Rescue Fleet")
-                VS.IOmessage (6,"RescueFleet","all","Thank you for your help, privateer...we owe our victory to your cunning kill of those scouts.  We offer you 24,000 credits for this critical act!")
+                VS.IOmessage (0,"game","all",_("[Computer] Large energy release detected..."))
+                VS.IOmessage (0,"game","all",_("[Computer] Aera Starbase destroyed!"))
+                VS.IOmessage (0,"game","all",_("[Computer] Star Confederacy Starships detected on far side of planet!"))
+                VS.IOmessage (5,"game","all",_("[Computer] Message from Rescue Fleet"))
+                VS.IOmessage (6,"RescueFleet","all",_("Thank you for your help, privateer...we owe our victory to your cunning kill of those scouts.  We offer you 24,000 credits for this critical act!"))
                 playa.addCredits (24000)
                 self.removeQuest()
                 return 0
