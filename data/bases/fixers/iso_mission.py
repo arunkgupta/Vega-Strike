@@ -19,4 +19,4 @@ elif (fixers.checkSaveValue(playernum,"iso_mission4",0) and VS.numActiveMissions
     VS.LoadMission ("defend/iso/defend_iso_mission4.mission")
     #load mission 4
 else:
-    Base.message ("Our records indicate that you are already completing a mission. Come back to me when you're done with that business first.")
+    Base.message (_("Our records indicate that you are already completing a mission. Come back to me when you're done with that business first."))
