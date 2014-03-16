@@ -7,10 +7,10 @@
 <!--		<var name="continuousterrain" value="continuousterrain.txt"/>-->
 		<var name="credits" value="13500"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="Privateer Mission" />
+		<var name="mission_name">Privateer Mission</var>
 		<var name="difficulty" value=".25"/><!--good starting difficulty here-->
 		<var name="system" value="Crucible/Cephid_17" />
-		<var name="description" value="Like, as if." />
+		<var name="description">Like, as if.</var>
 		<var name="savegame" value="explore_universe_difficulty" />
 	</variables>
         <flightgroups>

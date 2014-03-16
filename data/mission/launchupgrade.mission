@@ -6,10 +6,10 @@
 	<variables>
 <!--		<var name="continuousterrain" value="continuousterrain.txt"/>-->
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
 		<var name="system" value="stage_sector/stage" />
-		<var name="description" value="4vs4.txt" />
+		<var name="description">4vs4.txt</var>
 
 	</variables>
         <flightgroups>

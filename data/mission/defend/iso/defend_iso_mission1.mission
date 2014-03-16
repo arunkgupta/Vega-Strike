@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Strategic Point" />
-		<var name="description" value="A small ISO scout wing has jumped in to this system, doubtless to bring supplies or news to Party members nearby. Your task is to eliminate them--reward is 4800 credits per Communist killed." />
+		<var name="mission_name">Defend Strategic Point</var>
+		<var name="description">A small ISO scout wing has jumped in to this system, doubtless to bring supplies or news to Party members nearby. Your task is to eliminate them--reward is 4800 credits per Communist killed.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -26,7 +26,7 @@ newmission = defend.initrandom ('confed', 0, 1, 3, 0, 1, 1,'ISO',(),'iso_mission
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="defend"/>
 		<script name="initgame">
 			<exec module="defend" name="initrandom">

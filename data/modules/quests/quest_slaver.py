@@ -38,7 +38,7 @@ class quest_slaver (quest.quest):
             launch.launch_wave_around_unit ('Illustrious',confed,faction_ships.getRandomFighter(confed),'default',4,100,200,illustrious)
             launch.launch_wave_around_unit ('SlaverGuild',pirates,faction_ships.getRandomFighter(pirates),'default',4,100,200,illustrious)
             launch.launch_wave_around_unit ('SlaverGuild',pirates,faction_ships.getRandomCapitol(pirates),'default',2,100,200,illustrious)
-            VS.IOmessage (3,"[Computer]","privateer",self.msgColor[0]+"Scans show the remnants of the Slaver Guild being cleaned up by Special Forces.")
+            VS.IOmessage (3,"[Computer]","privateer",self.msgColor[0]+_("Scans show the remnants of the Slaver Guild being cleaned up by Special Forces."))
 
     # things that could be added/improved
     # (a) some comm chatter

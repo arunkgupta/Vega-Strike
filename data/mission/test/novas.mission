@@ -8,10 +8,10 @@
 <!--		<var name="difficulty" value=".1" />-->
 		<var name="credits" value="10000"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
 		<var name="system" value="nothing" />
-		<var name="description" value="4vs4.txt" />
+		<var name="description">4vs4.txt</var>
 	</variables>
 
         <flightgroups>
@@ -31,7 +31,7 @@
 			<rot x="180.0" y="180.0" z="180.0"/>
 		    </flightgroup>
 
-	
+
 <!--		    <flightgroup name="orange" faction="confed" type="yavok" ainame="default" waves="1" nr_ships="1">
 			<pos x="43300" y="4000" z="40000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
@@ -48,7 +48,7 @@
 			<order priority="1" order="bomber" target="omikron"/>
 			<order priority="2" order="escort" target="blue"/>
 		    </flightgroup>
-	    
+
 
                 <flightgroup name="red" faction="confed" type="cruiser" ainame="default" waves="1" nr_ships="1">
 			<pos x="99400" y="30000" z="40000.0"/>
@@ -69,6 +69,6 @@
 		  </flightgroup>
 
 -->
-		
+
         </flightgroups>
 </mission>

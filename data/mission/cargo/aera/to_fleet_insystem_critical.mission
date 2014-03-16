@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Deliver Urgent Cargo" />
-		<var name="description" value="Aera needs critical cargo delivered to a fleet starship. Disclosure of cargo content will be granted upon mission accept. We credit 3825. Failure is not an option! You will have 5 minutes." />
+		<var name="mission_name">Deliver Urgent Cargo</var>
+		<var name="description">Aera needs critical cargo delivered to a fleet starship. Disclosure of cargo content will be granted upon mission accept. We credit 3825. Failure is not an option! You will have 5 minutes.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.cargo_mission ('aera', 0, 10, 5, 3825, 1, 300, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

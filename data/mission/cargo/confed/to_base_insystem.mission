@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Cargo Mission" />
-		<var name="description" value="United Earth Navy needs cargo delivered to a military base on an installation in system. Upon mission completion you will be credited 2150." />
+		<var name="mission_name">Cargo Mission</var>
+		<var name="description">United Earth Navy needs cargo delivered to a military base on an installation in system. Upon mission completion you will be credited 2150.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.cargo_mission ('confed', 0, 6, 0,  2150, 0, 1200, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

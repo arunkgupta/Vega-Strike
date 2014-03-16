@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Long Range Fleet Cargo Delivery" />
-		<var name="description" value="A nearby Aera fleet requires mission critical cargo. Due to the critical nature of this mission, we will disclose the fleet's location when you have accepted the mission. We can safely say that the base lies nearly 7 systems away. Your pay will be 1700 per system traversed. Do not fail us; by accepting this risky mission you waive your right to a trial should the cargo not be delivered. You have under 12 minutes per system-- Aera do not take failure lightly"/>
+		<var name="mission_name">Long Range Fleet Cargo Delivery</var>
+		<var name="description">A nearby Aera fleet requires mission critical cargo. Due to the critical nature of this mission, we will disclose the fleet's location when you have accepted the mission. We can safely say that the base lies nearly 7 systems away. Your pay will be 1700 per system traversed. Do not fail us; by accepting this risky mission you waive your right to a trial should the cargo not be delivered. You have under 12 minutes per system-- Aera do not take failure lightly</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.initrandom ('aera', 1, 1700, 1, 5, 8, 1000, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

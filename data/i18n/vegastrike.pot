@@ -1,0 +1,3370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vega Strike\n"
+"POT-Creation-Date: 2014-03-14 11:46+0100\n"
+"PO-Revision-Date: 2014-03-14 11:47+0100\n"
+"Last-Translator: Andy Costanza <andy.costanza@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: C:\\Projets\\wkPython\\Vega-Strike\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: var\n"
+"X-Poedit-SearchPath-0: data\n"
+
+#: data/bases/bartender.py:6
+msgid "Bottoms up for ye olde bartender, eh?"
+msgstr ""
+
+#: data/bases/bartender.py:7
+msgid "Say, don't I know you from somewhere...?"
+msgstr ""
+
+#: data/bases/bartender.py:8
+msgid ""
+"Got any good stories to tell? I'm out, and I need some fresh ones to tell my "
+"regulars."
+msgstr ""
+
+#: data/bases/bartender.py:9
+msgid "Tilt back a nice cool one, friend."
+msgstr ""
+
+#: data/bases/bartender.py:10
+msgid ""
+"News is sparse around here, check back with me later when I've talked with "
+"some more of the haulers coming in later today."
+msgstr ""
+
+#: data/bases/bartender.py:11
+msgid "Shh! Looks like someone is watching. Keep your six covered."
+msgstr ""
+
+#: data/bases/bartender.py:12
+msgid "Have one on the house, it's happy hour!"
+msgstr ""
+
+#: data/bases/bartender.py:13
+msgid "A nice drink and a bit o' talk is what I live for."
+msgstr ""
+
+#: data/bases/bartender.py:14
+msgid "Have you heard what's been on the news recently? It ain't pretty!"
+msgstr ""
+
+#: data/bases/bartender.py:15 data/bases/bartender.py:27
+msgid ""
+"Can I get you anything? Whiskey? Vodka? Aarnbach's Acid? I'm all for being "
+"social, but I do have a business to run."
+msgstr ""
+
+#: data/bases/bartender.py:16
+msgid ""
+"Did you know that before I started working here, everyone was served by "
+"either a robot, or computer controlled cyborg? I mean, I'm happy to work "
+"here... but who could stand having an unfeeling machine as a bartender?"
+msgstr ""
+
+#: data/bases/bartender.py:17
+msgid ""
+"I've run out of stories for the local crowd. Why don't you tell me a few "
+"tall tales from your adventures that I can make a few feet taller for the "
+"regulars?"
+msgstr ""
+
+#: data/bases/bartender.py:18
+msgid ""
+"You're in luck, this one's free! You just caught the tail end of happy hour!"
+msgstr ""
+
+#: data/bases/bartender.py:19
+msgid "Here, have a drink. This is a classic, it's called 'Venutian Sunset'."
+msgstr ""
+
+#: data/bases/bartender.py:20
+msgid ""
+"I just got a shipment of fine scotch in from good ol' Earth. Care for a "
+"taste?"
+msgstr ""
+
+#: data/bases/bartender.py:21
+msgid "Sorry pal, can't talk now."
+msgstr ""
+
+#: data/bases/bartender.py:22
+msgid ""
+"Been paying attention to any of the interplanetary sports? Yeah... me "
+"neither."
+msgstr ""
+
+#: data/bases/bartender.py:23
+msgid ""
+"Keep your hand close to that gun of yours... I think one of those shady-"
+"types has their eye on you."
+msgstr ""
+
+#: data/bases/bartender.py:24
+msgid ""
+"Hello! Lots of travellers about. Have yourself a seat and enjoy a nice cool "
+"fuzzy buzzer."
+msgstr ""
+
+#: data/bases/bartender.py:25
+msgid "Does he pat YOU like that?"
+msgstr ""
+
+#: data/bases/bartender.py:26
+msgid ""
+"I think the Luddites are crazy, just like anyone else. But I have to admit, "
+"their lobbyist friends in the Purists got the Senate to pass a law BANNING "
+"non-sentient robots and droids from serving alcohol. And that friend, is "
+"good news for me!"
+msgstr ""
+
+#: data/bases/bartender.py:28
+msgid ""
+"I don't have anything good for you right now. Check back in later after I've "
+"talked to some other folks."
+msgstr ""
+
+#: data/bases/bartender.py:29
+msgid "We'd better not talk right now. I think you're being watched."
+msgstr ""
+
+#: data/bases/bartender.py:30
+msgid "Try this, it's my latest creation. A Jovian Sunspot!"
+msgstr ""
+
+#: data/bases/bartender.py:31
+msgid ""
+"If you're as much a smuggler as I think you are, you had better watch your "
+"P's and Q's around this place."
+msgstr ""
+
+#: data/bases/bartender.py:33
+msgid ""
+"You'd best keep your sidearm covered in this establishment, sir. Students "
+"don't take kindly to threats!"
+msgstr ""
+
+#: data/bases/bartender.py:34
+msgid ""
+"One of the great things about running a bar on a university planet...  is "
+"that there is quite an 'archive' of alcoholic beverages stored for both "
+"'historical' purposes and 'hands-on' learning."
+msgstr ""
+
+#: data/bases/bartender.py:35
+msgid ""
+"I went to a university planet myself back in the day. Not this one, of "
+"cousre, but a nicer one. It was really great to live on a planet full of "
+"'loose' teenagers and open liquor cabinets. Now I'm married though...  and I "
+"had to swear off alcohol."
+msgstr ""
+
+#: data/bases/bartender.py:36
+msgid ""
+"There was an ISO discussion group in here last night. I let them use the "
+"bar, because they're good customers.  Some of them don't believe in money, "
+"though, so it can be kind of tense trying to collect on their tabs "
+"sometimes.  Mostly, I'm afraid if I push too hard, I'll come to work one "
+"afternoon and find my bar burned to the ground!  Crazy revolutionaries."
+msgstr ""
+
+#: data/bases/bartender.py:37
+msgid ""
+"You might think it's boring on a university planet. But let me tell you... "
+"there's no other place to be.  There're all kinds of fancy cultural artsy "
+"things going on, sporting events, music concerts, political groups, "
+"revolutionaries...  it's the place to be if you want to be on the cutting "
+"edge of society."
+msgstr ""
+
+#: data/bases/bartender.py:38
+msgid ""
+"Eighty percent of the population of a university planet is between the ages "
+"of 18 and 24.  So that means forty percent of the population is a young "
+"person of the opposite gender. University planets are like the ultimate "
+"place for singles, and I run a bar there. So it's like I'm running the "
+"ultimate singles bar."
+msgstr ""
+
+#: data/bases/bartender.py:39
+msgid ""
+"Sometimes I really hate living on a university.  There are so many snobs, "
+"arrogant rebels, naive revolutionaries, violent protesters, anarchists, "
+"deadbrains, drunkards, and rich idiots.  And they ALL come through MY BAR!"
+msgstr ""
+
+#: data/bases/bartender.py:40
+msgid ""
+"There was a performance by the local symphony orchestra last night. I "
+"couldn't go, 'cause of the bar, but I hear they played some great classical "
+"composers. Some Beethoven, some Beatles, and some Suguro. Great stuff!"
+msgstr ""
+
+#: data/bases/bartender.py:41
+msgid ""
+"There's some really incredible research going on at the Advanced Spatial "
+"Theory Laboratory here.  They say they're close to developing an "
+"interstellar jump drive that doesn't need to utilize pre-existing "
+"wormholes!  It's incredible research because it's a wonder it's getting any "
+"funding.  They've been working on that for almost a century, and no progress!"
+msgstr ""
+
+#: data/bases/bartender.py:42
+msgid ""
+"There are some very interesting studies going on at the campus here.  On "
+"grad student was telling me about how he was working on 'The Mating Habits "
+"of the Rlaan Component Species'. If you ask me, that will make for some "
+"pretty good reading."
+msgstr ""
+
+#: data/bases/bartender.py:43
+msgid ""
+"We had some Aera corpses delivered here recently. The Confederation Navy "
+"scooped them up after a battle, and asked us to do some classified research "
+"on them. They were only sent here AFTER the Navy intel boys got through with "
+"them of course.  I wonder what they figured out, and if they're telling us "
+"everything."
+msgstr ""
+
+#: data/bases/bartender.py:44
+msgid ""
+"The big money these days is in heavy weapons developement and dentistry.  So "
+"when the kids with credit signs in their eyes figure out that they either "
+"CAN'T do the work, or HATE it, they switch their majors to English or "
+"history, or orbital engineering.  You know, stuff that's easy."
+msgstr ""
+
+#: data/bases/bartender.py:45
+msgid ""
+"Contracts for defense research have skyrocketed since the Aera turned out to "
+"be hostile.  It's easy money if you're into starship or weapons design.  It "
+"drives the pacifist student groups wild, but the military has doubled the "
+"size of their officer training programs on university planets too.  "
+"Interesting times to be on a university planet.  Or anywhere, I guess."
+msgstr ""
+
+#: data/bases/bartender.py:46
+msgid ""
+"There is entirely too much talking going on in this bar...  and not enough "
+"drinking!  DAMN intellectuals."
+msgstr ""
+
+#: data/bases/bartender.py:47
+msgid ""
+"To the university!  Home of lost causes, and forsaken beliefs, and unpopular "
+"names, and impossible loyalties!"
+msgstr ""
+
+#: data/bases/bartender.py:48
+msgid ""
+"You know, university degrees are a bit like adultery: you may not want to "
+"get involved with that sort of thing, but you don't want to be thought "
+"incapable."
+msgstr ""
+
+#: data/bases/bartender.py:49
+msgid ""
+"The Confederation authorities busted a local discussion group last month, "
+"and the fallout has been scathing.  Who thought that anyone would actually "
+"enforce that silly law they passed banning the Interstellar Socialist "
+"Organization?  I mean, they're radical and all...  but it was just a "
+"discussion group!"
+msgstr ""
+
+#: data/bases/bartender.py:50
+msgid ""
+"There was a pro-ISO rally in the central square of the local campus "
+"yesterday.  They started calling for all sorts of government and economic "
+"reforms, but some hot-heads eventually turned to advocating bloody "
+"revolution instead."
+msgstr ""
+
+#: data/bases/bartender.py:51
+msgid ""
+"A wing of fighters flew into port last week.  No-one I know saw who the "
+"pilots were, but everyone suspects that they were part of an ISO "
+"flightgroup.  My guess is that they were lying low for a while, waiting for "
+"some Confed heat to cool.  Small wonder they chose here, they've got all "
+"kinds of supporters on this kind of planet."
+msgstr ""
+
+#: data/bases/bartender.py:53
+msgid ""
+"If youre looking for a mission, talk to the guys who sometimes sit at the "
+"front tables there. Or you can check the mission terminal."
+msgstr ""
+
+#: data/bases/bartender.py:54
+msgid ""
+"I used to know a privateer who swore by a standard mining base-agricultural "
+"planet run.  He hauled grain one way, and raw metals the other."
+msgstr ""
+
+#: data/bases/bartender.py:55
+msgid ""
+"You wouldn't catch me in space without a good shield generator. I want to be "
+"able to have time to decide if I want to run or fight."
+msgstr ""
+
+#: data/bases/bartender.py:56
+msgid ""
+"Hey, why don't you see if there are any in-system bounty missions available? "
+"People around here would really appreciate any help in cleaning this system "
+"up."
+msgstr ""
+
+#: data/bases/bartender.py:57
+msgid ""
+"The jump drive is the key to the galaxy. Without one, you can't access the "
+"network of jump points we use for interstellar travel."
+msgstr ""
+
+#: data/bases/bartender.py:58
+msgid ""
+"The best tool for interplanetary trade is common sense. What does an "
+"agricultural colony have that a space station probably needs? That's right, "
+"food - and booze!."
+msgstr ""
+
+#: data/bases/bartender.py:59
+msgid ""
+"You have to open your communications menu and request docking clearance "
+"before a planet or station will let you land."
+msgstr ""
+
+#: data/bases/bartender.py:60
+msgid ""
+"There is a commodity exchange at every civilized (and most uncivilized) port "
+"in the known galaxy. Why? Because trading is a great way to make honest "
+"money."
+msgstr ""
+
+#: data/bases/bartender.py:61
+msgid "When dogfighting, you can match speeds with your target (HOME key)."
+msgstr ""
+
+#: data/bases/bartender.py:62
+msgid ""
+"You can cycle through the screens on your HUD (V key), and communicate with "
+"your targets.  You can taunt them or hold a conversation!"
+msgstr ""
+
+#: data/bases/bartender.py:63
+msgid ""
+"If you get in a fight, it is very important that you lock onto and "
+"concentrate on a single target (L key). This will make you targeting box a "
+"solid square, and your computer won't lose your target in the heat of battle."
+msgstr ""
+
+#: data/bases/bartender.py:64
+msgid ""
+"It's a dangerous galaxy out there. A lot of new pilots have accidently "
+"wandered into Aera space before they were ready, and ended up floating home."
+msgstr ""
+
+#: data/bases/bartender.py:65
+msgid ""
+"The first thing a pilot needs to know to be successful, is how to fly his "
+"ship. If you aren't an old hand at the flight stick, I would suggest "
+"printing off a list of controls to glance at while you're off making your "
+"fortune hunting pirates."
+msgstr ""
+
+#: data/bases/bartender.py:66
+msgid ""
+"Space is big. A pilot has to utilize his ship's in-system jump engine to get "
+"from planet to planet in less than a month (A key to travel to target)."
+msgstr ""
+
+#: data/bases/bartender.py:67
+msgid ""
+"Make sure you bring a few tracking missiles with you, like FFs or IRs. They "
+"can help you take down an enemy more quickly than just using your guns."
+msgstr ""
+
+#: data/bases/bartender.py:68
+msgid ""
+"Watch your primary capacitors as you fire your guns. If you're running out "
+"of energy too quickly, considering buying a more powerful reactor to produce "
+"more power."
+msgstr ""
+
+#: data/bases/bartender.py:69
+msgid ""
+"Don't attack ships from groups that you want to be friends with. If you make "
+"the Merchants angry enough, they'll put a bounty on your head so big that "
+"every bounty hunter in sector would be after you!"
+msgstr ""
+
+#: data/bases/bartender.py:71
+msgid ""
+"Got any stories to tell? Last week I had a patron who just could not stop "
+"talking about his battles with pirates."
+msgstr ""
+
+#: data/bases/bartender.py:72
+msgid ""
+"This fellow brought a jhorg in here yesterday. Ever heard about the jhorg? "
+"They're small scaly creatures from New Bremen that can mimic everything you "
+"say with perfect accuracy. Forget parrots, these things are better than tape "
+"recorders!"
+msgstr ""
+
+#: data/bases/bartender.py:73
+msgid ""
+"So, clue me in on something - why do Andolians still sometimes go to bars if "
+"all they're going to order is water, and they won't even drink that until "
+"they run it through the purifiers in their suits? I mean, look around, it "
+"can't be for the ambiance. I tell you, sometimes it scares me trying to "
+"figure out what they're thinking inside those suits. Sitting in the back of "
+"my bar, staring at the wall and seeing something only the other linked can "
+"see - if I still had skin it'd give me goosebumps."
+msgstr ""
+
+#: data/bases/bartender.py:74
+msgid ""
+"A couple of goons from the IntelSec came in here earlier looking for some "
+"guy named Jensen. Wouldn't say what it was about, but let me tell you, "
+"whatever it was, I was happy when they left. I swear, half the bar found "
+"excuses to be elsewhere the moment those two guys entered, and I don't blame "
+"them."
+msgstr ""
+
+#: data/bases/bartender.py:75
+msgid ""
+"Shaper woman comes in here a few weeks back, wearing living clothes, "
+"naturally. Some drunken Purist, maybe he was a Luddite sympathizer or just "
+"really stupid, he comes up and starts yelling about how she's a desecration "
+"of the human species or some junk - next thing you know, some vine from her "
+"dress has the guy face down on the bar in a chokehold. Scary thing is, she "
+"didn't even bat an eye. She just was smelling the wine I'd just served her "
+"the whole time as if nothing was happening. When his unconscious body slid "
+"off my bar, I tell you the smile she gave me could have frozen helium."
+msgstr ""
+
+#: data/bases/bartender.py:76
+msgid ""
+"A woman came in here the other day carrying one of those fancy Aera energy "
+"pistols in her belt. Don't ask me how she managed to get her hands on one of "
+"those, but even the roughest of my customers made sure to stay out of her "
+"way."
+msgstr ""
+
+#: data/bases/bartender.py:77
+msgid ""
+"This captain of a Wayfarer came in here the other day, looking like she "
+"could really use a drink. I'd figured anyone flying a ship that many decades "
+"old might need a couple just to calm their nerves, but it turned out she had "
+"been chased by pirates across three systems! Persistant little buggers, "
+"aren't they? And the Regional Guard wasn't much help for some reason."
+msgstr ""
+
+#: data/bases/bartender.py:78
+msgid ""
+"A mercenary outfit, the 'Red Condors', came in here a while ago. Real tough-"
+"looking types. I expected trouble, but they quietly finished their drinks "
+"and left. Glad there's still some professionalism out there."
+msgstr ""
+
+#: data/bases/bartender.py:79
+msgid ""
+"There was this one merc in here the other day... he told me that he and the "
+"Aera he was fighting crashed on some world on the frontier. There was no "
+"human-edible food, so he said he lived off the dead Aera for three weeks! "
+"Can you believe that?"
+msgstr ""
+
+#: data/bases/bartender.py:80
+msgid ""
+"This Highborn youth and his lackeys come in last month - boy is total "
+"glutton, worst shape I've seen an aristo in in years. Apparently he's got "
+"speciesist tendencies among his failings too, because first thing he and his "
+"friends do is try to pick a fight with one of the Klk'k at the bar. Rest of "
+"the human bar patrons suddenly jump up from their seats in unison, "
+"completely clockwork-like - turns out they were all Andolian-steppers who "
+"were taking their Bro-chan out for a promotion party. As soon as that "
+"Highborn kid noticed the links on the backs of their necks... man, I don't "
+"know that I've ever seen a guy that out of shape run that fast."
+msgstr ""
+
+#: data/bases/bartender.py:81
+msgid ""
+"Some privateer was in here a while back, bragging about his adventures in "
+"unknown space. He kept talking about these wonderful alien artifacts that he "
+"used to improve his ship. Claimed they were Betan... or was it Alphan? I "
+"can't remember, and I bet you 10 to 1 that chump couldn't have told the "
+"difference!"
+msgstr ""
+
+#: data/bases/bartender.py:82
+msgid ""
+"Every so often, an Uln comes in here. They have their own civilian sector "
+"pretty much like our own, and sometimes a couple of their privateers find "
+"their way across the border. But let me tell you, never give them beer. One "
+"of them had that, and he got into some sort of violent spasms and threw up "
+"over the whole bar. Not a pretty sight."
+msgstr ""
+
+#: data/bases/bartender.py:83
+msgid ""
+"Hello there, friend. What can I get you? Sorry, I don't have any of the good "
+"stuff left. I had a transport bringing in new beverages from the Uln border, "
+"but there was an... accident. Apparently, some of that stuff is more "
+"flamable than napalm! How was I to know?"
+msgstr ""
+
+#: data/bases/bartender.py:84
+msgid ""
+"I think that the craziest story I've ever heard in this bar...  is where "
+"this pilot says he was out on the Aeran frontier, flying alone in an "
+"uncolonized system. He's running pretty much with zero emissions, so no Aera "
+"patrols can spot him. He's thirty thousand clicks out from the jump point, "
+"when his passive sensors go CRAZY. He says thats when a sparkling, glowing "
+"green orb popped out of the jump point, and just took off to another jump "
+"point at insane speeds. The pilot sold his ship right after he left my bar."
+msgstr ""
+
+#: data/bases/bartender.py:85
+msgid ""
+"...and so there I was. Regional Guard patrol to my port, Confed fighter wing "
+"to my starboard... and my dumped cargo coasting slowly away from me about "
+"600 kliks to stern. I thought I was home free. Suddenly, they all started "
+"powering up their weapons. 'I'm fracked', I thought. Turns out there was a "
+"wing of Aeran Nicanders on an attack vector. Then I thought 'Now I'm REALLY "
+"fracked'."
+msgstr ""
+
+#: data/bases/bartender.py:86
+msgid ""
+"There was a guy in here the other day who claimed he was the sole survivor "
+"of some colony massacre by the Aera out on the frontier. No one believed him "
+"for a minute though - if the Rlaan ever caught the Aera slaughtering a "
+"colony's worth of civilians, the Rlaan would be massing on the Aeran border "
+"in a heartbeat."
+msgstr ""
+
+#: data/bases/bartender.py:87
+msgid ""
+"My brother signed up for the New Farmers of the Confederation program, and "
+"got shipped out to a new agricultural colony out on the frontier. I got a "
+"trans from him last week, and he said that life was really hard compared to "
+"Mars, but that he was happy to be living on a surface habitable planet "
+"finally."
+msgstr ""
+
+#: data/bases/bartender.py:88
+msgid ""
+"By Jupiter, there are some crazy people out there.  Just last week, a "
+"shipment of industrial goods destined for the base here got shot up by a "
+"wing of Luddite fighters. It's insane!  They lash out against modern "
+"technology, but they use the latest weapon systems and starfighters to do it!"
+msgstr ""
+
+#: data/bases/bartender.py:89
+msgid ""
+"There's got to be someone behind the Luddites. I mean, fanatical social "
+"reactionaries don't have the money or the resources to buy ships, train "
+"pilots, or construct highly organized terrorist operations all by "
+"themselves, even with a bunch of whacked out, tithing followers.  Now who "
+"would stand to gain from the Luddite craziness?  Hmmm...."
+msgstr ""
+
+#: data/bases/bartender.py:91
+msgid ""
+"Have you heard the news? Buster Friendly just died. Remember his show? "
+"Buster Friendly and his Friendly Friends? I grew up on that show. I think I "
+"need a drink."
+msgstr ""
+
+#: data/bases/bartender.py:92
+msgid ""
+"The criminal consortiums out on the frontier are getting more organized by "
+"the day. I hear they're extorting entire colonies and systems. Some of the "
+"guys are placing bets on what will bring about our fall first. The pirates "
+"from within or the Aera from the outside?"
+msgstr ""
+
+#: data/bases/bartender.py:93
+msgid ""
+"There's a lot of people complaining about the pirates, but I don't mind them "
+"so much.  The Confed and the Merchies know they need a running merchant "
+"operation in the outlying systems, but they haven't got the resources to "
+"patrol every trade lane for pirates, so they need people who can look after "
+"themselves. People like you and me. And that's why they go easy on drafting "
+"our kind."
+msgstr ""
+
+#: data/bases/bartender.py:95
+msgid ""
+"Myself, I used to fly for the Exploratory Service til I saved up enough to "
+"buy this bar. Its a good living. Theyre not real picky about who they take "
+"and the pays nothing to sneeze at. If you dont mind getting shot at, from "
+"time to time, you oughtta look into it."
+msgstr ""
+
+#: data/bases/bartender.py:96
+msgid ""
+"I've heard some funny stories of strange things going on in the Enigma "
+"system. It supposedly has something to do with the black hole there, but "
+"that's only the official explanation."
+msgstr ""
+
+#: data/bases/bartender.py:99
+msgid ""
+"Hey, did you hear the news? Word is that the 5th Fleet under Admiral "
+"Johansson managed to bag a whole bunch of those nasty Aeran cruisers in a "
+"battle not far from here! Maybe this war is winnable after all!"
+msgstr ""
+
+#: data/bases/bartender.py:100
+msgid ""
+"A toast to the men and women of the Confederate Armed Forces! If not for "
+"them, we'd all be learning how to speak Aera right about now. If those "
+"things even have vocal chords."
+msgstr ""
+
+#: data/bases/bartender.py:101
+msgid ""
+"We might have had some luck raiding some of the outlying Aeran outposts, but "
+"I hear their planets are going to be a tough nut to crack. An old friend of "
+"mine from the HCS Zhukov told me that, back during the Rlaan-Aera war, they "
+"tracked a Rlaan battle fleet as it entered orbit around one of the planets, "
+"but then it simply disappeared off their scopes! The fleet that is, not the "
+"planet."
+msgstr ""
+
+#: data/bases/bartender.py:102
+msgid ""
+"So what's your take on the war? A friend of mine in the Navy told me that "
+"the Aera-Rlaan border is still deadly silent. Word is that the unofficial "
+"cease-fire might as well be an official one. Some are even saying the Aera "
+"might redeploy even more of their fleet units from that front. If that "
+"happens, the Aera will bring all of their high-tech weapons to bear on us, "
+"and I don't just mean those poor bastard in Forsaken space. Things aren't "
+"looking good."
+msgstr ""
+
+#: data/bases/bartender.py:103
+msgid ""
+"It's hard to tell what this war with the Aera is going to be like, because "
+"we aren't really into it yet. I suggest you don't put too much weight on the "
+"first few skirmishes... I suspect we'll be in this one for the long haul."
+msgstr ""
+
+#: data/bases/bartender.py:104
+msgid ""
+"Have you heard that the 5th Fleet and the 9th Fleet are actually made up of "
+"mostly the same ships?  It's the 5th Fleet when under Admiral Johansson, and "
+"the 9th when under Admiral Nogura. The 3rd and the 4th Fleets are the same "
+"way. I hear it confused the hell out of the Aera for a while. They thought "
+"we were magically growing new fleets out of our armpits!"
+msgstr ""
+
+#: data/bases/bartender.py:105
+msgid ""
+"I've got a sister in the Navy. She's a weapons officer in the 6th Fleet out "
+"near the Aera-Confed-Shmrn border. I asked her to fry a few aliens for me, "
+"but so far neither side is committing in full to that sector. To be honest, "
+"I still hope she doesn't have to actually fight against a full on Aeran "
+"assault - it's murder out there, but I wanted her to think I wasn't worried."
+msgstr ""
+
+#: data/bases/bartender.py:106
+msgid ""
+"I've got a buddy in the Confed Marines, attached to the 10th Fleet. He's out "
+"on the Rlaan border, corward of Shaper space, the complete opposite side of "
+"the Confederation from the fighting. He complains about it being boring out "
+"there... but if I was him I'd be pretty happy."
+msgstr ""
+
+#: data/bases/bartender.py:107
+msgid ""
+"There's a rumor going around that the Aera have some big capital ships deep "
+"inside their home territory. I don't mean just big... I mean BIG big. Big "
+"enough to use one of the old Starrunners for a pinnace. Then again, it's "
+"just a rumor."
+msgstr ""
+
+#: data/bases/bartender.py:108
+msgid ""
+"I've heard that the Aera don't have a very well-defined concept of "
+"'prisoners of war'. The Rlaan help keep them honest when it comes to "
+"civilians, but I hear that the Navy started to give cyanide pills to pilots "
+"in case the wrong side picks them up after they bail out."
+msgstr ""
+
+#: data/bases/bartender.py:109
+msgid ""
+"The Aera might seem to be more powerful than us at first glance... but how "
+"much of their economy is dedicated to war? Most of it, I'd say. The "
+"Confederation spends only a few percent of its gross product on the "
+"military. If push comes to shove... we'll knock 'em over for sure, provided "
+"we can ever get the Senate to agree to anything useful before the whole "
+"bloody war is over!"
+msgstr ""
+
+#: data/bases/bartender.py:110
+msgid ""
+"I've heard that the Confed Navy has been trying to slip intel teams behind "
+"and around Aeran lines to set up listening posts. I'd hate to be working "
+"that duty...  out there, all alone. Only kilometers away from Aeran fleets. "
+"Always afraid of being discovered...  brrrrr."
+msgstr ""
+
+#: data/bases/bartender.py:111
+msgid ""
+"You know what they say... 'War is good for business'?  Well it ain't true. "
+"How many pilots that were regulars here have been drafted?  How many "
+"freelancers have gotten fried on escort duty?  A lot.  That's a lot of "
+"people NOT buying drinks from me.  Lousy war."
+msgstr ""
+
+#: data/bases/bartender.py:112
+msgid ""
+"Have you heard about the anti-war protests back home?  I could understand "
+"that if we were invading Aera space, being aggressive and all...  but those "
+"protesters have NO idea what's going on out on the Frontier, do they?  Not "
+"one damn clue!  Maybe someone should send them out to the Justman Colony, so "
+"they can see just how 'peaceful' the Aera really are!"
+msgstr ""
+
+#: data/bases/bartender.py:114
+msgid ""
+"Man, you go through life, you try to be nice to people, you struggle to "
+"resist the urge to punch 'em in the face, and for what?"
+msgstr ""
+
+#: data/bases/bartender.py:115
+msgid ""
+"Listen, here's the thing. If you can't spot the sucker in your first half "
+"hour at the table, then you are the sucker."
+msgstr ""
+
+#: data/bases/bartender.py:116
+msgid ""
+"Remember, ability can take you to the top, but it takes character to keep "
+"you there."
+msgstr ""
+
+#: data/bases/bartender.py:117
+msgid "Eat, drink, and be merry... for tomorrow we die!"
+msgstr ""
+
+#: data/bases/bartender.py:118
+msgid "When sorrows come, they come not single spies, but in batallions."
+msgstr ""
+
+#: data/bases/bartender.py:119
+msgid ""
+"Be not afraid of greatness. Some are born great, some achieve greatness, and "
+"some have greatness thrust upon 'em."
+msgstr ""
+
+#: data/bases/bartender.py:120
+msgid ""
+"Cowards die many times before their deaths...    The valiant never taste of "
+"death but once."
+msgstr ""
+
+#: data/bases/bartender.py:121
+msgid ""
+"I will eat with you, drink with you, talk with you, and so following; but I "
+"will not trade with you, fly with you, nor pray with you."
+msgstr ""
+
+#: data/bases/bartender.py:122
+msgid "All that lives must die... passing through nature to eternity."
+msgstr ""
+
+#: data/bases/bartender.py:123
+msgid ""
+"Women will forgive anything. Otherwise, the race would have died out long "
+"ago."
+msgstr ""
+
+#: data/bases/bartender.py:124
+msgid ""
+"Happiness is having a large, loving, caring, close-knit family... on another "
+"planet."
+msgstr ""
+
+#: data/bases/bartender.py:125
+msgid "If you're going through hell, just keep going."
+msgstr ""
+
+#: data/bases/bartender.py:126
+msgid ""
+"Beware of small expenses; a small leak will decompress even a great starship."
+msgstr ""
+
+#: data/bases/bartender.py:127
+msgid ""
+"Our doubts are traitors, and make us lose the good we oft might win by "
+"fearing to attempt."
+msgstr ""
+
+#: data/bases/bartender.py:128
+msgid ""
+"This above all: to thine own self be true! And it must follow as the night "
+"the day, thou canst not then be false to any man."
+msgstr ""
+
+#: data/bases/bartender.py:129
+msgid ""
+"There are two kinds of adventurers: those who go truly hoping to find "
+"adventure, and those who go secretly hoping they won't."
+msgstr ""
+
+#: data/bases/bartender.py:130
+msgid "Without adventure civilization is in full decay."
+msgstr ""
+
+#: data/bases/bartender.py:131
+msgid ""
+"Ask five economists and you'll get five different explanations. Seven if one "
+"went to Berkeley in the Defiance system."
+msgstr ""
+
+#: data/bases/bartender.py:132
+msgid ""
+"No one is rich whose expenditures exceed his means, and no one is poor whose "
+"incomings exceed his outgoings."
+msgstr ""
+
+#: data/bases/bartender.py:133
+msgid "I HAVE TEH POWER"
+msgstr ""
+
+#: data/bases/bartender.py:134
+msgid ""
+"Prometheus is reaching out for the stars with an empty grin on his face."
+msgstr ""
+
+#: data/bases/bartender.py:135
+msgid "The eternal silence of these infinite spaces fills me with dread."
+msgstr ""
+
+#: data/bases/bartender.py:136
+msgid ""
+"Where does one not find that bland degeneration which beer produces in the "
+"spirit!"
+msgstr ""
+
+#: data/bases/bartender.py:137
+msgid ""
+"The worst thing about some men is that when they are not drunk they are "
+"sober."
+msgstr ""
+
+#: data/bases/bartender.py:138
+msgid ""
+"Some men are like musical glasses; to produce their finest tones you must "
+"keep them wet."
+msgstr ""
+
+#: data/bases/bartender.py:139
+msgid ""
+"It was a woman who drove me to drink, and I never had the courtesy to thank "
+"her for it."
+msgstr ""
+
+#: data/bases/bartender.py:140
+msgid "The cost of living has gone up another credit a liter."
+msgstr ""
+
+#: data/bases/bartender.py:141
+msgid "Glory is fleeting, but obscurity is forever."
+msgstr ""
+
+#: data/bases/bartender.py:142
+msgid ""
+"To refuse awards is another way of accepting them with more noise than is "
+"normal."
+msgstr ""
+
+#: data/bases/bartender.py:143
+msgid "The first casualty when war comes is truth."
+msgstr ""
+
+#: data/bases/bartender.py:144
+msgid "The military don't start wars. Politicians start wars."
+msgstr ""
+
+#: data/bases/bartender.py:149
+msgid ""
+"A Special Forces unit came through here this morning. Real quiet guys. "
+"Looked like they'd seen a lot of action. From what I could gather, they were "
+"going to catch a transport out of here and into the fray again later tonight."
+msgstr ""
+
+#: data/bases/bartender.py:150
+msgid ""
+"This Army captain had a drink here yesterday. Tall guy from Mars. Now, I've "
+"seen a lot, but this guy... half his face, both of his legs and his left arm "
+"had all been replaced with cybernetics due to injuries he'd taken on the "
+"field. If it was all with the Mechanist aesthetic, it might have been "
+"impressive, but he visually reeked of military hack job. He looked a bit "
+"clumsy, it was obvious there hadn't been many nerve endings left to connect "
+"to anything."
+msgstr ""
+
+#: data/bases/bartender.py:151
+msgid ""
+"Some idiots from the ISO came in here yesterday handing out phamphlets and "
+"bothering the customers. They wouldn't take a hint, so I had them thrown "
+"out. Some days I almost don't know who's worst, the ISO or those Luddite "
+"religious fanatics that fight with you all the time."
+msgstr ""
+
+#: data/bases/bartender.py:152
+msgid ""
+"You know about those Rlaan? Supposedly, they never attack unarmed vessels. "
+"Well, word is there's this rogue Rlaan corvette hiding out near here. Fled "
+"to our side of the border when their own Enforcers caught up with it. I hear "
+"the whole crew went completely sideways in the head after some botched gray-"
+"op, and now it'll attack anything or anyone that comes in its way."
+msgstr ""
+
+#: data/bases/bartender.py:153
+msgid ""
+"A couple of guys from the Confederate Air Corp were here a while back. We "
+"don't get many of those here usually. They may rely on the Navy for "
+"transportation between planets, but those Air Corp boys and girls are solid "
+"gold when it comes to campaigns planetside!"
+msgstr ""
+
+#: data/bases/bartender.py:154
+msgid ""
+"Hey, are you a mercenary? We've got plenty of missions here for you to fly, "
+"if you're willing. The fleet is spread thin as it is, so if you want to do "
+"your part, you're more than welcome!"
+msgstr ""
+
+#: data/bases/bartender.py:155
+msgid ""
+"You like you're a bit rough around the edges, friend. I'd watch myself "
+"around here... hardly anyone around but military types who probably don't "
+"take too kindly to people like you crowding them."
+msgstr ""
+
+#: data/bases/bartender.py:156
+msgid ""
+"I suggest you keep that sidearm well holstered, pal. For your own safety."
+msgstr ""
+
+#: data/bases/bartender.py:157
+msgid ""
+"One of the most interesting things to check out if you're in a military bar "
+"that pilots frequent is the local kill board. You can pretty quickly figure "
+"out who's who that way."
+msgstr ""
+
+#: data/bases/bartender.py:158
+msgid ""
+"It's all clear now, but if you ever walk into a bar where the pilots are all "
+"sitting on one side, and the ground pounders on another... always keep a "
+"quick path to the exit handy."
+msgstr ""
+
+#: data/bases/bartender.py:159
+msgid ""
+"Military bars are a good place to pick up good stories. Always a pilot "
+"telling about some crazy encounter his wing had with the Aera, or some "
+"Marine talking about how he got in a bar fight with an Uln or something."
+msgstr ""
+
+#: data/bases/bartender.py:160
+msgid ""
+"Don't the new fighter models look pretty dang sleek this year? I wish I was "
+"still flyin'. Well, with the war and all... I ALMOST wish I was still flyin'."
+msgstr ""
+
+#: data/bases/bartender.py:161
+msgid ""
+"There was a big meeting between Navy brass and Navy Intelligence last week. "
+"Two of the analysts from the Aera intel division came in afterwards. Boy, "
+"did they drink a lot."
+msgstr ""
+
+#: data/bases/bartender.py:162
+msgid ""
+"Whatever you say about cocky, hotshot Navy pilots... you have to admit that "
+"they sure can fly their ships."
+msgstr ""
+
+#: data/bases/bartender.py:163
+msgid ""
+"Military installations and ships are good places to pick up some premium "
+"surplus milspec merchandise. You can make quite the pretty penny running "
+"guns in these tumultuous times."
+msgstr ""
+
+#: data/bases/bartender.py:164
+msgid ""
+"Hey, I got something special for you. I gave a pilot some advice that ended "
+"up saving his life, so he bought me a bottle of top quality Crystalia Ale. "
+"So, now I'm sharing the wealth! Drink up!"
+msgstr ""
+
+#: data/bases/bartender.py:165
+msgid ""
+"Do you know the motto of the Confed Navy's Scouting and Deep Listening Post "
+"program? 'The price of freedom is eternal vigilance'. Sounds like its from a "
+"movie or something."
+msgstr ""
+
+#: data/bases/bartender.py:166
+msgid ""
+"Hey, you look like a bit of a privateer, maybe you can use this tip. Some of "
+"my buddies in Navy Intel have been telling me that they desperately need "
+"Aera weapon systems to analyze. I'm willing to bet that there would be some "
+"GOOD money in it for anyone who ran some Aera guns over to the Confed side "
+"and dropped them off at an R&D facility - provided they were still "
+"operational."
+msgstr ""
+
+#: data/bases/bartender.py:167
+msgid ""
+"You can bet that as the war heats up, the Navy will start to get spread "
+"pretty thin in the interior systems. That will mean lots of opportunities "
+"for privateers. Opportunities to break the law, or to enforce it."
+msgstr ""
+
+#: data/bases/bartender.py:169
+msgid ""
+"You want to know what the big story around here is? Industrial gems. They're "
+"just about the most valuable raw material known to man, and we just stumbled "
+"onto a rich vein of them. That ought to keep this base, and this bar, in the "
+"black for decades to come!"
+msgstr ""
+
+#: data/bases/bartender.py:170
+msgid ""
+"Confed has been treating us miners pretty well lately. In terms of giving us "
+"adequate defense coverage, I mean. They're still trying to give us the shaft "
+"when it comes to mandatory ore contracts. I mean, there's a war on and "
+"all... but the boys who come in here need to be able to pay for their drinks!"
+msgstr ""
+
+#: data/bases/bartender.py:171
+#, python-format
+msgid ""
+"I was a prospector back in the day... I scouted out new asteroids for mining "
+"operations. I got the standard .05% commission on the first year of net "
+"profits on two different asteroids. I was rolling in the dough for weeks, "
+"until I lost it all in a bad investment. Kept enough for this bar, though."
+msgstr ""
+
+#: data/bases/bartender.py:172
+msgid ""
+"I've been hearing some grim reports from the front lines. I hope we're far "
+"enough away from all that, because I'd sure hate to play host to a squadron "
+"of Aera raiders if our militia protection was off on some mission."
+msgstr ""
+
+#: data/bases/bartender.py:173
+msgid "You won't need that gun in here, pal. Nobody around but us miners."
+msgstr ""
+
+#: data/bases/bartender.py:174
+msgid ""
+"You probably can't tell, but base humidity is up a bit this week. I don't "
+"know if it's because they're trying to give us some weather, or because the "
+"climate controls are just broke!"
+msgstr ""
+
+#: data/bases/bartender.py:175
+msgid ""
+"We had a bomb go off in a newly arrived shipment of cybernetics last month. "
+"Nobody got killed, but a few good miners had to get replacement limbs. We "
+"got a message from the Luddites claiming responsibility. Talk about your "
+"irony! Those psychos are completely insane."
+msgstr ""
+
+#: data/bases/bartender.py:176
+msgid ""
+"Here's a funny one: Why did the mine shaft collapse? ... Because the droids "
+"were boring it too much! Harharharharhar!"
+msgstr ""
+
+#: data/bases/bartender.py:177
+msgid ""
+"I heard from a buddy on a refinery station ilke four jumps from here that "
+"refineries in Confed space are desperate for our raw ore! Iron, tungsten, "
+"radioactives... there's a lot of demand for starships right now, and lots of "
+"refineries don't have enough raw material to meet demand."
+msgstr ""
+
+#: data/bases/bartender.py:178
+msgid ""
+"Do you want to know something strange? You can almost always sell the "
+"industrial gems mined here on agricultural worlds, even though they have "
+"absolutely no use there. I figure the people who run the local exchanges "
+"plan on selling them for an even higher price once they go back to  "
+"civilization, or something. Who knows!"
+msgstr ""
+
+#: data/bases/bartender.py:179
+msgid ""
+"Hey, I'd love to swap stories with you, but a shift just came out of the "
+"tunnels, and it's about to get REAL busy in here."
+msgstr ""
+
+#: data/bases/bartender.py:180
+msgid ""
+"Are you going to stick around for the big festival? Every year, if profits "
+"are good, the base governor throws a big party. Quite a spectacle. "
+"Fireworks, plenty of luxury food, the whole nine yards. If the Luddites or "
+"ISO dont assassinate anyone, it ought to be a real good time."
+msgstr ""
+
+#: data/bases/bartender.py:181
+msgid ""
+"It can get pretty stale, living out here on a rock like this, with only a "
+"few thousand people to keep you company. I guess that's why mining bases are "
+"such large consumers of entertainment...  and drugs."
+msgstr ""
+
+#: data/bases/bartender.py:182
+msgid ""
+"The base constable was in here the other night, breaking up a fight between "
+"some drunk miners who were having a 'disagreement' about how big a stake "
+"each one had in the recent uranium vein discovery."
+msgstr ""
+
+#: data/bases/bartender.py:186
+msgid ""
+"Have you heard the news?  The Lars family brought a melon to market "
+"yesterday that was four meters 'round!"
+msgstr ""
+
+#: data/bases/bartender.py:187
+msgid ""
+"This year's crop is going to be huge!  I can't wait until the harvest "
+"festival, I'll sell so much beer! You try and make it, if you're in the "
+"system!"
+msgstr ""
+
+#: data/bases/bartender.py:188
+msgid ""
+"Some farmers fifty or sixty miles from the colony center or so have been "
+"talking about seeing some real strange things lately."
+msgstr ""
+
+#: data/bases/bartender.py:189
+msgid ""
+"We're just simple folk here. Keep your nose out of trouble and no trouble "
+"will come to you, I say!"
+msgstr ""
+
+#: data/bases/bartender.py:190
+msgid ""
+"A hotshot pilot in here the other day said that Farmer Haggot has some of "
+"the best pipe weed within two jumps of here!"
+msgstr ""
+
+#: data/bases/bartender.py:191
+msgid ""
+"Did you hear about how the Miller boys all joined the Confed Navy together? "
+"I don't know what their father is going to do when he's too old to run the "
+"farm..."
+msgstr ""
+
+#: data/bases/bartender.py:192
+msgid ""
+"Did you know that our colony was selected by the Confed Agriculture "
+"Authority to test some new engineered crops? They aren't on the market yet, "
+"but by being the first to test them, we'll get exclusive rights for six "
+"years!"
+msgstr ""
+
+#: data/bases/bartender.py:193
+msgid ""
+"Here's a good one: What do you call a potato that can't keep his lunch "
+"down? ... ... a regurgiTATER! Harharharhar!"
+msgstr ""
+
+#: data/bases/bartender.py:194
+msgid ""
+"People around here don't like to talk about it, but we're all afraid that "
+"we'd be an easy target for an Aera attack. We don't have any orbital "
+"defenses, no fighter wing... heck, we don't even have a ground battery. All "
+"it would take is one Aera bomber with a fusion warhead to take out half the "
+"colony! I don't care if everybody says it won't happen like that because the "
+"Rlaan would raise hell afterwards, because by that time we'll already be "
+"dead!"
+msgstr ""
+
+#: data/bases/bartender.py:195
+msgid ""
+"My grandpa grew up in Iowa on Earth before he moved out to this colony "
+"world, here. Wanted to make a new life, and raise corn the way HIS grandpa "
+"did."
+msgstr ""
+
+#: data/bases/bartender.py:196
+msgid ""
+"I visited one of those industrial worlds a few years ago... So many people, "
+"and you couldn't even see the stars at night! Still, not as scary as an "
+"Andolian world. I visited one of those once - and once only. Normal people "
+"can't live like that, not even seeing the sky, let alone the stars"
+msgstr ""
+
+#: data/bases/bartender.py:197
+msgid ""
+"I just heard this one the other day: What do you call a potato that can "
+"never make a quick decision? ... ... a hesiTATER! Hahahahahaha!"
+msgstr ""
+
+#: data/bases/bartender.py:198
+msgid ""
+"I just thought this one up: What do you call a potato that likes to watch "
+"sporting events? ... ... a specTATER! Hehehehehehehe!"
+msgstr ""
+
+#: data/bases/bartender.py:199
+msgid ""
+"What do you think of this one: What do you call a potato that likes to talk "
+"about football games on the colony radio? ... ... a commenTATER! bwaHAHAHAHA!"
+msgstr ""
+
+#: data/bases/bartender.py:200
+msgid ""
+"Did I ever tell you the one about the farmer who was outstanding in his "
+"field?"
+msgstr ""
+
+#: data/bases/bartender.py:201
+msgid ""
+"I just heard about a wheat blight that struck another agricultural colony a "
+"few jumps away. They say that it might not have been a natural outbreak..."
+msgstr ""
+
+#: data/bases/bartender.py:202
+msgid ""
+"A lot of those crazy Luddites come from agricultural worlds that were "
+"founded years ago as isolated subsistence colonies, and have only recently "
+"had their economy retooled for mass export. Some people just can't take the "
+"shock of all the heavy machinery and laborer robots that take over "
+"practically overnight. I respect wanting to live in the fashion of your "
+"ancestors as much as the next fellow, but trying to reverse half the "
+"societal changes and opportunities of the last millenia is just crazy talk."
+msgstr ""
+
+#: data/bases/bartender.py:203
+msgid ""
+"You know why the cow jumped over the moon? ... ... the farmer had cold "
+"hands! Harharharharhar!"
+msgstr ""
+
+#: data/bases/bartender.py:204
+msgid ""
+"What do you get what you cross a cow with a rooster? ... ... cock-a-doodle-"
+"moo! Heh, okay that was bad."
+msgstr ""
+
+#: data/bases/bartender.py:205
+msgid ""
+"Friend, you look like a hard man. The kind who looks for dirty work. But "
+"this is just an agricultural base. Were farmers, not pirates looking to hire "
+"cut-throats and thugs. Please, dont make any trouble here."
+msgstr ""
+
+#: data/bases/bartender.py:206
+msgid ""
+"The Duntley boy said he saw some misshapen figures lurking behind the barn "
+"late one night last week. He said that they looked like Aera in stealth "
+"suits. We all told Duntley he was a fool for letting his son have a computer "
+"system..."
+msgstr ""
+
+#: data/bases/bartender.py:207
+msgid ""
+"Hey, stranger! We were just having a debate here, and maybe you could help "
+"us settle it.  What do they prefer where you come from...  okra or zuchinni?"
+msgstr ""
+
+#: data/bases/bartender.py:210
+msgid ""
+"You've got a lot of nerve coming in here looking like that, pal! This joint "
+"enforces a strict dress-code. Here, put this eye-patch on before you cause a "
+"scene. And ruffle your hair a bit, or someone might think you're with the "
+"Navy!"
+msgstr ""
+
+#: data/bases/bartender.py:211
+msgid ""
+"If you have a weapon on you, make sure it remains out of sight. The crews of "
+"the Skalawag and the Black Death duked it out in here a couple of hours ago, "
+"and some people got killed. The last thing we need right now is someone "
+"waving his gun around."
+msgstr ""
+
+#: data/bases/bartender.py:212
+msgid ""
+"Some idiots from the ISO came in here yesterday handing out phamphlets and "
+"bothering the customers. They wouldn't take a hint, so I had them thrown "
+"out. I don't know who's worst, the ISO or those religious fanatics they "
+"fight with all the time."
+msgstr ""
+
+#: data/bases/bartender.py:213
+msgid ""
+"What are ye pesterin' me for, pal? If you want to be a pirate, you should go "
+"talk to the three important-looking pirates in the next room! Wait a "
+"second..."
+msgstr ""
+
+#: data/bases/bartender.py:214
+msgid ""
+"Kasper Foch, now there's a guy you don't want to mess with. He's the pirate "
+"captain that entered an ion storm and flew out again without a scratch, "
+"while his three militia pursuers were never heard of again. Then there's "
+"this story going around of how he single-handedly took out a Confed Missile "
+"Cruiser, but if ya want my opinion, I think that one's bunk."
+msgstr ""
+
+#: data/bases/bartender.py:215
+msgid ""
+"There's a lot of deserters from the Navy around here these days. Purist and "
+"Indep punks they drafted off the street, taught how to fly and then handed a "
+"ship. You figure the guys at HQ would be smarter than that. At least we "
+"aren't seeing any Andolian deserters, if there even are such things. Most of "
+"us around here figure that if we ever see one, it's a sure sign the war is "
+"lost."
+msgstr ""
+
+#: data/bases/bartender.py:216
+msgid ""
+"A Rlaan transport can be a good target, if you're willing to take the risk. "
+"If those guys see you attacking one of their unarmed ships... well, "
+"sometimes they just won't stop hunting you! And you've heard what they do to "
+"humans they capture alive, haven't you?"
+msgstr ""
+
+#: data/bases/bartender.py:217
+msgid ""
+"You know, if we lose the war against the Aera, it probably won't matter "
+"much, because the majority of us won't be around to see it, but what if we "
+"win? The whole fleet would return to peacekeeping duties in human systems, "
+"and it would mean the end of space piracy as we know it!"
+msgstr ""
+
+#: data/bases/bartender.py:218
+msgid ""
+"Hey, I hope your ship has a large cargo hold. We could always use some more "
+"smugglers out there, distributing our goods. Can you believe that there are "
+"some colonists out there who still don't know the true glory of "
+"Khaisalantimin F62, or as most people just call it, 'khais'?"
+msgstr ""
+
+#: data/bases/bartender.py:219
+msgid ""
+"This assassin came in here a while ago. Ex-Special Forces guy. Apparently, "
+"the government sent some of his collegues to silence him for good after he'd "
+"carried out a particularly nasty mission in Rlaan space, but he made it out "
+"and now he'll do any job for money."
+msgstr ""
+
+#: data/bases/bartender.py:220
+msgid ""
+"Sorry for the broken glass on the floor. The base was shook up a bit a "
+"couple of hours ago. Apparently, some guy on approach lost control and "
+"crashed right into the side of the station. Don't worry, it's nothing our "
+"damage control crews can't handle, but the poor guy who crashed won't be "
+"flying again. Or breathing, for that matter."
+msgstr ""
+
+#: data/bases/bartender.py:223
+msgid ""
+"The buzz is that they're going to be shooting Dominique Moore's new holoVid "
+"on this planet soon! 'Greased Love Lightning' is the working title."
+msgstr ""
+
+#: data/bases/bartender.py:224
+msgid ""
+"Did you ever try that drug that was the Big Thing a few years ago? What was "
+"it... Brilliance? I liked it, but everyone said it was too popular on those "
+"dreary mining bases to be hip anymore. Oh well..."
+msgstr ""
+
+#: data/bases/bartender.py:225
+msgid ""
+"We had a group of Confed Marines come through here last week on shore leave. "
+"Boy, did those guys know how to party! 'Train hard, play hard!' they said!"
+msgstr ""
+
+#: data/bases/bartender.py:226
+msgid ""
+"Did you catch 'A Private Little Paradise' starring Miranda Podssun? It's the "
+"number one holoVid in the Confederation!"
+msgstr ""
+
+#: data/bases/bartender.py:227
+msgid ""
+"Some people were spreading rumors about seeing a shark down by the beach. "
+"But that's ridiculous! There aren't any shark-analogues on this world, and "
+"who in their right mind would BRING a shark to a resort planet?"
+msgstr ""
+
+#: data/bases/bartender.py:228
+msgid ""
+"Now that the Aera-Rlaan conflict is cooling off, surplus Rlaan medical "
+"supplies are making their way over to Terran space. Word is that there is "
+"some pretty potent stuff in those alien aid packs! The trick is choosing "
+"which injection will trip you, and which will just plain kill you."
+msgstr ""
+
+#: data/bases/bartender.py:229
+msgid ""
+"I dated a privateer for a while once. Then he got stupid and tried to run "
+"advanced Aera weapon supplies to Confed researchers. The pay from the first "
+"few missions was good, but too bad he died before he could spend any of it "
+"on me!"
+msgstr ""
+
+#: data/bases/bartender.py:230
+msgid ""
+"I'd watch your step. That guy over there's had his eye on you since you came "
+"in. He's either some kind of shady character with a hidden agenda, or he has "
+"a crush on you!"
+msgstr ""
+
+#: data/bases/bartender.py:231
+msgid ""
+"Don't blame the messenger, but that Shmrn over there just bought you a drink."
+msgstr ""
+
+#: data/bases/bartender.py:232
+msgid ""
+"I'm really glad I live on a pleasure resort like this one... I visited a "
+"farming colony once a few years ago, and smelled like manure and bad beer "
+"for a month!"
+msgstr ""
+
+#: data/bases/bartender.py:233
+msgid ""
+"This colony just joined an advertising cooperative to promote tourism and "
+"interstellar vacations in the Confederation. I can't wait until business "
+"starts booming!"
+msgstr ""
+
+#: data/bases/bartender.py:234
+msgid ""
+"One of the great things about living in a place like this is how there are "
+"hardly any Luddites or ISO commies! There's no large scale technology "
+"anywhere to bomb, and everyone here is either rich or plans on getting rich, "
+"and has no time for their malcontent whining. I love it!"
+msgstr ""
+
+#: data/bases/bartender.py:235
+msgid ""
+"Welcome, friend! You look like you could use a quality libation from the "
+"lounge."
+msgstr ""
+
+#: data/bases/bartender.py:236
+msgid ""
+"There's going to be a big party tonight down the street. A bunch of Confed "
+"flyboys are going back to their ships after two weeks of shoreleave, and "
+"they want to have the biggest party the planet's ever seen!"
+msgstr ""
+
+#: data/bases/bartender.py:237
+msgid ""
+"Here's to the Confederation Navy! On the front lines, fighting for our right "
+"to sex, drugs, and... to party!"
+msgstr ""
+
+#: data/bases/bartender.py:238
+msgid ""
+"Feel that warm ocean breeze floating in through those big sun-filled "
+"windows? That's why I love working here."
+msgstr ""
+
+#: data/bases/bartender.py:239
+msgid ""
+"I've been lookin' for my lost shaker of salt. Have you seen it? Well, it's "
+"my own damn fault."
+msgstr ""
+
+#: data/bases/bartender.py:240
+msgid ""
+"Some people say that living on a pleasure planet isn't dangerous. But you "
+"won't believe what happened yesterday. Someone stepped on a Terran jellyfish "
+"on the beach, and I had to rush down there with my first aid kit and "
+"sprinkle the antidote on his foot!"
+msgstr ""
+
+#: data/bases/bartender.py:241
+msgid ""
+"I'd love to chat, but I've got a bunch of customers coming in off the beach! "
+"It'll be a few minutes."
+msgstr ""
+
+#: data/bases/bartender.py:242
+msgid ""
+"Who do you think is the sexiest holoactress? Dominique Moore, Miranda "
+"Podssun, or Aika Nagomo?"
+msgstr ""
+
+#: data/bases/bartender.py:243
+msgid ""
+"I actually don't plan on being a bartender for the rest of my life... My "
+"boyfriend right now is trying to get me into the modeling agency he works "
+"for! I can see it now... my brand new face and body splashed across "
+"holoscreens and starscrapers across the Confederation!"
+msgstr ""
+
+#: data/bases/bartender.py:244
+msgid ""
+"I learned everything I know about bartending from a retired pilot named "
+"Shotglass. He... 'introduced' me to a lot of important concepts."
+msgstr ""
+
+#: data/bases/bartender.py:245
+msgid ""
+"There was a really good live band in here a few nights ago. Can you believe "
+"it! A live band! You usually only see those out on the fringe... or in "
+"museums. The customers seemed to enjoy it, but a lot of the younger people "
+"left to go to an autosynth show."
+msgstr ""
+
+#: data/bases/bartender.py:246
+msgid ""
+"Wouldn't you hate to grow up on a refinery station or a mining base? I mean, "
+"not only would there not be many people your own age... but you'd have to "
+"live with the grey, muted colors day in, and day out. Ugh."
+msgstr ""
+
+#: data/bases/bartender.py:247
+msgid ""
+"There was an unexpected downpour of rain a few hours ago, but the sun has "
+"broken back through the clouds and there's a rainbow! What are you still "
+"doing inside, go out and look at it!"
+msgstr ""
+
+#: data/bases/bartender.py:248
+msgid ""
+"You should see some of the rubes who come through here on vacation. They "
+"come from a bland suburb on some standard marginal planet, stay here a week, "
+"and go back vibrant and full of life! I've heard that those people are "
+"thirty-seven times more likely to snap and massacre their coworkers within "
+"six months of their return, though. I wonder what that means."
+msgstr ""
+
+#: data/bases/bartender.py:249
+msgid ""
+"It seems like us pleasure planets are doing really well, what with the war "
+"and all. People just want to be able to get away from it all, and forget "
+"that there is an empire full of cruel aliens bent on our annihilation. Here, "
+"next one's on me."
+msgstr ""
+
+#: data/bases/bartender.py:250
+msgid ""
+"You picked a fine time to come to here, sir. With all the bad news about "
+"lately, everyone is anxious to find a little getaway. Weve got plenty of "
+"various entertainments for everyone. I think youll find your stay here the "
+"best youve ever enjoyed."
+msgstr ""
+
+#: data/bases/bartender.py:252
+msgid ""
+"4B4ND0N TH3 R4NK5 0F TH3 18M 80URG301513! L1NU5 M4K35 C0MPUT3R5 F0R TH3 "
+"M0DERN PR0L3T4R14T3!"
+msgstr ""
+
+#: data/bases/bartender.py:253
+msgid "J00 H4V3 N0TH1NG T0 L053 8UT J00R CH41N5!"
+msgstr ""
+
+#: data/bases/bartender.py:254
+msgid "FR0M 34CH 4CC0RD1NG T0 TH31R M34N5, T0 34CH 4CC0RD1NG T0 TH31R N33D5"
+msgstr ""
+
+#: data/bases/bartender.py:255
+msgid "4LL P0W3R T0 TH3 P30P13"
+msgstr ""
+
+#: data/bases/bartender.py:256
+msgid ""
+"GR33D H4S P01S0N3D M3N'5 50UL5 -- H4S B4RR1C4D3D TH3 W0RLD W1TH H4T3 -- H45 "
+"G0053ST3PP3D US 1NT0 M1S3RY 4ND BL00D5H3D."
+msgstr ""
+
+#: data/bases/bartender.py:257
+msgid ""
+"W3 H4V3 D3V3L0P3D 5P33D, BUT W3 H4V3 5HUT OUR53LV35 IN M4CH1N3RY TH4T G1V35 "
+"4BUND4NC3 H45 L3FT U5 1N W4NT. 0UR KN0WL3DG3 H45 M4D3 U5 CYNIC4L; OUR "
+"CL3V3RN355 H4RD 4ND UNKIND."
+msgstr ""
+
+#: data/bases/bartender.py:258
+msgid "W3 THINK TOO MUCH 4ND F33L TOO LITTL3."
+msgstr ""
+
+#: data/bases/bartender.py:259
+msgid "MOR3 TH4N M4CHIN3RY W3 N33D HUM4NITY."
+msgstr ""
+
+#: data/bases/bartender.py:260
+msgid ""
+"MOR3 TH4N CL3V3RN355 W3 N33D KINDN355. WITHOUT TH353 QU4LITI35 LIF3 WILL B3 "
+"VIOL3NT 4ND 4LL WILL B3 LO55"
+msgstr ""
+
+#: data/bases/bartender.py:261
+msgid "W3 4R3 COMING OUT OF TH3 D4RKN355 INTO TH3 LIGHT!"
+msgstr ""
+
+#: data/bases/bartender.py:262
+msgid ""
+"W3 4R3 COMING INTO 4 N3W WORLD! LOOK UP H4NN4H! TH3 5OUL OF M4N H45 B33N "
+"GIV3N WING5 4ND 4T L45T H3 I5 B3GINNING TO FLY."
+msgstr ""
+
+#: data/bases/bartender.py:270
+msgid "Hello"
+msgstr ""
+
+#: data/bases/bartender.py:312
+msgid "Hello!"
+msgstr ""
+
+#: data/bases/fixers/no.py:5
+msgid "No? Come back to me again if you change your mind."
+msgstr ""
+
+#: data/mission/Multiplayer/aera_gauntlet.2player.mission:9
+#: data/mission/Multiplayer/confed_gauntlet.2player.mission:10
+#: data/mission/Multiplayer/coop_attack_convoy.2player.mission:10
+#: data/mission/Multiplayer/coop_destroy_aera.2player.mission:10
+#: data/mission/Multiplayer/coop_destroy_rlaan.2player.mission:10
+#: data/mission/Multiplayer/duel_cargoship.2player.mission:10
+#: data/mission/Multiplayer/duel_cloak.2player.mission:10
+#: data/mission/Multiplayer/duel_heavy.2player.mission:10
+#: data/mission/Multiplayer/duel_light.2player.mission:10
+#: data/mission/Multiplayer/duel_medium.2player.mission:10
+#: data/mission/Multiplayer/explore_universe.2player.mission:10
+#: data/mission/Multiplayer/merchant_gauntlet.2player.mission:10
+#: data/mission/Multiplayer/rlaan_gauntlet.2player.mission:10
+#: data/mission/eject.mission:9 data/mission/launch.mission:9
+#: data/mission/launchupgrade.mission:9 data/mission/multiplayer1.mission:10
+#: data/mission/spawner.mission:5
+#: data/mission/test/10K_in_10_groups_friendly.mission:9
+#: data/mission/test/9k_idle_1k_fighting.mission:9
+#: data/mission/test/Bughunter.mission:9 data/mission/test/balancer.mission:8
+#: data/mission/test/battleroyale.mission:11
+#: data/mission/test/docking.mission:9 data/mission/test/factiontex.mission:9
+#: data/mission/test/firefly.mission:11
+#: data/mission/test/firingrange.mission:11 data/mission/test/jtest.mission:9
+#: data/mission/test/lineup.mission:11 data/mission/test/modelview.mission:9
+#: data/mission/test/modelview2.mission:9 data/mission/test/moving.mission:9
+#: data/mission/test/mtest.mission:11 data/mission/test/nothing.mission:11
+#: data/mission/test/notmoving.mission:9 data/mission/test/novas.mission:11
+#: data/mission/test/planets.mission:9 data/mission/test/pretty.mission:11
+#: data/mission/test/simple.mission:9 data/mission/test/soltest.mission:9
+#: data/mission/test/spalling.mission:11 data/mission/test/terrain.mission:9
+#: data/mission/test/test1.mission:11 data/mission/test/test2.mission:9
+#: data/mission/test/test3.mission:9 data/mission/test/test4.mission:9
+#: data/mission/test/test5.mission:9 data/mission/test/test6.mission:9
+#: data/mission/tractor.mission:10 data/mission/viewallships.mission:8
+msgid "4 versus 4"
+msgstr ""
+
+#: data/mission/Multiplayer/aera_gauntlet.2player.mission:13
+#: data/mission/Multiplayer/confed_gauntlet.2player.mission:14
+#: data/mission/Multiplayer/coop_attack_convoy.2player.mission:13
+#: data/mission/Multiplayer/coop_destroy_aera.2player.mission:14
+#: data/mission/Multiplayer/coop_destroy_rlaan.2player.mission:14
+#: data/mission/Multiplayer/duel_cargoship.2player.mission:13
+#: data/mission/Multiplayer/duel_cloak.2player.mission:13
+#: data/mission/Multiplayer/duel_heavy.2player.mission:13
+#: data/mission/Multiplayer/duel_light.2player.mission:13
+#: data/mission/Multiplayer/duel_medium.2player.mission:13
+#: data/mission/Multiplayer/explore_universe.2player.mission:14
+#: data/mission/Multiplayer/merchant_gauntlet.2player.mission:14
+#: data/mission/Multiplayer/rlaan_gauntlet.2player.mission:14
+#: data/mission/multiplayer1.mission:13
+msgid "Enjoy troy in a nova."
+msgstr ""
+
+#: data/mission/ani_test.mission:9 data/mission/cargo.mission:9
+#: data/mission/cargo/aera/to_base_insystem.mission:9
+#: data/mission/cargo/aera/to_fleet_insystem.mission:9
+#: data/mission/cargo/confed/to_base_insystem.mission:9
+#: data/mission/cargo/confed/to_fleet_insystem.mission:9
+#: data/mission/cargo/iso/cargo_contraband_mission3.mission:9
+#: data/mission/cargo/iso/to_base_insystem.mission:9
+#: data/mission/cargo/iso/to_fleet_insystem.mission:9
+#: data/mission/cargo/merchant/to_base_insystem.mission:9
+#: data/mission/cargo/merchant/to_starship_insystem.mission:9
+msgid "Cargo Mission"
+msgstr ""
+
+#: data/mission/ani_test.mission:10 data/mission/cargo.mission:10
+msgid "Deliver cargo to a system"
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_escape.mission:9
+#: data/mission/bounty/aera/bounty_escape_headhunting.mission:9
+#: data/mission/bounty/aera/bounty_escape_wing.mission:9
+#: data/mission/bounty/aera/bounty_insystem.mission:9
+#: data/mission/bounty/aera/bounty_insystem_headhunting.mission:9
+#: data/mission/bounty/aera/bounty_insystem_wing.mission:9
+#: data/mission/bounty/aera/bounty_outsystem.mission:9
+#: data/mission/bounty/aera/bounty_outsystem_group.mission:9
+#: data/mission/bounty/aera/bounty_outsystem_headhunting.mission:9
+#: data/mission/bounty/aera/bounty_outsystem_wing.mission:9
+#: data/mission/bounty/bounty.mission:9
+#: data/mission/bounty/confed/bounty_escape.mission:9
+#: data/mission/bounty/confed/bounty_escape_headhunting.mission:9
+#: data/mission/bounty/confed/bounty_escape_wing.mission:9
+#: data/mission/bounty/confed/bounty_insystem.mission:9
+#: data/mission/bounty/confed/bounty_insystem_headhunting.mission:9
+#: data/mission/bounty/confed/bounty_insystem_wing.mission:9
+#: data/mission/bounty/confed/bounty_outsystem.mission:9
+#: data/mission/bounty/confed/bounty_outsystem_group.mission:9
+#: data/mission/bounty/confed/bounty_outsystem_headhunting.mission:9
+#: data/mission/bounty/confed/bounty_outsystem_wing.mission:9
+#: data/mission/bounty/iso/attack_iso_freighter.mission:9
+#: data/mission/bounty/iso/attack_iso_prisoners.mission:9
+#: data/mission/bounty/iso/bounty_escape.mission:9
+#: data/mission/bounty/iso/bounty_escape_headhunting.mission:9
+#: data/mission/bounty/iso/bounty_escape_wing.mission:9
+#: data/mission/bounty/iso/bounty_insystem_headhunting.mission:9
+#: data/mission/bounty/iso/bounty_outsystem.mission:9
+#: data/mission/bounty/iso/bounty_outsystem_group.mission:9
+#: data/mission/bounty/iso/bounty_outsystem_headhunting.mission:9
+#: data/mission/bounty/iso/bounty_outsystem_wing.mission:9
+#: data/mission/bounty/pirates/bounty_escape.mission:9
+#: data/mission/bounty/pirates/bounty_escape_headhunting.mission:9
+#: data/mission/bounty/pirates/bounty_escape_wing.mission:9
+#: data/mission/bounty/pirates/bounty_insystem_headhunting.mission:9
+#: data/mission/bounty/pirates/bounty_outsystem.mission:9
+#: data/mission/bounty/pirates/bounty_outsystem_group.mission:9
+#: data/mission/bounty/pirates/bounty_outsystem_headhunting.mission:9
+#: data/mission/bounty/pirates/bounty_outsystem_wing.mission:9
+#: data/mission/bounty/retro/bounty_escape.mission:9
+#: data/mission/bounty/retro/bounty_escape_headhunting.mission:9
+#: data/mission/bounty/retro/bounty_escape_wing.mission:9
+#: data/mission/bounty/retro/bounty_insystem.mission:9
+#: data/mission/bounty/retro/bounty_insystem_headhunting.mission:9
+#: data/mission/bounty/retro/bounty_outsystem.mission:9
+#: data/mission/bounty/retro/bounty_outsystem_group.mission:9
+#: data/mission/bounty/retro/bounty_outsystem_headhunting.mission:9
+#: data/mission/bounty/retro/bounty_outsystem_wing.mission:9
+#: data/mission/bounty/rlaan/bounty_escape.mission:9
+#: data/mission/bounty/rlaan/bounty_escape_headhunting.mission:9
+#: data/mission/bounty/rlaan/bounty_escape_wing.mission:9
+#: data/mission/bounty/rlaan/bounty_insystem.mission:9
+#: data/mission/bounty/rlaan/bounty_insystem_headhunting.mission:9
+#: data/mission/bounty/rlaan/bounty_insystem_wing.mission:9
+#: data/mission/bounty/rlaan/bounty_outsystem.mission:9
+#: data/mission/bounty/rlaan/bounty_outsystem_group.mission:9
+#: data/mission/bounty/rlaan/bounty_outsystem_headhunting.mission:9
+#: data/mission/bounty/rlaan/bounty_outsystem_wing.mission:9
+msgid "Bounty Mission"
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_escape.mission:10
+msgid ""
+"A lone aera scout has penetrated into this system.  The scout is making its "
+"way to the jump point in an attempt to escape and return his data to the "
+"Aera HQ.  It is imperative that the scout is destroyed. Upon his destruction "
+"you will earn 10245 credits"
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_escape_headhunting.mission:10
+msgid ""
+"A pair of aera ships has been sighted in this system.  They have gotten "
+"important information and are attempting to escape. You must destroy them "
+"instead: you will earn 13460 credits."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_escape_wing.mission:10
+msgid ""
+"An aera wing has penetrated this system. We have a heavy placed a price on "
+"the leader's head, so make sure he does not escape alive!  His wingmen may "
+"go through lengths to protect him.  Upon leader's destruction you will earn "
+"17392 credits."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_insystem.mission:10
+msgid ""
+"A lone aera scout has penetrated into this system, and must be destroyed. "
+"The scout is believed to be alone, and should be an easy target once it is "
+"located. You will be payed 8480 credits for success on this mission."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_insystem_headhunting.mission:10
+msgid ""
+"A pair of aera ships has been sighted in this system.  We require a bounty "
+"hunter to eliminate this threat and restore peace to this system. When the "
+"wing's leader is eliminated, you will earn 12260 credits for your effort."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_insystem_wing.mission:10
+msgid ""
+"An aera wing has penetrated this system.  We believe that destroying the "
+"wing leader will disrupt their forces sufficiently to stave off any "
+"potential damage.  Upon leader's destruction you will earn 14392 credits."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_outsystem.mission:10
+msgid ""
+"Destroy an aera starship sited 1 system away. This starship is responsible "
+"for the destruction of a number of freighters and must be eliminated. Your "
+"reward will be 13490."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_outsystem_group.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an aera wing cruising between 1 "
+"and 3 systems from here.  If you find and destroy the leader we will reward "
+"you with 19730 credits.  The dispersion of the rest of the wing will most "
+"likely continue after the leader combusts."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_outsystem_headhunting.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an aera scout pair last sighted "
+"two systems from here.  If you find and destroy him we will reward you with "
+"16345 credits."
+msgstr ""
+
+#: data/mission/bounty/aera/bounty_outsystem_wing.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an aera wing cruising between 2 "
+"and 4 systems from here.  If you find and destroy him we will reward you "
+"with 22394 credits."
+msgstr ""
+
+#: data/mission/bounty/bounty.mission:10
+msgid ""
+"One of our rivals has been bothering us too much recently and we deem it "
+"necessary to eliminate him.  He is believed to be between 1 and 4 star "
+"systems away, and we will offer a significant ammount of cash for his "
+"destruction. More than that we cannot disclose at this stage."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_escape.mission:10
+msgid ""
+"A lone confed scout has penetrated into this system.  The scout is making "
+"its way to the jump point in an attempt to escape and return his data to the "
+"Confed HQ.  It is imperative that the scout is destroyed. Upon his "
+"destruction you will earn 10745 credits"
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_escape_headhunting.mission:10
+msgid ""
+"A pair of confed ships has been sighted in this system.  They have gotten "
+"important information and are attempting to escape our clutches. You must "
+"destroy them instead: you will earn 12460 credits."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_escape_wing.mission:10
+msgid ""
+"An confed wing has penetrated this system. We have a heavy placed a price on "
+"the leader's head for disrupting our business, so make sure he does not "
+"escape alive!  His wingmen may go through lengths to protect him.  Upon "
+"leader's destruction you will earn 17995 credits."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_insystem.mission:10
+msgid ""
+"A lone confed scout has penetrated into this system, and must be destroyed. "
+"The scout is believed to be alone, and should be an easy target once he is "
+"located.  He is flying a standard confed military starship and can't be much "
+"of a threat. You will be payed 9190 credits for success on this mission."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_insystem_headhunting.mission:10
+msgid ""
+"A pair of confed wingmen has been sighted in this system.  We require a "
+"bounty hunter to eliminate this threat and restore peace and order to this "
+"system. When the wing's leader is eliminated, you will earn 12310 credits "
+"for your effort."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_insystem_wing.mission:10
+msgid ""
+"An confed wing has penetrated this system.  We believe that destroying the "
+"wing leader will disrupt their forces sufficiently to stave off any "
+"potential damage.  Upon leader's destruction you will earn 14995 credits."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_outsystem.mission:10
+msgid ""
+"Destroy an confed starship sited 1 system away. This starship is responsible "
+"for the destruction of a number of light fighters and cargo containers and "
+"must be eliminated. Your reward will be 13990."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_outsystem_group.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an confed wing cruising between 1 "
+"and 2 systems from here.  If you find and destroy the leader we will reward "
+"you with 19250 credits.  The dispersion of the rest of the wing will most "
+"likely continue after the leader combusts."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_outsystem_headhunting.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an confed scout pair last sighted "
+"two systems from here.  He is critical in an effort to disrupt plans of our "
+"own.  If you find and destroy him we will reward you with 17445 credits."
+msgstr ""
+
+#: data/mission/bounty/confed/bounty_outsystem_wing.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an confed strike wing cruising "
+"between 2 and 3 systems from here.  If you find and destroy him we will "
+"reward you with 23395 credits."
+msgstr ""
+
+#: data/mission/bounty/iso/attack_iso_freighter.mission:10
+#: data/mission/bounty/iso/attack_iso_prisoners.mission:10
+msgid ""
+"An ISO group has caused our workers in our main factory to go on strike. We "
+"have a heavy placed a price on the leader's head, so make sure he does not "
+"escape alive! With the demise of their leader, the other workers should fall "
+"into line.  His devoted, brainwashed allies may go through lengths to "
+"protect him, but one who has stolen so much from all must serve as a lesson "
+"for all acclaimed communist bastards.  Upon leader's destruction you will "
+"earn 25000 credits."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_escape.mission:10
+msgid ""
+"A lone ISO party membor has penetrated into this system and aroused our "
+"ire.  The idiot has broadcasted his message to our factorys door, and now he "
+"is making his way to the jump point in an attempt to escape and return to "
+"his cell.  It is imperative that the socialist renegade is destroyed. Upon "
+"his destruction you will earn 7115 credits"
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_escape_headhunting.mission:10
+msgid ""
+"A pair of ISO ships has been sighted in this system.  They have somehow "
+"managed to retrieve important prisoners and are attempting to escape. You "
+"must destroy them before they return these political prisoners to their ilk: "
+"you will earn 12420 credits if successful. These political prisoners must "
+"pay the price for this outrage: they must perish."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_escape_wing.mission:10
+msgid ""
+"An ISO group has caused our workers in our main factory to go on strike. We "
+"have a heavy placed a price on the leader's head, so make sure he does not "
+"escape alive! With the demise of their leader, the other workers should fall "
+"into line.  His devoted, brainwashed allies may go through lengths to "
+"protect him, but one who has stolen so much from all must serve as a lesson "
+"for all acclaimed communist bastards.  Upon leader's destruction you will "
+"earn 15392 credits."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_insystem.mission:9
+#: data/mission/bounty/pirates/bounty_insystem.mission:9
+#: data/mission/bounty/pirates/bounty_insystem_wing.mission:9
+#: data/mission/bounty/retro/bounty_insystem_wing.mission:9
+msgid "Pirate Bounty Mission"
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_insystem.mission:10
+msgid ""
+"A lone socialist fanatic has been causing trouble in this system, trying to "
+"cause riot and plan revolution, and he must be destroyed. This insurgent is "
+"believed to be alone, and should be an easy target once he is located. You "
+"will be payed 8070 credits for success on this mission."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_insystem_headhunting.mission:10
+msgid ""
+"A pair of ISO ships has been sighted in this system.  We require a bounty "
+"hunter to eliminate these pesks and restore peace for the regular workers. "
+"When the wing's leader is eliminated, you will earn 8160 credits for your "
+"effort."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_insystem_wing.mission:9
+msgid "ISO Bounty Mission"
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_insystem_wing.mission:10
+msgid ""
+"We believe that destroying the wing leader of a pitiful band of socialists "
+"in this system will disrupt their recent plotting of revolution in the area "
+"sufficiently to stave off any potential political damage.  Upon leader's "
+"destruction you will earn 14000 credits."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_outsystem.mission:10
+msgid ""
+"Destroy a socialist traitor sighted in the next system system away. This "
+"starship is responsible for the harrassing of a number of military "
+"transports and must be eliminated. Your reward will be 11890."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_outsystem_group.mission:10
+msgid ""
+"We wish to place a bounty on the leader of a devious ISO wing cruising "
+"between a few systems from here.  If you find and destroy the leader we will "
+"reward you with 17680 credits.  The other hooligans will most likely "
+"disperse after their party leader is destroyed."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_outsystem_headhunting.mission:10
+msgid ""
+"We wish to place on some Interplanetary Socialists causing trouble in this "
+"area.  After being tagged by authorities 2 systems away, contact has been "
+"lost; yet, if you find and destroy the leader we will reward you with 16666 "
+"credits."
+msgstr ""
+
+#: data/mission/bounty/iso/bounty_outsystem_wing.mission:10
+msgid ""
+"We wish to place a bounty on the leader of the Interplanetary Socialist "
+"group, broadcasting Communist propaganda, and scattering radio "
+"communications between 1 and 4 systems from here.  If you find and destroy "
+"him we will reward you with 19595 credits."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_escape.mission:10
+msgid ""
+"A lone pirate has penetrated into this system and aroused our ire.  The "
+"idiot is making his way to the jump point in an attempt to escape and return "
+"his spoils to his pirate base.  It is imperative that the pirate is "
+"destroyed. Upon his destruction you will earn 7285 credits"
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_escape_headhunting.mission:10
+msgid ""
+"A pair of pirate ships has been sighted in this system.  They have gotten "
+"important cargo and are attempting to escape. You must destroy them instead: "
+"you will earn 10420 credits."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_escape_wing.mission:10
+msgid ""
+"An pirate group has raided one of our valuable cargo shipments. We have a "
+"heavy placed a price on the leader's head, so make sure he does not escape "
+"alive!  His wingmen may go through lengths to protect him, but one who has "
+"stolen so much from all must serve as a lesson for all pirates.  Upon "
+"leader's destruction you will earn 14392 credits."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_insystem.mission:10
+msgid ""
+"A lone pirate has been causing trouble in this system, and must be "
+"destroyed. The pirate is believed to be alone, and should be an easy target "
+"once he is located. You will be payed 7870 credits for success on this "
+"mission."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_insystem_headhunting.mission:10
+msgid ""
+"A pair of pirate ships has been sighted in this system.  We require a bounty "
+"hunter to eliminate these pesks and restore peace for the merchants. When "
+"the wing's leader is eliminated, you will earn 8260 credits for your effort."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_insystem_wing.mission:10
+msgid ""
+"We believe that destroying the wing leader of a pitiful band of pirates in "
+"this system will disrupt their recent plundering of traders in the area "
+"sufficiently to stave off any potential damage.  Upon leader's destruction "
+"you will earn 13892 credits."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_outsystem.mission:10
+msgid ""
+"Destroy a pirate raider sighted in the next system system away. This "
+"starship is responsible for the boarding and harrassing of a number of "
+"freighters and must be eliminated. Your reward will be 11590."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_outsystem_group.mission:10
+msgid ""
+"We wish to place a bounty on the leader of a troublesome pirate wing "
+"cruising between 1 and 3 systems from here.  If you find and destroy the "
+"leader we will reward you with 17740 credits.  The other hooligans will most "
+"likely disperse after their fearless leader is destroyed."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_outsystem_headhunting.mission:10
+msgid ""
+"We wish to place on some pirates causing trouble in this area.  After being "
+"tagged by authorities 2 systems away, contact has been lost; yet, if you "
+"find and destroy the leader we will reward you with 15355 credits."
+msgstr ""
+
+#: data/mission/bounty/pirates/bounty_outsystem_wing.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an pirate group raiding our "
+"freighters between 2 and 4 systems from here.  If you find and destroy him "
+"we will reward you with 19394 credits."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_escape.mission:10
+msgid ""
+"A lone retro fanatic has penetrated into this system and aroused our ire.  "
+"The idiot is making his way to the jump point in an attempt to escape and "
+"return to his friends.  It is imperative that this one is destroyed lest "
+"others follow in his footsteps. Upon his destruction you will earn 7485 "
+"credits"
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_escape_headhunting.mission:10
+msgid ""
+"A pair of retro ships has been sighted in this system.  They have gotten "
+"important cargo and are attempting to escape. You must destroy them instead: "
+"you will earn 8920 credits."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_escape_wing.mission:10
+msgid ""
+"An extremist religious group has raided one of our valuable cargo shipments. "
+"We have a heavy placed a price on the leader's head, so make sure he does "
+"not escape alive!  His wingmen may go through lengths to protect him, but "
+"one who has stolen so much from all must serve as a lesson for all pirates.  "
+"Upon leader's destruction you will earn 15395 credits."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_insystem.mission:10
+msgid ""
+"A lone fanatic naming himself the true chosen one has been causing trouble "
+"in this system, and must be destroyed. The crazy is believed to be alone, "
+"and should be an easy target once he is located. You will be payed 8170 "
+"credits for success on this mission."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_insystem_headhunting.mission:10
+msgid ""
+"A pair of retro-religious ships has been sighted in this system.  We require "
+"a bounty hunter to eliminate these pesks and restore peace for the "
+"merchants. When the wing's leader is eliminated, you will earn 18260 credits "
+"for your effort.  Rumors of a stronger force of these pests in the system "
+"might assure you proceed with caution."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_insystem_wing.mission:10
+msgid ""
+"We believe that destroying the wing leader of a pitiful band of retros in "
+"this system will disrupt their recent murdering of traders in the area "
+"sufficiently to stave off any potential political damage.  Upon leader's "
+"destruction you will earn 15292 credits.  These terrorists are wiley and may "
+"posses jump technology."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_outsystem.mission:10
+msgid ""
+"Destroy a religious fanatic sighted in the next system system away. This "
+"starship is responsible for the harrassing of a number of freighters, "
+"searching for anti-religious cargo.  He is violating many of the "
+"intergalactic treaties we have and must be eliminated. Your reward will be "
+"11995."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_outsystem_group.mission:10
+msgid ""
+"We wish to place a bounty on the leader of a troublesome wing of religious "
+"retros cruising around three systems from here.  If you find and destroy the "
+"leader we will reward you with 21740 credits.  The other hooligans will most "
+"likely disperse after their fearless leader is destroyed."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_outsystem_headhunting.mission:10
+msgid ""
+"We wish to place on some fanatics causing trouble in this area.  After "
+"haphazardly attacking civilian freighters for violating their gods sacret "
+"vacuum, contact has been lost; yet, if you find and destroy the leader we "
+"will reward you with 19855 credits."
+msgstr ""
+
+#: data/mission/bounty/retro/bounty_outsystem_wing.mission:10
+msgid ""
+"We wish to place a bounty on the leader of a cell terrorist religious "
+"organization raiding our freighters and citizens between 1 and 4 systems "
+"from here.  If you find and destroy him we will reward you with 20694 "
+"credits."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_escape.mission:10
+msgid ""
+"A lone rlaan scout has penetrated into this system.  The scout is making its "
+"way to the jump point in an attempt to escape and return his data to the "
+"Rlaan HQ.  It is imperative that the scout is destroyed. Upon his "
+"destruction you will earn 7245 credits"
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_escape_headhunting.mission:10
+msgid ""
+"A pair of rlaan ships has been sighted in this system.  They have gotten "
+"important information and are attempting to escape. You must destroy them "
+"instead: you will earn 13060 credits."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_escape_wing.mission:10
+msgid ""
+"A rlaan wing has penetrated this system. We have a heavy placed a price on "
+"the leader's head, so make sure he does not escape alive!  His wingmen may "
+"go through lengths to protect him.  Upon leader's destruction you will earn "
+"17090 credits."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_insystem.mission:10
+msgid ""
+"A lone rlaan scout has penetrated into this system, and must be destroyed. "
+"The scout is believed to be alone, and should be an easy target once it is "
+"located. You will be payed 8088 credits for success on this mission."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_insystem_headhunting.mission:10
+msgid ""
+"A pair of rlaan ships has been sighted in this system.  We require a bounty "
+"hunter to eliminate this threat and restore peace to this system. When the "
+"wing's leader is eliminated, you will earn 12660 credits for your effort."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_insystem_wing.mission:10
+msgid ""
+"An rlaan wing has penetrated this system.  We believe that destroying the "
+"wing leader will disrupt their forces sufficiently.  Upon leader's "
+"destruction you will earn 15092 credits."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_outsystem.mission:10
+msgid ""
+"Destroy an rlaan starship sited 1 system away. This starship is responsible "
+"for the destruction of a number of friendly fighters and must be eliminated. "
+"Your reward will be 13190."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_outsystem_group.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an rlaan wing cruising between 1 "
+"and 3 systems from here.  If you find and destroy the leader we will reward "
+"you with 19230 credits.  The dispersion of the rest of the wing will most "
+"likely continue after the leader combusts."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_outsystem_headhunting.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an rlaan scout pair last sighted "
+"two systems from here.  If you find and destroy him we will reward you with "
+"15345 credits."
+msgstr ""
+
+#: data/mission/bounty/rlaan/bounty_outsystem_wing.mission:10
+msgid ""
+"We wish to place a bounty on the leader of an rlaan wing cruising between 2 "
+"and 4 systems from here.  If you find and destroy him we will reward you "
+"with 22095 credits."
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_critical_outsystem.mission:9
+#: data/mission/cargo/confed/to_base_critical_outsystem.mission:9
+#: data/mission/cargo/iso/to_base_critical_outsystem.mission:9
+msgid "Long Range Base Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_critical_outsystem.mission:10
+msgid ""
+"An Aera base around 6 systems away needs some critical cargo. We will "
+"disclose the exact location upon mission acceptance.  You must deliver your "
+"cargo successfully or risk disciplinary action; however, your pay will be "
+"1925 per system traversed in a minimal path to the destination. This cargo "
+"is necessary...if you accept and do not comply you will be destroyed."
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_extreme_range.mission:9
+msgid "Extreme Range Base Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_extreme_range.mission:10
+msgid ""
+"A long range Aera base requires a resupply. We will disclose the location "
+"upon mission acceptance. The base is over 8 systems away. Your pay will be "
+"1200 per system traversed in a minimal path to the destination. It can use "
+"any and all supplies you bring to it."
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_insystem.mission:10
+msgid ""
+"The Aera need cargo delivered to an installation in system. Upon mission "
+"completion you will be credited 3250. If cargo is stolen, late, or not "
+"delivered, you will be punished. You have 5 minutes"
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_insystem_critical.mission:9
+#: data/mission/cargo/aera/to_fleet_insystem_critical.mission:9
+#: data/mission/cargo/confed/to_base_insystem_critical.mission:9
+#: data/mission/cargo/confed/to_fleet_insystem_critical.mission:9
+#: data/mission/cargo/iso/to_base_insystem_critical.mission:9
+#: data/mission/cargo/iso/to_fleet_insystem_critical.mission:9
+msgid "Deliver Urgent Cargo"
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_insystem_critical.mission:10
+msgid ""
+"Aera needs important cargo delivered to a military base on an installation "
+"in system ASAP. If the mission is completed you will be credited 3420.  This "
+"cargo is critical for our operations, you must deliver immediately, within 3 "
+"minutes. Failure will be punished."
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_outsystem.mission:9
+#: data/mission/cargo/confed/to_base_extreme_range.mission:9
+#: data/mission/cargo/confed/to_base_outsystem.mission:9
+#: data/mission/cargo/iso/to_base_extreme_range.mission:9
+#: data/mission/cargo/iso/to_base_outsystem.mission:9
+#: data/mission/cargo/merchant/to_base_extreme_range.mission:9
+#: data/mission/cargo/merchant/to_base_outsystem.mission:9
+msgid "Base Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/aera/to_base_outsystem.mission:10
+msgid ""
+"A nearby Aera base requires a resupply. We will disclose the location upon "
+"mission acceptance. The base lies within 4 systems. Your pay will be 1475 "
+"per system traversed in a minimal path to the destination.  Aera do not "
+"accept failure."
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_critical_outsystem.mission:9
+#: data/mission/cargo/confed/to_fleet_critical_outsystem.mission:9
+#: data/mission/cargo/iso/to_fleet_critical_outsystem.mission:9
+msgid "Long Range Fleet Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_critical_outsystem.mission:10
+msgid ""
+"A nearby Aera fleet requires mission critical cargo. Due to the critical "
+"nature of this mission, we will disclose the fleet's location when you have "
+"accepted the mission. We can safely say that the base lies nearly 7 systems "
+"away. Your pay will be 1700 per system traversed. Do not fail us; by "
+"accepting this risky mission you waive your right to a trial should the "
+"cargo not be delivered. You have under 12 minutes per system-- Aera do not "
+"take failure lightly"
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_extreme_range.mission:9
+#: data/mission/cargo/aera/to_fleet_outsystem.mission:9
+#: data/mission/cargo/confed/to_fleet_extreme_range.mission:9
+#: data/mission/cargo/confed/to_fleet_outsystem.mission:9
+#: data/mission/cargo/iso/to_fleet_extreme_range.mission:9
+#: data/mission/cargo/iso/to_fleet_outsystem.mission:9
+#: data/mission/cargo/merchant/to_starship_extreme_range.mission:9
+msgid "Fleet Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_extreme_range.mission:10
+msgid ""
+"One of the farther-ranged Aera fleets needs important cargo to be delivered. "
+"The fleet's precise location will be disclosed when you accpet. It lies lies "
+"over 9 systems away. Your pay will be 1620 per system traversed in a minimal "
+"path to the destination.  You must proceed in a timely fashion--20 minutes "
+"per system.  Failure will result in punishment."
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_insystem.mission:10
+msgid ""
+"Aera need cargo delivered to one of our ships in system. We offer you 2750 "
+"credits."
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_insystem_critical.mission:10
+msgid ""
+"Aera needs critical cargo delivered to a fleet starship. Disclosure of cargo "
+"content will be granted upon mission accept. We credit 3825. Failure is not "
+"an option! You will have 5 minutes."
+msgstr ""
+
+#: data/mission/cargo/aera/to_fleet_outsystem.mission:10
+msgid ""
+"The Aera Fleet requires cargo to be delivered. Location will be disclosed "
+"upon mission acceptance. The fleet lies within 3 systems. Your pay will be "
+"1300 per system traversed in a minimal path to the destination. You have 16 "
+"minutes per system to get here. Do not be late."
+msgstr ""
+
+#: data/mission/cargo/confed/to_base_critical_outsystem.mission:10
+msgid ""
+"A Navy base around 5 systems away needs some critical cargo. We will "
+"disclose the exact location upon mission acceptance.  You must deliver your "
+"cargo successfully or risk disciplinary action; however, your pay will be "
+"1825 per system traversed in a minimal path to the destination. Good luck, "
+"pilot."
+msgstr ""
+
+#: data/mission/cargo/confed/to_base_extreme_range.mission:10
+#: data/mission/cargo/merchant/to_base_extreme_range.mission:10
+msgid ""
+"A long range base requires a resupply. We will disclose the location upon "
+"mission acceptance. The base is over 8 systems away. Your pay will be 1100 "
+"per system traversed in a minimal path to the destination. It can use any "
+"and all supplies you bring to it."
+msgstr ""
+
+#: data/mission/cargo/confed/to_base_insystem.mission:10
+msgid ""
+"United Earth Navy needs cargo delivered to a military base on an "
+"installation in system. Upon mission completion you will be credited 2150."
+msgstr ""
+
+#: data/mission/cargo/confed/to_base_insystem_critical.mission:10
+msgid ""
+"United Earth Navy needs important cargo delivered to a military base on an "
+"installation in system ASAP. If the mission is completed you will be "
+"credited 2720.  This cargo is critical for our operations, you must deliver "
+"immediately. Failure will be punished."
+msgstr ""
+
+#: data/mission/cargo/confed/to_base_outsystem.mission:10
+msgid ""
+"A nearby base requires a resupply. We will disclose the location upon "
+"mission acceptance. The base lies within 4 systems. Your pay will be 1275 "
+"per system traversed in a minimal path to the destination"
+msgstr ""
+
+#: data/mission/cargo/confed/to_fleet_critical_outsystem.mission:10
+msgid ""
+"A nearby fleet requires mission critical cargo. Due to the critical nature "
+"of this mission, we will disclose the fleet's location when you have "
+"accepted the mission. We can safely say that the base lies nearly 7 systems "
+"away. Your pay will be 1900 per system traversed. Do not fail us; by "
+"accepting this risky mission you waive your right to a trial should the "
+"cargo not be delivered."
+msgstr ""
+
+#: data/mission/cargo/confed/to_fleet_extreme_range.mission:10
+msgid ""
+"One of the extreme-ranged Earth Navy fleets needs important cargo to be "
+"delivered. The fleet's exact location will be disclosed upon mission "
+"acceptance. It lies lies over 9 systems away. Your pay will be 1320 per "
+"system traversed in a minimal path to the destination.  You must proceed in "
+"a timely fashion"
+msgstr ""
+
+#: data/mission/cargo/confed/to_fleet_insystem.mission:10
+msgid ""
+"United Earth Navy needs cargo delivered to one of their ships in system. Pay "
+"is 2250 credits."
+msgstr ""
+
+#: data/mission/cargo/confed/to_fleet_insystem_critical.mission:10
+msgid ""
+"United Earth Navy needs important cargo delivered to a fleet starship. "
+"Disclosure of cargo content will be granted upon mission accept. If the "
+"mission is completed you will be credited 3320. Failure is not an option, "
+"pilot."
+msgstr ""
+
+#: data/mission/cargo/confed/to_fleet_outsystem.mission:10
+msgid ""
+"One of the Earth Navy fleets requires cargo to be delivered. Location will "
+"be disclosed upon mission acceptance. The fleet lies within 3 systems. Your "
+"pay will be 1950 per system traversed in a minimal path to the destination. "
+"Time is urgent here, you must rush."
+msgstr ""
+
+#: data/mission/cargo/iso/cargo_contraband_mission3.mission:10
+#: data/mission/cargo/iso/to_base_insystem.mission:10
+msgid ""
+"Comrade, one of the party members in system requires some sipplies. Please "
+"deliver them to him."
+msgstr ""
+
+#: data/mission/cargo/iso/to_base_critical_outsystem.mission:10
+msgid ""
+"We require you, a scrupulous privateer, to deliver our cargo to the awaiting "
+"party members on a base a few systems away.  We know this cargo is banned by "
+"the other factions, but it is necessary for our continued operation in that "
+"system. The people will thank you, good privateer."
+msgstr ""
+
+#: data/mission/cargo/iso/to_base_extreme_range.mission:10
+msgid ""
+"A small ISO contingent needs to be resupplied with some cargo. Please "
+"deliver it to them, comrade, and you will serve the people well. The people "
+"need you!"
+msgstr ""
+
+#: data/mission/cargo/iso/to_base_insystem_critical.mission:10
+msgid ""
+"Please deliver some important cargo to our awaiting party members on a "
+"nearby base.  The base is insystem and is revealed on a need-to-know basis "
+"for those ISO members critical to our operations."
+msgstr ""
+
+#: data/mission/cargo/iso/to_base_outsystem.mission:10
+msgid ""
+"A nearby base requires a resupply, for supply is thin near Navy controlled "
+"regions. We will disclose the location upon mission acceptance. Our less-"
+"than-well-known base lies within 4 systems."
+msgstr ""
+
+#: data/mission/cargo/iso/to_fleet_critical_outsystem.mission:10
+msgid ""
+"The Interplanetary Socialists need cargo to be delivered across a large "
+"number of systems to our waiting starships.  The cargo is not welcome in "
+"this side of the galaxy, so please be careful, Comrade--you have no backup "
+"until you arrive."
+msgstr ""
+
+#: data/mission/cargo/iso/to_fleet_extreme_range.mission:10
+msgid ""
+"One of the a far ISO starship needs important cargo to be delivered. The "
+"fleet's exact location will be disclosed upon mission acceptance. It lies "
+"lies over 9 systems away. The ISO needs this material to assist in a meeting "
+"across the stars. You need to be punctual."
+msgstr ""
+
+#: data/mission/cargo/iso/to_fleet_insystem.mission:10
+msgid ""
+"The Interplanetary Socialists need cargo delivered to one of their ships in "
+"system."
+msgstr ""
+
+#: data/mission/cargo/iso/to_fleet_insystem_critical.mission:10
+msgid ""
+"The ISO requires some interesting cargo to be delivered.  The navy does not "
+"approve of this cargo, so you must avoid their patrols at all costs.  Thank "
+"you Comrade, your dedication to the ISO is certainly noteworthy!"
+msgstr ""
+
+#: data/mission/cargo/iso/to_fleet_outsystem.mission:10
+msgid ""
+"Comrade, a starship of ours requires cargo to be delivered. Location will be "
+"disclosed upon mission acceptance. The starship lies near here around 2 "
+"systems. Timing is critical, you must rush."
+msgstr ""
+
+#: data/mission/cargo/merchant/to_base_insystem.mission:10
+msgid ""
+"A small private corporation needs a specific ammount of cargo insystem. The "
+"corporation and cargo will be disclosed upon mission accept. The pay is 2450."
+msgstr ""
+
+#: data/mission/cargo/merchant/to_base_outsystem.mission:10
+msgid ""
+"A nearby factory requires a small load of cargo. We will disclose the "
+"location upon mission acceptance. The base lies within 5 systems. Your pay "
+"will be 1225 per system traversed in a minimal path to the destination. "
+"Thanks you, privateer."
+msgstr ""
+
+#: data/mission/cargo/merchant/to_starship_extreme_range.mission:10
+msgid ""
+"A corporation (name withheld for information protection) would like a small "
+"supply of goods to be delivered to a far system over 9 suns away. It must "
+"all be delivered or you will not be paid. Upon success, your pay will be "
+"1340 per system traversed in a minimal path to the destination.  Time is not "
+"infinite, so get moving."
+msgstr ""
+
+#: data/mission/cargo/merchant/to_starship_insystem.mission:10
+msgid ""
+"A small private corp would like cargo delivered to a starship in system.. "
+"Pay is 2140 credits."
+msgstr ""
+
+#: data/mission/cargo/merchant/to_starship_outsystem.mission:9
+msgid "Commercial Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/merchant/to_starship_outsystem.mission:10
+msgid ""
+"A Corporation wishes you to deliver some supplies to one of their spacecraft "
+"a number of systems away. The pay is 1200 per system travelled."
+msgstr ""
+
+#: data/mission/cargo/pirates/pirates_cont_1.mission:9
+#: data/mission/cargo/pirates/pirates_cont_2.mission:9
+#: data/mission/cargo/pirates/plunder.mission:9
+#: data/mission/cargo/pirates/to_base_outsystem.mission:9
+msgid "Base Contraband Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/pirates/pirates_cont_1.mission:10
+#: data/mission/cargo/pirates/pirates_cont_2.mission:10
+#: data/mission/cargo/pirates/plunder.mission:10
+#: data/mission/cargo/pirates/to_base_outsystem.mission:10
+msgid ""
+"A nearby operative on a base requires a resupply for his own purposes. We "
+"will disclose the location upon mission acceptance. The base lies within 4 "
+"systems. Your pay will be 1875 per system traversed in a minimal path to the "
+"destination."
+msgstr ""
+
+#: data/mission/cargo/pirates/to_base_extreme_range.mission:9
+msgid "Base Cargo Delivery (Illegal)"
+msgstr ""
+
+#: data/mission/cargo/pirates/to_base_extreme_range.mission:10
+msgid ""
+"A long range base requires a resupply of goods. Confederate patrols may "
+"intercept you on the way, but as a good privateer you should avoid them lest "
+"they cause you to lose your cargo--that could also be dangerous to your "
+"health. Your pay will be 2040 per system traversed. "
+msgstr ""
+
+#: data/mission/cargo/pirates/to_base_insystem.mission:9
+msgid "Cargo Mission -- Contraband"
+msgstr ""
+
+#: data/mission/cargo/pirates/to_base_insystem.mission:10
+msgid ""
+"A pirate on a base nearby needs a resupply of his goods. You will have to "
+"avoid patrols on the way and deliver this to him. Failure will result in "
+"death; however the pay is good: 4650."
+msgstr ""
+
+#: data/mission/cargo/pirates/to_fleet_extreme_range.mission:9
+#: data/mission/cargo/pirates/to_fleet_outsystem.mission:9
+msgid "Contraband Cargo Delivery"
+msgstr ""
+
+#: data/mission/cargo/pirates/to_fleet_extreme_range.mission:10
+msgid ""
+"A remote pirate group needs your help to deliver them some cargo of the "
+"illegal type.  We will pay you over 2000 a system for this run.  Pirates "
+"don't smoke each others weed, so make sure you get it all to the location in "
+"one piece, comprehend? "
+msgstr ""
+
+#: data/mission/cargo/pirates/to_fleet_insystem.mission:9
+msgid "Contraband Delivery Mission"
+msgstr ""
+
+#: data/mission/cargo/pirates/to_fleet_insystem.mission:10
+msgid ""
+"To all money grubbing privateers out there. We need you to deliver some "
+"contraband to a base in this system. We will let you know the details later. "
+"Don't sell our spoils or be spoiled by our forces. We pirates will pay is "
+"4450 credits."
+msgstr ""
+
+#: data/mission/cargo/pirates/to_fleet_outsystem.mission:10
+msgid ""
+"Ahoy mate. We pirates require you to do us a small favor of the illegal "
+"type. I know them human and aera patrols are running around, but we need you "
+"to deliver some of our goods to another system nearby. Pirates don't kill "
+"other pirates--unless they sell our cargo, so good hunting. A pirate ship "
+"will be waiting for you... We pay 4000 per system."
+msgstr ""
+
+#: data/mission/contraband.mission:9
+#: data/mission/contraband/contraband.mission:9
+#: data/mission/contraband/contraband_large_scan.mission:9
+#: data/mission/contraband/contraband_medium_scan.mission:9
+#: data/mission/contraband/contraband_small_scan.mission:9
+msgid "Contraband Mission"
+msgstr ""
+
+#: data/mission/contraband.mission:10
+#: data/mission/contraband/contraband.mission:10
+#: data/mission/contraband/contraband_medium_scan.mission:10
+msgid "Destroy ships with contraband on them."
+msgstr ""
+
+#: data/mission/contraband/contraband_large_scan.mission:10
+msgid "Destroy ships with contraband on them for 15550 creds."
+msgstr ""
+
+#: data/mission/contraband/contraband_small_scan.mission:10
+msgid "Destroy ships with contraband on them for 6000 creds."
+msgstr ""
+
+#: data/mission/defend/aera/defend_large_attack.mission:9
+#: data/mission/defend/aera/defend_medium_attack.mission:9
+#: data/mission/defend/confed/defend_large_attack.mission:9
+#: data/mission/defend/confed/defend_medium_attack.mission:9
+#: data/mission/defend/iso/defend_large_attack.mission:9
+#: data/mission/defend/pirates/defend_large_attack.mission:9
+#: data/mission/defend/pirates/pirate_msision4.mission:9
+#: data/mission/defend/retro/defend_large_attack.mission:9
+#: data/mission/defend/rlaan/defend_large_attack.mission:9
+#: data/mission/defend/rlaan/defend_medium_attack.mission:9
+msgid "Defend Base"
+msgstr ""
+
+#: data/mission/defend/aera/defend_large_attack.mission:10
+msgid ""
+"A large aera assault wing has jumped in and started attacking one of our "
+"bases in this system. Your task is to eliminate them--reward is 1095 credits "
+"per scout"
+msgstr ""
+
+#: data/mission/defend/aera/defend_lone_attack.mission:9
+#: data/mission/defend/aera/defend_small_attack.mission:9
+#: data/mission/defend/confed/defend_lone_attack.mission:9
+#: data/mission/defend/confed/defend_small_attack.mission:9
+#: data/mission/defend/iso/attack_iso_force.mission:9
+#: data/mission/defend/iso/defend_iso_mission1.mission:9
+#: data/mission/defend/iso/defend_iso_mission4.mission:9
+#: data/mission/defend/iso/defend_small_attack.mission:9
+#: data/mission/defend/pirates/defend_small_attack.mission:9
+#: data/mission/defend/retro/defend_small_attack.mission:9
+#: data/mission/defend/rlaan/defend_lone_attack.mission:9
+#: data/mission/defend/rlaan/defend_small_attack.mission:9
+msgid "Defend Strategic Point"
+msgstr ""
+
+#: data/mission/defend/aera/defend_lone_attack.mission:10
+msgid ""
+"A lone aera scout has jumped in and started terrorizing freighters in this "
+"system. Your task is to eliminate this scout--reward is 4294 credits"
+msgstr ""
+
+#: data/mission/defend/aera/defend_medium_attack.mission:10
+msgid ""
+"An aera assault wing has jumped in and is moving for an attack on one of our "
+"capitol starships in this system. Your task is to eliminate them before they "
+"eliminate our starship--reward is 2505 credits per fighter"
+msgstr ""
+
+#: data/mission/defend/aera/defend_small_attack.mission:10
+msgid ""
+"A small aera scout wing has jumped in and started terrorizing fighters and "
+"freighters in this system. Your task is to eliminate them--reward is 5896 "
+"credits per scout"
+msgstr ""
+
+#: data/mission/defend/confed/defend_large_attack.mission:10
+msgid ""
+"A large confed assault wing has jumped in and started attacking one of the "
+"bases in this system. Your task is to eliminate them--reward is 1695 credits "
+"per scout"
+msgstr ""
+
+#: data/mission/defend/confed/defend_lone_attack.mission:10
+msgid ""
+"A lone confed scout has jumped in and disrupted our plans. Your task is to "
+"eliminate this scout--reward is 7296 credits"
+msgstr ""
+
+#: data/mission/defend/confed/defend_medium_attack.mission:10
+msgid ""
+"A confed assault wing has jumped in and is moving for an attack on one of "
+"our capitol starships in this system. Your task is to eliminate them before "
+"they eliminate our starship--reward is 3550 credits per fighter"
+msgstr ""
+
+#: data/mission/defend/confed/defend_small_attack.mission:10
+msgid ""
+"A confed scout wing has jumped in and started causing us trouble in this "
+"system. Your task is to eliminate them--reward is 6050 credits per scout"
+msgstr ""
+
+#: data/mission/defend/iso/attack_iso_force.mission:10
+#: data/mission/defend/iso/defend_iso_mission1.mission:10
+#: data/mission/defend/iso/defend_iso_mission4.mission:10
+#: data/mission/defend/iso/defend_small_attack.mission:10
+msgid ""
+"A small ISO scout wing has jumped in to this system, doubtless to bring "
+"supplies or news to Party members nearby. Your task is to eliminate them--"
+"reward is 4800 credits per Communist killed."
+msgstr ""
+
+#: data/mission/defend/iso/defend_large_attack.mission:10
+msgid ""
+"After not complying with recent, un-called-for wage increase demands, a "
+"socialist assault wing has jumped in and demanded we turn over our "
+"facilities in this system. Your task is to eliminate them.  Upon success you "
+"will earn 900 credits per scout"
+msgstr ""
+
+#: data/mission/defend/iso/defend_lone_attack.mission:9
+#: data/mission/defend/pirates/defend_lone_attack.mission:9
+msgid "Defend Against Pirate"
+msgstr ""
+
+#: data/mission/defend/iso/defend_lone_attack.mission:10
+msgid ""
+"A lone socialist has been reportedly violating Navy order in this system. "
+"Your task is to eliminate this politically ignorant space monger.  If he is "
+"destroyed, you will be rewarded is 4150 credits"
+msgstr ""
+
+#: data/mission/defend/iso/defend_medium_attack.mission:9
+#: data/mission/defend/pirates/defend_medium_attack.mission:9
+#: data/mission/defend/retro/defend_medium_attack.mission:9
+msgid "Defend Freighter"
+msgstr ""
+
+#: data/mission/defend/iso/defend_medium_attack.mission:10
+msgid ""
+"An Interplanetary Socialist wing has jumped in and is moving for a strategic "
+"attack on one of our freighter starships in this system. Your task is to "
+"eliminate them before they eliminate our starship--reward is 2005 credits "
+"per fighter"
+msgstr ""
+
+#: data/mission/defend/pirates/defend_large_attack.mission:10
+#: data/mission/defend/pirates/pirate_msision4.mission:10
+msgid ""
+"A large pirate assault wing has jumped in and demanded a huge ransom from "
+"one of our bases in this system. Your task is to eliminate them--reward is "
+"800 credits per scout"
+msgstr ""
+
+#: data/mission/defend/pirates/defend_lone_attack.mission:10
+msgid ""
+"A lone pirate has been reportedly terrorizing freighters in this system. "
+"Your task is to eliminate this fool--reward is 4200 credits"
+msgstr ""
+
+#: data/mission/defend/pirates/defend_medium_attack.mission:10
+msgid ""
+"An pirate assault wing has jumped in and is moving for an attack on one of "
+"our freighter starships in this system. Your task is to eliminate them "
+"before they eliminate our starship--reward is 2005 credits per fighter"
+msgstr ""
+
+#: data/mission/defend/pirates/defend_small_attack.mission:10
+msgid ""
+"A small pirate scout wing has jumped in and started terrorizing freighters "
+"in this system. Your task is to eliminate them--reward is 4800 credits per "
+"scout"
+msgstr ""
+
+#: data/mission/defend/retro/defend_large_attack.mission:10
+msgid ""
+"A large retro assault wing has jumped in and demanded we surrender our base "
+"to their god. Your task is to eliminate them before they get any strange "
+"ideas--reward is 810 credits per scout"
+msgstr ""
+
+#: data/mission/defend/retro/defend_lone_attack.mission:9
+msgid "Defend Against Retro Insurgent"
+msgstr ""
+
+#: data/mission/defend/retro/defend_lone_attack.mission:10
+msgid ""
+"A lone retro-religious fanatic has been reportedly terrorizing freighters in "
+"this system. Your task is to eliminate this misguided man--reward is 4300 "
+"credits"
+msgstr ""
+
+#: data/mission/defend/retro/defend_medium_attack.mission:10
+msgid ""
+"An fanatic religious assault wing has jumped in and is moving for an attack "
+"on one of our starships in this system. Your task is to eliminate them "
+"before they eliminate or capture our starship--reward is 2055 credits per "
+"fighter"
+msgstr ""
+
+#: data/mission/defend/retro/defend_small_attack.mission:10
+msgid ""
+"A small retro-religious wing has jumped in and started terrorizing "
+"freighters in this system, demanding they turn over all of their technology. "
+"Your task is to eliminate them--reward is 4900 credits per ship"
+msgstr ""
+
+#: data/mission/defend/rlaan/defend_large_attack.mission:10
+msgid ""
+"A large rlaan assault wing has jumped in and started attacking one of our "
+"bases in this system. Your task is to eliminate them--reward is 1000 credits "
+"per scout"
+msgstr ""
+
+#: data/mission/defend/rlaan/defend_lone_attack.mission:10
+msgid ""
+"A lone rlaan scout has jumped in and started terrorizing freighters in this "
+"system. Your task is to eliminate this scout--reward is 4094 credits"
+msgstr ""
+
+#: data/mission/defend/rlaan/defend_medium_attack.mission:10
+msgid ""
+"An rlaan assault wing has jumped in and is moving for an attack on one of "
+"our capitol starships in this system. Your task is to eliminate them before "
+"they eliminate our starship--reward is 2305 credits per fighter"
+msgstr ""
+
+#: data/mission/defend/rlaan/defend_small_attack.mission:10
+msgid ""
+"A small rlaan scout wing has jumped in and started terrorizing fighters and "
+"freighters in this system. Your task is to eliminate them--reward is 5000 "
+"credits per scout"
+msgstr ""
+
+#: data/mission/eject.mission:12 data/mission/launch.mission:12
+#: data/mission/launchupgrade.mission:12 data/mission/spawner.mission:8
+#: data/mission/test/10K_in_10_groups_friendly.mission:12
+#: data/mission/test/9k_idle_1k_fighting.mission:12
+#: data/mission/test/Bughunter.mission:12
+#: data/mission/test/balancer.mission:11
+#: data/mission/test/battleroyale.mission:14
+#: data/mission/test/docking.mission:12
+#: data/mission/test/factiontex.mission:12
+#: data/mission/test/firefly.mission:14
+#: data/mission/test/firingrange.mission:14 data/mission/test/jtest.mission:12
+#: data/mission/test/lineup.mission:14 data/mission/test/modelview.mission:12
+#: data/mission/test/modelview2.mission:12 data/mission/test/moving.mission:12
+#: data/mission/test/mtest.mission:14 data/mission/test/nothing.mission:14
+#: data/mission/test/notmoving.mission:12 data/mission/test/novas.mission:14
+#: data/mission/test/planets.mission:12 data/mission/test/pretty.mission:14
+#: data/mission/test/simple.mission:12 data/mission/test/soltest.mission:12
+#: data/mission/test/spalling.mission:14 data/mission/test/terrain.mission:12
+#: data/mission/test/test1.mission:14 data/mission/test/test2.mission:12
+#: data/mission/test/test3.mission:12 data/mission/test/test4.mission:12
+#: data/mission/test/test5.mission:13 data/mission/test/test6.mission:13
+#: data/mission/test/total_war2.mission:7
+#: data/mission/test/total_war_hostile.mission:7
+#: data/mission/test/total_war_neutral.mission:7
+#: data/mission/tractor.mission:13 data/mission/viewallships.mission:11
+msgid "4vs4.txt"
+msgstr ""
+
+#: data/mission/escort/aera/insystem_critical_escort.mission:9
+#: data/mission/escort/confed/insystem_critical_escort.mission:9
+#: data/mission/escort/iso/insystem_critical_escort.mission:9
+#: data/mission/escort/merchant/insystem_critical_escort.mission:9
+#: data/mission/escort/pirate/insystem_critical_escort.mission:9
+#: data/mission/escort/rlaan/insystem_critical_escort.mission:9
+msgid "Escort--Distress Critical"
+msgstr ""
+
+#: data/mission/escort/aera/insystem_critical_escort.mission:10
+#: data/mission/escort/rlaan/insystem_critical_escort.mission:10
+msgid ""
+"One of our valuable craft is under attack.  Without support, they will "
+"perish! Assist at all costs! We will offer 17000 for it making it safely to "
+"our escort. Failure is punishable by death."
+msgstr ""
+
+#: data/mission/escort/aera/insystem_escort.mission:9
+#: data/mission/escort/aera/outsystem_critical_escort.mission:9
+#: data/mission/escort/aera/outsystem_escort.mission:9
+#: data/mission/escort/confed/insystem_escort.mission:9
+#: data/mission/escort/confed/outsystem_critical_escort.mission:9
+#: data/mission/escort/confed/outsystem_escort.mission:9
+#: data/mission/escort/iso/escort_iso_mission2.mission:9
+#: data/mission/escort/iso/insystem_escort.mission:9
+#: data/mission/escort/iso/outsystem_critical_escort.mission:9
+#: data/mission/escort/iso/outsystem_escort.mission:9
+#: data/mission/escort/merchant/insystem_escort.mission:9
+#: data/mission/escort/merchant/outsystem_critical_escort.mission:9
+#: data/mission/escort/merchant/outsystem_escort.mission:9
+#: data/mission/escort/pirate/insystem_escort.mission:9
+#: data/mission/escort/pirate/outsystem_critical_escort.mission:9
+#: data/mission/escort/pirate/outsystem_escort.mission:9
+#: data/mission/escort/rlaan/insystem_escort.mission:9
+#: data/mission/escort/rlaan/outsystem_critical_escort.mission:9
+#: data/mission/escort/rlaan/outsystem_escort.mission:9
+msgid "Escort"
+msgstr ""
+
+#: data/mission/escort/aera/insystem_escort.mission:10
+msgid ""
+"An aera craft with supplies for the front line is in distress. You must "
+"assure that it can make it to our escort before it is destroyed.. If you can "
+"successfully do this, we will pay 9120, otherwise we will be forced to "
+"eliminate you as a pirate traitor."
+msgstr ""
+
+#: data/mission/escort/aera/outsystem_critical_escort.mission:10
+msgid ""
+"A critical craft carying weapons for the front lines is under attack. You "
+"must assist it in reaching our escort craft on the other side of the jump "
+"point before it is too late. If you succeed we will offer 18280. Failure is "
+"unacceptible to us as Aera and results in execution."
+msgstr ""
+
+#: data/mission/escort/aera/outsystem_escort.mission:10
+msgid ""
+"A craft carying Aera genetic research is in distress. Please assure it can "
+"make it to our escort in the neighboring system before it is destroyed. Due "
+"to the sensitive nature of this mission task we offer 14320. However if you "
+"fail, you will pay the price."
+msgstr ""
+
+#: data/mission/escort/confed/insystem_critical_escort.mission:10
+msgid ""
+"One of our valuable starships is under attack in this system on its way to "
+"one of our starships! Assist at all costs! We will offer 10000 for it making "
+"it safely to our escort."
+msgstr ""
+
+#: data/mission/escort/confed/insystem_escort.mission:10
+msgid ""
+"A craft with supplies for the front line is in distress. Please assure it "
+"can make it to our escort before it is destroyed. If you can successfully do "
+"this, we will pay 8120."
+msgstr ""
+
+#: data/mission/escort/confed/outsystem_critical_escort.mission:10
+msgid ""
+"A critical craft carying medical supplies for the front lines is under "
+"attack. You must assist it in reaching our escort craft on the other side of "
+"the jump point before it is too late. If you succeed we will offer 13280."
+msgstr ""
+
+#: data/mission/escort/confed/outsystem_escort.mission:10
+msgid ""
+"A craft carying soldiers is in distress. Please assure it can make it to our "
+"escort in the neighboring system before it is destroyed. For this heoric "
+"task we offer 11320."
+msgstr ""
+
+#: data/mission/escort/iso/escort_iso_mission2.mission:10
+#: data/mission/escort/iso/outsystem_escort.mission:10
+msgid ""
+"Comrade, we require assistance to stave off these greedy pirates.  They are "
+"attempting to attack our starships and collect the escape pods as slaves.  "
+"Please defend us."
+msgstr ""
+
+#: data/mission/escort/iso/insystem_critical_escort.mission:10
+msgid ""
+"Comrade, a critical shipment of goods to your comrades is under fire by our "
+"common enemies.  Please assist and stave off enemy forces until it reaches a "
+"larger vessel."
+msgstr ""
+
+#: data/mission/escort/iso/insystem_escort.mission:10
+msgid ""
+"Comrade, it has come to out attention that one of our cargo craft is in a "
+"precarious position near confed space. Please defend it until it has safely "
+"arrived to one of our escort starships."
+msgstr ""
+
+#: data/mission/escort/iso/outsystem_critical_escort.mission:10
+msgid ""
+"Critical party members are in a craft attempting to jump.  Hostiles have "
+"approached and begun to attack us. Comrade, your assistance is required!"
+msgstr ""
+
+#: data/mission/escort/merchant/insystem_critical_escort.mission:10
+msgid ""
+"A wealthy corporation has a shipment that is under attack by pirates.  If "
+"you can defend it, this corporation will reward you 9520 credits for your "
+"efforts in preserving their shipment."
+msgstr ""
+
+#: data/mission/escort/merchant/insystem_escort.mission:10
+msgid ""
+"This is a message from a merchant vessel under attack. All friendly craft "
+"please assist! I will reward you with 7840 credits if you can help me get "
+"out of this alive!"
+msgstr ""
+
+#: data/mission/escort/merchant/outsystem_critical_escort.mission:10
+msgid ""
+"A critical craft carying a prototype for a new product is under attack by "
+"greedy pirates. You must assist it in reaching our escort craft on the other "
+"side of the jump point before it is too late. If you succeed we will offer "
+"12480."
+msgstr ""
+
+#: data/mission/escort/merchant/outsystem_escort.mission:10
+msgid ""
+"Our free-trader freighter is in distress. Pirates are attacking us and we "
+"must make it to the next system.  We offer 10120 if you can save us."
+msgstr ""
+
+#: data/mission/escort/pirate/insystem_critical_escort.mission:10
+msgid ""
+"One of our valuable merchant slaying craft is under attack.  Without "
+"support, they will be overtaken. Assist at all costs! We will offer 16400 "
+"for it making it safely to our escort."
+msgstr ""
+
+#: data/mission/escort/pirate/insystem_escort.mission:10
+msgid ""
+"Please assist our starship--we are under attack, and have done no wrong.  "
+"Our bounty is high, and we will share over 18250 credits in riches with you; "
+"however, do not fail otherwise we will be forced to eliminate you as a "
+"confed traitor."
+msgstr ""
+
+#: data/mission/escort/pirate/outsystem_critical_escort.mission:10
+msgid ""
+"This is a pirate craft just having finished a successful boarding of a rich "
+"merchant. We have plenty of spoils of war to share with you, privateer; "
+"however we are under attack! Please assist us immediately and we will offer "
+"you 25000 credits."
+msgstr ""
+
+#: data/mission/escort/pirate/outsystem_escort.mission:10
+msgid ""
+"This is a pirate craft under attack by forces illegally siezing and "
+"searching us. We need immediate help, and offer 16250 credits to anyone who "
+"assists us in reaching a pirate base!"
+msgstr ""
+
+#: data/mission/escort/rlaan/insystem_escort.mission:10
+msgid ""
+"An rlaan craft with supplies for the front line is in distress. You must "
+"assure that it can make it to our escort before it is destroyed.. If you can "
+"successfully do this, we will pay 9120, otherwise we will be forced to "
+"eliminate you as a pirate traitor."
+msgstr ""
+
+#: data/mission/escort/rlaan/outsystem_critical_escort.mission:10
+msgid ""
+"A critical craft carying weapons for the front lines is under attack. You "
+"must assist it in reaching our escort craft on the other side of the jump "
+"point before it is too late. If you succeed we will offer 18280. Failure is "
+"unacceptible to us as Rlaan and results in execution."
+msgstr ""
+
+#: data/mission/escort/rlaan/outsystem_escort.mission:10
+msgid ""
+"A craft carying Rlaan genetic research is in distress. Please assure it can "
+"make it to our escort in the neighboring system before it is destroyed. Due "
+"to the sensitive nature of this mission task we offer 14320. However if you "
+"fail, you will pay the price."
+msgstr ""
+
+#: data/mission/explore_universe.mission:10
+#: data/mission/explore_universe_precache.mission:10
+msgid "Privateer Mission"
+msgstr ""
+
+#: data/mission/explore_universe.mission:13
+#: data/mission/explore_universe_precache.mission:13
+msgid "Like, as if."
+msgstr ""
+
+#: data/mission/gauntlet/aera/aera_gauntlet_1.mission:9
+#: data/mission/gauntlet/aera/aera_gauntlet_2.mission:9
+#: data/mission/gauntlet/aera/aera_gauntlet_3.mission:9
+#: data/mission/gauntlet/confed/confed_gauntlet_1.mission:9
+#: data/mission/gauntlet/confed/confed_gauntlet_2.mission:9
+#: data/mission/gauntlet/confed/confed_gauntlet_3.mission:9
+#: data/mission/gauntlet/rlaan/rlaan_gauntlet_1.mission:9
+#: data/mission/gauntlet/rlaan/rlaan_gauntlet_2.mission:9
+#: data/mission/gauntlet/rlaan/rlaan_gauntlet_3.mission:9
+msgid "You and your wingmen\\battle starships"
+msgstr ""
+
+#: data/mission/internal.mission:5 data/mission/internal_mission_lib.mission:6
+#: data/mission/nothing.mission:5
+msgid "Mission"
+msgstr ""
+
+#: data/mission/internal.mission:6 data/mission/internal_mission_lib.mission:7
+#: data/mission/nothing.mission:6
+msgid "INTERNAL MISSION: DO NOT RUN THIS MISSION!!!"
+msgstr ""
+
+#: data/mission/main_menu.mission:9
+msgid "Vega Strike Main Menu"
+msgstr ""
+
+#: data/mission/main_menu.mission:12 data/mission/modelview.mission:13
+msgid "Welcome to Vega Strike: Upon the Cold Sea."
+msgstr ""
+
+#: data/mission/modelview.mission:10
+msgid "Vega Strike Model viewer"
+msgstr ""
+
+#: data/mission/networking.mission:9
+msgid "Networking"
+msgstr ""
+
+#: data/mission/networking.mission:14
+msgid "Default mission used on a private server."
+msgstr ""
+
+#: data/mission/patrol/explore.mission:9
+#: data/mission/patrol/explore_beta.mission:9
+#: data/mission/patrol/explore_delta_prime.mission:9
+#: data/mission/patrol/explore_gamma.mission:9
+#: data/mission/patrol/patrol.mission:9
+msgid "Patrol Star System"
+msgstr ""
+
+#: data/mission/patrol/explore.mission:10
+#: data/mission/patrol/explore_beta.mission:10
+#: data/mission/patrol/explore_delta_prime.mission:10
+#: data/mission/patrol/explore_gamma.mission:10
+#: data/mission/patrol/patrol.mission:10
+msgid ""
+"We require scanned data from a particular star system.  Unfortunately we "
+"cannot disclose the location at this time due to competitive reasons; "
+"however, we will offer you a sound reward if you take up this patrol."
+msgstr ""
+
+#: data/mission/patrol/patrol_10_insys.mission:9
+#: data/mission/patrol/patrol_10_outsys.mission:9
+#: data/mission/patrol/patrol_5_insys.mission:9
+#: data/mission/patrol/patrol_5_outsys.mission:9
+#: data/mission/patrol/patrol_6_insys.mission:9
+#: data/mission/patrol/patrol_6_outsys.mission:9
+#: data/mission/patrol/patrol_far.mission:9
+#: data/mission/patrol/scout_insys.mission:9
+#: data/mission/patrol/scout_outsys.mission:9
+msgid "Patrol Mission"
+msgstr ""
+
+#: data/mission/patrol/patrol_10_insys.mission:10
+msgid ""
+"Patrol 10 locations in this star systems.  We need this information to "
+"further our plans.  Pay is 9230"
+msgstr ""
+
+#: data/mission/patrol/patrol_10_outsys.mission:10
+msgid ""
+"We require 10 separate patrol points to be scanned in a nearby system. Pay "
+"for this mission will be 12300"
+msgstr ""
+
+#: data/mission/patrol/patrol_5_insys.mission:10
+msgid ""
+"We require five particular strategic points to be patrolled in this system.  "
+"Enemies may be eliminated at your discression. Pay is 7850"
+msgstr ""
+
+#: data/mission/patrol/patrol_5_outsys.mission:10
+msgid ""
+"We require military data for a neighboring system. We will pay 9200 for a "
+"privateer to scan various strategic points in this system and report them to "
+"us."
+msgstr ""
+
+#: data/mission/patrol/patrol_6_insys.mission:10
+msgid ""
+"We will pay 7185 for a privateer to patrol 6 locations in this star systems. "
+"We need data for further tactical analysis."
+msgstr ""
+
+#: data/mission/patrol/patrol_6_outsys.mission:10
+msgid ""
+"Patrol 7 locations in a neighboring star system. This data is vital to our "
+"strategic presence in this system.  You will be paid 9700 for a successful "
+"patrol."
+msgstr ""
+
+#: data/mission/patrol/patrol_far.mission:10
+msgid ""
+"Patrol 8 locations in a distant star systems. We need detailed navigational "
+"data to plan an assault on this system.  Your reward will be 20025 credits."
+msgstr ""
+
+#: data/mission/patrol/scout_far.mission:9
+msgid "Scout Mission"
+msgstr ""
+
+#: data/mission/patrol/scout_far.mission:10
+msgid ""
+"We require a scout to journey to a distant system and return data to us "
+"about a particular location in it.  This is confidential, but you will be "
+"paid 18000 for success."
+msgstr ""
+
+#: data/mission/patrol/scout_insys.mission:10
+msgid ""
+"Our company requires a brave scout to send us navigation data of a nav "
+"point.  Your reward will be 2250 upon verification of data."
+msgstr ""
+
+#: data/mission/patrol/scout_outsys.mission:10
+msgid ""
+"We require you to scout a strategic point in a nearby system. You will be "
+"rewarded 5000 for completion."
+msgstr ""
+
+#: data/mission/test/tail.mission:9
+msgid "Tail Mission"
+msgstr ""
+
+#: data/mission/test/tail.mission:10
+msgid "Test the tail mission."
+msgstr ""
+
+#: data/mission/test/total_jump.mission:10
+#: data/mission/test/total_war_python.mission:10
+#: data/mission/wingman/aera_1.mission:10
+#: data/mission/wingman/confed_1.mission:10
+#: data/mission/wingman/confed_2.mission:10
+#: data/mission/wingman/hunter_1.mission:10
+#: data/mission/wingman/merchant_1.mission:10
+#: data/mission/wingman/militia_1.mission:10
+#: data/mission/wingman/rlaan_1.mission:10
+#: data/mission/wingman/rlaan_2.mission:10
+#: data/mission/wingman/rlaan_3.mission:10
+#: data/mission/wingman/wingman.mission:10
+msgid "HireWingman"
+msgstr ""
+
+#: data/mission/test/total_jump.mission:11
+#: data/mission/test/total_war_python.mission:11
+msgid ""
+"Two merchants are looking to form a convoy with willing participant. Capital "
+"required: 60000."
+msgstr ""
+
+#: data/mission/test/total_war2.mission:4
+#: data/mission/test/total_war_hostile.mission:4
+#: data/mission/test/total_war_neutral.mission:4
+msgid "Total War in Space"
+msgstr ""
+
+#: data/mission/wingman/aera_1.mission:11
+msgid ""
+"Aera escort looking for hire. If you pay on time--you will be protected and "
+"will survive.  Money, 14000 first, questions later."
+msgstr ""
+
+#: data/mission/wingman/confed_1.mission:11
+msgid ""
+"A desperate Ex-Star Confederate soldier is in need of work. He will loyally "
+"escort your cargo vessel and protect it for a low cost of 7500 for a days "
+"work. Thank you dear friends."
+msgstr ""
+
+#: data/mission/wingman/confed_2.mission:11
+msgid ""
+"Two Ex-Star Confederate soldiers are looking for work and are willing to "
+"escort your cargo vessel and protect it for a low cost of 13000 for a days "
+"work. Cash required in advance-- no questions, exceptions or bargains!"
+msgstr ""
+
+#: data/mission/wingman/hunter_1.mission:11
+msgid ""
+"Bounty Hunter willing to escort cargo and other starships. Cost: 8000 -- No "
+"regret."
+msgstr ""
+
+#: data/mission/wingman/merchant_1.mission:11
+#: data/mission/wingman/wingman.mission:11
+msgid ""
+"Two merchants are looking to form a convoy with willing participant. Capital "
+"required: 12000."
+msgstr ""
+
+#: data/mission/wingman/militia_1.mission:11
+msgid ""
+"Former Militia member out of work. I could use some quick cash, so I'll "
+"propose an escort job for 5000 for a day."
+msgstr ""
+
+#: data/mission/wingman/rlaan_1.mission:11
+msgid ""
+"Rlaan lone escort in need of cash. Will escort alien or rlaan alike. Cost "
+"1000 for rlaan 4800 for other species."
+msgstr ""
+
+#: data/mission/wingman/rlaan_2.mission:11
+msgid ""
+"Rlaan escort duo will service users for 12400. No tolerance for any foulplay."
+msgstr ""
+
+#: data/mission/wingman/rlaan_3.mission:11
+msgid ""
+"Rlaan escort trio has need for quick money. Cost for 24000. We will be there "
+"for you if you hire us.."
+msgstr ""

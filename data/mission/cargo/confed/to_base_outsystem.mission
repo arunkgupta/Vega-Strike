@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Base Cargo Delivery" />
-		<var name="description" value="A nearby base requires a resupply. We will disclose the location upon mission acceptance. The base lies within 4 systems. Your pay will be 1275 per system traversed in a minimal path to the destination"/>
+		<var name="mission_name">Base Cargo Delivery</var>
+		<var name="description">A nearby base requires a resupply. We will disclose the location upon mission acceptance. The base lies within 4 systems. Your pay will be 1275 per system traversed in a minimal path to the destination</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.initrandom ('confed', 1, 1275, 0, 2, 4, 1800, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

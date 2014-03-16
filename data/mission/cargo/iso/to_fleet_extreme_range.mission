@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Fleet Cargo Delivery" />
-		<var name="description" value="One of the a far ISO starship needs important cargo to be delivered. The fleet's exact location will be disclosed upon mission acceptance. It lies lies over 9 systems away. The ISO needs this material to assist in a meeting across the stars. You need to be punctual."/>
+		<var name="mission_name">Fleet Cargo Delivery</var>
+		<var name="description">One of the a far ISO starship needs important cargo to be delivered. The fleet's exact location will be disclosed upon mission acceptance. It lies lies over 9 systems away. The ISO needs this material to assist in a meeting across the stars. You need to be punctual.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.initrandom ('ISO', 0, 950, 1, 9, 11, 5000, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

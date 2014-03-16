@@ -99,8 +99,8 @@ class quest_dispute (quest.quest):
             # get the socialist to attack
             if (self.stage==5 and VS.GetGameTime()>self.timer):
                 # the privateer gets involved...   or does he?
-                VS.IOmessage (0,"[Lenin's Mercy]","privateer",self.socColor+"Mayday! We are under attack! Privateer, please help us...  we are no match for them. We have wounded on board!")
-                VS.IOmessage (6,"[VulCorp Transport A-5]","privateer",self.merColor+"Privateer, if you look the other way... you will be duly compensated.")
+                VS.IOmessage (0,"[Lenin's Mercy]","privateer",self.socColor+_("Mayday! We are under attack! Privateer, please help us...  we are no match for them. We have wounded on board!"))
+                VS.IOmessage (6,"[VulCorp Transport A-5]","privateer",self.merColor+_("Privateer, if you look the other way... you will be duly compensated."))
                 self.animations = [["com_dispute_socialist.ani",2],["com_dispute_merchant.ani",2]]
                 self.sequence = [[0,6,0],[6,4,1]]
                 self.talktime = VS.GetGameTime()
@@ -128,20 +128,20 @@ class quest_dispute (quest.quest):
 
             # evaluate the conflict result
             if (self.stage==7 and self.merchant.isNull()):
-                VS.IOmessage (0,"[VulCorp Transport A-5]","all",self.merColor+"Oh nooooo...!!!!!")
+                VS.IOmessage (0,"[VulCorp Transport A-5]","all",self.merColor+_("Oh nooooo...!!!!!"))
                 self.player.commAnimation("com_dispute_merchant.ani")
                 self.stage = 11
             if (self.stage==7 and self.socialist.isNull()):
-                VS.IOmessage (0,"[Lenin's Mercy]","all",self.socColor+"Liberte! Egalite!! Fraternite...!!!!!")
+                VS.IOmessage (0,"[Lenin's Mercy]","all",self.socColor+_("Liberte! Egalite!! Fraternite...!!!!!"))
                 self.player.commAnimation("com_dispute_socialist.ani")
                 self.stage = 21
 
             # if the merchant has died, give player the socialist reward
             if (self.stage==11 and VS.GetGameTime()>self.timer):
                 self.socialist.PrimeOrders()
-                VS.IOmessage (0,"[Lenin's Mercy]","privateer",self.socColor+"Thank you, Privateer! The Interstellar Socialist Organization is in your debt. We are getting our wounded to the base's medical facility.")
-                VS.IOmessage (5,"[Lenin's Mercy]","privateer",self.socColor+"We have no money... but we are transmitting you the coordinates of the cargo we dumped to make room for the attack victims. Do with it what you will.")
-                VS.IOmessage (10,"[Lenin's Mercy]","privateer",self.socColor+"You have made a friend with the ISO today. Have a safe journey.")
+                VS.IOmessage (0,"[Lenin's Mercy]","privateer",self.socColor+_("Thank you, Privateer! The Interstellar Socialist Organization is in your debt. We are getting our wounded to the base's medical facility."))
+                VS.IOmessage (5,"[Lenin's Mercy]","privateer",self.socColor+_("We have no money... but we are transmitting you the coordinates of the cargo we dumped to make room for the attack victims. Do with it what you will."))
+                VS.IOmessage (10,"[Lenin's Mercy]","privateer",self.socColor+_("You have made a friend with the ISO today. Have a safe journey."))
                 self.animations = [["com_dispute_socialist.ani",2]]
                 self.sequence = [[0,15,0]]
                 self.talktime = VS.GetGameTime()
@@ -153,10 +153,10 @@ class quest_dispute (quest.quest):
                 # reputation with ISO goes up. Not sure of the numbers
                 VS.AdjustRelation(self.player.getFactionName(),self.socialist.getFactionName(),1,5)
                 # publish news
-                text = "PRIVATEER SAVES SHIPLOAD OF WOUNDED\\\Today, an unprecedented dispute about landing priorities took place close to a station in the Regallis system of Sol sector. "
-                text += "A merchant was delivering a priority shipment to a station in the system while an ISO transport vessel requested emergency landing having twelve rescued passengers on board who were previously wounded in a pirate attack. "
-                text += "A privateer approaching that base at the same time, and assisting the dispute, reacted to the situation before security forces could arrive at the scene and promptly removed the capitalist bloodsucker, thus saving many lives. "
-                text += "Presently, the injured are being taken care of at the medical facilities of the station with two heavily wounded remaining under intensive care."
+                text = _("PRIVATEER SAVES SHIPLOAD OF WOUNDED\\\Today, an unprecedented dispute about landing priorities took place close to a station in the Regallis system of Sol sector. ")
+                text += _("A merchant was delivering a priority shipment to a station in the system while an ISO transport vessel requested emergency landing having twelve rescued passengers on board who were previously wounded in a pirate attack. ")
+                text += _("A privateer approaching that base at the same time, and assisting the dispute, reacted to the situation before security forces could arrive at the scene and promptly removed the capitalist bloodsucker, thus saving many lives. ")
+                text += _("Presently, the injured are being taken care of at the medical facilities of the station with two heavily wounded remaining under intensive care.")
                 news.publishNews(text)
                 # set next stage conditions
                 self.timer = VS.GetGameTime()+15
@@ -177,8 +177,8 @@ class quest_dispute (quest.quest):
                 self.merchant.PrimeOrders()
                 # if the merchant is still friends with the self.player, the merchant gives him a nice chunk of cash
                 if (5 > -.1):
-                    VS.IOmessage (0,"[VulCorp Transport A-5]","privateer",self.merColor+"Privateer, thank you for your cooperation.")
-                    VS.IOmessage (3,"[VulCorp Transport A-5]","privateer",self.merColor+"We will be able to make a killing on this shipment thanks to you. Here are 15000 credits for your trouble.")
+                    VS.IOmessage (0,"[VulCorp Transport A-5]","privateer",self.merColor+_("Privateer, thank you for your cooperation."))
+                    VS.IOmessage (3,"[VulCorp Transport A-5]","privateer",self.merColor+_("We will be able to make a killing on this shipment thanks to you. Here are 15000 credits for your trouble."))
                     self.animations = [["com_dispute_merchant.ani",2]]
                     self.sequence = [[0,8,0]]
                     self.talktime = VS.GetGameTime()
@@ -186,9 +186,9 @@ class quest_dispute (quest.quest):
                     # rep with merchants goes up
                     VS.AdjustRelation(self.player.getFactionName(),self.merchant.getFactionName(),.1,.5)
                     # publish news
-                    text = "MALICIOUS MERCHANT MASSACRES MARXIST MERCY MISSION\\\Today, an unprecedented dispute about landing priorities took place close to a station in the Regallis system of Sol sector. "
-                    text += "A merchant was delivering a priority shipment to a station in the system while an ISO transport vessel requested emergency landing having twelve rescued passengers on board who were previously wounded in a pirate attack. "
-                    text += "Before security forces could arrive at the scene the merchant pilot promptly applied his own justice scheme thus reducing the other vessel cum content to space dust."
+                    text = _("MALICIOUS MERCHANT MASSACRES MARXIST MERCY MISSION\\\Today, an unprecedented dispute about landing priorities took place close to a station in the Regallis system of Sol sector. ")
+                    text += _("A merchant was delivering a priority shipment to a station in the system while an ISO transport vessel requested emergency landing having twelve rescued passengers on board who were previously wounded in a pirate attack. ")
+                    text += _("Before security forces could arrive at the scene the merchant pilot promptly applied his own justice scheme thus reducing the other vessel cum content to space dust.")
                     news.publishNews(text)
                     # set next stage conditions
                     self.timer = VS.GetGameTime()+8
@@ -242,15 +242,15 @@ class quest_dispute (quest.quest):
 
     def stageDockingDispute(self):
         # the comm interchange between the two ships
-        VS.IOmessage (0,"[VulCorp Transport A-5]","all",self.merColor+"VulCorp Transport alpha five requesting priority docking.")
-        VS.IOmessage (5,"[VulCorp Transport A-5]","all",self.merColor+"We have a load of spare parts that needs to be delivered within the next half hour, or else we don't get paid.")
-        VS.IOmessage (15,"[Lenin's Mercy]","all",self.socColor+"Negative, transport Lenin's Mercy requesting emergency docking. We have thirteen critically injured passengers.")
-        VS.IOmessage (25,"[Lenin's Mercy]","all",self.socColor+"We picked them up after a squadron of pirates attacked their ship. They need immediate medical attention!")
-        VS.IOmessage (35,"[VulCorp Transport A-5]","all",self.merColor+"Station control, might we remind you that we have a contract with your base? We demand priority in the docking queue so we can complete our transaction.")
-        VS.IOmessage (45,"[Lenin's Mercy]","all",self.socColor+"You capitalist pigs! We have dying men and women on board, and all you can think about is your filthy money!")
-        VS.IOmessage (55,"[VulCorp Transport A-5]","all",self.merColor+"Socialist vessel: Stay out of the docking queue or you will be fired upon. We will not let a bunch of bleeding communists turn this major deal sour!")
-        VS.IOmessage (65,"[Lenin's Mercy]","all",self.socColor+"Negative, VulCorp Transport. The lives of our passengers are worth more than your profits!")
-        VS.IOmessage (75,"[VulCorp Transport A-5]","all",self.merColor+"All batteries! Open fire!!")
+        VS.IOmessage (0,"[VulCorp Transport A-5]","all",self.merColor+_("VulCorp Transport alpha five requesting priority docking."))
+        VS.IOmessage (5,"[VulCorp Transport A-5]","all",self.merColor+_("We have a load of spare parts that needs to be delivered within the next half hour, or else we don't get paid."))
+        VS.IOmessage (15,"[Lenin's Mercy]","all",self.socColor+_("Negative, transport Lenin's Mercy requesting emergency docking. We have thirteen critically injured passengers."))
+        VS.IOmessage (25,"[Lenin's Mercy]","all",self.socColor+_("We picked them up after a squadron of pirates attacked their ship. They need immediate medical attention!"))
+        VS.IOmessage (35,"[VulCorp Transport A-5]","all",self.merColor+_("Station control, might we remind you that we have a contract with your base? We demand priority in the docking queue so we can complete our transaction."))
+        VS.IOmessage (45,"[Lenin's Mercy]","all",self.socColor+_("You capitalist pigs! We have dying men and women on board, and all you can think about is your filthy money!"))
+        VS.IOmessage (55,"[VulCorp Transport A-5]","all",self.merColor+_("Socialist vessel: Stay out of the docking queue or you will be fired upon. We will not let a bunch of bleeding communists turn this major deal sour!"))
+        VS.IOmessage (65,"[Lenin's Mercy]","all",self.socColor+_("Negative, VulCorp Transport. The lives of our passengers are worth more than your profits!"))
+        VS.IOmessage (75,"[VulCorp Transport A-5]","all",self.merColor+_("All batteries! Open fire!!"))
         # initialize the animation parameters
         # the animations to be alternated - animation file and animation duration
         self.animations = [["com_dispute_merchant.ani",2],["com_dispute_socialist.ani",2]]

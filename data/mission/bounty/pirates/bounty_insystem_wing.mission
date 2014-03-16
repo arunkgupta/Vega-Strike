@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Pirate Bounty Mission" />
-		<var name="description" value="We believe that destroying the wing leader of a pitiful band of pirates in this system will disrupt their recent plundering of traders in the area sufficiently to stave off any potential damage.  Upon leader's destruction you will earn 13892 credits." />
+		<var name="mission_name">Pirate Bounty Mission</var>
+		<var name="description">We believe that destroying the wing leader of a pitiful band of pirates in this system will disrupt their recent plundering of traders in the area sufficiently to stave off any potential damage.  Upon leader's destruction you will earn 13892 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = bounty.bounty (0, 0, 13892, 0, 2, 'pirates')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="bounty"/>
 		<script name="initgame">
 			<exec module="bounty" name="init">

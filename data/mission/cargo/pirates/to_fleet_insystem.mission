@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Contraband Delivery Mission" />
-		<var name="description" value="To all money grubbing privateers out there. We need you to deliver some contraband to a base in this system. We will let you know the details later. Don't sell our spoils or be spoiled by our forces. We pirates will pay is 4450 credits." />
+		<var name="mission_name">Contraband Delivery Mission</var>
+		<var name="description">To all money grubbing privateers out there. We need you to deliver some contraband to a base in this system. We will let you know the details later. Don't sell our spoils or be spoiled by our forces. We pirates will pay is 4450 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.cargo_mission ('pirates', 0, 10, 4,  4450, 1, 1050, '
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

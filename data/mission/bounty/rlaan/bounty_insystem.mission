@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="A lone rlaan scout has penetrated into this system, and must be destroyed. The scout is believed to be alone, and should be an easy target once it is located. You will be payed 8088 credits for success on this mission." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">A lone rlaan scout has penetrated into this system, and must be destroyed. The scout is believed to be alone, and should be an easy target once it is located. You will be payed 8088 credits for success on this mission.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = bounty.bounty (0, 0, 8088, 0, 0, 'rlaan')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="bounty"/>
 		<script name="initgame">
 			<exec module="bounty" name="init">

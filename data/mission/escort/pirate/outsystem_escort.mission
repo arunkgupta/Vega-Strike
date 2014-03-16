@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort" />
-		<var name="description" value="This is a pirate craft under attack by forces illegally siezing and searching us. We need immediate help, and offer 16250 credits to anyone who assists us in reaching a pirate base!" />
+		<var name="mission_name">Escort</var>
+		<var name="description">This is a pirate craft under attack by forces illegally siezing and searching us. We need immediate help, and offer 16250 credits to anyone who assists us in reaching a pirate base!</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = escort_mission.initrandom ('aera', 4, 16250, 100, 2)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="escort_mission"/>
 		<script name="initgame">
 			<exec module="escort_mission" name="initrandom">

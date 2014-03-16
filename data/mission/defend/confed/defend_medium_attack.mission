@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Base" />
-		<var name="description" value="A confed assault wing has jumped in and is moving for an attack on one of our capitol starships in this system. Your task is to eliminate them before they eliminate our starship--reward is 3550 credits per fighter" />
+		<var name="mission_name">Defend Base</var>
+		<var name="description">A confed assault wing has jumped in and is moving for an attack on one of our capitol starships in this system. Your task is to eliminate them before they eliminate our starship--reward is 3550 credits per fighter</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = defend.initrandom ('aera', 0, 2, 4, 3550, 1, 0)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="defend"/>
 		<script name="initgame">
 			<exec module="defend" name="initrandom">

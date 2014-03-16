@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Deliver Urgent Cargo" />
-		<var name="description" value="United Earth Navy needs important cargo delivered to a military base on an installation in system ASAP. If the mission is completed you will be credited 2720.  This cargo is critical for our operations, you must deliver immediately. Failure will be punished." />
+		<var name="mission_name">Deliver Urgent Cargo</var>
+		<var name="description">United Earth Navy needs important cargo delivered to a military base on an installation in system ASAP. If the mission is completed you will be credited 2720.  This cargo is critical for our operations, you must deliver immediately. Failure will be punished.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.cargo_mission ('confed', 0, 6, 4,  2720, 0, 800, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

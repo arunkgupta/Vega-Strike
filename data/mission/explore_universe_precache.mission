@@ -7,15 +7,15 @@
 <!--		<var name="continuousterrain" value="continuousterrain.txt"/>-->
 		<var name="credits" value="13500"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="Privateer Mission" />
+		<var name="mission_name">Privateer Mission</var>
 		<var name="difficulty" value=".05"/><!--good starting difficulty here-->
 		<var name="system" value="Crucible/Cephid_17" />
-		<var name="description" value="Like, as if." />
+		<var name="description">Like, as if.</var>
 		<var name="savegame" value="explore_universe_difficulty" />
 	</variables>
         <flightgroups>
                 <flightgroup name="Shlimazel" faction="privateer" type="beholder" ainame="default" waves="1" nr_ships="1">
-			<pos x="-95124024.543917" y="412089916.256812" z="-110779667.398050"/>  
+			<pos x="-95124024.543917" y="412089916.256812" z="-110779667.398050"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 			<order order="tmptarget" target="omikron"/>
 			<order priority="0" order="superiority" target="enemy"/>

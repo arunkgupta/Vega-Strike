@@ -6,12 +6,12 @@
 	<variables>
 	<!--            <var name="continuousterrain" value="continuousterrain.txt"/>-->
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
 		<var name="system" value="blank" />
 		<var name="credits" value="1000000" />
-		<var name="description" value="4vs4.txt" />
-	</variables> 
+		<var name="description">4vs4.txt</var>
+	</variables>
 		<flightgroups>
 				<flightgroup name="brown" faction="confed" type="wayfarer.begin" ainame="default" waves="1" nr_ships="1">
 			<pos x="51500" y="2000" z="32000.0"/>
@@ -29,7 +29,7 @@
 			<pos x="51500" y="2000" z="23000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		</flightgroup>
-<!--				<flightgroup name="browng" faction="aera" type="fleetcarrier" ainame="default" waves="1" nr_ships="1">
+				<flightgroup name="browng" faction="aera" type="fleetcarrier" ainame="default" waves="1" nr_ships="1">
 			<pos x="51500" y="2000" z="23000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		</flightgroup>-->

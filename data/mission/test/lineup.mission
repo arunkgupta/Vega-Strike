@@ -8,10 +8,10 @@
 <!--		<var name="difficulty" value=".1" />-->
 		<var name="credits" value="10000"/>
 		<var name="defaultplayer" value="blue"/>
-		<var name="mission_name" value="4 versus 4" />
+		<var name="mission_name">4 versus 4</var>
 		<var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
 		<var name="system" value="sol_sector/sol" />
-		<var name="description" value="4vs4.txt" />
+		<var name="description">4vs4.txt</var>
 	</variables>
 
         <flightgroups>
@@ -137,7 +137,7 @@
                         <pos x="5250" y="30000" z="30000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
 		    </flightgroup>
- 
+
                 <flightgroup name="hispidus" faction="confed" type="hispidus" ainame="borken.py" waves="1" nr_ships="1">
                         <pos x="6500" y="30000" z="30000.0"/>
 			<rot x="180.0" y="180.0" z="180.0"/>
@@ -179,7 +179,7 @@
 		    </flightgroup>
 
 
-             
+
 
 
 

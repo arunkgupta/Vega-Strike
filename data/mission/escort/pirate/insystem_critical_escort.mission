@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/sirius" />
-		<var name="mission_name" value="Escort--Distress Critical" />
-		<var name="description" value="One of our valuable merchant slaying craft is under attack.  Without support, they will be overtaken. Assist at all costs! We will offer 16400 for it making it safely to our escort." />
+		<var name="mission_name">Escort--Distress Critical</var>
+		<var name="description">One of our valuable merchant slaying craft is under attack.  Without support, they will be overtaken. Assist at all costs! We will offer 16400 for it making it safely to our escort.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = escort_mission.initrandom ('aera', 1, 16500, 65, 0)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="escort_mission"/>
 		<script name="initgame">
 			<exec module="escort_mission" name="initrandom">

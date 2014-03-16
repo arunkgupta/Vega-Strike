@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Cargo Mission" />
-		<var name="description" value="Comrade, one of the party members in system requires some sipplies. Please deliver them to him." />
+		<var name="mission_name">Cargo Mission</var>
+		<var name="description">Comrade, one of the party members in system requires some sipplies. Please deliver them to him.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="ISO" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.cargo_mission ('ISO', 0, 8, 0,  20000, 0, 1200,'Contr
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

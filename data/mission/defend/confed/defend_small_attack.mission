@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Defend Strategic Point" />
-		<var name="description" value="A confed scout wing has jumped in and started causing us trouble in this system. Your task is to eliminate them--reward is 6050 credits per scout" />
+		<var name="mission_name">Defend Strategic Point</var>
+		<var name="description">A confed scout wing has jumped in and started causing us trouble in this system. Your task is to eliminate them--reward is 6050 credits per scout</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,11 +25,11 @@ newmission = defend.initrandom ('confed', 0, 1, 3, 6050, 0, 0)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="defend"/>
 		<script name="initgame">
 			<exec module="defend" name="initrandom">
-			<const type="object" object="string" value="confed"/> 
+			<const type="object" object="string" value="confed"/>
 			<const type="int" value="0"/> <!--num systems away the delivery point is -->
 			<const type="int" value="1"/><!--ammt of enemies guaranteed -->
 			<const type="int" value="3"/><!--ammt of enemies guaranteed -->

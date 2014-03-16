@@ -1,10 +1,10 @@
 <mission>
    <variables>
       <var name="defaultplayer" value="blue"/>
-      <var name="mission_name" value="Total War in Space" />
+      <var name="mission_name">Total War in Space</var>
       <var name="splashscreen" value="bad_guys_vs_good_guys.bmp" />
       <var name="system" value="blank" />
-      <var name="description" value="4vs4.txt" />
+      <var name="description">4vs4.txt</var>
 	<var name="author" value="Alexander Rawass" />
    </variables>
         <flightgroups>

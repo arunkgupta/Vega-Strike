@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Bounty Mission" />
-		<var name="description" value="A pair of aera ships has been sighted in this system.  They have gotten important information and are attempting to escape. You must destroy them instead: you will earn 13460 credits." />
+		<var name="mission_name">Bounty Mission</var>
+		<var name="description">A pair of aera ships has been sighted in this system.  They have gotten important information and are attempting to escape. You must destroy them instead: you will earn 13460 credits.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = bounty.bounty (0, 0, 13460, 1, 1, 'aera')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="bounty"/>
 		<script name="initgame">
 			<exec module="bounty" name="init">

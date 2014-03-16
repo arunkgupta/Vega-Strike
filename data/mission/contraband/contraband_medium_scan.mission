@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="sol_sector/hammer" />
-		<var name="mission_name" value="Contraband Mission" />
-		<var name="description" value="Destroy ships with contraband on them." />
+		<var name="mission_name">Contraband Mission</var>
+		<var name="description">Destroy ships with contraband on them.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">

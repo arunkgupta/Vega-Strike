@@ -6,7 +6,7 @@ import Director
 
 TRIGGER_SAVE = "IntroJP"
 TRIGGER_VALUE = 1
-TRIGGER_MESSAGE = ["[Reminder]","Jenek on Wiley may have a jump drive going cheap."]
+TRIGGER_MESSAGE = ["[Reminder]",_("Jenek on Wiley may have a jump drive going cheap.")]
 
 DEFAULT_VALUE = 0
 REFUSED_VALUE = 2
@@ -117,65 +117,65 @@ def getJenekConversation():
                             [str(TRIGGER_SAVE) + '#' + str(TRIGGER_VALUE)],
                             ["#\nimport quest_intro\nquest_intro.interactWithJenek(\"jenek\")"],
                             "bases/fixers/merchant.spr",
-                            "Talk to Jenek about the jump drive." ))
+                            _("Talk to Jenek about the jump drive.") ))
     roo.addSubNode(SubNode( "unknownjenek",
                             list(),
                             ["#\nimport quest_intro\nquest_intro.interactWithJenek(\"jenek\")"],
                             "bases/fixers/merchant.spr",
-                            "Talk to Jenek." ))
+                            _("Talk to Jenek.") ))
     con.addNode(roo)
 
     jen = Node()
-    jen.addSubNode(SubNode( "Ahh, that's right.  You're here about the jump drive!",
+    jen.addSubNode(SubNode( _("Ahh, that's right.  You're here about the jump drive!"),
                             [str(TRIGGER_SAVE) + '#' + str(TRIGGER_VALUE)],
                             ["bases/fixers/no.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"nojump\")|Sorry, what else do you have?",
                              "bases/fixers/yes.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"yesjump\")|Yeah, I'm interested."],
                             "bases/fixers/merchant.spr",
-                            "Talk to Jenek about the jump drive." ))
+                            _("Talk to Jenek about the jump drive.") ))
     jen.addSubNode(SubNode( "So you're interested in the jump drive now?",
                             [str(TRIGGER_SAVE) + '#' + str(REFUSED_VALUE)],
                             ["bases/fixers/no.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"nojump\")|Sorry.",
                              "bases/fixers/yes.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"yesjump\")|Yeah, I'm interested."],
                             "bases/fixers/merchant.spr",
-                            "Talk to Jenek about the jump drive." ))
-    jen.addSubNode(SubNode( "Well, what are you waiting for?  Go and give it a spin!",
+                            _("Talk to Jenek about the jump drive.") ))
+    jen.addSubNode(SubNode( _("Well, what are you waiting for?  Go and give it a spin!"),
                             ["#\nimport quest_intro\nresult = quest_intro.haveDrive()"] ))
-    jen.addSubNode(SubNode( "You're back!  Quite a party that was the other night, if it wasn't for my reminder I would have forgotten you!  You still interested in that jump drive I've got?",
+    jen.addSubNode(SubNode( _("You're back!  Quite a party that was the other night, if it wasn't for my reminder I would have forgotten you!  You still interested in that jump drive I've got?"),
                             list(),
                             ["bases/fixers/no.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"forgetjump\")|Sorry, I have no idea what you are talking about!",
                              "bases/fixers/yes.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"yesjump\")|I completely forgot myself!  Of course I'm interested."],
                             "bases/fixers/merchant.spr",
-                            "Talk to Jenek." ))
+                            _("Talk to Jenek.") ))
     con.addNode(jen,"jenek")
 
     forg = Node()
-    forg.addSubNode(SubNode(    "Well, I can't say I'm surprised ... not with the amount of Tripezian Premium you downed!  Anyway, I've come across a few \'spare\' jump drives, and your ship, last you spoke about it, was one short.  Are you still as interested as you were then?",
+    forg.addSubNode(SubNode(    _("Well, I can't say I'm surprised ... not with the amount of Tripezian Premium you downed!  Anyway, I've come across a few \'spare\' jump drives, and your ship, last you spoke about it, was one short.  Are you still as interested as you were then?"),
                             list(),
                             ["bases/fixers/no.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"nojump\")|Sorry, don't suppose you've got anything else?",
                              "bases/fixers/yes.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"yesjump\")|Yeah, I'm interested."] ))
     con.addNode(forg, "forgetjump")
 
     yes = Node()
-    yes.addSubNode(SubNode( "Great!  I can let you have one for just %s.  Do you want it now?"%str(JP_DRV_PRICE),
+    yes.addSubNode(SubNode( _("Great!  I can let you have one for just %s.  Do you want it now?")%str(JP_DRV_PRICE),
                             list(),
                             ["bases/fixers/no.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"rejectdrive\")|Maybe later.",
                              "bases/fixers/yes.spr|#\nimport quest_intro\nquest_intro.interactWithJenek(\"takedrive\")|Okay."] ))
     con.addNode(yes, "yesjump")
 
     no = Node()
-    no.addSubNode(SubNode(  "If it's not about the jump drive I don't have the time.  Come back later." ))
+    no.addSubNode(SubNode(  _("If it's not about the jump drive I don't have the time.  Come back later.") ))
     con.addNode(no, "nojump")
 
     tak = Node()
-    tak.addSubNode(SubNode( "I'll send some mechanics to fit it for you now.  Nice to see you again!",
+    tak.addSubNode(SubNode( _("I'll send some mechanics to fit it for you now.  Nice to see you again!"),
                             ["#\nimport quest_intro\nresult = quest_intro.buyDrive()==%s"%str(DRV_SUCCESS)] ))
-    tak.addSubNode(SubNode( "You idiot, you already have a jumpdrive!",
+    tak.addSubNode(SubNode( _("You idiot, you already have a jumpdrive!"),
                             ["#\nimport quest_intro\nresult = quest_intro.buyDrive()==%s"%str(DRV_FAIL)] ))
-    tak.addSubNode(SubNode( "Sorry, it looks like your account is a little dry.  Come back when you've got %s credit."%str(JP_DRV_PRICE) ))
+    tak.addSubNode(SubNode( _("Sorry, it looks like your account is a little dry.  Come back when you've got %s credit.")%str(JP_DRV_PRICE) ))
     con.addNode(tak, "takedrive")
 
     rej = Node()
-    rej.addSubNode(SubNode( "Fine.  I may not be around for much longer though." ))
+    rej.addSubNode(SubNode( _("Fine.  I may not be around for much longer though.") ))
     con.addNode(rej, "rejectdrive")
 
     return con

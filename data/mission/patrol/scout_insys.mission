@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Patrol Mission" />
-		<var name="description" value="Our company requires a brave scout to send us navigation data of a nav point.  Your reward will be 2250 upon verification of data." />
+		<var name="mission_name">Patrol Mission</var>
+		<var name="description">Our company requires a brave scout to send us navigation data of a nav point.  Your reward will be 2250 upon verification of data.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = patrol.patrol (0, 1, 300, 2250)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="patrol"/>
 		<script name="initgame">
 			<exec module="patrol" name="init">

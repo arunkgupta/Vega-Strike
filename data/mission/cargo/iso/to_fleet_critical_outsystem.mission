@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="Long Range Fleet Cargo Delivery" />
-		<var name="description" value="The Interplanetary Socialists need cargo to be delivered across a large number of systems to our waiting starships.  The cargo is not welcome in this side of the galaxy, so please be careful, Comrade--you have no backup until you arrive."/>
+		<var name="mission_name">Long Range Fleet Cargo Delivery</var>
+		<var name="description">The Interplanetary Socialists need cargo to be delivered across a large number of systems to our waiting starships.  The cargo is not welcome in this side of the galaxy, so please be careful, Comrade--you have no backup until you arrive.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = cargo_mission.initrandom ('ISO', 1, 2100, 1, 5, 8, 1300, '')
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="cargo_mission"/>
 		<script name="initbriefing">
 			<exec module="cargo_mission" name="initbriefing">

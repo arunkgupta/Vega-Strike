@@ -6,8 +6,8 @@
 	<variables>
 		<var name="defaultplayer" value="blue"/>
 		<var name="system" value="enigma_sector/enigma" />
-		<var name="mission_name" value="Defend Against Retro Insurgent" />
-		<var name="description" value="A lone retro-religious fanatic has been reportedly terrorizing freighters in this system. Your task is to eliminate this misguided man--reward is 4300 credits" />
+		<var name="mission_name">Defend Against Retro Insurgent</var>
+		<var name="description">A lone retro-religious fanatic has been reportedly terrorizing freighters in this system. Your task is to eliminate this misguided man--reward is 4300 credits</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="2">
@@ -25,7 +25,7 @@ newmission = defend.defend ('retro', 0, 1, 2000, 100000, 4300, 0, 0)
 newmission=0
 
 </python>
-	<madule name="director">
+	<module name="director">
 		<import name="defend"/>
 		<script name="initgame">
 			<exec module="defend" name="init">

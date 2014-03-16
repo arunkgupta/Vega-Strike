@@ -7,13 +7,13 @@
 		<var name="defaultplayer" value="blue"/>
 		<var name="credits" value="00000"/>
 		<var name="system" value="enigma_sector/blake" />
-		<var name="mission_name" value="HireWingman" />
-		<var name="description" value="Two merchants are looking to form a convoy with willing participant. Capital required: 12000." />
+		<var name="mission_name">HireWingman</var>
+		<var name="description">Two merchants are looking to form a convoy with willing participant. Capital required: 12000.</var>
 	</variables>
         <flightgroups>
                 <flightgroup name="blue" faction="confed" type="nova" ainame="default" waves="1" nr_ships="1">
 			<pos x="0400" y="-35400" z="47200000"/>
- 
+
 			<rot x="180.0" y="180.0" z="180.0"/>
 			<order order="tmptarget" target="omikron"/>
 			<order priority="0" order="superiority" target="enemy"/>
