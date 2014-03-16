@@ -59,10 +59,10 @@ class quest_shipyardbomb (quest.quest):
                     self.timer = VS.GetGameTime()+10
                     self.stage = 2
             if (self.stage==2 and VS.GetGameTime()>=self.timer):
-                VS.IOmessage(0,unit.getUnitFullName(self.shipyard),"all",self.msgColor[0]+"Large Explosion detected... standby...%#@*")
-                text = "NAVAL SHIPYARDS HIT BY BOMB\\\Disaster struck the Confederate Naval Shipyards orbiting Alpha Centauri hours ago, when a powerful explosive device detonated, crippling a fleet carrier that was nearing completion. "
-                text += "At least a dozen casualties were reported with an unknown number of injured, and salvage crews are still working hard to clear the area of wreckage. "
-                text += "A team from the CSP (Confederate Security Police) arrived at the shipyards mere hours after the incident, and an investigation has been launched to determine who the perpetrators of this attack were, whether they were human terrorists or agents of an alien power."
+                VS.IOmessage(0,unit.getUnitFullName(self.shipyard),"all",self.msgColor[0]+_("Large Explosion detected... standby...%#@*"))
+                text = _("NAVAL SHIPYARDS HIT BY BOMB\\\Disaster struck the Confederate Naval Shipyards orbiting Alpha Centauri hours ago, when a powerful explosive device detonated, crippling a fleet carrier that was nearing completion. ")
+                text +=_("At least a dozen casualties were reported with an unknown number of injured, and salvage crews are still working hard to clear the area of wreckage. ")
+                text += _("A team from the CSP (Confederate Security Police) arrived at the shipyards mere hours after the incident, and an investigation has been launched to determine who the perpetrators of this attack were, whether they were human terrorists or agents of an alien power.")
                 news.publishNews(text)
                 self.stage = 99
             if (self.stage==99 and not VS.getSystemName()==self.system):
