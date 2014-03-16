@@ -23,7 +23,7 @@ class quest_contraband_truck (quest.quest):
 
     def mission_fail(self):
         print("mission failed")
-        VS.IOmessage (0,"game","news","AERAN WARP CORE EXPLODES: \n GNN reports the explosion of a warp core in Klondike system today.  The unstable core was apparently being smuggled out of Confederation space by cloaked Aeran ships.  It is understood that the Aeran ships, and an unknown privateer vessel were in the aera.  They are presumed destroyed.\n\n  GNN --- Your News Network Anywhere")
+        VS.IOmessage (0,"game","news",_("AERAN WARP CORE EXPLODES: \n GNN reports the explosion of a warp core in Klondike system today.  The unstable core was apparently being smuggled out of Confederation space by cloaked Aeran ships.  It is understood that the Aeran ships, and an unknown privateer vessel were in the aera.  They are presumed destroyed.\n\n  GNN --- Your News Network Anywhere"))
         print("mission terminating")
 
         print("mission terminated")
@@ -33,9 +33,9 @@ class quest_contraband_truck (quest.quest):
     def mission_success(self):
         self.confed_cruiser=launch.launch_wave_around_unit("Sonorous","confed","corvette","default",1,4000,8000,self.cargo_container)
         self.confed_epeels=launch.launch_wave_around_unit("Sonorous E1","confed","epeellcat","default",5,1000,1000,self.confed_cruiser)
-        VS.IOmessage (3,"Sonorous Command","all","Attention Private Vessel!")
-        VS.IOmessage (4,"Sonorous Command","all","Under Code 1530 of the Trade Practices Charter, we take posession of this cargo pod.")
-        VS.IOmessage (6,"Sonorous Command","all","Please remove yourself or we will remove you.")
+        VS.IOmessage (3,"Sonorous Command","all",_("Attention Private Vessel!"))
+        VS.IOmessage (4,"Sonorous Command","all",_("Under Code 1530 of the Trade Practices Charter, we take posession of this cargo pod."))
+        VS.IOmessage (6,"Sonorous Command","all",_("Please remove yourself or we will remove you."))
         self.jumpout = 0
         self.quest_exit = 1
 
@@ -102,9 +102,9 @@ class quest_contraband_truck (quest.quest):
 
             print("begin msgs")
 
-            VS.IOmessage (0,"Aera SpecOpp","all","[Translate: Aernoss -> Englysh] Turn your attention <surprise> Entity/self triggered item warp core!")
-            VS.IOmessage (5,"Aera SpecOpp","all","[Translate: Aernoss -> Englysh] <fear, anxiety, anger> Filthy human procreate entity/self!")
-            VS.IOmessage (12,"Aera SpecOpp","all","[Translate: Aernoss -> Englysh] Group leave fast danger avo...")
+            VS.IOmessage (0,"Aera SpecOpp","all",_("[Translate: Aernoss -> Englysh] Turn your attention <surprise> Entity/self triggered item warp core!"))
+            VS.IOmessage (5,"Aera SpecOpp","all",_("[Translate: Aernoss -> Englysh] <fear, anxiety, anger> Filthy human procreate entity/self!"))
+            VS.IOmessage (12,"Aera SpecOpp","all",_("[Translate: Aernoss -> Englysh] Group leave fast danger avo..."))
             print("ended msgs")
             self.jumpout = 1
             self.repeat_end2 = 0
@@ -127,10 +127,10 @@ class quest_contraband_truck (quest.quest):
 
             self.playa.JumpTo("gemini_sector/pestilence")
             print("jumped playa")
-            VS.IOmessage (0,"Aera SpecOpp","all","[Translate: Aernoss -> Englysh] ...id")
-            VS.IOmessage (5,"Aera SpecOpp","all","[Translate: Aernoss -> Englysh] <untranslatable> section of excretement <untranslatable> human <untranslatable> genitalia <untranslatable> fire <untranslatable> nice day.")
+            VS.IOmessage (0,"Aera SpecOpp","all",_("[Translate: Aernoss -> Englysh] ...id"))
+            VS.IOmessage (5,"Aera SpecOpp","all",_("[Translate: Aernoss -> Englysh] <untranslatable> section of excretement <untranslatable> human <untranslatable> genitalia <untranslatable> fire <untranslatable> nice day."))
 
-            VS.IOmessage (0,"Aera SpecOpp","all","[Translate: Aernoss -> Englysh] Flee smart to go entity/self <conditional> life value.")
+            VS.IOmessage (0,"Aera SpecOpp","all","_([Translate: Aernoss -> Englysh] Flee smart to go entity/self <conditional> life value."))
 
             print("done all but fail")
             self.mission_fail()
