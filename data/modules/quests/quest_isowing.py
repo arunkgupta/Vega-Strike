@@ -91,14 +91,14 @@ class quest_isowing (quest.quest):
         self.enfaction=enfaction
         self.ennum = ennum
     def Intro(self):
-        VS.IOmessage (0,"game","all","[%s Enforcers] Under edict 502419 We hereby command"%self.enfaction)
-        VS.IOmessage (0,"game","all","[%s Enforcers] All %s terrorists to power down and prepare to be boarded."%(self.enfaction,self.faction))
-        VS.IOmessage (3,"game","all","[%s Enforcers] You are in violation of anti-terrorist laws."%self.enfaction)
-        VS.IOmessage (4,"game","all","[%s Enforcers] And are conspiring against the legitimate Star Confederacy."%self.enfaction)
-        VS.IOmessage (5,"game","all","[%s Wing] We have nothing to do with your alleged terrorists"%self.faction)
-        VS.IOmessage (5,"game","all","[%s Wing] and are only exercising our freedom of assembly."%self.faction)
-        VS.IOmessage (8,"game","all","[%s Wing] This is a %s wing requesting assistance from any nearby craft! We are being arrested unfairly!"% (self.faction,self.faction))
-        VS.IOmessage (8,"game","all","[%s Wing] Should anyone honor our request for help we would be severely in debt!"% self.faction)
+        VS.IOmessage (0,"game","all",_("[%s Enforcers] Under edict 502419 We hereby command")%self.enfaction)
+        VS.IOmessage (0,"game","all",_("[%s Enforcers] All %s terrorists to power down and prepare to be boarded.")%(self.enfaction,self.faction))
+        VS.IOmessage (3,"game","all",_("[%s Enforcers] You are in violation of anti-terrorist laws.")%self.enfaction)
+        VS.IOmessage (4,"game","all",_("[%s Enforcers] And are conspiring against the legitimate Star Confederacy.")%self.enfaction)
+        VS.IOmessage (5,"game","all",_("[%s Wing] We have nothing to do with your alleged terrorists")%self.faction)
+        VS.IOmessage (5,"game","all",_("[%s Wing] and are only exercising our freedom of assembly.")%self.faction)
+        VS.IOmessage (8,"game","all",_("[%s Wing] This is a %s wing requesting assistance from any nearby craft! We are being arrested unfairly!")% (self.faction,self.faction))
+        VS.IOmessage (8,"game","all",_("[%s Wing] Should anyone honor our request for help we would be severely in debt!")% self.faction)
 
     def Begin(self):
         self.begin=1
@@ -106,8 +106,8 @@ class quest_isowing (quest.quest):
         if (self.isPersistent()):
             self.won=1
             self.names = self.recoverShipTypes ()
-            VS.IOmessage (0,"game","all","Establishing link communication.")
-            VS.IOmessage (0,"game","all","[%s Wing] We're back at your service." % self.faction)
+            VS.IOmessage (0,"game","all",_("Establishing link communication."))
+            VS.IOmessage (0,"game","all",_("[%s Wing] We're back at your service.") % self.faction)
         else:
             VS.SetAutoStatus (0,-1)
             self.names = self.genShipTypes (self.num)
@@ -123,16 +123,16 @@ class quest_isowing (quest.quest):
             return
         VS.SetAutoStatus (0,0)
         self.makeQuestPersistent()
-        VS.IOmessage (0,"game","all","Thank you for saving us!")
-        VS.IOmessage (0,"game","all","We owe our lives to you...")
-        VS.IOmessage (0,"game","all","So therefore we will go with you and follow your orders where they may take us")
-        VS.IOmessage (0,"game","all","Together we can succeed!")
-        VS.IOmessage (0,"game","news",'TERRORIST FLIGHTGROUP ESCAPES   Recently a long sought for %s wing confronted and destroyed %s special forces. "After learning of a recent assembly by these millitants, we had to move at once; it is sad that these militants preemtively struck our forces before retreating like cowards!" said SubCommander Ret in a recent interview with GNN, "We need to warn our citizens of the presence of roaming %s starships...Any sighting of these starships must be reported to %s authorities immediately."  Will such slips in confed security cause further problems in the frontier, or will they finally meet their end after a deadly manhunt? The future remains to be seen.  The SubCommanders parting words were: "But See to it I will, I can promise you that!"'%(self.faction,self.enfaction,self.faction,self.enfaction))
+        VS.IOmessage (0,"game","all",_("Thank you for saving us!"))
+        VS.IOmessage (0,"game","all",_("We owe our lives to you..."))
+        VS.IOmessage (0,"game","all",_("So therefore we will go with you and follow your orders where they may take us"))
+        VS.IOmessage (0,"game","all",_("Together we can succeed!"))
+        VS.IOmessage (0,"game","news",_('TERRORIST FLIGHTGROUP ESCAPES   Recently a long sought for %s wing confronted and destroyed %s special forces. "After learning of a recent assembly by these millitants, we had to move at once; it is sad that these militants preemtively struck our forces before retreating like cowards!" said SubCommander Ret in a recent interview with GNN, "We need to warn our citizens of the presence of roaming %s starships...Any sighting of these starships must be reported to %s authorities immediately."  Will such slips in confed security cause further problems in the frontier, or will they finally meet their end after a deadly manhunt? The future remains to be seen.  The SubCommanders parting words were: "But See to it I will, I can promise you that!"')%(self.faction,self.enfaction,self.faction,self.enfaction))
     def doLose(self):
         VS.SetAutoStatus (0,0)
         self.removeQuest()
-        VS.IOmessage (0,"game","all","Terrorists eliminated! Looks like we have another success to report for %s."%self.enfaction)
-        VS.IOmessage (0,"game","news",'TERRORIST CELL DESTROYED   Recently a %s wing was eliminated by %s special forces. "After learning of a recent assembly by these millitants, we had to move at once!" said SubCommander Ret in a recent interview with GNN, "It is good to see such justice served on our frontiers!" Hopefully this will reduce the recent rash of violence in the frontier sectors of our society!'%(self.faction,self.enfaction))
+        VS.IOmessage (0,"game","all",_("Terrorists eliminated! Looks like we have another success to report for %s.")%self.enfaction)
+        VS.IOmessage (0,"game","news",_('TERRORIST CELL DESTROYED   Recently a %s wing was eliminated by %s special forces. "After learning of a recent assembly by these millitants, we had to move at once!" said SubCommander Ret in a recent interview with GNN, "It is good to see such justice served on our frontiers!" Hopefully this will reduce the recent rash of violence in the frontier sectors of our society!')%(self.faction,self.enfaction))
         if (self.won==0):
             VS.SetAutoStatus (0,0)
 
