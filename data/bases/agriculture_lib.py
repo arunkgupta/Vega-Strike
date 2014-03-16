@@ -7,7 +7,7 @@ def MakeAgri (time_of_day='_day'):
     plist=VS.musicAddList('agricultural.m3u')
     VS.musicPlayList(plist)
     dynamic_mission.CreateMissions()
-    room1 = Base.Room _(('Main Concourse'))
+    room1 = Base.Room (_('Main Concourse'))
     Base.Texture (room1, 'tex', 'bases/agriculture/landing'+time_of_day+'.spr', 0, 0)
     Base.Comp (room1, 'CargoComputer', -0.306641, -0.263021, 0.105469, 0.420833, _('Cargo Computer'), _('Cargo'))
     Base.Comp (room1, 'MissionComputer', 0.292969, -0.263021, 0.0878906, 0.420833, _('Mission Computer'), _('News Missions'))
