@@ -226,10 +226,10 @@ class QuineComputer:
                 self.picker_screen.hide()
                 self.txt_screen.setText(
                         "\n"*7+
-                        "Are you sure you want to overwrite the savegame?\n(%s)"%
+                        _("Are you sure you want to overwrite the savegame?\n(%s)")%
                                 self.picker_screen.items[self.picker_screen.selection]
                         +"\n"*3
-                        +"Press SAVE again to do it." )
+                        +_("Press SAVE again to do it.") )
                 self.txt_screen.show()
             elif self.picker_screen.selection is not None:
                 if self.picker_screen.items[self.picker_screen.selection].data is NewSaveGame:
