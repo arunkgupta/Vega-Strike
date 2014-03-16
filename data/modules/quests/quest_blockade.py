@@ -113,13 +113,13 @@ class quest_blockade (quest.quest):
                     if (self.fighter[chatter].getFlightgroupName()==self.names[flightgroup-1]):
                         chatters += [chatter]
                         numchatters += 1
-                VS.IOmessage (0,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"... lousy bar on our mothership?")
-                VS.IOmessage (5,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"Yeah, bad lighting, and no bar company besides your dull face.")
-                VS.IOmessage (10,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"The drinks selection is not the best I have seen.")
-                VS.IOmessage (15,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"And this bartender droid really gets on my nerves.")
-                VS.IOmessage (20,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"He never stops talking for an instant.")
-                VS.IOmessage (25,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"Guess, we've got to live with that.")
-                VS.IOmessage (30,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"Yeah.")
+                VS.IOmessage (0,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("... lousy bar on our mothership?"))
+                VS.IOmessage (5,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("Yeah, bad lighting, and no bar company besides your dull face."))
+                VS.IOmessage (10,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("The drinks selection is not the best I have seen."))
+                VS.IOmessage (15,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("And this bartender droid really gets on my nerves."))
+                VS.IOmessage (20,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("He never stops talking for an instant."))
+                VS.IOmessage (25,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("Guess, we've got to live with that."))
+                VS.IOmessage (30,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("Yeah."))
                 self.timer = VS.GetGameTime()+240
                 self.stage = 12
             if (self.stage==12 and VS.GetGameTime()>self.timer):
@@ -132,18 +132,18 @@ class quest_blockade (quest.quest):
                     if (self.fighter[chatter].getFlightgroupName()==self.names[flightgroup-1]):
                         chatters += [chatter]
                         numchatters += 1
-                VS.IOmessage (0,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"Phil?")
-                VS.IOmessage (10,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"What's up, buddy?")
-                VS.IOmessage (15,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"The rumor is the Aera are planning an invasion.")
-                VS.IOmessage (25,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"Maybe no rumor anymore. Probably it's all over the news now.")
-                VS.IOmessage (35,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"That's why we are here? Will we have to fight?")
-                VS.IOmessage (40,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"Calm down, youngling.")
-                VS.IOmessage (45,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"The war hasn't quite started yet.")
-                VS.IOmessage (50,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"I tell ya. This operation is to prepare the worlds for the war.")
-                VS.IOmessage (55,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"All staged by the higherups.")
-                VS.IOmessage (65,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+"You think so? And what if you're not right? Will you take care of my 'lil sister if I die?")
-                VS.IOmessage (75,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"Ho, ho. Now stop that blubber. Nobody's gonna die here.")
-                VS.IOmessage (80,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+"Just stick to your orders and by dinner time we'll have a big jar of Pilsner and a nice long talk.")
+                VS.IOmessage (0,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("Phil?"))
+                VS.IOmessage (10,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("What's up, buddy?"))
+                VS.IOmessage (15,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("The rumor is the Aera are planning an invasion."))
+                VS.IOmessage (25,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("Maybe no rumor anymore. Probably it's all over the news now."))
+                VS.IOmessage (35,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("That's why we are here? Will we have to fight?"))
+                VS.IOmessage (40,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("Calm down, youngling."))
+                VS.IOmessage (45,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("The war hasn't quite started yet."))
+                VS.IOmessage (50,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("I tell ya. This operation is to prepare the worlds for the war."))
+                VS.IOmessage (55,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("All staged by the higherups."))
+                VS.IOmessage (65,unit.getUnitFullName(self.fighter[chatters[0]]),"all",self.msgColor[0]+_("You think so? And what if you're not right? Will you take care of my 'lil sister if I die?"))
+                VS.IOmessage (75,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("Ho, ho. Now stop that blubber. Nobody's gonna die here."))
+                VS.IOmessage (80,unit.getUnitFullName(self.fighter[chatters[1]]),"all",self.msgColor[1]+_("Just stick to your orders and by dinner time we'll have a big jar of Pilsner and a nice long talk."))
                 self.timer = VS.GetGameTime()+300
                 self.stage = 13
             # just a temporary backup
