@@ -76,12 +76,12 @@ def getCargoCon():
                         ['#\nimport quest_intro2\nresult = (quest_intro2.isAt(\"Crucible/Cephid_17/Dakar\") or quest_intro2.isAt(\"Crucible/Enyo\"))'],
                         "#\nimport quest_intro2\nquest_intro2.cargoIterate()" )
     roo = RootNode()
-    roo.addSubNode(SubNode( "The mission robot.",
+    roo.addSubNode(SubNode( _("The mission robot."),
                             ['#\nimport quest_intro2\nresult = quest_intro2.isAt(\"Crucible/Cephid_17/Dakar\")'],
                             ['#\nimport quest_intro2\nquest_intro2.cargoIterate(\"irobo\")'],
                             "bases/fixers/hunter.spr",
-                            "Talk to iRobo" ))
-    roo.addSubNode(SubNode( "The receiving merchant.",
+                            _("Talk to iRobo") ))
+    roo.addSubNode(SubNode( _("The receiving merchant."),
                             ['#\nimport quest_intro2\nresult = quest_intro2.isAt(\"Crucible/Enyo\")'],
                             ['#\nimport quest_intro2\nquest_intro2.cargoIterate(\"merchant\")'],
                             "bases/fixers/merchant.spr",
@@ -89,53 +89,53 @@ def getCargoCon():
     con.addNode(roo)
 
     mer = Node()
-    mer.addSubNode(SubNode( "Thankyou!  I've been waiting hours for this!",
+    mer.addSubNode(SubNode( _("Thankyou!  I've been waiting hours for this!"),
                             [str(SAVE_KEY) + '#' + str(STARTED),
                              '#\nimport quest_intro2\nresult = quest_intro2.takeCargo()'] ))
     mer.addSubNode(SubNode( "You lost it!!!",
                             [str(SAVE_KEY) + '#' + str(STARTED),
                              '#\nimport quest_intro2\nresult = quest_intro2.putSaveValue(%s)'%str(FAILED)] ))
-    mer.addSubNode(SubNode( "Filthy privateer, get out of my sight!",
+    mer.addSubNode(SubNode( _("Filthy privateer, get out of my sight!"),
                             [str(SAVE_KEY) + '#' + str(FAILED)] ))
-    mer.addSubNode(SubNode( "Filthy privateer, get out of my sight!",
+    mer.addSubNode(SubNode( _("Filthy privateer, get out of my sight!"),
                             [str(SAVE_KEY) + '#' + str(WARNEDOFF)] ))
-    mer.addSubNode(SubNode( "Thank you again!",
+    mer.addSubNode(SubNode( _("Thank you again!"),
                             [str(SAVE_KEY) + '#' + str(DELIVERED)] ))
-    mer.addSubNode(SubNode( "Thank you again!",
+    mer.addSubNode(SubNode( _("Thank you again!"),
                             [str(SAVE_KEY) + '#' + str(SUCCESS)] ))
-    mer.addSubNode(SubNode( "Hello!  I'm sorry I can't talk, I'm waiting for a very important package." ))
+    mer.addSubNode(SubNode( _("Hello!  I'm sorry I can't talk, I'm waiting for a very important package.") ))
     con.addNode(mer, "merchant")
 
     rob = Node()
-    rob.addSubNode(SubNode( "Go away before I change my mind.",
+    rob.addSubNode(SubNode( _("Go away before I change my mind."),
                             [str(SAVE_KEY) + '#' + str(WARNEDOFF)] ))
-    rob.addSubNode(SubNode( "You did not complete the mission!  Leave now and you will not be penalised.",
+    rob.addSubNode(SubNode( _("You did not complete the mission!  Leave now and you will not be penalised."),
                             [str(SAVE_KEY) + '#' + str(FAILED),
                              '#\nimport quest_intro2\nresult = quest_intro2.putSaveValue(%s)'%str(WARNEDOFF)] ))
-    rob.addSubNode(SubNode( "Thanks you again.",
+    rob.addSubNode(SubNode( _("Thanks you again."),
                             [str(SAVE_KEY) + '#' + str(SUCCESS)] ))
-    rob.addSubNode(SubNode( "Thanks you.  Here's %s."%str(AMOUNTTOPAY),
+    rob.addSubNode(SubNode( _("Thanks you.  Here's %s.")%str(AMOUNTTOPAY),
                             [str(SAVE_KEY) + '#' + str(DELIVERED),
                              '#\nimport quest_intro2\nresult = quest_intro2.payMe()'] ))
-    rob.addSubNode(SubNode( "Get going!",
+    rob.addSubNode(SubNode( _("Get going!"),
                             [str(SAVE_KEY) + '#' + str(STARTED)] ))
-    rob.addSubNode(SubNode( "You feel up to the mission yet?",
+    rob.addSubNode(SubNode( _("You feel up to the mission yet?"),
                             [str(SAVE_KEY) + '#' + str(REJECTED)],
                             ["bases/fixers/no.spr|#\nimport quest_intro2\nquest_intro2.cargoIterate(\"reject\")|Sorry, still sick.",
                              "bases/fixers/yes.spr|#\nimport quest_intro2\nquest_intro2.cargoIterate(\"accept\")|Much better."] ))
-    rob.addSubNode(SubNode( "I need someone to deliver a package to Enyo, can you be of assistance?",
+    rob.addSubNode(SubNode( _("I need someone to deliver a package to Enyo, can you be of assistance?"),
                             list(),
                             ["bases/fixers/no.spr|#\nimport quest_intro2\nquest_intro2.cargoIterate(\"reject\")|Sorry, I don't feel well.",
                              "bases/fixers/yes.spr|#\nimport quest_intro2\nquest_intro2.cargoIterate(\"accept\")|Yes."] ))
     con.addNode(rob, "irobo")
 
     acc = Node()
-    acc.addSubNode(SubNode( "Great, take this package to the merchant in the Enyo system.  You'll find him easy enough, he pops up all over the place.",
+    acc.addSubNode(SubNode( _("Great, take this package to the merchant in the Enyo system.  You'll find him easy enough, he pops up all over the place."),
                             list(),
                             list() ))
     con.addNode(acc,"accept")
     rej = Node()
-    rej.addSubNode(SubNode( "Then quit bothering me!",
+    rej.addSubNode(SubNode( _("Then quit bothering me!"),
                             list(),
                             list() ))
     con.addNode(rej,"reject")
