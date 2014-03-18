@@ -24,14 +24,14 @@ def runBountyMenu(cp=-1):
             if callsign=='' or callsign=='OR, Type in a user:':
                 callsign = inputs['callsign']
 
-            print('I would now place a bounty on '+str(callsign)+' for '+str(float(inputs['credits']))+' credits.')
-            print('User value IS: '+str(inputs['logged_in_users']))
+            print(_('I would now place a bounty on ')+str(callsign)+_(' for ')+str(float(inputs['credits']))+_(' credits.'))
+            print(_('User value IS: ')+str(inputs['logged_in_users']))
             server_lib.placeBounty(callsign,float(inputs['credits']))
             return False
         return True
 
     items=['width', 1.5,
-            'text', "Place a bounty on someone's head",
+            'text', _("Place a bounty on someone's head"),
 ]
     items+=['height',0.05,
             'row',
@@ -72,9 +72,9 @@ def runComputer(local,cmd,args,id,cp=-1):
         print('id is: ',id)
         action,inputs = dialog_box.fromValues(result)
         if action=='Test':
-            print('test clicked!!!!')
+            print(_('test clicked!!!!'))
         if action=='Bounty Hunt':
-            print('hunting bounty')
+            print(_('hunting bounty'))
             runBountyMenu(cp)
         if action=='OK' or action=="Exit Menu" or action=="Cancel":
             dialog.undraw()
