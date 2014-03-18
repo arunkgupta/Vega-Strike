@@ -25,7 +25,7 @@ def MakeBar(concourse, concoursetext, bartext, BaseTexture, createCampaignFixers
     else:
         Base.Comp (room0, 'newscomp', -1, .7, .3, .3, 'Public Terminal', 'News')
     Base.Link (room0, 'my_link_id', -0.998047, -0.997396, 1.99414, 0.119792, concoursetext ,concourse)
-    Base.Python (room0, 'talk', bartenderloc[0]-.16, bartenderloc[1]-.15,.3,.3,'Talk to the Bartender',bartext,0)
+    Base.Python (room0, 'talk', bartenderloc[0]-.16, bartenderloc[1]-.15,.3,.3,_('Talk to the Bartender'),bartext,0)
     import fixers
     func=fixers.CreateFixers
     if not createCampaignFixers:

@@ -84,7 +84,7 @@ class GenericGuild:
         if cmd=='join':
             return self.Join()
         if not self.HasJoined():
-            return ["failure", "You have not joined this guild yet!"]
+            return ["failure", _("You have not joined this guild yet!")]
         if cmd=='accept':
             return self.Accept(args[0])
         elif cmd=='MakeMissions':
@@ -98,10 +98,10 @@ class Guild(GenericGuild):
     def RequestJoin(self):
         def JoinStatus(args):
             if args[0]=="success":
-                Base.Message('Thank you for joining the '+str(self.name)+' Guild! Feel free to accept any of our large quantity of high-paying missions.')
+                Base.Message(_('Thank you for joining the ')+str(self.name)+_(' Guild! Feel free to accept any of our large quantity of high-paying missions.'))
                 VS.playSound("guilds/"+str(self.name).lower()+"accept.wav",(0,0,0),(0,0,0))
             else:
-                Base.Message('We have checked your account and it appears that you do not have enough credits to join this guild. Please come back and reconsider our offer when you have received more credits.')
+                Base.Message(_('We have checked your account and it appears that you do not have enough credits to join this guild. Please come back and reconsider our offer when you have received more credits.'))
                 VS.playSound("guilds/"+str(self.name).lower()+"notenoughmoney.wav",(0,0,0),(0,0,0))
         plr=VS.getPlayer()
         plrnum=plr.isPlayerStarship()
@@ -163,7 +163,7 @@ class Button:
 
 class AcceptButton(Button):
     def __init__(self,spritefile,x,y,wid,hei,guildroom):
-        Button.__init__(self,spritefile,x,y,wid,hei,guildroom.room,"Accept this Mission","accept","#G#\nimport guilds\nguilds.AcceptMission("+str(guildroom.room)+",'"+guildroom.guild.name+"')")
+        Button.__init__(self,spritefile,x,y,wid,hei,guildroom.room,_("Accept this Mission"),"accept","#G#\nimport guilds\nguilds.AcceptMission("+str(guildroom.room)+",'"+guildroom.guild.name+"')")
         self.guild=guildroom
 
 class MissionButton(Button):
@@ -223,7 +223,7 @@ class MissionButton(Button):
 
 class GuildRoom:
     """Stores information about this instance of the guild room in this base."""
-    def __init__(self,guild,room,briefingTemplate='#DESCRIPTION#',tooManyMissionsText='You are already doing too many missions.\nFinish those first, and then come back.'):
+    def __init__(self,guild,room,briefingTemplate='#DESCRIPTION#',tooManyMissionsText=_('You are already doing too many missions.\nFinish those first, and then come back.')):
         self.buttons={}
         self.acceptbutton=None
         self.textbox=None
@@ -371,8 +371,8 @@ def TalkToReceptionist(guildname,introtext):
             VS.StopAllSounds()
             if guild.CanPay():
                 fixers.CreateChoiceButtons(Base.GetCurRoom(),[
-                        fixers.Choice("bases/fixers/yes.spr","#G#\nimport guilds\nguilds.JoinGuild('"+guildname+"')","Accept This Agreement"),
-                        fixers.Choice("bases/fixers/no.spr","bases/fixers/no.py","Decline This Agreement")])
+                        fixers.Choice("bases/fixers/yes.spr","#G#\nimport guilds\nguilds.JoinGuild('"+guildname+"')",_("Accept This Agreement")),
+                        fixers.Choice("bases/fixers/no.spr","bases/fixers/no.py",_("Decline This Agreement"))])
 
                 VS.playSound("guilds/"+str(guild.name).lower()+"invite.wav",(0,0,0),(0,0,0))
             else:

@@ -48,10 +48,10 @@ def enterCredits(self,params):
     global plist_credits
     VS.musicPlayList(plist_credits)
 
-credits_title = """\t=== Vega Strike 0.5.2 alpha ===
-\t        ---Credits---"""
+credits_title = _("""\t=== Vega Strike 0.5.2 alpha ===
+\t        ---Credits---""")
 
-credits_text_col1 = """
+credits_text_col1 = _("""
 #ff9999Developers:
 * Daniel Horn (Hellcatv)
 * Patrick Horn (Ace123)
@@ -81,11 +81,11 @@ credits_text_col1 = """
 * Peter Griffin
 * Fire Hawk
 * Eliot Lash (Halleck)
-"""
+""")
 
 
 
-credits_text_col2 = """
+credits_text_col2 = _("""
 #3399ffArtists (cont):
 * Oblivion
 * Kinnear Penman
@@ -116,11 +116,11 @@ credits_text_col2 = """
 * Mike Furr
 * Krister Kjellstroem
 * Brian Lloyd
-"""
+""")
 
 
 
-credits_text_col3 = """
+credits_text_col3 = _("""
 #99ffffCommunity:
 * Martin Baldwin
 * Bgaskey
@@ -152,11 +152,11 @@ Open standards
 Freedom of speech
 User patience
 #CCCCff... and any we forgot to mention :)
-"""
+""")
 
-intro_title = """\t=== Vega Strike 0.5.2 alpha ===
+intro_title = _("""\t=== Vega Strike 0.5.2 alpha ===
 \t ---Intro Monologue---
-"""
+""")
 
 try:
     intro_file=__file__.rsplit('/',2)[0].rsplit('\\',2)[0] + "/documentation/IntroMonologue.txt"
@@ -167,7 +167,7 @@ if intro_file:
     intro_text=intro_file.readlines()
     intro_file.close()
 else:
-    intro_text=["Find the IntroMonologue inside the documentation folder"]
+    intro_text=[_("Find the IntroMonologue inside the documentation folder")]
 
 # Create rooms (intro, menu)
 #Uncomment the following lines to use intro movies

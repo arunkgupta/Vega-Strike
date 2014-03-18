@@ -27,17 +27,17 @@ def MakeUnit (bartendername='bases/bartender_default.py',time_of_day=''):
     room6 = room
     Base.Texture (room, 'background', 'bases/civilian/civilian_traderoom'+time_of_day+'.spr', 0, 0)
 
-    Base.LaunchPython (room0, 'my_launch_id', 'bases/launch_music.py', -0.308594, -0.703125, 0.669922, 0.520833, 'Launch')
-    Base.Link (room0, 'my_link_id', -1.00391, -0.997396, 0.316406, 1.99219, 'Main_Concourse', room1)
-    Base.Link (room0, 'my_link_id', -1, -0.997396, 1.99805, 0.135417, 'Main_Concourse', room1)
+    Base.LaunchPython (room0, 'my_launch_id', 'bases/launch_music.py', -0.308594, -0.703125, 0.669922, 0.520833, _('Launch'))
+    Base.Link (room0, 'my_link_id', -1.00391, -0.997396, 0.316406, 1.99219, _('Main_Concourse'), room1)
+    Base.Link (room0, 'my_link_id', -1, -0.997396, 1.99805, 0.135417, _('Main_Concourse'), room1)
 
-    Base.Link (room1, 'my_link_id', -1, -0.997396, 1.99805, 0.135417, 'Landing_Pad', room0)
-    Base.Link (room1, 'my_link_id', 0.417969, -0.460938, 0.158203, 0.263021, 'Bar', room2)
-    Base.Link (room1, 'my_link_id', -0.806641, -0.473958, 0.201172, 0.289062, 'Upgrade_Facilities/Ship_Dealer', room3)
-    Base.Link (room1, 'my_link_id', -0.337891, -0.539062, 0.357422, 1.51562, 'Trade_Room', room6)
-    Base.Comp (room3, 'my_comp_id', -0.236328, -0.513021, 0.5, 0.53125, 'Upgrade_Computer', 'Upgrade ShipDealer Info ')
-    Base.Link (room3, 'my_link_id', -1, -0.997396, 1.99805, 0.117188, 'Main_Concourse', room1)
-    Base.Link (room6, 'my_link_id', -1, -0.994792, 1.99609, 0.101562, 'Main_Concourse', room1)
-    Base.Comp (room6, 'my_comp_id', -0.457031, -0.164062, 0.617188, 0.572917, 'Trade', 'Cargo Missions News Info ')
+    Base.Link (room1, 'my_link_id', -1, -0.997396, 1.99805, 0.135417, _('Landing_Pad'), room0)
+    Base.Link (room1, 'my_link_id', 0.417969, -0.460938, 0.158203, 0.263021, _('Bar'), room2)
+    Base.Link (room1, 'my_link_id', -0.806641, -0.473958, 0.201172, 0.289062, _('Upgrade_Facilities/Ship_Dealer'), room3)
+    Base.Link (room1, 'my_link_id', -0.337891, -0.539062, 0.357422, 1.51562, _('Trade_Room'), room6)
+    Base.Comp (room3, 'my_comp_id', -0.236328, -0.513021, 0.5, 0.53125, _('Upgrade_Computer'), 'Upgrade ShipDealer Info ')
+    Base.Link (room3, 'my_link_id', -1, -0.997396, 1.99805, 0.117188, _('Main_Concourse'), room1)
+    Base.Link (room6, 'my_link_id', -1, -0.994792, 1.99609, 0.101562, _('Main_Concourse'), room1)
+    Base.Comp (room6, 'my_comp_id', -0.457031, -0.164062, 0.617188, 0.572917, _('Trade'), 'Cargo Missions News Info ')
 
     return (room0, room1, room2, room3)

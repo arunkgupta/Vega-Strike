@@ -33,7 +33,7 @@ def MakeLandingAndConcourse(time_of_day):
     room6 = room
     Base.Texture (room, 'background', 'bases/ocean/ocean_exterior4'+time_of_day+'.spr', 0, 0)
 
-    Base.LaunchPython (room0, 'my_launch_id', 'bases/launch_music.py', -0.609375, -0.502604, 0.712891, 0.65625, 'Launch')
+    Base.LaunchPython (room0, 'my_launch_id', 'bases/launch_music.py', -0.609375, -0.502604, 0.712891, 0.65625, _('Launch'))
     Base.Link (room0, 'my_link_id', -1, -0.997396, 1.99805, 0.315104, _('Main_Concourse)', room1)
     Base.Link (room1, 'my_link_id', 0.125, -0.132812, 0.273125, 0.372396, _('Bar'), room2)
     Base.Link (room1, 'my_link_id', 0.400391, -0.276042, 0.322266, 0.669271, _('Hangar'), room0)
