@@ -208,7 +208,7 @@ def eraseExtrasOld():
     import sys
     len=Director.getSaveStringLength(plr, "mission_scripts")
     if (len!=Director.getSaveStringLength(plr, "mission_names") or len!=Director.getSaveStringLength(plr, "mission_descriptions")):
-        sys.stdout.write("Warning: Number of mission descs., names and scripts are unequal.\n")
+        sys.stdout.write(_("Warning: Number of mission descs., names and scripts are unequal.\n"))
     if len>0:
         for i in range(len-1,-1,-1):
             Director.eraseSaveString(plr, "mission_scripts", i)
@@ -274,9 +274,9 @@ def generateCleansweepMission(path,numplanets,enemy,
         additional=",1"
         patrolorclean="Clean_Sweep"
         missiontype="cleansweep"
-        additionalinstructions+=" Eliminate all such forces encountered to receive payment."
+        additionalinstructions+=_(" Eliminate all such forces encountered to receive payment.")
     if (capshipprob):
-        additionalinstructions+=" Capital ships are possibly in the area."
+        additionalinstructions+=_(" Capital ships are possibly in the area.")
 
     writemissionsavegame (addstr+"import %s\ntemp=%s.%s(0, %d, %d, %d, %s,'',%d,%d,%f,%f,'%s',%d%s)\ntemp=0\n"%(missiontype,missiontype,missiontype,numplanets, dist, creds, str(path),minships,maxships,fighterprob,capshipprob,enemy,forceattack,additional))
     writedescription("Authorities would like a detailed scan of the %s system. We require %d nav locations be visited on the scanning route. The pay for this mission is %d. Encounters with %s forces likely.%s"%(processSystem(path[-1]),numplanets,creds,enemy,additionalinstructions))
@@ -347,9 +347,9 @@ def generateEscortLocal(path,fg,fac,
     elif isFixer<guildpct:
         creds*=1.5
         addstr+="#G#Escort#\n"
-    additionalinfo="to the jump point"
+    additionalinfo=_("to the jump point")
     if (incoming):
-        additionalinfo="from the jump point to a nearby base"
+        additionalinfo=_("from the jump point to a nearby base")
     if len(path)==1:
         mistype = 'IN-SYSTEM ESCORT'
     else:
@@ -401,13 +401,13 @@ def pathWarning(path,isFixer):
     message = str()
     factions = list()
     if isFixer:
-        message+="\nPrecautions to ensure the success of this mission should be taken at your expense."
+        message+=_("\nPrecautions to ensure the success of this mission should be taken at your expense.")
     else:
         for system in path:
             sysfac = VS.GetGalaxyFaction(system)
             if sysfac not in factions:
                 factions.append(sysfac)
-        message+="\n\nYou are responsible for the success of this mission. Precautions taken to ensure this outcome will be at your expense. With that in mind, I will advise you that you will be travelling through systems dominated by the "
+        message+=_("\n\nYou are responsible for the success of this mission. Precautions taken to ensure this outcome will be at your expense. With that in mind, I will advise you that you will be travelling through systems dominated by the ")
         if len(factions) == 1:
             message+=dnewsman_.data.getFactionData(factions[0],'full')[0]+"."
         else:
@@ -470,9 +470,9 @@ def generateCargoMission (path, numcargos,category, fac,
         category='generic'
     randCompany = GetRandomCompanyName()
     if (randCompany==''):
-        strStart = "We need to deliver some "
+        strStart = _("We need to deliver some ")
     else:
-        strStart = randCompany+" seeks delivery of "
+        strStart = randCompany+_(" seeks delivery of ")
     brief = GetRandomCargoBrief()
     if (brief!=''):
         composedBrief = brief.replace('$CL',randCompany)
