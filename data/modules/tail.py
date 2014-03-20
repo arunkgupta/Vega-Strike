@@ -10,7 +10,7 @@ class tail (Director.Mission):
     WAITTIME=float(240)#must be float, how long to wait after enemy jumps before failure
     DELAYTIME=float(30)#how long to wait, after success, before friendlies come to finish job
 
-    def __init__ (self,var_to_set,creds,direct,sdist,mdist,efaction,ffaction,efg,ffg,fnum=3,edyntype='',fdyntype='',edynfg='',fdynfg='',tooclose=["Thought you could hide from me?", "Try hiding from this!"],toofar=["We have lost the lock on the target vessel."],justright=["Thankyou.  You help in tracking this criminal has been appreciated."]):
+    def __init__ (self,var_to_set,creds,direct,sdist,mdist,efaction,ffaction,efg,ffg,fnum=3,edyntype='',fdyntype='',edynfg='',fdynfg='',tooclose=[_("Thought you could hide from me?", "Try hiding from this!")],toofar=[_("We have lost the lock on the target vessel.")],justright=[_("Thankyou.  You help in tracking this criminal has been appreciated.")]):
         Director.Mission.__init__ (self)
         print('tail: Starting')
 
@@ -76,8 +76,8 @@ class tail (Director.Mission):
             self.relation = self.enemy.getRelation(VS.getPlayerX(self.cp))
             self.enemy.setCombatRole("INERT")
             self.updateEnemyObjective()
-            VS.IOmessage (0,"[Mission Computer]","all","Target %s detected!  Proceed as per mission instructions."%self.enemy.getFullname())
-            self.objref=VS.addObjective("Follow the %s until it broadcasts the signal"%self.enemy.getFullname())
+            VS.IOmessage (0,"[Mission Computer]","all",_("Target %s detected!  Proceed as per mission instructions.")%self.enemy.getFullname())
+            self.objref=VS.addObjective(_("Follow the %s until it broadcasts the signal")%self.enemy.getFullname())
             self.started=True
             return True
         print("now NOT set up!")
@@ -192,7 +192,7 @@ class tail (Director.Mission):
             if VS.GetGameTime() > self.tracking[0]:
                 t=self.getJumpTo(self.directions[len(self.directions)-2])
                 self.setupFriendly(t)#FIXME: open wormhole
-                VS.IOmessage (0,"[Mission Command]","all","Out of our way, let us finish the job!")
+                VS.IOmessage (0,"[Mission Command]","all",_("Out of our way, let us finish the job!"))
                 VS.getPlayerX(self.cp).addCredits(self.creds)
                 VS.terminateMission(1)
         else:
@@ -201,7 +201,7 @@ class tail (Director.Mission):
             VS.getPlayerX(self.cp).SetPosition(t.Position())#because self.enemy is at the jumpgate when I jump, so I get pushed off
             VS.setCompleteness(self.objref, 1.00)
             self.success=2
-            VS.IOmessage (0,"[Mission Computer]","all","Broadcast intercepted.")
+            VS.IOmessage (0,"[Mission Computer]","all",_("Broadcast intercepted."))
             for i in range(len(self.succeed1)):
                 VS.IOmessage (i+1,"[Mission Command]","all",self.succeed1[i])
             self.SetVar(1)
@@ -222,14 +222,14 @@ class tail (Director.Mission):
         for j in range(len(self.fail2)):
             VS.IOmessage (j,"[Mission Command]","all",self.fail2[j])
             i+=1
-        VS.IOmessage(i,"[Mission Computer]","all","You are not able to detect the target.")
-        VS.IOmessage (i+1,"[Mission Computer]","all","Mission Failed.")
+        VS.IOmessage(i,"[Mission Computer]","all",_("You are not able to detect the target."))
+        VS.IOmessage (i+1,"[Mission Computer]","all",_("Mission Failed."))
         self.fail()
 
     def tooClose (self):
         print("tail: Too close")
-        VS.IOmessage (0,"[Mission Computer]","all","You have been detected by the target %s "%self.enemy.getFullname())
-        VS.IOmessage (1,"[Mission Computer]","all","Mission Failed.")
+        VS.IOmessage (0,"[Mission Computer]","all",_("You have been detected by the target %s ")%self.enemy.getFullname())
+        VS.IOmessage (1,"[Mission Computer]","all",_("Mission Failed."))
         for i in range(len(self.fail1)):
             VS.IOmessage (i+2,"Target","all",self.fail1[i])
         self.enemy.SetTarget(VS.getPlayerX(self.cp))
@@ -238,8 +238,8 @@ class tail (Director.Mission):
 
     def tooDead (self):
         print("tail: Too dead")
-        VS.IOmessage (0,"[Mission Computer]","all","The target %s has been destroyed."%self.enemy.getFullname())
-        VS.IOmessage (1,"[Mission Computer]","all","Mission Failed.")
+        VS.IOmessage (0,"[Mission Computer]","all",_("The target %s has been destroyed.")%self.enemy.getFullname())
+        VS.IOmessage (1,"[Mission Computer]","all",_("Mission Failed."))
         self.fail()
 
     def fail (self):
@@ -264,8 +264,8 @@ class tail (Director.Mission):
                 elif VS.getPlayerX(self.cp).getUnitSystemFile() == self.enemy.getUnitSystemFile():
                     self.waiting = False
                     t = self.updateEnemyObjective()
-                    VS.IOmessage (0,"[Mission Computer]","all","Target %s detected in this system."%self.enemy.getFullname())
-                    VS.setObjective(self.objref,"Follow the %s until it broadcasts the signal"%self.enemy.getFullname())
+                    VS.IOmessage (0,"[Mission Computer]","all",_("Target %s detected in this system.")%self.enemy.getFullname())
+                    VS.setObjective(self.objref,_("Follow the %s until it broadcasts the signal")%self.enemy.getFullname())
                     if t is not None:
                         self.doPlacement(t)
                     else:
@@ -274,7 +274,7 @@ class tail (Director.Mission):
                 self.enemy.DeactivateJumpDrive()
                 self.waiting = True
                 self.tracking=(VS.GetGameTime()+self.WAITTIME, VS.getPlayerX(self.cp).getDistance(self.enemy))
-                VS.IOmessage (0,"[Mission Computer]","all","Target %s detected entering %s"%(self.enemy.getFullname(),self.nextSystem(VS.getPlayerX(self.cp))))
-                VS.setObjective(self.objref,"Follow the %s into %s"%(self.enemy.getFullname(),self.nextSystem(VS.getPlayerX(self.cp))))
+                VS.IOmessage (0,"[Mission Computer]","all",_("Target %s detected entering %s")%(self.enemy.getFullname(),self.nextSystem(VS.getPlayerX(self.cp))))
+                VS.setObjective(self.objref,_("Follow the %s into %s")%(self.enemy.getFullname(),self.nextSystem(VS.getPlayerX(self.cp))))
             elif VS.getPlayerX(self.cp).getDistance(self.enemy)<self.mindist or self.enemyThreatened():
                 self.tooClose()

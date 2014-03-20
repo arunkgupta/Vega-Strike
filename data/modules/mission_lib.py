@@ -333,8 +333,8 @@ def MakePlunder(which):
     constructor = plunder.plunder
     creds=vsrandom.randrange(15,25)*1000
     args = (creds,'pirates',5,'Contraband',1)
-    briefing0 = 'Arr Matey. We have a target in this system that needs a lil roughin up. We need you to bag a merchant and deliver her cargo into our hands.  It\'s worth '+str(creds)+ ' to us. Up to you, ya space pirate.'
-    briefing1 = 'Ahoy! We\'ll be lookin for that cargo mighty soon!'
+    briefing0 = _('Arr Matey. We have a target in this system that needs a lil roughin up. We need you to bag a merchant and deliver her cargo into our hands.  It\'s worth) '+str(creds)+ _(' to us. Up to you, ya space pirate.')
+    briefing1 = _('Ahoy! We\'ll be lookin for that cargo mighty soon!')
     vars = { 'MISSION_TYPE' : 'PIRACY',
              'MISSION_SHORTDESC' : 'Plunder merchant target for %s' % creds }
     try:
@@ -352,8 +352,8 @@ def MakeContraband(which):
     diff=vsrandom.randrange(0,3)
     creds=numsys*2500+diff*800
     args = ('pirates', 0, 6, diff,creds, 1, 1200, 'Contraband',jumps)
-    briefing0 = 'We need some...*cough*... cargo delivered to some of our pirates in a nearby system: '+ Jumplist(jumps)+ ' It\'d be preferable if ye kept the ole po\' off yo back durin the run. Will ya do it for '+str(creds)+' creds?'
-    briefing1 = 'Thanks pal; keep it on the d&l if you know my meanin.'
+    briefing0 = _('We need some...*cough*... cargo delivered to some of our pirates in a nearby system: ')+ Jumplist(jumps)+ _(' It\'d be preferable if ye kept the ole po\' off yo back durin the run. Will ya do it for ')+str(creds)+_(' creds?')
+    briefing1 = _('Thanks pal; keep it on the d&l if you know my meanin.')
     vars = { 'MISSION_TYPE' : 'CONTRABAND',
              'MISSION_SHORTDESC' : 'Deliver contraband to %s for %s' % (Jumplist(jumps),creds) }
     try:
@@ -439,17 +439,17 @@ def CreateFixerMissions():
 
 ###### Unused code -- has old briefings
 ##            if (searchMissionNameStr("patrol")):
-##                  last_briefing[0][which] = 'Confed needs the help of mercs and hunters to keep our air space clean.  There are increasing reports of pirate and alien activity in these sectors and we need your sensor data. '+Jumplist(jumps) +' Will you do the patrol in said system for '+str(creds)+' credits?'
+##                  last_briefing[0][which] = _('Confed needs the help of mercs and hunters to keep our air space clean.  There are increasing reports of pirate and alien activity in these sectors and we need your sensor data.) '+Jumplist(jumps) +_(' Will you do the patrol in said system for) '+str(creds)+_(' credits?')
 ##            if (searchMissionNameStr("cargo")):
-##                  last_briefing[0][which] = 'Our business needs you to run some legit goods to a base a few systems away. '+ Jumplist(jumps) + ' This is worth '+str(creds)+' to us.'
+##                  last_briefing[0][which] = _('Our business needs you to run some legit goods to a base a few systems away. ')+ Jumplist(jumps) + _(' This is worth ')+str(creds)+_(' to us.')
 ##                  if (diff>=2):
-##                          last_briefing[0][which]+=' However, you cannot fail us!  There are consequences for your actions in this universe.'
+##                          last_briefing[0][which]+=_(' However, you cannot fail us!  There are consequences for your actions in this universe.')
 ##            if (searchMissionNameStr("bounty")):
-##                  last_briefing[0][which] = 'We need you to hit a nearby target. '+Jumplist(jumps)+' Our reward is '+str(creds)+' will you do it?'
+##                  last_briefing[0][which] = _('We need you to hit a nearby target. ')+Jumplist(jumps)+_(' Our reward is ')+str(creds)+_(' will you do it?')
 ##            if (searchMissionNameStr("defend")):
-##                  last_briefing[0][which] = 'We need help to secure a nearby strategic point in this system. Eliminate all enemies there. We offer '+str(encred)+' per enemy. Will you do it?'
+##                  last_briefing[0][which] = _('We need help to secure a nearby strategic point in this system. Eliminate all enemies there. We offer ')+str(encred)+_(' per enemy. Will you do it?')
 ##                  if (base):
-##                          last_briefing[0][which] = 'One of our capitol vessels is under attack in this system! We call to the aid of all bounty hunters to defend it.  Our reward is '+str(encred)+' per enemy craft destroyed.  Will you help us?'
+##                          last_briefing[0][which] = _('One of our capitol vessels is under attack in this system! We call to the aid of all bounty hunters to defend it.  Our reward is ')+str(encred)+_(' per enemy craft destroyed.  Will you help us?')
 
 def PickRandomMission(goodlist):
     bounds = 0

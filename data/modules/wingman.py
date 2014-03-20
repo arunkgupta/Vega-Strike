@@ -19,9 +19,9 @@ class wingman (Director.Mission):
         self.adjsys=go_somewhere_significant (self.you,0,5000,0)
         self.wingship = faction_ships.getRandomFighter(factionname)
         nam = "[%s]" % self.wingship
-        self.adjsys.Print("Hello I'm waiting for your arrival at %s" ,self.wingship)
-        VS.IOmessage(1,self.wingship,"all","Once you meet me")
-        VS.IOmessage(2,self.wingship,"all","I will obey your commands until our contracts expire.")
+        self.adjsys.Print(_("Hello I'm waiting for your arrival at %s") ,self.wingship)
+        VS.IOmessage(1,self.wingship,"all",_("Once you meet me"))
+        VS.IOmessage(2,self.wingship,"all",_("I will obey your commands until our contracts expire."))
 
     def GenerateWingmen(self):
         if (self.you):
@@ -35,7 +35,7 @@ class wingman (Director.Mission):
                                                     500,
                                                     1000,
                                                     self.you)
-                VS.IOmessage (0,lead.getName(),"all","I am at your service commander. Let us succeed!")
+                VS.IOmessage (0,lead.getName(),"all",_("I am at your service commander. Let us succeed!"))
             else:
                 lead=launch.launch_wave_around_unit("ForHire",
                                                     self.faction,
@@ -47,9 +47,9 @@ class wingman (Director.Mission):
                                                     self.you)
                 if (self.diff>0):
                     lead.SetTarget(self.you)
-                    VS.IOmessage (0,lead.getName(),"all","You don't have the agreed money... prepare to DIE!")
+                    VS.IOmessage (0,lead.getName(),"all",_("You don't have the agreed money... prepare to DIE!"))
                 else:
-                    VS.IOmessage (0,lead.getName(),"all","You don't have the money. A fool like you won't last long!")
+                    VS.IOmessage (0,lead.getName(),"all",_("You don't have the money. A fool like you won't last long!"))
     def Execute (self):
 
         if (self.adjsys.Execute()):

@@ -17,8 +17,8 @@ def serverDirector():
 
 def player_docked(self):
     nam = self.docked_un.getName()
-    VS.IOmessage(0,'game','news',self.callsign+' has docked to the '+nam)
-    VS.IOmessage(0,'game','all',self.callsign+' has docked to the '+nam)
+    VS.IOmessage(0,'game','news',self.callsign+_(' has docked to the ')+nam)
+    VS.IOmessage(0,'game','all',self.callsign+_(' has docked to the ')+nam)
     #if self.objectives>0:
     #       VS.eraseObjective(self.objectives-1)
 
@@ -27,20 +27,20 @@ def player_docked(self):
 
 def player_undocked(self):
     if not self.docked_un:
-        print('Base for'+self.callsign+'blew up!')
+        print(_('Base for')+self.callsign+_('blew up!'))
         return
 
     dynamic_mission.eraseExtras()
     nam = self.docked_un.getName()
 
     campaign_lib.undock_campaigns()
-    VS.IOmessage(0,'game','news',self.callsign+' has undocked from the '+nam)
-    VS.IOmessage(0,'game','all',self.callsign+' has undocked from the '+nam)
+    VS.IOmessage(0,'game','news',self.callsign+_(' has undocked from the ')+nam)
+    VS.IOmessage(0,'game','all',self.callsign+_(' has undocked from the ')+nam)
     #self.objectives=1+VS.addObjective('Dock to the '+nam+' again')
     #VS.setCompleteness(self.objectives-1, -0.3)
 
 def player_joined(self):
-    self.sendMessage('Welcome, '+self.callsign+' to the server.')
+    self.sendMessage(_('Welcome, ')+self.callsign+_(' to the server.'))
     campaign_lib.resetCampaigns(self.player_num)
 
 def player_execute(self):

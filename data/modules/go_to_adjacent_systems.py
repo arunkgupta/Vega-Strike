@@ -22,9 +22,9 @@ class go_to_adjacent_systems:
 
     def ChangeObjective(self,newind):
         if (self.jumps[-1]!=self.jumps[newind]):
-            VS.setObjective(self.obj,"Jump to %s enroute to %s." % (formatSystemName(self.jumps[newind]),formatSystemName(self.jumps[-1])))
+            VS.setObjective(self.obj,_("Jump to %s enroute to %s.") % (formatSystemName(self.jumps[newind]),formatSystemName(self.jumps[-1])))
         else:
-            VS.setObjective(self.obj,"Jump to final system: %s." % (formatSystemName(self.jumps[-1])))
+            VS.setObjective(self.obj,_("Jump to final system: %s.") % (formatSystemName(self.jumps[-1])))
 
     def __init__ (self,you, numsystemsaway,jumps=(),preffaction=''):
         self.arrivedsys=0
@@ -90,7 +90,7 @@ class go_to_adjacent_systems:
         self.faction=self.you.getFactionName()
         name=self.you.getName()
         self.brief_you=Briefing.addShip(name,self.faction,(0.0,0.0,80.0))
-        VS.IOmessage (0,"go_to_adjacent_system","briefing","You must go to the %s system. In order to get there, you must follow this route that we have planned out for you." % self.DestinationSystem())
+        VS.IOmessage (0,"go_to_adjacent_system","briefing",_("You must go to the %s system. In order to get there, you must follow this route that we have planned out for you.") % self.DestinationSystem())
 
     def loopbriefing(self):
         size=len(self.JumpPoints())
@@ -116,7 +116,7 @@ class go_to_adjacent_systems:
             Briefing.enqueueOrder (self.brief_you,(20.0*(self.brief_stage+1) ,self.rnd_y,80.0+self.rnd_y) , 5.0)
             self.begintime=time
             myname=self.JumpPoints() [self.brief_stage]
-            VS.IOmessage (0,"cargo mission","briefing","You must go to the '%s' jump point" % (myname))
+            VS.IOmessage (0,"cargo mission","briefing",_("You must go to the '%s' jump point") % (myname))
             self.brief_stage+=1
         return -1
     def endbriefing(self):

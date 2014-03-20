@@ -257,7 +257,7 @@ def generateCleansweepMission(path,numplanets,enemy,
     isFixer=vsrandom.random()
     if isFixer<fixerpct:
         creds*=2
-        addstr+="#F#bases/fixers/confed.spr#Talk to the Confed Officer#Thank you. Your help makes space a safer place.#\n"
+        addstr+=_("#F#bases/fixers/confed.spr#Talk to the Confed Officer#Thank you. Your help makes space a safer place.#\n")
     elif isFixer<guildpct:
         creds*=1.5
         if (cleansweep):
@@ -279,7 +279,7 @@ def generateCleansweepMission(path,numplanets,enemy,
         additionalinstructions+=_(" Capital ships are possibly in the area.")
 
     writemissionsavegame (addstr+"import %s\ntemp=%s.%s(0, %d, %d, %d, %s,'',%d,%d,%f,%f,'%s',%d%s)\ntemp=0\n"%(missiontype,missiontype,missiontype,numplanets, dist, creds, str(path),minships,maxships,fighterprob,capshipprob,enemy,forceattack,additional))
-    writedescription("Authorities would like a detailed scan of the %s system. We require %d nav locations be visited on the scanning route. The pay for this mission is %d. Encounters with %s forces likely.%s"%(processSystem(path[-1]),numplanets,creds,enemy,additionalinstructions))
+    writedescription(_("Authorities would like a detailed scan of the %s system. We require %d nav locations be visited on the scanning route. The pay for this mission is %d. Encounters with %s forces likely.%s")%(processSystem(path[-1]),numplanets,creds,enemy,additionalinstructions))
     ispoint="s"
     if numplanets==1:
         ispoint=""
@@ -302,12 +302,12 @@ def generatePatrolMission (path, numplanets,
     isFixer=vsrandom.random()
     if isFixer<fixerpct:
         creds*=2
-        addstr+="#F#bases/fixers/confed.spr#Talk to the Confed Officer#Thank you. Your help makes space a safer place.#\n"
+        addstr+=_("#F#bases/fixers/confed.spr#Talk to the Confed Officer#Thank you. Your help makes space a safer place.#\n")
     elif isFixer<guildpct:
         creds*=1.5
         addstr+="#G#Patrol#\n"
     writemissionsavegame (addstr+"import patrol\ntemp=patrol.patrol(0, %d, %d, %d, %s)\ntemp=0\n"%(numplanets, dist, creds, str(path)))
-    writedescription("Insystem authorities would like a detailed scan of the %s system. We require %d nav locations be visited on the scanning route. The pay for this mission is %d."%(processSystem(path[-1]),numplanets,creds))
+    writedescription(_("Insystem authorities would like a detailed scan of the %s system. We require %d nav locations be visited on the scanning route. The pay for this mission is %d.")%(processSystem(path[-1]),numplanets,creds))
     ispoint="s"
     if numplanets==1:
         ispoint=""
@@ -343,7 +343,7 @@ def generateEscortLocal(path,fg,fac,
     addstr=""
     if isFixer<fixerpct:
         creds*=2
-        addstr+="#F#bases/fixers/merchant.spr#Talk to the Merchant#Thank you. I entrust that you will safely guide my collegue until he reaches the destination.#\n"
+        addstr+=_("#F#bases/fixers/merchant.spr#Talk to the Merchant#Thank you. I entrust that you will safely guide my collegue until he reaches the destination.#\n")
     elif isFixer<guildpct:
         creds*=1.5
         addstr+="#G#Escort#\n"
@@ -355,7 +355,7 @@ def generateEscortLocal(path,fg,fac,
     else:
         mistype = 'ESCORT'
     writemissionsavegame(addstr+"import escort_local\ntemp=escort_local.escort_local('%s',0,%d,%d,500,%d,%d,'%s',(),'','%s','','%s','%s')"%(enfac,diff,waves,creds,incoming,fac,enfg,fg,typ))
-    writedescription("Escort %s is required for the %s type %s starship from the %s flightgroup in this system. Attacks from the %s faction are likely. You will be paid %d credits if the starship survives in this starsystem until it reaches its destination."%(additionalinfo,formatShip(typ),fac,fg,enfac,int(creds)))
+    writedescription(_("Escort %s is required for the %s type %s starship from the %s flightgroup in this system. Attacks from the %s faction are likely. You will be paid %d credits if the starship survives in this starsystem until it reaches its destination.")%(additionalinfo,formatShip(typ),fac,fg,enfac,int(creds)))
     writemissionname("Escort/Escort_%s_%s"%(fac,fg),[path[-1]],isFixerString(addstr))
     writemissionvars( { 'MISSION_TYPE' : mistype } )
 
@@ -376,7 +376,7 @@ def generateEscortMission (path,fg,fac,
     isFixer=vsrandom.random()
     if isFixer<fixerpct:
         creds*=2
-        addstr+="#F#bases/fixers/merchant.spr#Talk to the Merchant#Thank you. I entrust that you will safely guide my collegue until you reach the destination.#\n"
+        addstr+=_("#F#bases/fixers/merchant.spr#Talk to the Merchant#Thank you. I entrust that you will safely guide my collegue until you reach the destination.#\n")
     elif isFixer<guildpct:
         creds*=1.5
         addstr+="#G#Escort#\n"
@@ -385,7 +385,7 @@ def generateEscortMission (path,fg,fac,
     else:
         mistype = 'ESCORT'
     writemissionsavegame (addstr+"import escort_mission\ntemp=escort_mission.initrandom('%s', %d, %g, 0, 0, %s, '','%s','%s')\ntemp=0\n"%(fac, diff, float(creds), str(path),fg,typ))
-    writedescription("The %s %s in the %s flightgroup requres an escort to %s. The reward for a successful escort is %d credits."%(fac,formatShip(typ),fg, processSystem(path[-1]),creds))
+    writedescription(_("The %s %s in the %s flightgroup requres an escort to %s. The reward for a successful escort is %d credits.")%(fac,formatShip(typ),fg, processSystem(path[-1]),creds))
     writemissionname("Escort/Escort_%s_%s_to_%s"%(fac,fg,processSystem(path[-1])),path,isFixerString(addstr))
     writemissionvars( { 'MISSION_TYPE' : mistype } )
 
@@ -461,7 +461,7 @@ def generateCargoMission (path, numcargos,category, fac,
     isFixer=vsrandom.random()
     if isFixer<fixerpct:
         creds*=2
-        addstr+="#F#bases/fixers/merchant.spr#Talk to the Merchant#Thank you. I entrust you will make the delivery successfully.#\n"
+        addstr+=_("#F#bases/fixers/merchant.spr#Talk to the Merchant#Thank you. I entrust you will make the delivery successfully.#\n")
     elif isFixer<guildpct:
         creds*=1.5
         addstr+="#G#Cargo#\n"
@@ -482,7 +482,7 @@ def generateCargoMission (path, numcargos,category, fac,
         composedBrief = composedBrief.replace('$PY',str(int(creds)))
         writedescription(composedBrief)
     else:
-        writedescription(strStart+"%s cargo to the %s system. The mission is worth %d credits to us. You will deliver it to a base owned by the %s.%s"%(formatCargoCategory(category), processSystem(path[-1]),creds,fac,pathWarning(path,isFixer<guildpct)))
+        writedescription(strStart+_("%s cargo to the %s system. The mission is worth %d credits to us. You will deliver it to a base owned by the %s.%s")%(formatCargoCategory(category), processSystem(path[-1]),creds,fac,pathWarning(path,isFixer<guildpct)))
     writemissionname("Cargo/Deliver_%s_to_%s"%(changecat(category),processSystem(path[-1])),path,isFixerString(addstr))
 
     if len(path)==1:
@@ -509,7 +509,7 @@ def generateRescueMission(path,rescuelist,
     else:
         mistype = 'RESCUE'
     writemissionsavegame("import rescue\nntemp=rescue.rescue(%d,0,'%s',%d,'%s','%s',%s)\nntemp=0"%(creds,rescuelist[0],numships,rescuelist[2],rescuelist[1],str(path)))
-    writedescription("SOS! This is an ejected %s pilot under attack by at least %d %s craft. I request immediate assistance to the %s system and will offer %d credits for a safe return to the local planet where I may recover."%(rescuelist[0],numships,rescuelist[2],processSystem(path[-1]),creds))
+    writedescription(_("SOS! This is an ejected %s pilot under attack by at least %d %s craft. I request immediate assistance to the %s system and will offer %d credits for a safe return to the local planet where I may recover.")%(rescuelist[0],numships,rescuelist[2],processSystem(path[-1]),creds))
     writemissionname("Rescue/Rescue_%s_from_%s_ships"%(rescuelist[0],rescuelist[2]),path,0)
     writemissionvars( { 'MISSION_TYPE' : mistype } )
 
@@ -539,9 +539,9 @@ def generateBountyMission (path,fg,fac,
     isFixer=vsrandom.random()
     if isFixer<fixerpct:
         finalprice*=2
-        addstr+="#F#bases/fixers/hunter.spr#Talk with the Bounty Hunter#We will pay you on mission completion. And as far as anyone knows - we never met."
+        addstr+=_("#F#bases/fixers/hunter.spr#Talk with the Bounty Hunter#We will pay you on mission completion. And as far as anyone knows - we never met.")
         if (runaway):
-            addstr += '#Also-- we have information that the target may be informed about your attack and may be ready to run. Be quick!'
+            addstr += _('#Also-- we have information that the target may be informed about your attack and may be ready to run. Be quick!')
         addstr+="#\n"
     elif isFixer<guildpct:
         creds*=1.5
@@ -549,12 +549,12 @@ def generateBountyMission (path,fg,fac,
     writemissionsavegame(addstr+"import bounty\ntemp=bounty.bounty(0, 0, %g, %d, %d, '%s', %s, '', '%s','%s')\ntemp=0\n"%(finalprice, runaway, diff, fac, str(path), fg,typ))
     diffstr = ""
     if (diff>0):
-        diffstr="  The ship in question is thought to have %d starships for protection."%diff
+        diffstr=_("  The ship in question is thought to have %d starships for protection.")%diff
     if len(path)==1:
         mistype = 'IN-SYSTEM BOUNTY'
     else:
         mistype = 'BOUNTY'
-    writedescription("A %s starship in the %s flightgroup has been harassing operations in the %s system. Reward for the termination of said ship is %d credits.%s"%(formatShip(typ),fg, processSystem(path[-1]), finalprice,diffstr))
+    writedescription(_("A %s starship in the %s flightgroup has been harassing operations in the %s system. Reward for the termination of said ship is %d credits.%s")%(formatShip(typ),fg, processSystem(path[-1]), finalprice,diffstr))
     if (cap):
         writemissionname ("Bounty/on_%s_Capital_Vessel_in_%s"%(fac,processSystem(path[-1])),path,isFixerString(addstr))
     else:
@@ -584,7 +584,7 @@ def generateDefendMission (path,defendfg,defendfac, attackfg,attackfac,
     isFixer=vsrandom.random()
     if isFixer<fixerpct:
         creds*=2
-        addstr+="#F#bases/fixers/confed.spr#Talk to the Confed Officer#Thank you. Your defense will help confed in the long run. We appreciate the support of the bounty hunting community.#\n"
+        addstr+=_("#F#bases/fixers/confed.spr#Talk to the Confed Officer#Thank you. Your defense will help confed in the long run. We appreciate the support of the bounty hunting community.#\n")
     elif isFixer<guildpct:
         creds*=1.5
         addstr+="#G#Defend#\n"
@@ -597,7 +597,7 @@ def generateDefendMission (path,defendfg,defendfac, attackfg,attackfac,
         mistype = 'IN-SYSTEM DEFEND'
     else:
         mistype = 'DEFEND'
-    writedescription("A %s assault wing named %s has jumped in and is moving for an attack on one of our %sassets in the %s system.\nYour task is to eradicate them before they eliminate our starship.\nIntelligence shows that they have %d starships of type %s. Your reward is %d credits."%(attackfac, attackfg, iscapitol, processSystem(path[-1]),quantity, formatShip(attacktyp),creds))
+    writedescription(_("A %s assault wing named %s has jumped in and is moving for an attack on one of our %sassets in the %s system.\nYour task is to eradicate them before they eliminate our starship.\nIntelligence shows that they have %d starships of type %s. Your reward is %d credits.")%(attackfac, attackfg, iscapitol, processSystem(path[-1]),quantity, formatShip(attacktyp),creds))
     writemissionname("Defend/Defend_%s_from_%s"%(defendfac, attackfac),path,isFixerString(addstr))
     writemissionvars( { 'MISSION_TYPE' : mistype } )
 
@@ -615,7 +615,7 @@ def generateWingmanMission(fg, faction,
         s=str(numships)+" pilots"
         EorA="e"
         are="are"
-    writedescription(s+" in the %s faction %s willing to help you out and fight with you as long as you pay %d credits."%(faction, are, creds))
+    writedescription(s+_(" in the %s faction %s willing to help you out and fight with you as long as you pay %d credits.")%(faction, are, creds))
     writemissionname("Wingmen/Hire_%d_%s_Wingm%sn"%(numships,faction,EorA),[VS.getSystemFile()],0)
     writemissionvars( { 'MISSION_TYPE' : 'WINGMAN' } )
 
