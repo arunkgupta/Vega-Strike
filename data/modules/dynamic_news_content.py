@@ -122,7 +122,7 @@ all_faction_name_global = {
                 ,"fstandname" : ["Alisha Bernhardt"]
                 }
 ,"homeland-security" : {"full" : [_("Homeland Security Force")]
-                ,"nicks" : ["Enforcer)]
+                ,"nicks" : ["Enforcer"]
                 ,"nickp" : ["Enforcers"]
                 ,"dnicks": [_("Jackboot")]
                 ,"dnickp": [_("Fuzz")]
