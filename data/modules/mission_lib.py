@@ -333,7 +333,7 @@ def MakePlunder(which):
     constructor = plunder.plunder
     creds=vsrandom.randrange(15,25)*1000
     args = (creds,'pirates',5,'Contraband',1)
-    briefing0 = _('Arr Matey. We have a target in this system that needs a lil roughin up. We need you to bag a merchant and deliver her cargo into our hands.  It\'s worth) '+str(creds)+ _(' to us. Up to you, ya space pirate.')
+    briefing0 = _('Arr Matey. We have a target in this system that needs a lil roughin up. We need you to bag a merchant and deliver her cargo into our hands.  It\'s worth ')+str(creds)+ _(' to us. Up to you, ya space pirate.')
     briefing1 = _('Ahoy! We\'ll be lookin for that cargo mighty soon!')
     vars = { 'MISSION_TYPE' : 'PIRACY',
              'MISSION_SHORTDESC' : 'Plunder merchant target for %s' % creds }

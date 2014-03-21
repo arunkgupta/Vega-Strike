@@ -38,7 +38,7 @@ all_faction_name_global = {
                 ,"nickp": ["Highborn"]
                 ,"dnicks":[_("Creditblood")]
                 ,"dnickp":[_("Creditbloods")]
-                ,"government":_(["Highborn Board of Exectives")]
+                ,"government":[_("Highborn Board of Exectives")]
                 ,"possessive":[_("Highborn's")]
                 ,"homeworld" : ["Rand"]
                 ,"mstandname":["Fredrick Vanderbildt"]
@@ -349,8 +349,8 @@ all_faction_name_global = {
                 ,"fstandname" : ["Jane Doe"]
                 }
 ,"forsaken_citizen":    {"full" : [_("The Union of Dispossessed Settlers")]
-                ,"nicks":["Forsaken")]
-                ,"nickp":["Forsaken")]
+                ,"nicks":["Forsaken"]
+                ,"nickp":["Forsaken"]
                 ,"dnicks":[_("Frost Baby")]
                 ,"dnickp":[_("Frost Babies")]
                 ,"government": [_("Dispossessed Settlers Council")]
@@ -638,7 +638,7 @@ _all_news_global = {
                                                                           ,(0.8,"all",_("VAR_aggressor_FG brutally repulsed at VAR_system_system\\A small skirmish between the VAR_aggressor_nicks squadron and the VAR_defender_nicks VAR_defender_FG pierced the silence of space in VAR_system_system today as the VAR_defender_dnickp gave the VAR_aggressor_nicks a run for their money. Unforunately for the VAR_aggressor_FG squad, the weapons and manpower did not last through the fight, and no ships were left functional.  Many of the VAR_aggressor_nicks pilots involved in the battle will not be returning home after today's space scorching events. The VAR_aggressor_government was not directly available for comment, but as usual, funeral arrangements will be subsidized by their directive.\\\\\\GNN -- \"All for one, one for all.\""))
                                                                           ,(1.0,"all",_("Stop these Vile Actions!\\Our noble warriors, slain in cruel circumstances by VAR_defender_possessive forces, are now being subject to the ultimate indignity! VAR_defender_possessive privateers and pilots are being encouraged to shoot the bodies of our dead – in the name of target practice!\\We call on all peoples, help stop this hideous practice!"))
                                                                           ]
-                                                ,"neutral"              : [(0.8,"all",_(v"Attempted VAR_aggressor_nicks attack in VAR_system_system backfires\\The VAR_aggressor_nicks VAR_aggressor_FG squadron engaged VAR_defender_nicks forces today. Utterly without a plan, their attack backfired as the VAR_defender_FG squad of VAR_defender_FGtype ships looped around and closed for the kill.  What is seen as a miscalculation on the part of the VAR_aggressor_nickp, this attack will probably change the aggressivity of the tactics in the VAR_system_system. Whether or not things cool down in the VAR_system_sector sector remains to be seen.\\\\\\GNN -- \"We're manic, yet don't panic.\""))
+                                                ,"neutral"              : [(0.8,"all",_("Attempted VAR_aggressor_nicks attack in VAR_system_system backfires\\The VAR_aggressor_nicks VAR_aggressor_FG squadron engaged VAR_defender_nicks forces today. Utterly without a plan, their attack backfired as the VAR_defender_FG squad of VAR_defender_FGtype ships looped around and closed for the kill.  What is seen as a miscalculation on the part of the VAR_aggressor_nickp, this attack will probably change the aggressivity of the tactics in the VAR_system_system. Whether or not things cool down in the VAR_system_sector sector remains to be seen.\\\\\\GNN -- \"We're manic, yet don't panic.\""))
                                                                           ,(0.5,"player",_("VAR_aggressor_nicks squad: VAR_aggressor_FG trashed by VAR_defender_nicks\\In a move of possible aggression a VAR_aggressor_FGtype from the VAR_aggressor_FG flightgroup pursued a VAR_defender_nicks VAR_defender_FGtype . Swiftly taking back the spotlight, the VAR_defender_nicks starship did a zero-G summersault and engaged the VAR_aggressor_FG at point-blank range. After some minutes of interchanging fire, the VAR_aggressor_FG ship was entirely inoperative. News sources are investigating the VAR_defender_possessive claim of self defense.\\\\\\GNN -- \"Your death is our breath\""))
                                                                           ,(1.0,"all",_("VAR_defender_nickp Play a New Game.\\The VAR_defender_nickp have developed a new game, ‘Shoot a VAR_aggressor_dnicks!’ using the bodies of the VAR_aggressor_possessive dead. They are encouraging all and sundry to approach the site of a battle between their forces and VAR_aggressor_FGtype ships, and use the blown hulls and frozen bodies of slain VAR_aggressor_nickp for target practice. It is now feared that such actions will escalate the tensions between both forces.\\Stay Online."))
                                                                           ]
