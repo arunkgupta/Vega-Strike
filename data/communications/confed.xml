@@ -6,9 +6,9 @@
 	</node>
 
 <!-- Starting Points -->
-	<node text="The confederation approves of your efforts." 
-              text1="Have a nice day."
-              text2="If you were doing any more, I'd have to offer you a job here and now."
+	<node text=_("The confederation approves of your efforts.") 
+              text1=_("Have a nice day.")
+              text2=_("If you were doing any more, I'd have to offer you a job here and now.")
               relationship="0.2"><!-- node 1 (very happy)-->
 		<sound file="communications/sounds/confed/confed_approves-efforts.ogg" sex="0" gain="3.0"/>
                 <sound file="communications/sounds/confed/confed_have-nice-day.ogg" sex="0" gain="3.0"/>
