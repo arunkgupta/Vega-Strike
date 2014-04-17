@@ -85,7 +85,7 @@ def getCargoCon():
                             ['#\nimport quest_intro2\nresult = quest_intro2.isAt(\"Crucible/Enyo\")'],
                             ['#\nimport quest_intro2\nquest_intro2.cargoIterate(\"merchant\")'],
                             "bases/fixers/merchant.spr",
-                            "Talk to the Merchant." ))
+                            _("Talk to the Merchant.") ))
     con.addNode(roo)
 
     mer = Node()
