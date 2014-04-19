@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-03-21 15:14+0100\n"
-"PO-Revision-Date: 2014-04-19 15:22+0100\n"
+"PO-Revision-Date: 2014-04-19 23:11+0100\n"
 "Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -6323,7 +6323,7 @@ msgstr ""
 #: data/mission/patrol/explore_gamma.mission:10
 #: data/mission/patrol/patrol.mission:10
 msgid "We require scanned data from a particular star system.  Unfortunately we cannot disclose the location at this time due to competitive reasons; however, we will offer you a sound reward if you take up this patrol."
-msgstr ""
+msgstr "Nous avons besoin de données scannées dans un système stellaire particulier.  Malheureusement, nous ne pouvons pas vous révéler immédiatement l'endroit, pour des raisons de concurrence ; toutefois, nous vous proposons une récompence en crédits sonnants et trébuchants si vous accomplissez cette patrouille."
 
 #: data/mission/patrol/patrol_10_insys.mission:9
 #: data/mission/patrol/patrol_10_outsys.mission:9
@@ -6339,31 +6339,31 @@ msgstr "Mission de patrouille"
 
 #: data/mission/patrol/patrol_10_insys.mission:10
 msgid "Patrol 10 locations in this star systems.  We need this information to further our plans.  Pay is 9230"
-msgstr ""
+msgstr "Patrouillez 10 zones dans ce système stellaire. Nous avons besoin de ces informations pour élaborer nos plans. La paie est de 9230."
 
 #: data/mission/patrol/patrol_10_outsys.mission:10
 msgid "We require 10 separate patrol points to be scanned in a nearby system. Pay for this mission will be 12300"
-msgstr ""
+msgstr "Nous avons besoin que 10 zones soient visitées dans un système voisin. Lapaie pour cette misision sera de 12300."
 
 #: data/mission/patrol/patrol_5_insys.mission:10
 msgid "We require five particular strategic points to be patrolled in this system.  Enemies may be eliminated at your discression. Pay is 7850"
-msgstr ""
+msgstr "Nous avons bvesoin que 5 zones stratégiques soient visitées dans ce système. Les ennemis pourront être éliminés à votre discrétion. La paie est de 7850."
 
 #: data/mission/patrol/patrol_5_outsys.mission:10
 msgid "We require military data for a neighboring system. We will pay 9200 for a privateer to scan various strategic points in this system and report them to us."
-msgstr ""
+msgstr "Nous avons besoin de données militaires dans un système voisin. Nous paierons 9200 pour qu'un pilote scanne différents points stratégiques dans ce système et nous renvoie les données."
 
 #: data/mission/patrol/patrol_6_insys.mission:10
 msgid "We will pay 7185 for a privateer to patrol 6 locations in this star systems. We need data for further tactical analysis."
-msgstr ""
+msgstr "Nous paierons 7185 pour une patrouille de 6 zones dans ce système. Nous avons besoin de données pour de futures analyses tactiques."
 
 #: data/mission/patrol/patrol_6_outsys.mission:10
 msgid "Patrol 7 locations in a neighboring star system. This data is vital to our strategic presence in this system.  You will be paid 9700 for a successful patrol."
-msgstr ""
+msgstr "Patrouillez 7 zones dans un système stellaire voisin. Ces données sont vitales pour notre présence stratégique dans ce système. Vous serez payé 9700 une fois votre patrouille accomplie."
 
 #: data/mission/patrol/patrol_far.mission:10
 msgid "Patrol 8 locations in a distant star systems. We need detailed navigational data to plan an assault on this system.  Your reward will be 20025 credits."
-msgstr ""
+msgstr "Patrouillez 8 zones dans un système stellaire éloigné. Nous avons besoin de données de navigation détaillées afin de planifier un assaut sur ce système. Votre récompense sera de 20025 crédits."
 
 #: data/mission/patrol/scout_far.mission:9
 msgid "Scout Mission"
@@ -6371,7 +6371,7 @@ msgstr "Mission de reconnaissance"
 
 #: data/mission/patrol/scout_far.mission:10
 msgid "We require a scout to journey to a distant system and return data to us about a particular location in it.  This is confidential, but you will be paid 18000 for success."
-msgstr ""
+msgstr "Nous avons besoin d'un patrouilleur pour se rendre dans un système lointain et nous renvoyer des données d'un secteur particulier. Tout ceci est confidentiel, mais vous serez payé 18000 en cas de succès."
 
 #: data/mission/patrol/scout_insys.mission:10
 msgid "Our company requires a brave scout to send us navigation data of a nav point.  Your reward will be 2250 upon verification of data."
