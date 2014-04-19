@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-03-21 15:14+0100\n"
-"PO-Revision-Date: 2014-04-17 22:27+0100\n"
+"PO-Revision-Date: 2014-04-19 15:22+0100\n"
 "Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -34,7 +34,6 @@ msgstr ""
 #: data/bases/industrial_lib.py:110
 #: data/bases/planet_lib.py:13
 #: data/bases/rock.py:13
-#, fuzzy
 msgid "Launch Your Ship"
 msgstr "Lancement"
 
@@ -91,9 +90,8 @@ msgstr "Salle de missions"
 #: data/bases/Commerce_Center.py:35
 #: data/bases/NEW_BASE.py:23
 #: data/bases/Snow.py:34
-#, fuzzy
 msgid "Upgrade Ship"
-msgstr "Négociant en vaisseaux"
+msgstr "Améloirer votre vaisseau"
 
 #: data/bases/Commerce_Center.py:36
 #: data/bases/NEW_BASE.py:24
@@ -189,9 +187,8 @@ msgstr "Améliorer l'armement"
 #: data/bases/agriculture_lib.py:18
 #: data/bases/industrial_lib.py:103
 #: data/bases/industrial_lib.py:109
-#, fuzzy
 msgid "Weapons Room"
-msgstr "Salle de missions"
+msgstr "Armurerie"
 
 #: data/bases/bar.py:28
 #: data/bases/bar_lib.py:7
@@ -202,9 +199,8 @@ msgid "Talk to the Bartender"
 msgstr ""
 
 #: data/bases/bar_lib.py:8
-#, fuzzy
 msgid "Exit the Bar"
-msgstr "Bar"
+msgstr "Sortir du bar"
 
 #: data/bases/bar_lib.py:9
 msgid "GNN News"
@@ -1175,7 +1171,6 @@ msgstr ""
 #: data/bases/frigid_mud.py:40
 #: data/bases/frigid_mud.py:45
 #: data/bases/frigid_mud.py:57
-#, fuzzy
 msgid "Concourse"
 msgstr "Hall principal"
 
@@ -1192,9 +1187,8 @@ msgstr ""
 
 #: data/bases/desert.py:45
 #: data/bases/desert.py:53
-#, fuzzy
 msgid "Main_Tent"
-msgstr "Hall principal"
+msgstr "Tente principale"
 
 #: data/bases/desert.py:46
 #: data/bases/industrial_lib.py:47
@@ -1207,7 +1201,6 @@ msgstr "Hall principal"
 #: data/bases/mining_lib.py:57
 #: data/bases/mining_lib.py:66
 #: data/bases/unit_lib.py:34
-#, fuzzy
 msgid "Landing_Pad"
 msgstr "Piste d'atterrissage"
 
@@ -1215,14 +1208,12 @@ msgstr "Piste d'atterrissage"
 #: data/bases/military_lib.py:36
 #: data/bases/mining_lib.py:60
 #: data/bases/ocean_lib.py:40
-#, fuzzy
 msgid "Mission_Computer"
 msgstr "Ordinateur des missions"
 
 #: data/bases/desert.py:48
-#, fuzzy
 msgid "Weapon_Room"
-msgstr "Salle de missions"
+msgstr "Armurerie"
 
 #: data/bases/desert.py:50
 #: data/bases/industrial_lib.py:46
@@ -1230,22 +1221,19 @@ msgstr "Salle de missions"
 #: data/bases/mining_lib.py:56
 #: data/bases/mining_lib.py:61
 #: data/bases/mining_lib.py:65
-#, fuzzy
 msgid "Trade_Center"
-msgstr "Négocier du fret"
+msgstr "Centre de négoce"
 
 #: data/bases/desert.py:51
 #: data/bases/military_lib.py:50
 #: data/bases/mining_lib.py:52
-#, fuzzy
 msgid "Upgrade_Starship"
-msgstr "Améliorer l'armement"
+msgstr "Améliorer votre vaisseau"
 
 #: data/bases/desert.py:52
 #: data/bases/industrial_lib.py:45
 #: data/bases/mining_lib.py:63
 #: data/bases/mining_lib.py:64
-#, fuzzy
 msgid "Ship_Dealer"
 msgstr "Négociant en vaisseaux"
 
@@ -1256,7 +1244,6 @@ msgstr "Négociant en vaisseaux"
 #: data/bases/mining_lib.py:51
 #: data/bases/mining_lib.py:55
 #: data/bases/ocean_lib.py:47
-#, fuzzy
 msgid "Trade_Cargo"
 msgstr "Négocier du fret"
 
@@ -1266,12 +1253,10 @@ msgstr ""
 
 #: data/bases/desert.py:56
 #: data/bases/mining_lib.py:50
-#, fuzzy
 msgid "Landing_Bay"
 msgstr "Quai d'embarquement"
 
 #: data/bases/desert.py:57
-#, fuzzy
 msgid "Cargo_Trading_Center"
 msgstr "Ordinateur de fret"
 
@@ -1289,7 +1274,6 @@ msgstr "Ordinateur de fret"
 #: data/bases/unit_lib.py:32
 #: data/bases/unit_lib.py:39
 #: data/bases/unit_lib.py:40
-#, fuzzy
 msgid "Main_Concourse"
 msgstr "Hall principal"
 
@@ -1309,19 +1293,16 @@ msgstr ""
 
 #: data/bases/desert.py:62
 #: data/bases/desert.py:63
-#, fuzzy
 msgid "Return_To_Main_Tent"
-msgstr "Hall principal"
+msgstr "Retourner à la tente principale"
 
 #: data/bases/explore.py:15
-#, fuzzy
 msgid "Accept This Mission"
-msgstr "Ordinateur des missions"
+msgstr "Accepter la mission"
 
 #: data/bases/explore.py:16
-#, fuzzy
 msgid "Decline This Mission"
-msgstr "Ordinateur des missions"
+msgstr "Refuser la mission"
 
 #: data/bases/explore.py:17
 #, python-format
@@ -1600,7 +1581,6 @@ msgstr ""
 
 #: data/bases/forest.py:32
 #: data/bases/forest.py:38
-#, fuzzy
 msgid "Landing Exterior"
 msgstr "Extérieur de la planète"
 
@@ -1613,9 +1593,8 @@ msgid "Return"
 msgstr ""
 
 #: data/bases/forest.py:43
-#, fuzzy
 msgid "Visit Planet"
-msgstr "Extérieur de la planète"
+msgstr "Visiter la planète"
 
 #: data/bases/forest.py:47
 #: data/bases/forest.py:48
@@ -1636,12 +1615,10 @@ msgid "Panorama"
 msgstr ""
 
 #: data/bases/frigid_mud.py:43
-#, fuzzy
 msgid "To Landing Pad"
 msgstr "Piste d'atterrissage"
 
 #: data/bases/frigid_mud.py:47
-#, fuzzy
 msgid "To Bar"
 msgstr "Bar"
 
@@ -1667,9 +1644,8 @@ msgid "We have checked your account and it appears that you do not have enough c
 msgstr ""
 
 #: data/bases/guilds.py:166
-#, fuzzy
 msgid "Accept this Mission"
-msgstr "Ordinateur des missions"
+msgstr "Accepter la mission"
 
 #: data/bases/guilds.py:226
 msgid ""
@@ -1680,15 +1656,13 @@ msgstr ""
 #: data/bases/industrial_lib.py:42
 #: data/bases/industrial_lib.py:55
 #: data/bases/industrial_lib.py:66
-#, fuzzy
 msgid "Industrial_Planet_Surface"
-msgstr "Extérieur de la planète"
+msgstr "Surface de la planète"
 
 #: data/bases/industrial_lib.py:44
 #: data/bases/industrial_lib.py:57
-#, fuzzy
 msgid "Weapon_Dealer"
-msgstr "Négociant en vaisseaux"
+msgstr "Négociant d'armes"
 
 #: data/bases/industrial_lib.py:49
 msgid "Examine_Factory"
@@ -1699,29 +1673,25 @@ msgid "Explore_Planetary_Surface"
 msgstr ""
 
 #: data/bases/industrial_lib.py:63
-#, fuzzy
 msgid "Upgrade_Weapons"
 msgstr "Améliorer l'armement"
 
 #: data/bases/industrial_lib.py:65
-#, fuzzy
 msgid "Industrial_Planet_Exterior"
 msgstr "Extérieur de la planète"
 
 #: data/bases/industrial_lib.py:67
 #: data/bases/industrial_lib.py:68
-#, fuzzy
 msgid "Industrial_Planet_Hills"
-msgstr "Extérieur de la planète"
+msgstr "Collines "
 
 #: data/bases/industrial_lib.py:69
 msgid "Examine_Factory_Operation"
 msgstr ""
 
 #: data/bases/industrial_lib.py:70
-#, fuzzy
 msgid "Main_Complex_Exterior"
-msgstr "Hall principal"
+msgstr "Bâtiment extérieur principal"
 
 #: data/bases/industrial_lib.py:96
 #: data/bases/unit_lib.py:38
@@ -6405,11 +6375,11 @@ msgstr ""
 
 #: data/mission/patrol/scout_insys.mission:10
 msgid "Our company requires a brave scout to send us navigation data of a nav point.  Your reward will be 2250 upon verification of data."
-msgstr ""
+msgstr "Notre compagnie a besoin d'un patrouilleur courageux pour nous envoyer des données de navigation sur une de nos prochaines étapes. Votre récompense sera de 2250 après vérification des données."
 
 #: data/mission/patrol/scout_outsys.mission:10
 msgid "We require you to scout a strategic point in a nearby system. You will be rewarded 5000 for completion."
-msgstr ""
+msgstr "Nous vous demandons de patrouiller dans une zone stratégique d'un système voisin. Vous recevrez 5000 à l'accomplissement de votre mission."
 
 #: data/mission/test/tail.mission:9
 msgid "Tail Mission"
@@ -6432,53 +6402,53 @@ msgstr "Tester la mission de filature."
 #: data/mission/wingman/rlaan_3.mission:10
 #: data/mission/wingman/wingman.mission:10
 msgid "HireWingman"
-msgstr ""
+msgstr "Embaucher un équipier."
 
 #: data/mission/test/total_jump.mission:11
 #: data/mission/test/total_war_python.mission:11
 msgid "Two merchants are looking to form a convoy with willing participant. Capital required: 60000."
-msgstr ""
+msgstr "Deux marchands cherchent des volontaires pour former un convoi. Capital requis : 60000."
 
 #: data/mission/test/total_war2.mission:4
 #: data/mission/test/total_war_hostile.mission:4
 #: data/mission/test/total_war_neutral.mission:4
 msgid "Total War in Space"
-msgstr ""
+msgstr "Guerre spatiale totale"
 
 #: data/mission/wingman/aera_1.mission:11
 msgid "Aera escort looking for hire. If you pay on time--you will be protected and will survive.  Money, 14000 first, questions later."
-msgstr ""
+msgstr "Escorte Area à la recherche d'un emploi. Si vous payez à temps - vous serez protégé et survivrez. 14000 à payer d'avance, les questions plus tard."
 
 #: data/mission/wingman/confed_1.mission:11
 msgid "A desperate Ex-Star Confederate soldier is in need of work. He will loyally escort your cargo vessel and protect it for a low cost of 7500 for a days work. Thank you dear friends."
-msgstr ""
+msgstr "Un ex-soldat de la Confédération stellaire désespéré a besoin de travail. Il escortera loyalement votre vaisseau de marchandises et le protégera pour 7500 par jour ouvré. Merci chers amis."
 
 #: data/mission/wingman/confed_2.mission:11
 msgid "Two Ex-Star Confederate soldiers are looking for work and are willing to escort your cargo vessel and protect it for a low cost of 13000 for a days work. Cash required in advance-- no questions, exceptions or bargains!"
-msgstr ""
+msgstr "Deux ex-soldats de la Confédération stellaire cherchent du travail et sont prêts à escorter votre transport de marchandises à bas prix pour 13000 par jour ouvré. A payer d'avance - pas de  questions, exceptions, ni de négociations!"
 
 #: data/mission/wingman/hunter_1.mission:11
 msgid "Bounty Hunter willing to escort cargo and other starships. Cost: 8000 -- No regret."
-msgstr ""
+msgstr "Chasseur de primes prêt à escorter des transports de marchandise ou autres vaisseaux. Coût : 8000. Vous ne le regretterez pas."
 
 #: data/mission/wingman/merchant_1.mission:11
 #: data/mission/wingman/wingman.mission:11
 msgid "Two merchants are looking to form a convoy with willing participant. Capital required: 12000."
-msgstr ""
+msgstr "Deux marchands cherchent des participants pour former un convoi. Capital requis : 12000."
 
 #: data/mission/wingman/militia_1.mission:11
 msgid "Former Militia member out of work. I could use some quick cash, so I'll propose an escort job for 5000 for a day."
-msgstr ""
+msgstr "Ancien membre des forces militaires au chomage. J'aurais rapidement besoin d'argent, aussi je propose de vous escorter pour 5000 par jour."
 
 #: data/mission/wingman/rlaan_1.mission:11
 msgid "Rlaan lone escort in need of cash. Will escort alien or rlaan alike. Cost 1000 for rlaan 4800 for other species."
-msgstr ""
+msgstr "Vaisseaux d'escorte Rlaan ayant beosoin d'argent. Escorte tout aussi bien vaisseaux Rlaan ou aliens. Coût 1000 pour un Rlaan, 4800 pour les autres espèces."
 
 #: data/mission/wingman/rlaan_2.mission:11
 msgid "Rlaan escort duo will service users for 12400. No tolerance for any foulplay."
-msgstr ""
+msgstr "Duo d'escorte Rlaan offre ses services pour 12400. aucune tolérance envers les "
 
 #: data/mission/wingman/rlaan_3.mission:11
 msgid "Rlaan escort trio has need for quick money. Cost for 24000. We will be there for you if you hire us.."
-msgstr ""
+msgstr "Trio d'escorte Rlaan ayant besoin d'argent rapidement. Cout : 24000. Nous serons là pour vous si vous nous engagez..."
 
