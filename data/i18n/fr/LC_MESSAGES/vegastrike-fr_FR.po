@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-03-21 15:14+0100\n"
-"PO-Revision-Date: 2014-04-19 23:11+0100\n"
+"PO-Revision-Date: 2014-04-23 19:49+0100\n"
 "Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-Basepath: C:\\Projets\\wkPython\\Vega-Strike\n"
+"X-Poedit-Basepath: /home/vincent/vs_intern/Vega-Strike\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: var\n"
@@ -6236,23 +6236,23 @@ msgstr ""
 
 #: data/mission/escort/pirate/outsystem_critical_escort.mission:10
 msgid "This is a pirate craft just having finished a successful boarding of a rich merchant. We have plenty of spoils of war to share with you, privateer; however we are under attack! Please assist us immediately and we will offer you 25000 credits."
-msgstr ""
+msgstr "Vaisseau pirate ayant juste réussi un abordage sur un riche vaisseau marchand. Nos soutes sont pleines de butins de guerre à partager avec vous, mercenaire ; toutefois nous sommes attaqués! S'il vous plait, aidez nous immédiatement et nous vous offrirons 25000 crédits."
 
 #: data/mission/escort/pirate/outsystem_escort.mission:10
 msgid "This is a pirate craft under attack by forces illegally siezing and searching us. We need immediate help, and offer 16250 credits to anyone who assists us in reaching a pirate base!"
-msgstr ""
+msgstr "Vaisseau pirate attaqué par des forces qui nous recherchent de façon illégale. Nous avons besoin d'un soutien  immédiatement, et offrons 16250 crédits à quiconque nous aidera à rejoindre une base pirate!"
 
 #: data/mission/escort/rlaan/insystem_escort.mission:10
 msgid "An rlaan craft with supplies for the front line is in distress. You must assure that it can make it to our escort before it is destroyed.. If you can successfully do this, we will pay 9120, otherwise we will be forced to eliminate you as a pirate traitor."
-msgstr ""
+msgstr "Un vaisseau Rlaan transportant des équipements au front est en détresse. Vous devez vous assurer qu'il puisse arriver sain et sauf jusqu'à notre escorte dans le système voisin. Si vous y arrivez, nous vous paierons 9120, sinon nous serons forcés de vous éliminer comme un traître."
 
 #: data/mission/escort/rlaan/outsystem_critical_escort.mission:10
 msgid "A critical craft carying weapons for the front lines is under attack. You must assist it in reaching our escort craft on the other side of the jump point before it is too late. If you succeed we will offer 18280. Failure is unacceptible to us as Rlaan and results in execution."
-msgstr ""
+msgstr "Un vaisseau crucial transportant des armes jusqu'à la ligne de front est attaqué. Vous devez l'aider à rejoindre notre escorte de l'autre côté du point de saut hyperspatial, avant qu'il soit trop tard. Nous offrons 18280 en cas de réussite."
 
 #: data/mission/escort/rlaan/outsystem_escort.mission:10
 msgid "A craft carying Rlaan genetic research is in distress. Please assure it can make it to our escort in the neighboring system before it is destroyed. Due to the sensitive nature of this mission task we offer 14320. However if you fail, you will pay the price."
-msgstr ""
+msgstr "Un vaisseau transportant des produits de la recherche génétique Rlaan est en détresse. Assurez-vous qu'il puisse arriver sain et sauf jusqu'à notre escorte dans le système voisin. Vu la nature délicate de la mission, nous offrons 14320."
 
 #: data/mission/explore_universe.mission:10
 #: data/mission/explore_universe_precache.mission:10
@@ -6261,8 +6261,9 @@ msgstr "Mission de mercenaire"
 
 #: data/mission/explore_universe.mission:13
 #: data/mission/explore_universe_precache.mission:13
+#, fuzzy
 msgid "Like, as if."
-msgstr ""
+msgstr "Comme si."
 
 #: data/mission/gauntlet/aera/aera_gauntlet_1.mission:9
 #: data/mission/gauntlet/aera/aera_gauntlet_2.mission:9
@@ -6274,7 +6275,7 @@ msgstr ""
 #: data/mission/gauntlet/rlaan/rlaan_gauntlet_2.mission:9
 #: data/mission/gauntlet/rlaan/rlaan_gauntlet_3.mission:9
 msgid "You and your wingmen\\battle starships"
-msgstr ""
+msgstr "Vous et vos équipiers\\vaisseaux de bataille"
 
 #: data/mission/internal.mission:5
 #: data/mission/internal_mission_lib.mission:6
@@ -6286,28 +6287,28 @@ msgstr "Mission"
 #: data/mission/internal_mission_lib.mission:7
 #: data/mission/nothing.mission:6
 msgid "INTERNAL MISSION: DO NOT RUN THIS MISSION!!!"
-msgstr ""
+msgstr "MISSION INTERNE : NE PAS LANCER CETTE MISSION!!!"
 
 #: data/mission/main_menu.mission:9
 msgid "Vega Strike Main Menu"
-msgstr ""
+msgstr "Menu principal de Vega Strike"
 
 #: data/mission/main_menu.mission:12
 #: data/mission/modelview.mission:13
 msgid "Welcome to Vega Strike: Upon the Cold Sea."
-msgstr ""
+msgstr "Bienvenue à Vega Strike :  Sur la Mer la plus Froide"
 
 #: data/mission/modelview.mission:10
 msgid "Vega Strike Model viewer"
-msgstr ""
+msgstr "Visionneur du modèle de Vega Strike"
 
 #: data/mission/networking.mission:9
 msgid "Networking"
-msgstr ""
+msgstr "Mise en réseau"
 
 #: data/mission/networking.mission:14
 msgid "Default mission used on a private server."
-msgstr ""
+msgstr "Mission par défaut utilisée sur un serveur privé."
 
 #: data/mission/patrol/explore.mission:9
 #: data/mission/patrol/explore_beta.mission:9
@@ -6315,7 +6316,7 @@ msgstr ""
 #: data/mission/patrol/explore_gamma.mission:9
 #: data/mission/patrol/patrol.mission:9
 msgid "Patrol Star System"
-msgstr ""
+msgstr "Patrouille dans le système stellaire"
 
 #: data/mission/patrol/explore.mission:10
 #: data/mission/patrol/explore_beta.mission:10
