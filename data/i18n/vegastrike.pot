@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
-"POT-Creation-Date: 2014-03-21 15:14+0100\n"
-"PO-Revision-Date: 2014-03-21 15:15+0100\n"
+"POT-Creation-Date: 2014-05-06 08:52+0100\n"
+"PO-Revision-Date: 2014-05-06 08:52+0100\n"
 "Last-Translator: Andy Costanza <andy.costanza@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -1886,8 +1886,9 @@ msgstr "Ordinateur de fret"
 #: data/bases/industrial_lib.py:62 data/bases/industrial_lib.py:97
 #: data/bases/m_class.py:48 data/bases/mining_lib.py:44
 #: data/bases/mining_lib.py:54 data/bases/mining_lib.py:68
-#: data/bases/unit_lib.py:31 data/bases/unit_lib.py:32
-#: data/bases/unit_lib.py:39 data/bases/unit_lib.py:40
+#: data/bases/ocean_lib.py:37 data/bases/unit_lib.py:31
+#: data/bases/unit_lib.py:32 data/bases/unit_lib.py:39
+#: data/bases/unit_lib.py:40
 #, fuzzy
 msgid "Main_Concourse"
 msgstr "Hall principal"
@@ -2710,11 +2711,6 @@ msgstr "Quai d'embarquement"
 #: data/bases/mining_lib.py:48 data/bases/ocean_lib.py:54
 msgid "Shipyards"
 msgstr ""
-
-#: data/bases/ocean_lib.py:37
-#, fuzzy
-msgid "Main_Concourse)"
-msgstr "Hall principal"
 
 #: data/bases/ocean_lib.py:41
 #, fuzzy
@@ -5918,8 +5914,7 @@ msgstr ""
 #: data/modules/mission_lib.py:336
 msgid ""
 "Arr Matey. We have a target in this system that needs a lil roughin up. We "
-"need you to bag a merchant and deliver her cargo into our hands.  It's "
-"worth) "
+"need you to bag a merchant and deliver her cargo into our hands.  It's worth "
 msgstr ""
 
 #: data/modules/mission_lib.py:336
@@ -5928,15 +5923,6 @@ msgstr ""
 
 #: data/modules/mission_lib.py:337
 msgid "Ahoy! We'll be lookin for that cargo mighty soon!"
-msgstr ""
-
-#: data/modules/mission_lib.py:338
-#, fuzzy
-msgid "MISSION_TYPE"
-msgstr "Ordinateur des missions"
-
-#: data/modules/mission_lib.py:338
-msgid "PIRACY"
 msgstr ""
 
 #: data/modules/mission_lib.py:355
@@ -6742,6 +6728,10 @@ msgstr ""
 
 #: data/modules/quests/quest_intro2.py:84
 msgid "The receiving merchant."
+msgstr ""
+
+#: data/modules/quests/quest_intro2.py:88
+msgid "Talk to the Merchant."
 msgstr ""
 
 #: data/modules/quests/quest_intro2.py:92
@@ -9574,3 +9564,11 @@ msgid ""
 "Rlaan escort trio has need for quick money. Cost for 24000. We will be there "
 "for you if you hire us.."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Main_Concourse)"
+#~ msgstr "Hall principal"
+
+#, fuzzy
+#~ msgid "MISSION_TYPE"
+#~ msgstr "Ordinateur des missions"
