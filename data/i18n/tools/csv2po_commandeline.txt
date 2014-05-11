@@ -1,0 +1,1 @@
+csv2po '/home/vincent/vs_intern/Vega-Strike/data/i18n/fr/LC_MESSAGES/vegastrike_csv.csv' '/home/vincent/vs_intern/Vega-Strike/data/i18n/fr/LC_MESSAGES/vegastrike_csv_FR.po'

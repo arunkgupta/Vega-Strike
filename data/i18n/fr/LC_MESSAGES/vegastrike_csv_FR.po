@@ -1,0 +1,1892 @@
+msgid ""
+msgstr ""
+"Plural-Forms: s\n"
+"Project-Id-Version: vegastrike CSV units traduction\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: /home/vincent/vs_intern/Vega-Strike/data\n"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:55
+msgid "photon_swarm"
+msgstr "Essaim de photons"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:12
+msgid "Dual Shield IX"
+msgstr "Boucliers doubles IX"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:24;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:25
+msgid "Tesla"
+msgstr "Tesla"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:95
+msgid "Ktek Gun"
+msgstr "Canon Ktek"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:10
+msgid "Capacitor II"
+msgstr "Condensateur II"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:59
+msgid "red_star"
+msgstr "Etoile rouge"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/countermeasures.csv:5
+msgid "ECM Package II"
+msgstr "Pack ECM II"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:6
+msgid "Reactor III"
+msgstr "Réacteur III"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:45
+msgid "Leech Gun"
+msgstr "Canon Sangsue"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:48;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:49
+msgid "Ariston"
+msgstr "Ariston"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:49
+msgid "lr_pminus_beam"
+msgstr "Canon à particules LR"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:77
+msgid "Disruptor Cannon"
+msgstr "Canon disrupteur"
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:20
+msgid "rlaanturretpd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:46
+msgid "Molten"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:37
+msgid "icepick"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:9
+msgid "PolyDuranium Armor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:30
+msgid "MiningBase__aera"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:8;/home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:41
+msgid "kineticmissile"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:103
+msgid "Mini Driver Ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:76
+msgid "Vendetta"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:9
+msgid "Capacitor I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:17
+msgid "Reactor XIV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:84
+msgid "asteroids1600gap"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:74
+msgid "turretpunishergun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:54
+msgid "aeraturretadvtorp"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:9;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:10
+msgid "Pacifier"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:40
+msgid "Relay"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:4
+msgid "Plasteel Armor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:8
+msgid "AFieldJumpSparse"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:58;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:59
+msgid "Hammer"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:59
+msgid "Reaper"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:53
+msgid "aeraturretLR_heavygun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:113;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:114
+msgid "GTIO"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:67
+msgid "turretgunheavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:34
+msgid "earth"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:18
+msgid "Steerage Class"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:30
+msgid "Snow"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:30;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:31
+msgid "Midwife"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:132;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:133
+msgid "Diligence"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:37
+msgid "turretbeamgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:5
+msgid "spacebomb"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:31;/home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:32;/home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:33
+msgid "turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:72
+msgid "turretmainheavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:35
+msgid "Overgrown"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:44;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:45
+msgid "Admonisher"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:97;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:98;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:140;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:141
+msgid "Hidalgo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:17;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:18
+msgid "Hawking"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:27;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:28
+msgid "red-nebula"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:11
+msgid "Photon MK I Warheads"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:46
+msgid "Leech ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:22;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:23
+msgid "Shundi"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:6
+msgid "Polysteel Armor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:26
+msgid "Quad Shield VIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:84
+msgid "Hephaestus Cannon"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:9
+msgid "AFieldJumpThin"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:47
+msgid "turretbeampgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:13
+msgid "Capacitor V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:48
+msgid "turretcapmissile"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:52
+msgid "Forsaken Shipyard Armature"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:23;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:24;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:25
+msgid "Gas Mine"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:8
+msgid "Aera Asteroid Fighter Base"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:41
+msgid "turretlaunchergun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:6
+msgid "Hawkeye ZX-86"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:22
+msgid "capiff_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:20
+msgid "cap_iff"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:17
+msgid "Dual Shield XIV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:23;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:24
+msgid "green-nebula"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:18
+msgid "beam_heavy_lr"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:39
+msgid "turretgunsmall"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:15;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:16
+msgid "minerals"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:19
+msgid "Economy Class"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:82
+msgid "Microwave Laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:22
+msgid "Capacitor XIV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:150;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:151
+msgid "Shenzong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:42
+msgid "j_class"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:4
+msgid "Hawkeye ZX-16"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:39
+msgid "Uninhabitable_Medium_Gas_Giant"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:73
+msgid "turretpunisher"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:10
+msgid "AFieldJump"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:46;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:47
+msgid "Ancestor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:4
+msgid "Autotracking"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:56
+msgid "Bio_Simple_Methane"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:98
+msgid "Long Range Disruptor Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:16
+msgid "Reactor XIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:13
+msgid "Overdrive III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:56
+msgid "rlaanturret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:5
+msgid "Hawkeye ZX-50"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:27
+msgid "turretpd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:10
+msgid "rlaan_turret_mini"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:105;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:106
+msgid "Ct2000"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:19
+msgid "rlaanturretminigun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:57
+msgid "Frozen_Ammonia"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:50;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:51
+msgid "Beholder"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:21
+msgid "rlaanturretpdgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:33
+msgid "Quad Shield XV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:14
+msgid "StarScanner 2610"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:56;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:57
+msgid "Dostoevsky"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:4
+msgid "Reactor I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:41
+msgid "industrial"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:12
+msgid "small_turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:47
+msgid "lr_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:6
+msgid "capship_turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:16
+msgid "antimatter"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:45
+msgid "mars"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/repairers.csv:8
+msgid "Repair Droid V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:65
+msgid "stormfire"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:4
+msgid "Undocumented Reactor Tweak"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:25
+msgid "cluster_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:79
+msgid "Rapid Fire IR Laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:48
+msgid "lr_disruptor_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:96
+msgid "Miniature Grav-thumper"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:34;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:35
+msgid "Agasicles"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:8
+msgid "Dual Shield V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:87
+msgid "asteroids800gap"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:7
+msgid "Photon MK III Warheads"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:60
+msgid "turret_capship_layered_defense"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:33
+msgid "desert"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:72;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:73
+msgid "Shizong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:68
+msgid "torpedo_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:11
+msgid "Dual Shield VIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:40
+msgid "killer_bee_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:18
+msgid "Capacitor X"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:109;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:110
+msgid "Entourage"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:51
+msgid "particle_beam_lr"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:49
+msgid "Starfortress"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:29
+msgid "turretpdlong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:4;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:5
+msgid "Areus"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:94
+msgid "Ktek Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:45
+msgid "turretLR_PminusBeam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:10
+msgid "SkyScope Beta"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:60
+msgid "orange_star"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:72
+msgid "Capital Scale Rapid Fire UV Laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:93;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:94
+msgid "Schroedinger"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:32
+msgid "Quad Shield XIV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:71
+msgid "SeaxBane"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:5
+msgid "FTL Energy Capacitor II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:48
+msgid "Aera_Trantor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:23
+msgid "capship_disruptor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:93
+msgid "Ktek Point Defense Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:35;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:37;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:38
+msgid "Refinery"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:148;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:149
+msgid "Quicksilver"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:59
+msgid "turret_capship_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:28
+msgid "Medical__rlaan"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:46
+msgid "turret_capship_dreadnaughtblend"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:52;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:53
+msgid "Convolution"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:37
+msgid "Arid_Methane"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:87
+msgid "Hephaestus PD Ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:19
+msgid "Quad Shield I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:89;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:90
+msgid "Nicander"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:74
+msgid "Rapid Fire XASER"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:42
+msgid "ktek_cap_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:7
+msgid "AsteroidFighterBase"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:11
+msgid "rlaan_turret_pd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:10;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:11
+msgid "Uln_Asteroid_Refinery"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:5
+msgid "Isometal Armor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:4
+msgid "aera_turret_pd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:66;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:67
+msgid "Regret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:9
+msgid "More Upgrade Volume"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:7
+msgid "Dual Shield IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:64
+msgid "turret_capship_torplauncher_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:9
+msgid "torp"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:21
+msgid "Quad Shield III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:38
+msgid "gas_giant"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:87;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:88
+msgid "Knight"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:56
+msgid "porcupine_mine"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:85
+msgid "Hephaestus Shells"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:54
+msgid "sun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/repairers.csv:7
+msgid "Repair Droid IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:130;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:131
+msgid "Cultivator"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:13
+msgid "AField"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:14
+msgid "advtorpedo_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:57
+msgid "rlaanturretgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:35
+msgid "heatseeker_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:36
+msgid "Overgrown_Methane"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:13
+msgid "Commerce Center"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:7
+msgid "Reactor IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:81
+msgid "Rapid Fire Microwave Laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:15
+msgid "SpaceSurveyor H1"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:100
+msgid "Micro Driver"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:21;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:22
+msgid "nebula_veryhuge"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:76
+msgid "Disruptor Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:18
+msgid "rlaanturretmini"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:12
+msgid "Civilan_Asteroid_Shipyard"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:13
+msgid "dumbfire"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:25
+msgid "Quad Shield VII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:8
+msgid "SkyScope Alpha"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:43
+msgid "turretsmall"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:86
+msgid "Hephaestus PD"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:33
+msgid "MiningBase__rlaan"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:5
+msgid "beam_turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:12
+msgid "AFieldThin"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:11;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:12
+msgid "Taizong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:52
+msgid "penetrator_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:14
+msgid "Capacitor VI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:80
+msgid "IR Laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:19;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:20
+msgid "Leonidas"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:31
+msgid "flak_heavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:23
+msgid "Quad Shield V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:9
+msgid "AsteroidFighterBase__rlaan"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:52
+msgid "Bio_Diverse_Methane"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:17
+msgid "franklinpd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:4;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:5;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:6
+msgid "Agricultural Station"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:42;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:43
+msgid "Vigilance"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:8
+msgid "Photon MK II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:101
+msgid "Micro Driver Ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:88
+msgid "Light Ion Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:23;/home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:24;/home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:25
+msgid "turretflak"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:111;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:112
+msgid "Franklin"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:13
+msgid "Reactor X"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:15
+msgid "Overdrive V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:16
+msgid "imrec"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:45;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:46;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:48
+msgid "Shipyard"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:50
+msgid "ocean"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:6
+msgid "Shield Overcharging"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:68;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:69
+msgid "Robin"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:30
+msgid "turretpdlonggun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:36
+msgid "turretbeam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:34
+msgid "hail_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:69
+msgid "turretmain"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:119;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:120;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:121
+msgid "Llama"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:38;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:39
+msgid "Ruizong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:14
+msgid "Jump"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:9
+msgid "medium_turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:8
+msgid "heavy_turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:97
+msgid "Miniature Grav-thumper ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:17;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:18;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:19
+msgid "Factory"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:75
+msgid "XASER"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:12
+msgid "capiff"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:6
+msgid "FTL Energy Capacitor III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:29
+msgid "Dirt"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:7
+msgid "FTL Energy Capacitor IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:58
+msgid "turret_capship_dreadnaughtblend_guns"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:29;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:31;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:32
+msgid "MiningBase"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:4
+msgid "pmiss"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:39
+msgid "Uln_Refinery"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:38
+msgid "turretgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:4
+msgid "ABelt"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:64
+msgid "sanitizer"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:76
+msgid "turretxasergun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:104
+msgid "Particle Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:16
+msgid "Capacitor VIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:14
+msgid "turret_pd_long"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:138;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:139
+msgid "Gleaner"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:75
+msgid "turretxaser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:5
+msgid "AFieldBaseSparse"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:115;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:116
+msgid "H496"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:13
+msgid "StarScanner 2600"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:50
+msgid "turretlaunchercapmissile"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:51
+msgid "Oceanic_Ammonia"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:6
+msgid "Dual Shield III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:85;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:86
+msgid "Jackal"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:12;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:13;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:14
+msgid "Cargo Pod"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:36
+msgid "hellspawn"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:24
+msgid "Capship_Missile_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:77;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:78
+msgid "Zhuangzong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:22
+msgid "Quad Shield IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:12
+msgid "Reactor IX"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:63
+msgid "rlr_pminus_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:83
+msgid "Heavy Ion Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:27
+msgid "Quad Shield IX"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:81
+msgid "Asteroids"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:4
+msgid "FTL Energy Capacitor I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:21
+msgid "Mk32"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/drives.csv:4
+msgid "Interstellar Jump Drive"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:12
+msgid "Overdrive II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:16
+msgid "SpaceSurveyor H2"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:86
+msgid "asteroids400gap"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:4;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:5;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:6;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:7;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:8;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:9;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:10;/home/vincent/vs_intern/Vega-Strike/data/units/cargos_art.csv:11;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:73;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:74;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:75;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:76;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:77;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:78;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:79;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:80
+msgid "Asteroid"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:11
+msgid "mine"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:17
+msgid "Cryochamber"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:34
+msgid "Outpost"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:61
+msgid "repulsor_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:44
+msgid "leech_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:53
+msgid "Rocky"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:50
+msgid "Starfortress__aera"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:31
+msgid "carribean"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:88
+msgid "asteroids"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:8
+msgid "Tantalum Carbide Armor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:154
+msgid "Xuanzong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:67
+msgid "thermopylae"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:92
+msgid "Replacement Jackhammer Coolant"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:7
+msgid "cluster"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:106
+msgid "Relativistic Particle Beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:21
+msgid "capcluster_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:10
+msgid "Photon MK I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:134;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:135
+msgid "Emu"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:15
+msgid "anihilator_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:65
+msgid "turretbeamheavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:7
+msgid "AFieldBase"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:51
+msgid "Aera Laser Turret"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:11
+msgid "Reactor VIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:99
+msgid "Long Range Disruptor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:40;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:41;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:103;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:104
+msgid "Thales"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:38
+msgid "image_recognition_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:25;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:26
+msgid "purple-nebula"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:28
+msgid "Quad Shield X"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:28
+msgid "dumbfire_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:52
+msgid "aeraturretLR_heavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:90
+msgid "Ion Burster ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:19
+msgid "breeze_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:35
+msgid "turret_medium_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:126;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:127
+msgid "Bell"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:101;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:102;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:122;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:123
+msgid "Plowshare"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:8
+msgid "Overpowered Turning Jets"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:62
+msgid "rlr_laser_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:19
+msgid "Capacitor XI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:49
+msgid "newdetroit"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:42
+msgid "turretlauncherswarm"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:16
+msgid "Overdrive VI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:65;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:66;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:67;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:68;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:69;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:70;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:71;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:72
+msgid "wormhole"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:9
+msgid "Photon MK II Warheads"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:12
+msgid "Plasma Plume"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:17
+msgid "Ktek Tracker"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:11
+msgid "Capacitor III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:32
+msgid "friend_or_foe_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:17
+msgid "leech"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:6
+msgid "AFieldBaseThin"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:16
+msgid "aeraturretpd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:62;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:63;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:64
+msgid "navpoint"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:26
+msgid "Crippler"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:32
+msgid "Lava"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:105
+msgid "Pugilist"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/cloaks.csv:4
+msgid "Cloaking Device"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:13
+msgid "Dual Shield X"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:158
+msgid "Dodo_Cargo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:13
+msgid "turret_pd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:20
+msgid "Capacitor XII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:107
+msgid "Shield Breaker"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:70
+msgid "tractor_capability"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:50
+msgid "lr_pminus_beam_mkiv"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:44
+msgid "Shaper_Bio_Adaptation"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:43
+msgid "Research__aera"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:107;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:108
+msgid "Dodo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:152;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:153
+msgid "Tridacna"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:13;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:14
+msgid "Archimedes"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:71
+msgid "turretmaingunheavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:31
+msgid "Quad Shield XIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:26;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:27
+msgid "Agesipolis"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:9
+msgid "Dual Shield VI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:63
+msgid "turret_capship_torplauncher"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:27
+msgid "discontinuity"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:26
+msgid "turretflakgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:15
+msgid "Capacitor VII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:62
+msgid "turret_capship_light_particlebeamgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:10
+msgid "torpedo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:8
+msgid "FTL Energy Capacitor V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:61
+msgid "White_Star"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:47
+msgid "moon"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:55
+msgid "Rlaan_Trantor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:14
+msgid "Reactor XI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/countermeasures.csv:6
+msgid "ECM Package III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:15;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:16;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:17;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:18;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:19;/home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:20
+msgid "nebula"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:57
+msgid "Razor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:20;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:21
+msgid "Fighter Barracks"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:144;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:145
+msgid "Mule"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:30
+msgid "flak"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:15;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:16
+msgid "Clydesdale"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:15
+msgid "aeraturretRLR_pd"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:15
+msgid "heatseek"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:70
+msgid "turretmaingun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:15
+msgid "Dual Shield XII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:26;/home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:27
+msgid "Medical Station"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:36;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:37
+msgid "Kahan"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:6
+msgid "capshipmissile"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:18
+msgid "Dual Shield XV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:61
+msgid "turret_capship_layered_defense_guns"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:44
+msgid "Bio_Diverse_M_Class"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:12
+msgid "Capacitor IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:30
+msgid "Quad Shield XII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/lifepods_art.csv:4;/home/vincent/vs_intern/Vega-Strike/data/units/lifepods_art.csv:5;/home/vincent/vs_intern/Vega-Strike/data/units/lifepods_art.csv:6
+msgid "Lifepod"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:69
+msgid "tractor_beam"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:40
+msgid "turretlauncher"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:7
+msgid "Engine Safety Override"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:117;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:118
+msgid "Kafka"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:21
+msgid "Capacitor XIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:55
+msgid "aeraturretcapshipgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:6
+msgid "Photon MK III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:17
+msgid "Capacitor IX"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:20
+msgid "Quad Shield II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:60;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:61;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:99;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:100
+msgid "Hyena"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:53
+msgid "penetrator_mkvi"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:5
+msgid "Dual Shield II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:17
+msgid "antimatter_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:102
+msgid "Mini Driver"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:66
+msgid "turretbeamheavygun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:71
+msgid "tractor_heavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:28
+msgid "turretpdgun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/countermeasures.csv:4
+msgid "ECM Package I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:124;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:125
+msgid "Sartre"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:14
+msgid "Dual Shield XI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:11
+msgid "AFieldSparse"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/repairers.csv:6
+msgid "Repair Droid III"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:60
+msgid "Reaper Warheads"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/repairers.csv:5
+msgid "Repair Droid II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:91;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:92
+msgid "Progeny"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:49
+msgid "turretcapmissiledeep"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:85
+msgid "asteroids200gap"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:146;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:147
+msgid "Ox"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:43
+msgid "laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:81;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:82
+msgid "Dirge"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:16
+msgid "Dual Shield XIII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:54
+msgid "photon_capship"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:16
+msgid "Diplomatic_Center"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:14
+msgid "Rlaan_Commerce_Center"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:5
+msgid "Reactor II"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:155;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:156
+msgid "Yeoman"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:142;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:143
+msgid "MacGyver"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:7
+msgid "Tungsten Armor"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:41
+msgid "Relay Satellite"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:20
+msgid "Comfort Class"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:64;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:65
+msgid "Redeemer"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:24
+msgid "Quad Shield VI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:14
+msgid "friendorfoe"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:47
+msgid "Shipyard__forsaken"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:40
+msgid "Uninhabitable_Dwarf_Gas_Giant"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:8
+msgid "Reactor V"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:23
+msgid "Capacitor XV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:68
+msgid "turretheavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:83;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:84
+msgid "Gawain"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:11
+msgid "StarScanner 2530"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:28;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:29
+msgid "Anaxidamus"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:74;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:75
+msgid "Sickle"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:42
+msgid "Research"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:9
+msgid "Reactor VI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/repairers.csv:4
+msgid "Repair Droid I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:91
+msgid "Jackhammer"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:36
+msgid "Refinery__aera"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:15
+msgid "Uln_Commerce_Center"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:7
+msgid "Hawkeye ZX-87"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:89
+msgid "Ion Burster"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:14
+msgid "Overdrive IV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:58
+msgid "university"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:4
+msgid "Dual Shield I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:15
+msgid "Reactor XII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:34
+msgid "turret_medium"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:18
+msgid "Reactor XV"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:51
+msgid "Starfortress__rlaan"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:29
+msgid "Quad Shield XI"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:78
+msgid "Dissonance"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:70;/home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:13
+msgid "Seaxbane"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:62;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:63
+msgid "Lancelot"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:12
+msgid "StarScanner 2545"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/shields.csv:10
+msgid "Dual Shield VII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:7
+msgid "capship_turret_heavy"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:39
+msgid "javelin"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:6
+msgid "Goddard"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:33
+msgid "grand_gauss"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:5
+msgid "Custom Shield Recharge Dynamo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:44
+msgid "turretswarm"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:7;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:8
+msgid "Kierkegaard"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:136;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:137
+msgid "Gaozong"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:32;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:33
+msgid "Watson"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:29
+msgid "emp_torpedo_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:54;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:55
+msgid "Determinant"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:95;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:96
+msgid "Shizu"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:73
+msgid "Capital Scale UV Laser"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:58
+msgid "Razor Warheads"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:83
+msgid "HiddenAsteroid"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:22
+msgid "Fighter_Barracks__rlaan"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:11
+msgid "Overdrive I"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:66
+msgid "swarm_ammo"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:128;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:129
+msgid "Charillus"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:43
+msgid "kBio_Simple"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:5
+msgid "Arc Device"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/turrets_art.csv:22
+msgid "turret_capship_pd_gun"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:79;/home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:80
+msgid "Derivative"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:10
+msgid "Reactor VII"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/reconfigurations.csv:10
+msgid "Cargo Expansion"
+msgstr ""
+
+#: /home/vincent/vs_intern/Vega-Strike/data/units/radars.csv:9
+msgid "SkyScope Alpha Plus"
+msgstr ""
+
