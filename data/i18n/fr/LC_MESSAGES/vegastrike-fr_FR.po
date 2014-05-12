@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-05-06 08:52+0100\n"
-"PO-Revision-Date: 2014-05-11 23:19+0100\n"
+"PO-Revision-Date: 2014-05-12 22:36+0100\n"
 "Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -6077,7 +6077,7 @@ msgstr ""
 
 #: data/mission/defend/rlaan/defend_small_attack.mission:10
 msgid "A small rlaan scout wing has jumped in and started terrorizing fighters and freighters in this system. Your task is to eliminate them--reward is 5000 credits per scout"
-msgstr ""
+msgstr "Un petit escadron de reconnaissance rlaan a sauté dans ce système et commencé à semer la terreur parmi les chasseurs et les cargos. Votre tâche est de les éliminer -- la récompense est de 5000 crédits par éclaireur."
 
 #: data/mission/eject.mission:12
 #: data/mission/launch.mission:12
@@ -6128,12 +6128,12 @@ msgstr ""
 #: data/mission/escort/pirate/insystem_critical_escort.mission:9
 #: data/mission/escort/rlaan/insystem_critical_escort.mission:9
 msgid "Escort--Distress Critical"
-msgstr ""
+msgstr "Escorte--Détresse cruciale"
 
 #: data/mission/escort/aera/insystem_critical_escort.mission:10
 #: data/mission/escort/rlaan/insystem_critical_escort.mission:10
 msgid "One of our valuable craft is under attack.  Without support, they will perish! Assist at all costs! We will offer 17000 for it making it safely to our escort. Failure is punishable by death."
-msgstr ""
+msgstr "L'un de nos précieux vaisseaux subit une attaque. Sans assistance, ils vont périr! Aidez-les à tout prix! Nous offrirons 17000 pour qu'ils puissent rejoindre notre escorte. L'échec est punis par la mort."
 
 #: data/mission/escort/aera/insystem_escort.mission:9
 #: data/mission/escort/aera/outsystem_critical_escort.mission:9
@@ -6155,27 +6155,27 @@ msgstr ""
 #: data/mission/escort/rlaan/outsystem_critical_escort.mission:9
 #: data/mission/escort/rlaan/outsystem_escort.mission:9
 msgid "Escort"
-msgstr ""
+msgstr "Escorte"
 
 #: data/mission/escort/aera/insystem_escort.mission:10
 msgid "An aera craft with supplies for the front line is in distress. You must assure that it can make it to our escort before it is destroyed.. If you can successfully do this, we will pay 9120, otherwise we will be forced to eliminate you as a pirate traitor."
-msgstr ""
+msgstr "Un vaisseau aeran transposrtant des équipements pour le front est en détresse. Vous devez vous assurer qu'il puisse atteindre notre escorte avant d'être détruit. Si vous remplissez votre contrat, nous paierons 9120, sinon nous serons forcés de vous éliminer, comme le traître que vous serez."
 
 #: data/mission/escort/aera/outsystem_critical_escort.mission:10
 msgid "A critical craft carying weapons for the front lines is under attack. You must assist it in reaching our escort craft on the other side of the jump point before it is too late. If you succeed we will offer 18280. Failure is unacceptible to us as Aera and results in execution."
-msgstr ""
+msgstr "un vaisseau crucial transportant des armes pour le front subit une attaque. Vous devez l'aider à rejoindre notre vaisseau d'escorte de l'autre côté du point de saut avant qu'il soit trop tard. Si vous réussissez, nous paierons 18280."
 
 #: data/mission/escort/aera/outsystem_escort.mission:10
 msgid "A craft carying Aera genetic research is in distress. Please assure it can make it to our escort in the neighboring system before it is destroyed. Due to the sensitive nature of this mission task we offer 14320. However if you fail, you will pay the price."
-msgstr ""
+msgstr "Un vaisseau transportant des éléments de recherche Aeran est en détresse. Assurez-vous qu'il puisse rejoindre notre escorte dans le système voisin, avant d'être détruit. En raison de la nature délicate de cette mission, nous offrons 14320."
 
 #: data/mission/escort/confed/insystem_critical_escort.mission:10
 msgid "One of our valuable starships is under attack in this system on its way to one of our starships! Assist at all costs! We will offer 10000 for it making it safely to our escort."
-msgstr ""
+msgstr "L'un de nos vaisseaux les plus précieux subit une attaque dans ce système en tentant de rejoindre un autre de nos vaisseaux! Aidez-le à tout prix! Nous offrirons 10000 pour qu'il puisse atteindre notre escorte sain et sauf."
 
 #: data/mission/escort/confed/insystem_escort.mission:10
 msgid "A craft with supplies for the front line is in distress. Please assure it can make it to our escort before it is destroyed. If you can successfully do this, we will pay 8120."
-msgstr ""
+msgstr "U vaisseau transportant des équipements pour la ligne de front est en détresse. Assurez-vous qu'il puisse rejoindre notre escorte avant d'être détruit. Si vous pouvez le faire, nous paierons 8120."
 
 #: data/mission/escort/confed/outsystem_critical_escort.mission:10
 msgid "A critical craft carying medical supplies for the front lines is under attack. You must assist it in reaching our escort craft on the other side of the jump point before it is too late. If you succeed we will offer 13280."
