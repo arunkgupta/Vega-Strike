@@ -72,11 +72,11 @@ msgstr ""
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:37
 msgid "icepick"
-msgstr ""
+msgstr "pic à glace"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/armors.csv:9
 msgid "PolyDuranium Armor"
-msgstr ""
+msgstr "Armure de PolyDuranium"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/installations_art.csv:30
 msgid "MiningBase__aera"
@@ -84,23 +84,23 @@ msgstr ""
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/missiles_art.csv:8;/home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:41
 msgid "kineticmissile"
-msgstr ""
+msgstr "missile cinétique"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/weapons.csv:103
 msgid "Mini Driver Ammo"
-msgstr ""
+msgstr "Munition pour Mini Driver"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/vessels_art.csv:76
 msgid "Vendetta"
-msgstr ""
+msgstr "Vendetta"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/capacitors.csv:9
 msgid "Capacitor I"
-msgstr ""
+msgstr "Condensateur I"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/reactors.csv:17
 msgid "Reactor XIV"
-msgstr ""
+msgstr "Réacteur XIV"
 
 #: /home/vincent/vs_intern/Vega-Strike/data/units/naturals_art.csv:84
 msgid "asteroids1600gap"

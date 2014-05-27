@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-05-06 08:52+0100\n"
-"PO-Revision-Date: 2014-05-12 22:36+0100\n"
+"PO-Revision-Date: 2014-05-27 23:30+0100\n"
 "Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -196,7 +196,7 @@ msgstr "Armurerie"
 #: data/bases/frigid_mud.py:79
 #: data/bases/frigid_mud.py:81
 msgid "Talk to the Bartender"
-msgstr ""
+msgstr "Parler au Barman"
 
 #: data/bases/bar_lib.py:8
 msgid "Exit the Bar"
@@ -204,48 +204,48 @@ msgstr "Sortir du bar"
 
 #: data/bases/bar_lib.py:9
 msgid "GNN News"
-msgstr ""
+msgstr "Actus GNN"
 
 #: data/bases/bartender.py:6
 msgid "Bottoms up for ye olde bartender, eh?"
-msgstr ""
+msgstr "Cul sec pour vot' bon vieux barman, hein?"
 
 #: data/bases/bartender.py:7
 msgid "Say, don't I know you from somewhere...?"
-msgstr ""
+msgstr "Dites, on ne s'est pas déjà rencontrés quelque-part?"
 
 #: data/bases/bartender.py:8
 msgid "Got any good stories to tell? I'm out, and I need some fresh ones to tell my regulars."
-msgstr ""
+msgstr "N'auriez pas une bonne histoire à raconter? Je suis à court, et j'en ai besoin de nouvelles pour mes habitués."
 
 #: data/bases/bartender.py:9
 msgid "Tilt back a nice cool one, friend."
-msgstr ""
+msgstr "Jettes t'en une bien fraîche derrière la cravate, l'ami."
 
 #: data/bases/bartender.py:10
 msgid "News is sparse around here, check back with me later when I've talked with some more of the haulers coming in later today."
-msgstr ""
+msgstr "Pas beaucoup d'infos par ici. Revenez me voir plus tard, quand j'aurai discuté avec les transporteurs qui viendront en cours d'après-midi."
 
 #: data/bases/bartender.py:11
 msgid "Shh! Looks like someone is watching. Keep your six covered."
-msgstr ""
+msgstr "Chhht! Quelqu'un vous regarde. Surveillez vos arrières."
 
 #: data/bases/bartender.py:12
 msgid "Have one on the house, it's happy hour!"
-msgstr ""
+msgstr "En voici une sur le compte de la maison, c'est la happy hour!"
 
 #: data/bases/bartender.py:13
 msgid "A nice drink and a bit o' talk is what I live for."
-msgstr ""
+msgstr "Une bonne boisson et un peu de discussion, c'est pour ça que je vis."
 
 #: data/bases/bartender.py:14
 msgid "Have you heard what's been on the news recently? It ain't pretty!"
-msgstr ""
+msgstr "Avez-vous entendu ce qui passait aux infos récemment? Ca na pas l'air folichon!"
 
 #: data/bases/bartender.py:15
 #: data/bases/bartender.py:27
 msgid "Can I get you anything? Whiskey? Vodka? Aarnbach's Acid? I'm all for being social, but I do have a business to run."
-msgstr ""
+msgstr "Je peux vous servir quelque-chose? Whisky? Vodka? Acide d'Aarnbach? Je suis à  fond pour la convivialité, mais j'ai un business à faire tourner."
 
 #: data/bases/bartender.py:16
 msgid "Did you know that before I started working here, everyone was served by either a robot, or computer controlled cyborg? I mean, I'm happy to work here... but who could stand having an unfeeling machine as a bartender?"
