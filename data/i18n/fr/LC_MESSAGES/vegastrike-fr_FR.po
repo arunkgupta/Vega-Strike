@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-05-06 08:52+0100\n"
-"PO-Revision-Date: 2014-05-27 23:30+0100\n"
+"PO-Revision-Date: 2014-06-09 18:26+0100\n"
 "Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -249,35 +249,35 @@ msgstr "Je peux vous servir quelque-chose? Whisky? Vodka? Acide d'Aarnbach? Je s
 
 #: data/bases/bartender.py:16
 msgid "Did you know that before I started working here, everyone was served by either a robot, or computer controlled cyborg? I mean, I'm happy to work here... but who could stand having an unfeeling machine as a bartender?"
-msgstr ""
+msgstr "Saviez-vous qu'avant que je commence à travailler ici, tout le monde était servi par un robot, ou un cyborg contrôlé par ordinateur? Je veux dire... je suis heureux de travailler ici... mais qui pourrait supporter d'avoir une machine sans âme comme barman?"
 
 #: data/bases/bartender.py:17
 msgid "I've run out of stories for the local crowd. Why don't you tell me a few tall tales from your adventures that I can make a few feet taller for the regulars?"
-msgstr ""
+msgstr "Je suis à court d'histoires pour les populations locales. Pourquoi ne me raconteriez vous pas quelques grands contes tirés de vos aventures, que je pourrais rendre encore plus grands pour les habitués du bar?"
 
 #: data/bases/bartender.py:18
 msgid "You're in luck, this one's free! You just caught the tail end of happy hour!"
-msgstr ""
+msgstr "Vous avez de la chance, celle-là est gratuite! Vous venez juste d'attraper la queue d'une happy hour!"
 
 #: data/bases/bartender.py:19
 msgid "Here, have a drink. This is a classic, it's called 'Venutian Sunset'."
-msgstr ""
+msgstr "Par ici! Prenez un verre. C'est un grand classique, ça s'appelle \"Coucher de soleil Venutien\""
 
 #: data/bases/bartender.py:20
 msgid "I just got a shipment of fine scotch in from good ol' Earth. Care for a taste?"
-msgstr ""
+msgstr "Je viens juste de recevoir une cargaison de scotch en provenance de notre bonne vieille Terre. OK pour goûter?"
 
 #: data/bases/bartender.py:21
 msgid "Sorry pal, can't talk now."
-msgstr ""
+msgstr "Désolé mon vieux, je ne peux pas parler maintenant."
 
 #: data/bases/bartender.py:22
 msgid "Been paying attention to any of the interplanetary sports? Yeah... me neither."
-msgstr ""
+msgstr "Z'avez prêté attention à un des sports interplanétaires? OK...moi non plus."
 
 #: data/bases/bartender.py:23
 msgid "Keep your hand close to that gun of yours... I think one of those shady-types has their eye on you."
-msgstr ""
+msgstr "Gardez votre main près de votre arme... Je pense qu'un de ces types louches braque son regard vers vous."
 
 #: data/bases/bartender.py:24
 msgid "Hello! Lots of travellers about. Have yourself a seat and enjoy a nice cool fuzzy buzzer."
@@ -285,27 +285,27 @@ msgstr ""
 
 #: data/bases/bartender.py:25
 msgid "Does he pat YOU like that?"
-msgstr ""
+msgstr "C'est VOUS qu'ils scrute comme ça?"
 
 #: data/bases/bartender.py:26
 msgid "I think the Luddites are crazy, just like anyone else. But I have to admit, their lobbyist friends in the Purists got the Senate to pass a law BANNING non-sentient robots and droids from serving alcohol. And that friend, is good news for me!"
-msgstr ""
+msgstr "Je pense que les Luddites sont dingues, un peu comme tout le monde. Mais je dois admettre que leurs amis influents chez les Puristes ont amené le Sénat à passer un loi INTERDISANT aux robots non sensibles et aux droïdes de servir de l'alcool. Et ça, mon ami, c'est une bonne nouvelle pour moi."
 
 #: data/bases/bartender.py:28
 msgid "I don't have anything good for you right now. Check back in later after I've talked to some other folks."
-msgstr ""
+msgstr "Là tout de suite, je n'ai rien de bon pour vous. Revenez un peu plus tard, quand j'aurai discuté avec d'autres gens."
 
 #: data/bases/bartender.py:29
 msgid "We'd better not talk right now. I think you're being watched."
-msgstr ""
+msgstr "Nous ne devrions pas parler maintenant. J'ai l'impression que vous êtes surveillé."
 
 #: data/bases/bartender.py:30
 msgid "Try this, it's my latest creation. A Jovian Sunspot!"
-msgstr ""
+msgstr "Essayez ceci, c'est ma dernière création. Une Tache solaire Jovienne!"
 
 #: data/bases/bartender.py:31
 msgid "If you're as much a smuggler as I think you are, you had better watch your P's and Q's around this place."
-msgstr ""
+msgstr "Si vous êtes un contebandier comme je le pense, vous feriez mieux de surveiller votre langue par ici."
 
 #: data/bases/bartender.py:33
 msgid "You'd best keep your sidearm covered in this establishment, sir. Students don't take kindly to threats!"
@@ -6020,60 +6020,60 @@ msgstr ""
 #: data/mission/defend/pirates/defend_medium_attack.mission:9
 #: data/mission/defend/retro/defend_medium_attack.mission:9
 msgid "Defend Freighter"
-msgstr ""
+msgstr "Défendre un cargo."
 
 #: data/mission/defend/iso/defend_medium_attack.mission:10
 msgid "An Interplanetary Socialist wing has jumped in and is moving for a strategic attack on one of our freighter starships in this system. Your task is to eliminate them before they eliminate our starship--reward is 2005 credits per fighter"
-msgstr ""
+msgstr "Un escadron Socialiste Interplanétaire a pénétré dans ce système et prépare une attaque stratégique sur l'un de nos vaisseaux de transport. Votre tâche est de les éliminer avant qu'ils détruisent notre cargo--la récompense est de  2005 crédits par vaisseau abattu."
 
 #: data/mission/defend/pirates/defend_large_attack.mission:10
 #: data/mission/defend/pirates/pirate_msision4.mission:10
 msgid "A large pirate assault wing has jumped in and demanded a huge ransom from one of our bases in this system. Your task is to eliminate them--reward is 800 credits per scout"
-msgstr ""
+msgstr "Un grand escadron d'assaut pirate a pénétré dans ce système et demande une rançon énorme, depuis l'une de nos bases. Votre tâche est de les éliminer -- la récompense est de 800 crédits par vaisseau."
 
 #: data/mission/defend/pirates/defend_lone_attack.mission:10
 msgid "A lone pirate has been reportedly terrorizing freighters in this system. Your task is to eliminate this fool--reward is 4200 credits"
-msgstr ""
+msgstr "Un pirate solitaire aurait mené des activités terroristes sur des cargos dans ce système. Votre tâche est d'éliminer ce fou -- récompense de 4200 crédits."
 
 #: data/mission/defend/pirates/defend_medium_attack.mission:10
 msgid "An pirate assault wing has jumped in and is moving for an attack on one of our freighter starships in this system. Your task is to eliminate them before they eliminate our starship--reward is 2005 credits per fighter"
-msgstr ""
+msgstr "Un escadron d'assaut pirate est arrivé par bond hyperspatial et se prépare à attaquer un de nos vaisseaux de transport. Votre tâche est de les éliminer avant qu'ils détriusent notre vaisseau -- la récompense est de 2005 crédits par chasseur abattu."
 
 #: data/mission/defend/pirates/defend_small_attack.mission:10
 msgid "A small pirate scout wing has jumped in and started terrorizing freighters in this system. Your task is to eliminate them--reward is 4800 credits per scout"
-msgstr ""
+msgstr "Un petit escadron pirate de reconnaissance a pénétré dans ce système et commencé des opérations de terrorisme sur les cargos présents. Votre tâche est de les éliminer -- la récompense est de 4800 crédits par vaisseau."
 
 #: data/mission/defend/retro/defend_large_attack.mission:10
 msgid "A large retro assault wing has jumped in and demanded we surrender our base to their god. Your task is to eliminate them before they get any strange ideas--reward is 810 credits per scout"
-msgstr ""
+msgstr "Un grand escadron de fanatiques religieux a sauté dans notre système et nous demande de livrer notre base à leur dieu. Votre tâche est de les éliminer avant qu'ils aient d'autres idées étranges. La récompense est de 810 crédits par éclaireur."
 
 #: data/mission/defend/retro/defend_lone_attack.mission:9
 msgid "Defend Against Retro Insurgent"
-msgstr ""
+msgstr "Défense contre un rebelle fondamentaliste"
 
 #: data/mission/defend/retro/defend_lone_attack.mission:10
 msgid "A lone retro-religious fanatic has been reportedly terrorizing freighters in this system. Your task is to eliminate this misguided man--reward is 4300 credits"
-msgstr ""
+msgstr "Un fanatique religieux terrorisant les pilotes de cargos a été identifié dans ce système. Votre tâche est d'éliminer ce fou -- récompense de 4300 crédits."
 
 #: data/mission/defend/retro/defend_medium_attack.mission:10
 msgid "An fanatic religious assault wing has jumped in and is moving for an attack on one of our starships in this system. Your task is to eliminate them before they eliminate or capture our starship--reward is 2055 credits per fighter"
-msgstr ""
+msgstr "Un escadron d'attaque composé de fanatiques religieux est arrivé par saut hyperspatial avance vers l'un de nos vaisseaux dans ce système. Votre tâche est de les éliminer avant qu'ils détruisent ou capturent notre vaisseau. La récompsence est de 2055 crédits par chasseur."
 
 #: data/mission/defend/retro/defend_small_attack.mission:10
 msgid "A small retro-religious wing has jumped in and started terrorizing freighters in this system, demanding they turn over all of their technology. Your task is to eliminate them--reward is 4900 credits per ship"
-msgstr ""
+msgstr "Un petit escadron de fondamentalistes religieux a pénétré dans ce système et commencé à semer la terreur parmi les cargos, exigeant qu'ils se détournent de toute technologie. Votre tâche est de les éliminer -- la récompense est de 4900 crédits par vaisseau abattu."
 
 #: data/mission/defend/rlaan/defend_large_attack.mission:10
 msgid "A large rlaan assault wing has jumped in and started attacking one of our bases in this system. Your task is to eliminate them--reward is 1000 credits per scout"
-msgstr ""
+msgstr "Un grand escadron d'assaut Rlaan est arrivé par bond et a commencé une attaque sur l'une de nos bases dans ce système. Votre tâche est de les éliminet - la récompense est de 1000 crédit par vaisseau."
 
 #: data/mission/defend/rlaan/defend_lone_attack.mission:10
 msgid "A lone rlaan scout has jumped in and started terrorizing freighters in this system. Your task is to eliminate this scout--reward is 4094 credits"
-msgstr ""
+msgstr "Un éclaireur Rlaan solitaire  est arrivé par saut et a commencé à terroriser des cargos dans ce système. Votre tâche est d'éliminer cet éclaireur - la récompense est de 4094 crédits."
 
 #: data/mission/defend/rlaan/defend_medium_attack.mission:10
 msgid "An rlaan assault wing has jumped in and is moving for an attack on one of our capitol starships in this system. Your task is to eliminate them before they eliminate our starship--reward is 2305 credits per fighter"
-msgstr ""
+msgstr "Un escadron d'assaut Rlaan a pénétré dans ce système et se prépare y à attaquer un de nos vaisseaux-mères. Votre tâche est de les éliminer avant notre vaisseau  - récompense de 2305 crédits par chasseur."
 
 #: data/mission/defend/rlaan/defend_small_attack.mission:10
 msgid "A small rlaan scout wing has jumped in and started terrorizing fighters and freighters in this system. Your task is to eliminate them--reward is 5000 credits per scout"
@@ -6435,7 +6435,7 @@ msgstr "Ancien membre des forces militaires au chomage. J'aurais rapidement beso
 
 #: data/mission/wingman/rlaan_1.mission:11
 msgid "Rlaan lone escort in need of cash. Will escort alien or rlaan alike. Cost 1000 for rlaan 4800 for other species."
-msgstr "Vaisseaux d'escorte Rlaan ayant beosoin d'argent. Escorte tout aussi bien vaisseaux Rlaan ou aliens. Coût 1000 pour un Rlaan, 4800 pour les autres espèces."
+msgstr "Vaisseaux d'escorte Rlaan ayant besoin d'argent. Escorte tout aussi bien vaisseaux Rlaan ou aliens. Coût 1000 pour un Rlaan, 4800 pour les autres espèces."
 
 #: data/mission/wingman/rlaan_2.mission:11
 msgid "Rlaan escort duo will service users for 12400. No tolerance for any foulplay."
