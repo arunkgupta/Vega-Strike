@@ -27,7 +27,7 @@ msgstr ""
 #: data/bases/planet_lib.py:13 data/bases/rock.py:13
 #, fuzzy
 msgid "Launch Your Ship"
-msgstr "Lancement"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:22 data/bases/Commerce_Center.py:25
 #: data/bases/Commerce_Center.py:33 data/bases/Commerce_Center.py:34
@@ -37,7 +37,7 @@ msgstr "Lancement"
 #: data/bases/forest.py:39
 #, fuzzy
 msgid "Main Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:24 data/bases/NEW_BASE.py:10
 #: data/bases/Snow.py:29 data/bases/aera_lib.py:15
@@ -45,41 +45,41 @@ msgstr "Hall principal"
 #: data/bases/industrial_lib.py:100 data/bases/m_class.py:59
 #, fuzzy
 msgid "Mission Computer"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:28 data/bases/NEW_BASE.py:15
 #, fuzzy
 msgid "Landing Platform"
-msgstr "Quai d'embarquement"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:29 data/bases/NEW_BASE.py:16
 #: data/bases/aera_lib.py:14 data/bases/agriculture_lib.py:12
 #: data/bases/industrial_lib.py:99
 #, fuzzy
 msgid "Cargo Computer"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:30 data/bases/NEW_BASE.py:17
 #, fuzzy
 msgid "Shopping Mall"
-msgstr "Centre commercial"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:31 data/bases/NEW_BASE.py:18
 #, fuzzy
 msgid "Mission Room"
-msgstr "Salle de missions"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:35 data/bases/NEW_BASE.py:23
 #: data/bases/Snow.py:34
 #, fuzzy
 msgid "Upgrade Ship"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/Commerce_Center.py:36 data/bases/NEW_BASE.py:24
 #: data/bases/Snow.py:38
 #, fuzzy
 msgid "Ship Dealer"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/Commerce_Center__rlaan.py:16
 #: data/bases/Fighter_Barracks__rlaan.py:16 data/bases/Medical__rlaan.py:16
@@ -92,12 +92,12 @@ msgstr "Négociant en vaisseaux"
 #: data/bases/rock.py:16
 #, fuzzy
 msgid "Computer"
-msgstr "Ordinateur"
+msgstr ""
 
 #: data/bases/Lava.py:14 data/bases/aera_lib.py:25
 #, fuzzy
 msgid "Planet Exterior"
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/bases/Lava.py:15 data/bases/aera_lib.py:28 data/bases/forest.py:33
 #: data/bases/forest.py:36 data/bases/forest.py:42 data/bases/frigid_mud.py:46
@@ -105,7 +105,7 @@ msgstr "Extérieur de la planète"
 #: data/bases/frigid_mud.py:55
 #, fuzzy
 msgid "Landing Pad"
-msgstr "Piste d'atterrissage"
+msgstr ""
 
 #: data/bases/Snow.py:27 data/bases/carribean.py:17 data/bases/desert.py:44
 #: data/bases/industrial_lib.py:41 data/bases/m_class.py:47
@@ -113,18 +113,18 @@ msgstr "Piste d'atterrissage"
 #: data/bases/ocean_lib.py:36 data/bases/unit_lib.py:30
 #, fuzzy
 msgid "Launch"
-msgstr "Lancement"
+msgstr ""
 
 #: data/bases/Snow.py:30
 #, fuzzy
 msgid "Trade Cargo"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/Snow.py:32 data/bases/military_lib.py:41
 #: data/bases/mining_lib.py:59 data/bases/ocean_lib.py:39
 #, fuzzy
 msgid "Hangar"
-msgstr "Garage"
+msgstr ""
 
 #: data/bases/Snow.py:33 data/bases/aera_lib.py:24
 #: data/bases/agriculture_lib.py:17 data/bases/carribean.py:26
@@ -137,19 +137,19 @@ msgstr "Garage"
 #: data/bases/unit_lib.py:35
 #, fuzzy
 msgid "Bar"
-msgstr "Bar"
+msgstr ""
 
 #: data/bases/Snow.py:37
 #, fuzzy
 msgid "Upgrade Weapons"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/aera_lib.py:26 data/bases/aera_lib.py:27
 #: data/bases/agriculture_lib.py:18 data/bases/industrial_lib.py:103
 #: data/bases/industrial_lib.py:109
 #, fuzzy
 msgid "Weapons Room"
-msgstr "Salle de missions"
+msgstr ""
 
 #: data/bases/bar.py:28 data/bases/bar_lib.py:7 data/bases/carribean.py:21
 #: data/bases/frigid_mud.py:79 data/bases/frigid_mud.py:81
@@ -159,7 +159,7 @@ msgstr ""
 #: data/bases/bar_lib.py:8
 #, fuzzy
 msgid "Exit the Bar"
-msgstr "Bar"
+msgstr ""
 
 #: data/bases/bar_lib.py:9
 msgid "GNN News"
@@ -1802,7 +1802,7 @@ msgstr ""
 #: data/bases/frigid_mud.py:57
 #, fuzzy
 msgid "Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/computer_lib.py:229
 #, python-format
@@ -1818,7 +1818,7 @@ msgstr ""
 #: data/bases/desert.py:45 data/bases/desert.py:53
 #, fuzzy
 msgid "Main_Tent"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/desert.py:46 data/bases/industrial_lib.py:47
 #: data/bases/industrial_lib.py:59 data/bases/industrial_lib.py:61
@@ -1827,37 +1827,37 @@ msgstr "Hall principal"
 #: data/bases/mining_lib.py:66 data/bases/unit_lib.py:34
 #, fuzzy
 msgid "Landing_Pad"
-msgstr "Piste d'atterrissage"
+msgstr ""
 
 #: data/bases/desert.py:47 data/bases/military_lib.py:36
 #: data/bases/mining_lib.py:60 data/bases/ocean_lib.py:40
 #, fuzzy
 msgid "Mission_Computer"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/bases/desert.py:48
 #, fuzzy
 msgid "Weapon_Room"
-msgstr "Salle de missions"
+msgstr ""
 
 #: data/bases/desert.py:50 data/bases/industrial_lib.py:46
 #: data/bases/mining_lib.py:36 data/bases/mining_lib.py:56
 #: data/bases/mining_lib.py:61 data/bases/mining_lib.py:65
 #, fuzzy
 msgid "Trade_Center"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/desert.py:51 data/bases/military_lib.py:50
 #: data/bases/mining_lib.py:52
 #, fuzzy
 msgid "Upgrade_Starship"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/desert.py:52 data/bases/industrial_lib.py:45
 #: data/bases/mining_lib.py:63 data/bases/mining_lib.py:64
 #, fuzzy
 msgid "Ship_Dealer"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/desert.py:54 data/bases/industrial_lib.py:53
 #: data/bases/industrial_lib.py:54 data/bases/industrial_lib.py:56
@@ -1865,7 +1865,7 @@ msgstr "Négociant en vaisseaux"
 #: data/bases/ocean_lib.py:47
 #, fuzzy
 msgid "Trade_Cargo"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/desert.py:55
 msgid "Explore_Surface"
@@ -1874,12 +1874,12 @@ msgstr ""
 #: data/bases/desert.py:56 data/bases/mining_lib.py:50
 #, fuzzy
 msgid "Landing_Bay"
-msgstr "Quai d'embarquement"
+msgstr ""
 
 #: data/bases/desert.py:57
 #, fuzzy
 msgid "Cargo_Trading_Center"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/bases/desert.py:58 data/bases/industrial_lib.py:43
 #: data/bases/industrial_lib.py:48 data/bases/industrial_lib.py:52
@@ -1891,7 +1891,7 @@ msgstr "Ordinateur de fret"
 #: data/bases/unit_lib.py:40
 #, fuzzy
 msgid "Main_Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/desert.py:59 data/bases/desert.py:65
 msgid "Explore_Dishes"
@@ -1908,17 +1908,17 @@ msgstr ""
 #: data/bases/desert.py:62 data/bases/desert.py:63
 #, fuzzy
 msgid "Return_To_Main_Tent"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/explore.py:15
 #, fuzzy
 msgid "Accept This Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/bases/explore.py:16
 #, fuzzy
 msgid "Decline This Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/bases/explore.py:17
 #, python-format
@@ -2361,7 +2361,7 @@ msgstr ""
 #: data/bases/forest.py:32 data/bases/forest.py:38
 #, fuzzy
 msgid "Landing Exterior"
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/bases/forest.py:40
 msgid "Farther Excursion"
@@ -2374,7 +2374,7 @@ msgstr ""
 #: data/bases/forest.py:43
 #, fuzzy
 msgid "Visit Planet"
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/bases/forest.py:47 data/bases/forest.py:48
 msgid "Terminal"
@@ -2393,12 +2393,12 @@ msgstr ""
 #: data/bases/frigid_mud.py:43
 #, fuzzy
 msgid "To Landing Pad"
-msgstr "Piste d'atterrissage"
+msgstr ""
 
 #: data/bases/frigid_mud.py:47
 #, fuzzy
 msgid "To Bar"
-msgstr "Bar"
+msgstr ""
 
 #: data/bases/frigid_mud.py:48 data/bases/frigid_mud.py:56
 msgid "Balcony"
@@ -2428,7 +2428,7 @@ msgstr ""
 #: data/bases/guilds.py:166
 #, fuzzy
 msgid "Accept this Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/bases/guilds.py:226
 msgid ""
@@ -2440,12 +2440,12 @@ msgstr ""
 #: data/bases/industrial_lib.py:66
 #, fuzzy
 msgid "Industrial_Planet_Surface"
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/bases/industrial_lib.py:44 data/bases/industrial_lib.py:57
 #, fuzzy
 msgid "Weapon_Dealer"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/industrial_lib.py:49
 msgid "Examine_Factory"
@@ -2458,17 +2458,17 @@ msgstr ""
 #: data/bases/industrial_lib.py:63
 #, fuzzy
 msgid "Upgrade_Weapons"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/industrial_lib.py:65
 #, fuzzy
 msgid "Industrial_Planet_Exterior"
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/bases/industrial_lib.py:67 data/bases/industrial_lib.py:68
 #, fuzzy
 msgid "Industrial_Planet_Hills"
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/bases/industrial_lib.py:69
 msgid "Examine_Factory_Operation"
@@ -2477,12 +2477,12 @@ msgstr ""
 #: data/bases/industrial_lib.py:70
 #, fuzzy
 msgid "Main_Complex_Exterior"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/industrial_lib.py:96 data/bases/unit_lib.py:38
 #, fuzzy
 msgid "Upgrade_Computer"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/m_class.py:46 data/bases/m_class.py:65
 msgid "Commodity_Exchange"
@@ -2495,7 +2495,7 @@ msgstr ""
 #: data/bases/m_class.py:50 data/bases/m_class.py:54
 #, fuzzy
 msgid "Buy/Sell Cargo"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/bases/m_class.py:53 data/bases/m_class.py:72
 msgid "View_From_Tower"
@@ -2504,12 +2504,12 @@ msgstr ""
 #: data/bases/m_class.py:56 data/bases/m_class.py:57
 #, fuzzy
 msgid "Return_to_Landing_Pad"
-msgstr "Piste d'atterrissage"
+msgstr ""
 
 #: data/bases/m_class.py:58
 #, fuzzy
 msgid "Ship Dealer/Weapon Room"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/m_class.py:61
 msgid "Missions"
@@ -2518,7 +2518,7 @@ msgstr ""
 #: data/bases/m_class.py:62
 #, fuzzy
 msgid "Upgrade Starship"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/m_class.py:63
 msgid "Purchase_Starship"
@@ -2527,7 +2527,7 @@ msgstr ""
 #: data/bases/m_class.py:64
 #, fuzzy
 msgid "Return_to_Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/m_class.py:68 data/bases/m_class.py:69
 msgid "View_From_Lighthouse"
@@ -2536,7 +2536,7 @@ msgstr ""
 #: data/bases/m_class.py:70
 #, fuzzy
 msgid "Return_To_Landing_Pad"
-msgstr "Piste d'atterrissage"
+msgstr ""
 
 #: data/bases/main_menu.py:51
 msgid ""
@@ -2664,7 +2664,7 @@ msgstr ""
 #: data/bases/military_lib.py:52
 #, fuzzy
 msgid "Main _concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/military_lib.py:37 data/bases/military_lib.py:47
 msgid "Bridge"
@@ -2681,7 +2681,7 @@ msgstr ""
 #: data/bases/military_lib.py:44
 #, fuzzy
 msgid "Trade_Cargo/Services"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/military_lib.py:48
 msgid "Restricted_Area"
@@ -2695,17 +2695,17 @@ msgstr ""
 #: data/bases/mining_lib.py:41
 #, fuzzy
 msgid "Upgrade_Facilities"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/mining_lib.py:40 data/bases/mining_lib.py:42
 #, fuzzy
 msgid "Upgrade_Center"
-msgstr "Améliorer l'armement"
+msgstr ""
 
 #: data/bases/mining_lib.py:43 data/bases/mining_lib.py:69
 #, fuzzy
 msgid "View_From_Platform"
-msgstr "Quai d'embarquement"
+msgstr ""
 
 #: data/bases/mining_lib.py:46 data/bases/mining_lib.py:47
 #: data/bases/mining_lib.py:48 data/bases/ocean_lib.py:54
@@ -2715,7 +2715,7 @@ msgstr ""
 #: data/bases/ocean_lib.py:41
 #, fuzzy
 msgid "Tube_To_Trade_Center"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/ocean_lib.py:42
 msgid "Tube_To_Shipyards"
@@ -2724,12 +2724,12 @@ msgstr ""
 #: data/bases/ocean_lib.py:43
 #, fuzzy
 msgid "Continue_To_Trade_Facilities"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/ocean_lib.py:44
 #, fuzzy
 msgid "Return_To_Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/ocean_lib.py:45
 msgid "Divert_To_Shipyards"
@@ -2739,12 +2739,12 @@ msgstr ""
 #: data/bases/ocean_lib.py:49
 #, fuzzy
 msgid "Return_To_Main_Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/ocean_lib.py:50
 #, fuzzy
 msgid "Divert_To_Cargo_Facilities"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/bases/ocean_lib.py:51
 msgid "Continue_To_Shipyards"
@@ -2753,37 +2753,37 @@ msgstr ""
 #: data/bases/ocean_lib.py:52
 #, fuzzy
 msgid "Tube_To_Main_Concourse"
-msgstr "Hall principal"
+msgstr ""
 
 #: data/bases/ocean_lib.py:53
 #, fuzzy
 msgid "Upgrade_Ship"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/unit_lib.py:36
 #, fuzzy
 msgid "Upgrade_Facilities/Ship_Dealer"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/unit_lib.py:37
 #, fuzzy
 msgid "Trade_Room"
-msgstr "Salle de missions"
+msgstr ""
 
 #: data/bases/unit_lib.py:41
 #, fuzzy
 msgid "Trade"
-msgstr "Négocier du fret"
+msgstr ""
 
 #: data/bases/weapons_lib.py:6
 #, fuzzy
 msgid "Upgrade your Ship"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/bases/weapons_lib.py:7 data/bases/weapons_lib.py:8
 #, fuzzy
 msgid "Exit the Weapons Room"
-msgstr "Salle de missions"
+msgstr ""
 
 #: data/modules/campaigns.py:27 data/modules/campaigns.py:29
 #: data/modules/campaigns.py:32 data/modules/campaigns.py:34
@@ -4389,7 +4389,7 @@ msgstr ""
 #: data/modules/dynamic_news_content.py:228
 #, fuzzy
 msgid "unmarked ship"
-msgstr "Négociant en vaisseaux"
+msgstr ""
 
 #: data/modules/dynamic_news_content.py:229
 msgid "unidentified force"
@@ -6720,7 +6720,7 @@ msgstr ""
 #: data/modules/quests/quest_intro2.py:79
 #, fuzzy
 msgid "The mission robot."
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/modules/quests/quest_intro2.py:83
 msgid "Talk to iRobo"
@@ -6983,7 +6983,7 @@ msgstr ""
 #: data/modules/quests/quest_rlaan_spy.py:34
 #, fuzzy
 msgid "[Computer] unable to track."
-msgstr "Ordinateur"
+msgstr ""
 
 #: data/modules/quests/quest_rlaan_spy.py:35
 msgid "[Computer] burst transmission to Rlaan space detected."
@@ -7524,7 +7524,7 @@ msgstr ""
 #: data/modules/quests/quest_tutorial.py:639
 #, fuzzy
 msgid " key to approach the planet."
-msgstr "Extérieur de la planète"
+msgstr ""
 
 #: data/modules/quests/quest_tutorial.py:640
 msgid ""
@@ -7760,7 +7760,7 @@ msgstr ""
 #: data/modules/tail.py:226 data/modules/tail.py:232 data/modules/tail.py:242
 #, fuzzy
 msgid "Mission Failed."
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/modules/tail.py:231
 #, python-format
@@ -7886,12 +7886,12 @@ msgstr ""
 #: data/mission/cargo/merchant/to_starship_insystem.mission:9
 #, fuzzy
 msgid "Cargo Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/ani_test.mission:10 data/mission/cargo.mission:10
 #, fuzzy
 msgid "Deliver cargo to a system"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/mission/bounty/aera/bounty_escape.mission:9
 #: data/mission/bounty/aera/bounty_escape_headhunting.mission:9
@@ -7953,7 +7953,7 @@ msgstr "Ordinateur de fret"
 #: data/mission/bounty/rlaan/bounty_outsystem_wing.mission:9
 #, fuzzy
 msgid "Bounty Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/bounty/aera/bounty_escape.mission:10
 msgid ""
@@ -8158,7 +8158,7 @@ msgstr ""
 #: data/mission/bounty/retro/bounty_insystem_wing.mission:9
 #, fuzzy
 msgid "Pirate Bounty Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/bounty/iso/bounty_insystem.mission:10
 msgid ""
@@ -8179,7 +8179,7 @@ msgstr ""
 #: data/mission/bounty/iso/bounty_insystem_wing.mission:9
 #, fuzzy
 msgid "ISO Bounty Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/bounty/iso/bounty_insystem_wing.mission:10
 msgid ""
@@ -8495,7 +8495,7 @@ msgstr ""
 #: data/mission/cargo/iso/to_fleet_insystem_critical.mission:9
 #, fuzzy
 msgid "Deliver Urgent Cargo"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/mission/cargo/aera/to_base_insystem_critical.mission:10
 msgid ""
@@ -8514,7 +8514,7 @@ msgstr ""
 #: data/mission/cargo/merchant/to_base_outsystem.mission:9
 #, fuzzy
 msgid "Base Cargo Delivery"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/mission/cargo/aera/to_base_outsystem.mission:10
 msgid ""
@@ -8550,7 +8550,7 @@ msgstr ""
 #: data/mission/cargo/merchant/to_starship_extreme_range.mission:9
 #, fuzzy
 msgid "Fleet Cargo Delivery"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/mission/cargo/aera/to_fleet_extreme_range.mission:10
 msgid ""
@@ -8766,7 +8766,7 @@ msgstr ""
 #: data/mission/cargo/merchant/to_starship_outsystem.mission:9
 #, fuzzy
 msgid "Commercial Cargo Delivery"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/mission/cargo/merchant/to_starship_outsystem.mission:10
 msgid ""
@@ -8807,7 +8807,7 @@ msgstr ""
 #: data/mission/cargo/pirates/to_base_insystem.mission:9
 #, fuzzy
 msgid "Cargo Mission -- Contraband"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/cargo/pirates/to_base_insystem.mission:10
 msgid ""
@@ -8820,7 +8820,7 @@ msgstr ""
 #: data/mission/cargo/pirates/to_fleet_outsystem.mission:9
 #, fuzzy
 msgid "Contraband Cargo Delivery"
-msgstr "Ordinateur de fret"
+msgstr ""
 
 #: data/mission/cargo/pirates/to_fleet_extreme_range.mission:10
 msgid ""
@@ -8833,7 +8833,7 @@ msgstr ""
 #: data/mission/cargo/pirates/to_fleet_insystem.mission:9
 #, fuzzy
 msgid "Contraband Delivery Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/cargo/pirates/to_fleet_insystem.mission:10
 msgid ""
@@ -8859,7 +8859,7 @@ msgstr ""
 #: data/mission/contraband/contraband_small_scan.mission:9
 #, fuzzy
 msgid "Contraband Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/contraband.mission:10
 #: data/mission/contraband/contraband.mission:10
@@ -9321,7 +9321,7 @@ msgstr ""
 #: data/mission/explore_universe_precache.mission:10
 #, fuzzy
 msgid "Privateer Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/explore_universe.mission:13
 #: data/mission/explore_universe_precache.mission:13
@@ -9344,7 +9344,7 @@ msgstr ""
 #: data/mission/nothing.mission:5
 #, fuzzy
 msgid "Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/internal.mission:6 data/mission/internal_mission_lib.mission:7
 #: data/mission/nothing.mission:6
@@ -9401,7 +9401,7 @@ msgstr ""
 #: data/mission/patrol/scout_outsys.mission:9
 #, fuzzy
 msgid "Patrol Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/patrol/patrol_10_insys.mission:10
 msgid ""
@@ -9450,7 +9450,7 @@ msgstr ""
 #: data/mission/patrol/scout_far.mission:9
 #, fuzzy
 msgid "Scout Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/patrol/scout_far.mission:10
 msgid ""
@@ -9474,12 +9474,12 @@ msgstr ""
 #: data/mission/test/tail.mission:9
 #, fuzzy
 msgid "Tail Mission"
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/test/tail.mission:10
 #, fuzzy
 msgid "Test the tail mission."
-msgstr "Ordinateur des missions"
+msgstr ""
 
 #: data/mission/test/total_jump.mission:10
 #: data/mission/test/total_war_python.mission:10
@@ -9567,8 +9567,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Main_Concourse)"
-#~ msgstr "Hall principal"
+#~ msgstr ""
 
 #, fuzzy
 #~ msgid "MISSION_TYPE"
-#~ msgstr "Ordinateur des missions"
+#~ msgstr ""
