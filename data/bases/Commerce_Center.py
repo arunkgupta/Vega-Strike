@@ -2,6 +2,7 @@ import Base
 import VS
 import dynamic_mission
 import fixers
+import gettext
 #import bar_lib
 #import weapons_lib
 

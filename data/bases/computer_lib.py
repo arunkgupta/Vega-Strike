@@ -7,6 +7,8 @@ import VS
 import ShowProgress
 import methodtype
 import mission_lib
+import gettext
+
 
 pirate_bases = {
 }

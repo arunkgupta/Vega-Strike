@@ -1,6 +1,7 @@
 import Base
 import dynamic_mission
 import VS
+import gettext
 def MakePlanet (time_of_day='_day'):
     plist=VS.musicAddList('agricultural.m3u')
     VS.musicPlayList(plist)

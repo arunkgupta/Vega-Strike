@@ -3,6 +3,7 @@ import VS
 import dynamic_mission
 import vsrandom
 import fixers
+import gettext
 
 shipsize = VS.getPlayer().rSize()/35
 #print "Ship Size: " + str(VS.getPlayer().rSize()) #debug

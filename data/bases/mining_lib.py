@@ -1,6 +1,7 @@
 import Base
 import dynamic_mission
 import VS
+import gettext
 def MakeMining(repairbay,shipbay,bartendertext='bases/bartender_default.py',time_of_day=''):
     dynamic_mission.CreateMissions()
     room = Base.Room ('Landing_Bay')

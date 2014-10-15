@@ -3,6 +3,7 @@ import bar_lib
 import weapons_lib
 import dynamic_mission
 import VS
+import gettext
 
 def MakeAera(time_of_day='day'):
     plist=VS.musicAddList('aera.m3u')

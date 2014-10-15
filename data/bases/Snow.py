@@ -3,6 +3,7 @@ import VS
 #import sys
 #import dynamic_mission
 import fixers
+import gettext
 
 #plist=VS.musicAddList('agricultural.m3u')
 #VS.musicPlayList(plist)

@@ -1,6 +1,7 @@
 import Base
 import dynamic_mission
 import VS
+import gettext
 
 time_of_day=''
 bar=-1

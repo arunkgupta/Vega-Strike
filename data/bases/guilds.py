@@ -6,6 +6,7 @@ import quest
 import Director
 import fixers
 import custom
+import gettext
 letters="123456789a0bcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def hashLetter(l):
     return letters.find(l[0])+1

@@ -1,5 +1,6 @@
 import Base
 import VS
+import gettext
 
 shipsize = VS.getPlayer().rSize()/35
 #print "Ship Size: " + str(shipsize) #debug

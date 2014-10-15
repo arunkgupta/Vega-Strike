@@ -2,6 +2,8 @@ import Base
 import VS
 import vsrandom
 import fixers
+import gettext
+
 tender={"general":(__("Hey, pal. What'll it be?"),
                    _("Bottoms up for ye olde bartender, eh?"),
                    _("Say, don't I know you from somewhere...?"),

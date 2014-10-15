@@ -3,6 +3,8 @@ import bar_lib
 import weapons_lib
 import dynamic_mission
 import VS
+import gettext
+
 def MakeAgri (time_of_day='_day'):
     plist=VS.musicAddList('agricultural.m3u')
     VS.musicPlayList(plist)

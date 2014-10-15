@@ -4,6 +4,7 @@ import vsrandom
 import dynamic_mission
 import VS
 import fixers
+import gettext
 def MakeIndustrial(time_of_day='day',mybartender='bases/bartender_default.py'):
     dynamic_mission.CreateMissions()
     room = Base.Room ('Industrial_Landing_Pad')

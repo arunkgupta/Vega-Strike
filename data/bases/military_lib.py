@@ -1,3 +1,4 @@
+import gettext
 
 def MakeMilitaryBase(bartendername='bases/bartender_default.py',time_of_day=''):
     import Base

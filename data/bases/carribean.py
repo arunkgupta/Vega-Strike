@@ -3,6 +3,7 @@ import vsrandom
 import dynamic_mission
 import VS
 import fixers
+import gettext
 plist=VS.musicAddList('carribean.m3u')
 VS.musicPlayList(plist)
 dynamic_mission.CreateMissions()

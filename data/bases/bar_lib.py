@@ -1,6 +1,8 @@
 import Base
 import vsrandom
 import fixers
+import gettext
+
 def MakeBar (room,time_of_day='_day',bartext='bases/bartender_default.py', BaseTexture="bases/generic/bar"):
     bar = Base.Room ('Bar')
     Base.Texture (bar, 'tex', BaseTexture+'.spr', 0, 0)

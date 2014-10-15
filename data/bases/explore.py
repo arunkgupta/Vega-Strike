@@ -3,6 +3,7 @@ import VS
 import Director
 import fixers
 import quest
+import gettext
 
 def exploremission(part,filename,sysfile,creditnum):
     fixers.DestroyActiveButtons ()

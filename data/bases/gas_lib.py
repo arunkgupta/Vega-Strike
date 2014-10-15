@@ -1,6 +1,7 @@
 import Base
 import VS
 import dynamic_mission
+import gettext
 
 def MakeGas (time_of_day='_day'):
     plist=VS.musicAddList('agricultural.m3u')

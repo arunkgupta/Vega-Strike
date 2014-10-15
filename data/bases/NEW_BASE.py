@@ -1,4 +1,5 @@
 import Base
+import gettext
 
 room = Base.Room ('Landing Platform')
 Base.Launch (room, 'launch', -0.841797, -0.859375, 1.5625, 0.565104, _('Launch Your Ship'))

@@ -1,6 +1,7 @@
 import Base
 import dynamic_mission
 import VS
+import gettext
 def MakeLandingAndConcourse(time_of_day):
     time_of_day=''#not used
     plist=VS.musicAddList('ocean.m3u')

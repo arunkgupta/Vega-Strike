@@ -2,6 +2,7 @@ import Base
 import bar_lib
 import weapons_lib
 import dynamic_mission
+import gettext
 
 def MakeUnit (bartendername='bases/bartender_default.py',time_of_day=''):
     dynamic_mission.CreateMissions()

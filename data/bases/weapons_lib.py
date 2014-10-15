@@ -1,4 +1,5 @@
 import Base
+import gettext
 
 def MakeWeapon (room, time_of_day='_day'):
     weap = Base.Room ('Weapons Room')

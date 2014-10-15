@@ -3,6 +3,7 @@ import Base
 import VS
 import GUI
 import ShowProgress
+import gettext
 
 import computer_lib
 import dj_lib
