@@ -1,6 +1,7 @@
 import fixers
 import mission_lib
 import VS
+import gettext
 
 fixers.DestroyActiveButtons ()
 if VS.numActiveMissions()>1:

@@ -8,6 +8,7 @@ import Briefing
 import universe
 import unit
 import Director
+import gettext
 class wingman (Director.Mission):
     def __init__ (self,price,factionname,numships,difficulty):
         Director.Mission.__init__(self)

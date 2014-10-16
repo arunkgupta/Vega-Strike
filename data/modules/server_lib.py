@@ -11,6 +11,7 @@ import faction_ships
 import custom
 import campaign_lib
 import imp
+import gettext
 
 def serverDirector():
     return server.getDirector()

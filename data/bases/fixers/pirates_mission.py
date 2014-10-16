@@ -1,5 +1,6 @@
 import fixers
 import Base
+import gettext
 fixers.DestroyActiveButtons ()
 playernum = VS.getPlayer().isPlayerStarship()
 if (fixers.checkSaveValue(playernum,"pirate_mission1",0)):

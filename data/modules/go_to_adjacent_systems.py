@@ -4,6 +4,7 @@ import unit
 import Briefing
 import vsrandom
 import Director
+import gettext
 def formatSystemName(ship):
     where=ship.rfind("/")
     if (where!=-1):

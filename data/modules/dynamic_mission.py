@@ -11,6 +11,7 @@ import dynamic_universe
 import dynamic_news
 import debug
 import generate_dyn_universe
+import gettext
 
 global dnewsman_
 dnewsman_ = dynamic_news.NewsManager()

@@ -11,6 +11,7 @@ import faction_ships
 import Director
 import launch
 import debug
+import gettext
 
 def catInCatList (cat,catlist):
     for i in catlist:

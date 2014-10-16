@@ -1,3 +1,4 @@
+import gettext
 intro_string=_("Have you heard of the Interplanetary Socialist Organization? We are a revolutionary organization trying to rid the Star Confederacy of its tired oligarchy. We are here to defend the rights of the poor workers! We are here to cause the downfall of the bourgeoise and enable the rise of the proletariat!")
 
 import Base

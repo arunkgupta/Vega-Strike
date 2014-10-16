@@ -4,6 +4,7 @@ import Director
 import quest
 import faction_ships
 import launch
+import gettext
 def AssignMission ():
     fixers.DestroyActiveButtons ()
     fixers.CreateChoiceButtons(Base.GetCurRoom(),[

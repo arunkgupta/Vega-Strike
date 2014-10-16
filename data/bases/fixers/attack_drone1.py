@@ -3,6 +3,7 @@ import VS
 import Director
 import quest
 import fixers
+import gettext
 plyr=VS.getPlayer().isPlayerStarship()
 if quest.findQuest(plyr,'quest_drone',-1):
     Base.Message(_("""There is an alien vessel let loose on confed territory. We are offering 30,000 credits to anyone who manages to take it out. Be warned, however, our scans reveal armor and shielding that we do not know how to penetrate. Good luck and godspeed!"""))

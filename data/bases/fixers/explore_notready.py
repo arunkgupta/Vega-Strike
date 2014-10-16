@@ -1,4 +1,5 @@
 import Base
+import gettext
 
 Base.Message(_("""Hi. According to your computer\'s data, you have not identified all six of the objects.
 This also means that you will be unable to recieve your money until this job is completed.

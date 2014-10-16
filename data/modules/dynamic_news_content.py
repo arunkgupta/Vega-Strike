@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import gettext
 all_faction_name_global = {
 
 #nicks -> singular

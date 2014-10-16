@@ -2,6 +2,7 @@ import Base
 import VS
 import Director
 import quest
+import gettext
 
 plyr=VS.getPlayer().isPlayerStarship()
 if quest.findQuest(plyr,'gemini_sector/delta_prime_navpoint',1):

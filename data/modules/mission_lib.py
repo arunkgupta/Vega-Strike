@@ -16,6 +16,7 @@ import VS
 import PickleTools
 import adventure
 import debug
+import gettext
 
 players=[]
 

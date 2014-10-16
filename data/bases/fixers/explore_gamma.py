@@ -2,6 +2,7 @@ import Base
 import VS
 import Director
 import quest
+import gettext
 plyr=VS.getPlayer().isPlayerStarship()
 if VS.numActiveMissions()<=1:
     if quest.findQuest(plyr,'gemini_sector/beta_navpoint',1):

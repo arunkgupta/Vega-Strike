@@ -1,6 +1,7 @@
 import universe
 import campaign_lib
 from campaign_lib import *
+import gettext
 
 campaignsloaders=[lambda:LoadMainCampaign()]
 campaigns=[]

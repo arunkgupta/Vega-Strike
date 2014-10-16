@@ -4,6 +4,7 @@ import Vector
 import faction_ships
 import launch
 import quest
+import gettext
 #FIXME: need a way to ensure target maintains radio silence!
 class tail (Director.Mission):
 

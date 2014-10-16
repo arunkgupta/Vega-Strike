@@ -4,6 +4,7 @@ import universe
 import Director
 import dynamic_news
 import stardate
+import gettext
 
 global dnewsman_
 dnewsman_ = dynamic_news.NewsManager()
