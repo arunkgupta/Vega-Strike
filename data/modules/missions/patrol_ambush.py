@@ -9,8 +9,9 @@ import unit
 import quest
 import Director
 import ambush
+import gettext
 class patrol_ambush (ambush.ambush):
-    def __init__ (self, num_significants_to_patrol, distance_from_base, creds, savevar,systems,delay,faction,numenemies,dyntype='',dynfg='',greetingText=["Hello there, smuggler. Prepare to die!", "The price on your head is big enough that I missed my lunch"],directions=[],destination=''):
+    def __init__ (self, num_significants_to_patrol, distance_from_base, creds, savevar,systems,delay,faction,numenemies,dyntype='',dynfg='',greetingText=[_("Hello there, smuggler. Prepare to die!"), _("The price on your head is big enough that I missed my lunch")],directions=[],destination=''):
         ambush.ambush.__init__(self,savevar,systems,delay,faction,numenemies,dyntype,dynfg,greetingText,directions,destination)
         self.jnum=0
         self.cred=creds
@@ -32,7 +33,7 @@ class patrol_ambush (ambush.ambush):
             VS.terminateMission(0)
 
     def GeneratePatrolList (self):
-        VS.IOmessage (0,"patrol",self.mplay,"You must get within %f klicks of" % self.distance)
+        VS.IOmessage (0,"patrol",self.mplay,_("You must get within %f klicks of") % self.distance)
         count=self.quantity*2
         str=""
         while (self.quantity>0 and count > 0):
@@ -63,7 +64,7 @@ class patrol_ambush (ambush.ambush):
         self.quantity=0
 
     def DeletePatrolPoint (self,num,nam):
-        VS.IOmessage (0,"patrol",self.mplay,"[Computer] %s scanned, data saved..."%nam)
+        VS.IOmessage (0,"patrol",self.mplay,_("[Computer] %s scanned, data saved...")%nam)
         VS.setCompleteness(self.objectives[self.jnum],1.0)
         del self.objectives[self.jnum]
         del self.patrolpoints[self.jnum]

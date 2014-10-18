@@ -9,6 +9,7 @@ import universe
 import unit
 import Director
 import quest
+import gettext
 escort_num=0
 class escort_mission (Director.Mission):
     you=VS.Unit()
@@ -24,7 +25,7 @@ class escort_mission (Director.Mission):
         self.adjsys=go_to_adjacent_systems(self.you, numsysaway,jumps)
         self.var_to_set = var_to_set;
         print("e")
-        self.adjsys.Print("You should start in the system named %s","Then jump to %s","Finally, jump to %s, your final destination","escort mission",1)
+        self.adjsys.Print(_("You should start in the system named %s"),_("Then jump to %s"),_("Finally, jump to %s, your final destination"),"escort mission",1)
         print("f")
         self.distfrombase=distance_from_base
         print("g")
@@ -74,14 +75,14 @@ class escort_mission (Director.Mission):
         if (VS.GetGameTime()-self.gametime>10):
             self.escortee.setFgDirective('F')
         if self.you.isNull():
-            VS.IOmessage (0,"escort",self.mplay,"#ff0000You were to protect your escort. Mission failed.")
+            VS.IOmessage (0,"escort",self.mplay,_("#ff0000You were to protect your escort. Mission failed."))
             VS.terminateMission(0)
             return
         self.escortee.setFlightgroupLeader(self.you)
         #print 'name: '+self.escortee.getFlightgroupLeader().getName()
         #self.escortee.SetVelocity(self.you.GetVelocity())
         if (self.escortee.isNull()):
-            VS.IOmessage (0,"escort",self.mplay,"#ff0000You were to protect your escort. Mission failed.")
+            VS.IOmessage (0,"escort",self.mplay,_("#ff0000You were to protect your escort. Mission failed."))
             universe.punish(self.you,self.faction,self.difficulty)
             if (self.var_to_set!=''):
                 quest.removeQuest (self.you.isPlayerStarship(),self.var_to_set,-1)
@@ -97,11 +98,11 @@ class escort_mission (Director.Mission):
             self.adjsys=go_somewhere_significant (self.you,1,self.distfrombase+15*self.escortee.rSize(),self.difficulty<=1,self.faction)
             self.role = self.adjsys.SignificantUnit().getCombatRole()
             self.adjsys.SignificantUnit().setCombatRole("INERT");
-            self.adjsys.Print ("You must escort your starship to the %s","defend","docked around the %s", 0)
+            self.adjsys.Print (_("You must escort your starship to the %s"),"defend",_("docked around the %s"), 0)
         elif (self.you.getDistance(self.escortee)<2000):
             self.you.addCredits(self.creds)
             VS.AdjustRelation(self.you.getFactionName(),self.faction,self.difficulty*.01,1)
-            VS.IOmessage (0,"escort",self.mplay,"#00ff00Excellent work! You have completed this mission!")
+            VS.IOmessage (0,"escort",self.mplay,_("#00ff00Excellent work! You have completed this mission!"))
             self.escortee.setFgDirective('b')
             self.escortee.setFlightgroupLeader(self.escortee)
             self.escortee.performDockingOperations(self.adjsys.SignificantUnit(),0)

@@ -8,6 +8,7 @@ import faction_ships
 import universe
 import launch
 import Director
+import gettext
 #import tuples_fg
 
 class dantestmission_factory (quest.quest_factory):
@@ -25,7 +26,7 @@ class dantestmission (quest.quest):
     def __init__ (self):
         self.playa = VS.getPlayer()
         if (self.playa):
-            VS.IOmessage (3,"The past version of you.","all","Daniel, this is your test mission...")
+            VS.IOmessage (3,"The past version of you.","all",_("Daniel, this is your test mission..."))
 
             self.un0=launch.launch_wave_around_unit("siege_win","trigger","cargo","default",1,1,3000,self.playa)
             self.un1=launch.launch_wave_around_unit("siege_loss","trigger","cargo","default",1,1,2000,self.playa)

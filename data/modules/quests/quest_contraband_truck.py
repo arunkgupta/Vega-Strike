@@ -7,6 +7,7 @@ import save_util
 import faction_ships
 import universe
 import launch
+import gettext
 #import tuples_fg
 
 

@@ -25,6 +25,7 @@ import universe
 import unit
 import launch
 import news
+import gettext
 
 class quest_dispute (quest.quest):
     def __init__ (self):

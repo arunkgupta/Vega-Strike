@@ -4,6 +4,7 @@ import VS
 import unit
 import vsrandom
 import launch
+import gettext
 class quest_rlaan_spy (quest.quest):
     def __init__ (self):
         self.sysfile = VS.getSystemFile()

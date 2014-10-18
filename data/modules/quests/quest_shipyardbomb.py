@@ -23,6 +23,7 @@ import Vector
 import unit
 import vsrandom
 import news
+import gettext
 
 class quest_shipyardbomb (quest.quest):
 

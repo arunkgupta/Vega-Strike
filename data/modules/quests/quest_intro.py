@@ -3,6 +3,7 @@ import VS
 import fixers
 from fixers import Conversation, Node, RootNode, SubNode
 import Director
+import gettext
 
 TRIGGER_SAVE = "IntroJP"
 TRIGGER_VALUE = 1

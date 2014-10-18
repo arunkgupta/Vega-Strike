@@ -5,6 +5,7 @@ import directions_mission
 import launch
 import faction_ships
 import universe
+import gettext
 
 class ambush(directions_mission.directions_mission):
     def privateSetupPlayer(self):
@@ -13,7 +14,7 @@ class ambush(directions_mission.directions_mission):
         self.havelaunched=0
         self.terminated=0
 
-    def __init__(self,savevar,systems,delay,faction,numenemies,dyntype='',dynfg='',greetingText=["Hello there, smuggler. Prepare to die!", "The price on your head is big enough that I missed my lunch"], directions=[], destination='',AdjustFaction=True):
+    def __init__(self,savevar,systems,delay,faction,numenemies,dyntype='',dynfg='',greetingText=[_("Hello there, smuggler. Prepare to die!"), _("The price on your head is big enough that I missed my lunch")], directions=[], destination='',AdjustFaction=True):
         directions_mission.directions_mission.__init__ (self,savevar,directions,destination)
         print('Ambush: Starting')
         self.faction=faction

@@ -9,8 +9,9 @@ import universe
 import unit
 import Director
 import quest
+import gettext
 class defend (Director.Mission):
-    def __init__ (self,factionname,numsystemsaway, enemyquantity, distance_from_base, escape_distance, creds, defendthis, defend_base,protectivefactionname='',jumps=(),var_to_set='',dynamic_flightgroup='',dynamic_type='', dynamic_defend_fg='',waves=0, greetingText=['We will defeat your assets in this battle, privateer...','Have no doubt!']):
+    def __init__ (self,factionname,numsystemsaway, enemyquantity, distance_from_base, escape_distance, creds, defendthis, defend_base,protectivefactionname='',jumps=(),var_to_set='',dynamic_flightgroup='',dynamic_type='', dynamic_defend_fg='',waves=0, greetingText=[_('We will defeat your assets in this battle, privateer...'),_('Have no doubt!')]):
         Director.Mission.__init__(self)
         self.dedicatedattack=vsrandom.randrange(0,2)
         self.arrived=0
@@ -46,8 +47,8 @@ class defend (Director.Mission):
         name = self.you.getName ()
         self.mplay=universe.getMessagePlayer(self.you)
         self.adjsys = go_to_adjacent_systems(self.you,numsystemsaway,jumps)
-        self.adjsys.Print("You are in the %s system,","Proceed swiftly to %s.","Your arrival point is %s.","defend",1)
-        VS.IOmessage (2,"defend",self.mplay,"And there eliminate any %s starships."  % self.faction)
+        self.adjsys.Print(_("You are in the %s system,"),_("Proceed swiftly to %s."),_("Your arrival point is %s."),"defend",1)
+        VS.IOmessage (2,"defend",self.mplay,_("And there eliminate any %s starships.")  % self.faction)
     def SetVarValue (self,value):
         if (self.var_to_set!=''):
             quest.removeQuest (self.you.isPlayerStarship(),self.var_to_set,value)
@@ -55,17 +56,17 @@ class defend (Director.Mission):
         self.you.addCredits (self.cred)
         VS.AdjustRelation(self.you.getFactionName(),self.faction,.03,1)
         self.SetVarValue(1)
-        VS.IOmessage(0,"defend",self.mplay,"[Computer] Defend mission accomplished")
+        VS.IOmessage(0,"defend",self.mplay,_("[Computer] Defend mission accomplished"))
         if (self.cred>0):
-            VS.IOmessage(0,"defend",self.mplay,"[Computer] Bank account has been credited as agreed.")
+            VS.IOmessage(0,"defend",self.mplay,_("[Computer] Bank account has been credited as agreed."))
         VS.terminateMission(1)
     def FailMission (self):
         self.you.addCredits (-self.cred)
         VS.AdjustRelation(self.you.getFactionName(),self.faction,-.02,1)
         self.SetVarValue(-1)
-        VS.IOmessage (0,"defend",self.mplay,"[Computer] Detected failure to protect mission asset.")
-        VS.IOmessage (0,"defend",self.mplay,"[Computer] Mission failed!")
-        VS.IOmessage (1,"defend",self.mplay,"[Computer] Bank has been informed of failure to assist asset. They have removed a number of your credits as a penalty to help pay target insurance.")
+        VS.IOmessage (0,"defend",self.mplay,_("[Computer] Detected failure to protect mission asset."))
+        VS.IOmessage (0,"defend",self.mplay,_("[Computer] Mission failed!"))
+        VS.IOmessage (1,"defend",self.mplay,_("[Computer] Bank has been informed of failure to assist asset. They have removed a number of your credits as a penalty to help pay target insurance."))
         VS.terminateMission(0)
     def NoEnemiesInArea (self,jp):
         if (self.adjsys.DestinationSystem()!=VS.getSystemFile()):
@@ -79,16 +80,16 @@ class defend (Director.Mission):
         if (un.isNull() or (un.GetHullPercent()<.7 and self.defendee.getDistance(un)>7000)):
             return 0
         else:
-            VS.setObjective(self.objective,"Destroy the %s"%unit.getUnitFullName(un))
+            VS.setObjective(self.objective,_("Destroy the %s")%unit.getUnitFullName(un))
             self.ship_check_count=0
         return 0
 
     def GenerateEnemies (self,jp,you):
-        VS.IOmessage (0,"escort mission",self.mplay,"You must protect %s." % unit.getUnitFullName(jp,True))
+        VS.IOmessage (0,"escort mission",self.mplay,_("You must protect %s.") % unit.getUnitFullName(jp,True))
         count=0
         jp.setMissionRelevant()
-        VS.addObjective ("Protect %s from the %s" % (unit.getUnitFullName(jp),self.faction.capitalize().replace("_"," ")))
-        self.objective = VS.addObjective ("Destroy All %s Hostiles" % self.faction)
+        VS.addObjective (_("Protect %s from the %s") % (unit.getUnitFullName(jp),self.faction.capitalize().replace("_"," ")))
+        self.objective = VS.addObjective (_("Destroy All %s Hostiles") % self.faction)
         VS.setCompleteness(self.objective,0.0)
         print("quantity "+str(self.quantity))
         while (count<self.quantity):
@@ -121,12 +122,12 @@ class defend (Director.Mission):
             import universe
             universe.greet(self.greetingText,self.attackers[0],you);
         else:
-            VS.IOmessage (0,"escort mission",self.mplay,"Eliminate all %s ships here" % self.faction)
+            VS.IOmessage (0,"escort mission",self.mplay,_("Eliminate all %s ships here") % self.faction)
 
         self.quantity=0
     def Execute (self):
         if (self.you.isNull() or (self.arrived and self.defendee.isNull())):
-            VS.IOmessage (0,"defend",self.mplay,"#ff0000You were unable to arrive in time to help. Mission failed.")
+            VS.IOmessage (0,"defend",self.mplay,_("#ff0000You were unable to arrive in time to help. Mission failed."))
             self.SetVarValue(-1)
             VS.terminateMission(0)
             return
@@ -140,7 +141,7 @@ class defend (Director.Mission):
                 if (tempfaction==''):
                     tempfaction = faction_ships.get_enemy_of(self.faction)
             self.adjsys=go_somewhere_significant (self.you,self.defend_base or self.defend,self.distance_from_base,self.defend,tempfaction,self.dyndeffg,1,not self.defend_base)
-            self.adjsys.Print ("You must visit the %s","defend","near the %s", 0)
+            self.adjsys.Print (_("You must visit the %s"),"defend","near the %s", 0)
             self.defendee=self.adjsys.SignificantUnit()
         else:
             if (self.defendee.isNull ()):

@@ -24,6 +24,7 @@ import unit
 import vsrandom
 import launch
 import faction_ships
+import gettext
 
 class quest_slaver (quest.quest):
     def __init__ (self):

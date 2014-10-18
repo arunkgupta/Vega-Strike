@@ -1,7 +1,8 @@
 import bounty
 import faction_ships
+import gettext
 class bounty_leader(bounty.bounty):
-    def __init__ (self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps=(),var_to_set='',dynfg='',dyntype="",displayLocation=1,dynhelperfg='',dynhelpertype='',greetingText=['It appears we have something in common, privateer.','My name may be on your list, but now your name is on mine.'],leader_upgrades=[],dockable_unit=False):
+    def __init__ (self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps=(),var_to_set='',dynfg='',dyntype="",displayLocation=1,dynhelperfg='',dynhelpertype='',greetingText=[_('It appears we have something in common, privateer.'),_('My name may be on your list, but now your name is on mine.')],leader_upgrades=[],dockable_unit=False):
         bounty.bounty.__init__(self,minnumsystemsaway,maxnumsystemsaway,creds,run_away,0,tempfaction,jumps,var_to_set,dynfg,dyntype,displayLocation,greetingText,dockable_unit)
         self.helpertype=dynhelpertype
         self.numhelpers=shipdifficulty

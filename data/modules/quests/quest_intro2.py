@@ -3,6 +3,7 @@ import VS
 import fixers
 from fixers import Conversation, Node, RootNode, SubNode
 import Director
+import gettext
 
 SAVE_KEY = "bobo_fixer"
 

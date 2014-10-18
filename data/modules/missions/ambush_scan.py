@@ -3,7 +3,7 @@ import VS
 import Director
 import directions_mission
 class ambush_scan(ambush.ambush):
-    def __init__(self,savevar,systems,delay,faction,numenemies,dyntype='',dynfg='',greetingText=["You have been scanned and contraband has been found in your hold.","You should have dumped it while you had the chance.","Now you die!"], directions=[], destination='',AdjustFaction=True,cargotype="Brilliance",altGreetingText=["Thank you for delivering the cargo to us instead.","We appreciate your candor in this matter."]):
+    def __init__(self,savevar,systems,delay,faction,numenemies,dyntype='',dynfg='',greetingText=[_("You have been scanned and contraband has been found in your hold."),_("You should have dumped it while you had the chance."),_("Now you die!")], directions=[], destination='',AdjustFaction=True,cargotype="Brilliance",altGreetingText=[_("Thank you for delivering the cargo to us instead."),_("We appreciate your candor in this matter.")]):
         ambush.ambush.__init__(self,savevar,systems,delay,faction,numenemies,dyntype,dynfg,greetingText,directions,destination,AdjustFaction)
         self.altGreetingText=altGreetingText
         self.cargotype=cargotype

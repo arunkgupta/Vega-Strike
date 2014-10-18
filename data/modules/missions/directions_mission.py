@@ -9,6 +9,7 @@ import universe
 import unit
 import Director
 import quest
+import gettext
 class go_none:
     def Execute(self):
         return 1
@@ -29,7 +30,7 @@ class directions_mission (Director.Mission):
         self.wasnull=0
         self.you=VS.getPlayerX(cp)
         self.adjsys=go_to_adjacent_systems(self.you,0,self.jumps)
-        self.adjsys.Print("You should start in the system named %s","Then jump to %s","Lastly, jump to %s, your final destination","cargo mission",1)
+        self.adjsys.Print(_("You should start in the system named %s"),_("Then jump to %s"),_("Lastly, jump to %s, your final destination"),"cargo mission",1)
     def setupPlayer(self,cp):
         self.dir_privateSetupPlayer(cp)
     def __init__ (self,savevar,jumps=(),destination=''):
@@ -115,6 +116,6 @@ class directions_mission (Director.Mission):
             self.arrived=1
             self.adjsys=go_none()
             self.base=self.findUnit(self.destination)
-            self.obj=VS.addObjective("Deliver cargo to %s." % self.destination);
+            self.obj=VS.addObjective(_("Deliver cargo to %s.") % self.destination);
             VS.setOwner(self.obj,self.you)
             VS.setCompleteness(self.obj,0)

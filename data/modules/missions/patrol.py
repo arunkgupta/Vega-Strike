@@ -8,6 +8,7 @@ import universe
 import unit
 import quest
 import Director
+import gettext
 class patrol (Director.Mission):
     def __init__ (self,numsystemsaway, num_significants_to_patrol, distance_from_base, creds, jumps=(), donevar=''):
         Director.Mission.__init__(self)
@@ -21,27 +22,27 @@ class patrol (Director.Mission):
         self.quantity=num_significants_to_patrol
         name = self.you.getName ()
         self.mplay=universe.getMessagePlayer(self.you)
-        VS.IOmessage (0,"patrol",self.mplay,"You must patrol a system for us :")
+        VS.IOmessage (0,"patrol",self.mplay,_("You must patrol a system for us :"))
         self.adjsys = go_to_adjacent_systems(self.you,numsystemsaway,jumps)
-        self.adjsys.Print("From the %s system,","Carefully go to %s.","You should shortly arrive in the %s: patrol it.","patrol",1)
+        self.adjsys.Print(_("From the %s system,"),_("Carefully go to %s."),_("You should shortly arrive in the %s: patrol it."),"patrol",1)
 
     def SuccessMission (self):
         self.you.addCredits (self.cred)
         if self.donevar!='':
             quest.removeQuest(self.you.isPlayerStarship(),self.donevar,1)
-        VS.IOmessage (0,"computer",self.mplay,"[Computer] Transmitting Data..")
-        VS.IOmessage (0,"patrol",self.mplay,"Thank you! Patrol Complete.")
-        VS.IOmessage (0,"patrol",self.mplay,"We have credited your account.")
+        VS.IOmessage (0,"computer",self.mplay,_("[Computer] Transmitting Data.."))
+        VS.IOmessage (0,"patrol",self.mplay,_("Thank you! Patrol Complete."))
+        VS.IOmessage (0,"patrol",self.mplay,_("We have credited your account."))
         VS.terminateMission(1)
     def FailMission (self):
         self.you.addCredits (self.cred)
         if self.donevar!='':
             quest.removeQuest(self.you.isPlayerStarship(),self.donevar,-1)
-        VS.IOmessage (0,"patrol",self.mplay,"Mission a failure!")
+        VS.IOmessage (0,"patrol",self.mplay,_("Mission a failure!"))
         VS.terminateMission(0)
 
     def GeneratePatrolList (self):
-        VS.IOmessage (0,"patrol",self.mplay,"You must get within %f klicks of" % self.distance)
+        VS.IOmessage (0,"patrol",self.mplay,_("You must get within %f klicks of") % self.distance)
         count=self.quantity*6
         str=""
         import universe
@@ -73,10 +74,10 @@ class patrol (Director.Mission):
         self.quantity=0
 
     def DeletePatrolPoint (self,num,nam):
-        VS.IOmessage (0,"patrol",self.mplay,"[Computer] %s scanned, data saved..."%nam)
+        VS.IOmessage (0,"patrol",self.mplay,_("[Computer] %s scanned, data saved...")%nam)
         VS.setCompleteness(self.objectives[self.jnum],1.0)
         self.patrolpoints[self.jnum].unsetMissionRelevant()
-        self.you.commAnimation("scan_complete.ani")
+        self.you.commAnimation(_("scan_complete.ani"))
         del self.objectives[self.jnum]
         del self.patrolpoints[self.jnum]
     def FinishedPatrol (self):

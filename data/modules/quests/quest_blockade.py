@@ -27,6 +27,7 @@ import fg_util
 import universe
 import vsrandom
 import news
+import gettext
 
 class quest_blockade (quest.quest):
     def __init__ (self):

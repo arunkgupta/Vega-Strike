@@ -9,8 +9,9 @@ import universe
 import unit
 import Director
 import quest
+import gettext
 class escort_local (Director.Mission):
-    def __init__ (self,factionname,numsystemsaway, enemyquantity,  waves, distance_from_base, creds, incoming, protectivefactionname='',jumps=(),var_to_set='',dynamic_flightgroup='',dynamic_type='', dynamic_defend_fg='',dynamic_defend_type='',greetingText=['Escort: give up while you still can...','If you let us ravage our target then we grant you passage today.']):
+    def __init__ (self,factionname,numsystemsaway, enemyquantity,  waves, distance_from_base, creds, incoming, protectivefactionname='',jumps=(),var_to_set='',dynamic_flightgroup='',dynamic_type='', dynamic_defend_fg='',dynamic_defend_type='',greetingText=[_('Escort: give up while you still can...'),_('If you let us ravage our target then we grant you passage today.')]):
         Director.Mission.__init__(self)
         self.greetingText=greetingText
         self.dedicatedattack=vsrandom.randrange(0,2)*vsrandom.randrange(0,2)
@@ -49,8 +50,8 @@ class escort_local (Director.Mission):
         self.objectivezero=0
         self.mplay=universe.getMessagePlayer(self.you)
         self.adjsys = go_to_adjacent_systems(self.you,numsystemsaway,jumps)
-        VS.IOmessage (0,"escort mission",self.mplay,"Your mission is as follows:")
-        self.adjsys.Print("You are in the %s system,","Proceed swiftly to %s.","Your arrival point is %s.","escort mission",1)
+        VS.IOmessage (0,"escort mission",self.mplay,_("Your mission is as follows:"))
+        self.adjsys.Print(_("You are in the %s system,"),_("Proceed swiftly to %s."),_("Your arrival point is %s."),"escort mission",1)
 
     def SetVarValue (self,value):
         if (self.var_to_set!=''):
@@ -84,16 +85,16 @@ class escort_local (Director.Mission):
         self.SetVarValue(1)
         if (self.cred>0):
             self.you.addCredits (self.cred)
-            VS.IOmessage(0,"escort mission",self.mplay,"Excellent work pilot! Your effort has thwarted the foe!")
-            VS.IOmessage(0,"escort mission",self.mplay,"You have been rewarded for your effort as agreed.")
+            VS.IOmessage(0,"escort mission",self.mplay,_("Excellent work pilot! Your effort has thwarted the foe!"))
+            VS.IOmessage(0,"escort mission",self.mplay,_("You have been rewarded for your effort as agreed."))
         VS.terminateMission(1)
     def FailMission (self):
         self.you.addCredits (-self.cred)
         VS.AdjustRelation(self.you.getFactionName(),self.faction,-.02,1)
         self.SetVarValue(-1)
-        VS.IOmessage (0,"escort mission",self.mplay,"You Allowed the base you were to protect to be destroyed.")
-        VS.IOmessage (0,"escort mission",self.mplay,"You are a failure to your race!")
-        VS.IOmessage (1,"escort mission",self.mplay,"We have contacted your bank and informed them of your failure to deliver on credit. They have removed a number of your credits for this inconvenience. Let this serve as a lesson.")
+        VS.IOmessage (0,"escort mission",self.mplay,_("You Allowed the base you were to protect to be destroyed."))
+        VS.IOmessage (0,"escort mission",self.mplay,_("You are a failure to your race!"))
+        VS.IOmessage (1,"escort mission",self.mplay,_("We have contacted your bank and informed them of your failure to deliver on credit. They have removed a number of your credits for this inconvenience. Let this serve as a lesson."))
         VS.terminateMission(0)
     def NoEnemiesInArea (self,jp):
         if (self.adjsys.DestinationSystem()!=VS.getSystemFile()):
@@ -147,8 +148,8 @@ class escort_local (Director.Mission):
             import universe
             universe.greet(self.greetingText,self.attackers[0],you);
         else:
-            VS.IOmessage (0,"escort mission",self.mplay,"Eliminate all %s ships here" % self.faction)
-            VS.IOmessage (0,"escort mission",self.mplay,"You must protect %s." % unit.getUnitFullName(jp))
+            VS.IOmessage (0,"escort mission",self.mplay,_("Eliminate all %s ships here") % self.faction)
+            VS.IOmessage (0,"escort mission",self.mplay,_("You must protect %s.") % unit.getUnitFullName(jp))
 
         self.quantity=0
     def GenerateDefendee(self):
@@ -184,7 +185,7 @@ class escort_local (Director.Mission):
                     self.FailMission()
             return #nothing more happens inside this control
         if (self.you.isNull() or (self.launchedfriend and self.defendee.isNull())):
-            VS.IOmessage (0,"escort mission",self.mplay,"#ff0000You were unable to arrive in time to help. Mission failed.")
+            VS.IOmessage (0,"escort mission",self.mplay,_("#ff0000You were unable to arrive in time to help. Mission failed."))
             self.SetVarValue(-1)
             VS.terminateMission(0)
             return
@@ -196,7 +197,7 @@ class escort_local (Director.Mission):
                 self.defendee=self.GenerateDefendee()
                 self.launchedfriend=1
             self.adjsys=go_somewhere_significant (self.you,0,self.distance_from_base,0)
-            self.adjsys.Print ("You must visit the %s","escort mission","docked around the %s", 0)
+            self.adjsys.Print (_("You must visit the %s"),"escort mission",_("docked around the %s"), 0)
             self.jp=self.adjsys.SignificantUnit()
         else:
             if (self.launchedfriend==0):

@@ -37,6 +37,7 @@ import unit
 import vsrandom
 import launch
 import news
+import gettext
 
 # predefine stages
 SAVE_KEY = "quest_tutorial"

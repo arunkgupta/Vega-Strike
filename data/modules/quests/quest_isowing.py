@@ -7,6 +7,7 @@ import save_util
 import faction_ships
 import universe
 import launch
+import gettext
 class quest_isowing (quest.quest):
     def recoverShipTypes (self):
         return save_util.loadStringList (self.playernum,"%s_wingships"%self.faction);

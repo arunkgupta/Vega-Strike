@@ -7,6 +7,7 @@ import Director
 import unit
 import quest
 import VS
+import gettext
 
 class plunder (Director.Mission):
 
@@ -31,18 +32,18 @@ class plunder (Director.Mission):
         self.gosig=go_somewhere_significant(self.you,0,10000.)
         self.mplay=universe.getMessagePlayer(self.you)
         if (self.you):
-            VS.IOmessage (0,"plunder mission",self.mplay,"Your mission is to destroy a %s merchant unit." % (self.newship))
-            VS.IOmessage (1,"plunder mission",self.mplay,"It is orbiting around the %s planet in the system." % (unit.getUnitFullName(self.gosig.SignificantUnit())))
-            VS.IOmessage (2,"plunder mission",self.mplay,"After it is destroyed, pick up all %s cargo that got ejected."%self.category)
-            VS.IOmessage (3,"plunder mission",self.mplay,"Then return to a %s base with your cargo. #00ff00Good luck!"%self.faction)
+            VS.IOmessage (0,"plunder mission",self.mplay,_("Your mission is to destroy a %s merchant unit.") % (self.newship))
+            VS.IOmessage (1,"plunder mission",self.mplay,_("It is orbiting around the %s planet in the system.") % (unit.getUnitFullName(self.gosig.SignificantUnit())))
+            VS.IOmessage (2,"plunder mission",self.mplay,_("After it is destroyed, pick up all %s cargo that got ejected.")%self.category)
+            VS.IOmessage (3,"plunder mission",self.mplay,_("Then return to a %s base with your cargo. #00ff00Good luck!")%self.faction)
         else:
             print("aboritng plunder constructor...")
             VS.terminateMission (0)
 
     def Win (self,un,terminate):
-        VS.IOmessage (0,"plunder mission",self.mplay,"#00ff00Excellent work pilot.")
-        VS.IOmessage (0,"plunder mission",self.mplay,"#00ff00You have been rewarded for your effort as agreed.")
-        VS.IOmessage (0,"plunder mission",self.mplay,"#00ff00Your contribution to the war effort will be remembered.")
+        VS.IOmessage (0,"plunder mission",self.mplay,_("#00ff00Excellent work pilot."))
+        VS.IOmessage (0,"plunder mission",self.mplay,_("#00ff00You have been rewarded for your effort as agreed."))
+        VS.IOmessage (0,"plunder mission",self.mplay,_("#00ff00Your contribution to the war effort will be remembered."))
         print("do you win?")
         un.addCredits(self.cred)
         if len(self.donevar):
@@ -52,7 +53,7 @@ class plunder (Director.Mission):
             VS.terminateMission(1)
 
     def Lose (self,terminate):
-        VS.IOmessage(0,"plunder mission",self.mplay,"#ff0000You have failed this mission and will not be rewarded.")
+        VS.IOmessage(0,"plunder mission",self.mplay,_("#ff0000You have failed this mission and will not be rewarded."))
         if len(self.donevar):
             quest.removeQuest(int(self.mplay[1:]),self.donevar,-1)
         if (terminate):
@@ -69,7 +70,7 @@ class plunder (Director.Mission):
             cargquant=self.you.GetCargo(self.content).GetQuantity()
             if cargquant<self.quantity:
 #             print "ohnooohnoohno!!!!!!!"
-                VS.IOmessage(0,"plunder mission",self.mplay,'Not enough of %s cargo... Get more until you have %d.'%(self.quantity))
+                VS.IOmessage(0,"plunder mission",self.mplay,_('Not enough of %s cargo... Get more until you have %d.')%(self.quantity))
                 VS.setCompleteness(self.obj,0.)
             elif self.you.isDocked(self.gosig.SignificantUnit()) or self.gosig.SignificantUnit().isDocked(self.you):
 #             print "du hast gewonnen!"
@@ -84,7 +85,7 @@ class plunder (Director.Mission):
                 self.arrived=3
                 self.gosig=go_somewhere_significant(self.you,1,3000.,1,"pirates")
                 self.gosig.SignificantUnit().setCombatRole("INERT")
-                VS.IOmessage(0,"plunder mission",self.mplay,'Give all of your cargo to the %s unit.'%(unit.getUnitFullName(self.gosig.SignificantUnit())))
+                VS.IOmessage(0,"plunder mission",self.mplay,_('Give all of your cargo to the %s unit.')%(unit.getUnitFullName(self.gosig.SignificantUnit())))
         elif (self.arrived==1):
             if (self.enemy):
                 self.pos=self.enemy.Position()
@@ -101,7 +102,7 @@ class plunder (Director.Mission):
                 for i in range(self.quantity*2):
                     launch.launch_wave_around_area("shadow","upgrades","generic_cargo","sitting_duck",1,5.,10.,self.pos,'',0).setName(self.content)
                 self.obj=VS.addObjective("Pick up %d %s cargo"%(self.quantity,self.content))
-                VS.IOmessage(0,"plunder mission",self.mplay,'You must now pick up at least %d of the %s cargo.'%(self.quantity,self.content))
+                VS.IOmessage(0,"plunder mission",self.mplay,_('You must now pick up at least %d of the %s cargo.')%(self.quantity,self.content))
         else:
             significant=self.gosig.SignificantUnit()
             if (significant.isNull ()):
@@ -120,8 +121,8 @@ class plunder (Director.Mission):
                     self.enemy=launch.launch_wave_around_unit("shadow","merchant",self.newship,"default",1,200.0,500.0,self.you)
                     self.enemy.addCargo(carg)
                     VS.setCompleteness(self.gosig.obj,1.)
-                    VS.IOmessage(0,"plunder mission",self.mplay,'You must now destroy the %s ship.'%self.newship)
-                    VS.IOmessage(0,"plunder mission",self.mplay,'That fighter contains the wanted %s cargo in its hold.'%self.content)
+                    VS.IOmessage(0,"plunder mission",self.mplay,_('You must now destroy the %s ship.')%self.newship)
+                    VS.IOmessage(0,"plunder mission",self.mplay,_('That fighter contains the wanted %s cargo in its hold.')%self.content)
                     self.obj=VS.addObjective("Destroy the %s ship." % (unit.getUnitFullName(self.enemy)))
                     if (self.enemy):
                         self.arrived=1

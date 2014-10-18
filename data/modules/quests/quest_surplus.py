@@ -4,6 +4,7 @@ import VS
 import unit
 import vsrandom
 import universe
+import gettext
 class quest_surplus (quest.quest):
     def __init__ (self,categories,pr,qr,ships,planets):
         print("surplus %f %f" % (pr, qr))

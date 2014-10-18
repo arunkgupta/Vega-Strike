@@ -1,6 +1,7 @@
 import bounty_leader
+import gettext
 class bounty_troop(bounty_leader.bounty_leader):
-    def __init__(self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps=(),var_to_set='',dynfg='',dyntype="",displayLocation=1,dynhelperfg='',dynhelpertype='',greetingText=['It appears we have something in common, privateer.','My name may be on your list, but now your name is on mine.'],leader_upgrades=[],trooptime=30,dockingdist=2400,wastingtime=0):
+    def __init__(self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps=(),var_to_set='',dynfg='',dyntype="",displayLocation=1,dynhelperfg='',dynhelpertype='',greetingText=[_('It appears we have something in common, privateer.'),_('My name may be on your list, but now your name is on mine.')],leader_upgrades=[],trooptime=30,dockingdist=2400,wastingtime=0):
         bounty_leader.bounty_leader.__init__(self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps,var_to_set,dynfg,dyntype,displayLocation,dynhelperfg,dynhelpertype,greetingText,leader_upgrades,True)
         self.trooptime=trooptime
         self.troopdidlaunch=False

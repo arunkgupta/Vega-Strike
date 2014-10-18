@@ -11,13 +11,14 @@ import Briefing
 import unit
 import VS
 import quest
+import gettext
 
 class bounty (Director.Mission):
     def SetVar (self,val):
         if (self.var_to_set!=''):
             quest.removeQuest (self.you.isPlayerStarship(),self.var_to_set,val)
 
-    def __init__ (self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps=(),var_to_set='',dynfg='',dyntype="",displayLocation=1,greetingText=['It appears we have something in common, privateer.','My name may be on your list, but now your name is on mine.'],dockable_unit=False):
+    def __init__ (self,minnumsystemsaway, maxnumsystemsaway, creds, run_away, shipdifficulty, tempfaction,jumps=(),var_to_set='',dynfg='',dyntype="",displayLocation=1,greetingText=[_('It appears we have something in common, privateer.'),_('My name may be on your list, but now your name is on mine.')],dockable_unit=False):
         Director.Mission.__init__ (self)
         self.firsttime=VS.GetGameTime()
         self.newship=dyntype
@@ -42,11 +43,11 @@ class bounty (Director.Mission):
         self.mplay=universe.getMessagePlayer(self.you)
         self.displayLocation=displayLocation
         if (self.you):
-            VS.IOmessage (0,"bounty mission",self.mplay,"[Computer] Bounty Mission Objective: (%.2f Credits)" % self.cred)
-            self.adjsys.Print("From %s system","Procede to %s","Search for target at %s, your final destination","bounty mission",1)
-            VS.IOmessage (1,"bounty mission",self.mplay,"Target is a %s unit." % (self.faction))
+            VS.IOmessage (0,"bounty mission",self.mplay,_("[Computer] Bounty Mission Objective: (%.2f Credits)") % self.cred)
+            self.adjsys.Print(_("From %s system"),_("Procede to %s"),_("Search for target at %s, your final destination"),_("bounty mission"),1)
+            VS.IOmessage (1,"bounty mission",self.mplay,_("Target is a %s unit.") % (self.faction))
         else:
-            print("aboritng bounty constructor...")
+            print("aborting bounty constructor...")
             VS.terminateMission (0)
 
     def AdjLocation(self):
@@ -55,14 +56,14 @@ class bounty (Director.Mission):
 
     def Win (self,un,terminate):
         self.SetVar(1)
-        VS.IOmessage (0,"bounty mission",self.mplay,"[Computer] #00ff00Bounty Mission Accomplished!")
+        VS.IOmessage (0,"bounty mission",self.mplay,_("[Computer] #00ff00Bounty Mission Accomplished!"))
         un.addCredits(self.cred)
         if (terminate):
             print("you win bounty mission!")
             VS.terminateMission(1)
 
     def Lose (self,terminate):
-        VS.IOmessage(0,"bounty mission",self.mplay,"[Computer] #ff0000Bounty Mission Failed.")
+        VS.IOmessage(0,"bounty mission",self.mplay,_("[Computer] #ff0000Bounty Mission Failed."))
         self.SetVar(-1)
         if (terminate):
             print("lose bounty mission")
@@ -150,16 +151,16 @@ class bounty (Director.Mission):
                 tmpfg=self.dynfg
                 if len(tmpfg)==0:
                     tmpfg="shadow"
-                VS.IOmessage (3,"bounty mission",self.mplay,"Hunt the %s unit in the %s flightgroup in this system." % (self.newship,tmpfg))
+                VS.IOmessage (3,"bounty mission",self.mplay,_("Hunt the %s unit in the %s flightgroup in this system.") % (self.newship,tmpfg))
                 if (self.runaway):        #ADD OTHER JUMPING IF STATEMENT CODE HERE
-                    VS.IOmessage (4,"bounty mission",self.mplay,"Target is fleeing to the jump point!")
-                    VS.IOmessage (5,"bounty mission",self.mplay,"Target Destination appears to be %s" % (localdestination))
+                    VS.IOmessage (4,"bounty mission",self.mplay,_("Target is fleeing to the jump point!"))
+                    VS.IOmessage (5,"bounty mission",self.mplay,_("Target Destination appears to be %s") % (localdestination))
                 elif (self.displayLocation):
-                    VS.IOmessage (4,"bounty mission",self.mplay,"Scanners detect bounty target!")
-                    VS.IOmessage (5,"bounty mission",self.mplay,"Coordinates appear near %s" % (localdestination))
+                    VS.IOmessage (4,"bounty mission",self.mplay,_("Scanners detect bounty target!"))
+                    VS.IOmessage (5,"bounty mission",self.mplay,_("Coordinates appear near %s") % (localdestination))
                 else:
                     print("Location "+str(self.displayLocation))
-                    VS.IOmessage (4,"bounty mission",self.mplay,"[Computer] Mission description indicates bounty target may be in this system.")
+                    VS.IOmessage (4,"bounty mission",self.mplay,_("[Computer] Mission description indicates bounty target may be in this system."))
 
     def initbriefing(self):
         print("ending briefing")
