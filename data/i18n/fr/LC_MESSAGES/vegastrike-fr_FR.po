@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-05-06 08:52+0100\n"
-"PO-Revision-Date: 2014-06-09 18:26+0100\n"
-"Last-Translator: Greeendreamer <winke59@yahoo.com>\n"
+"PO-Revision-Date: 2014-12-02 22:15+0100\n"
+"Last-Translator: Greendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -281,7 +281,7 @@ msgstr "Gardez votre main près de votre arme... Je pense qu'un de ces types lou
 
 #: data/bases/bartender.py:24
 msgid "Hello! Lots of travellers about. Have yourself a seat and enjoy a nice cool fuzzy buzzer."
-msgstr ""
+msgstr "Salut! Pas mal de voyageurs par ici. Prenez un siège et profitez de cette belle ambiance bruyante."
 
 #: data/bases/bartender.py:25
 msgid "Does he pat YOU like that?"
@@ -309,75 +309,75 @@ msgstr "Si vous êtes un contebandier comme je le pense, vous feriez mieux de su
 
 #: data/bases/bartender.py:33
 msgid "You'd best keep your sidearm covered in this establishment, sir. Students don't take kindly to threats!"
-msgstr ""
+msgstr "Vous feriez mieux de garder votre arme cachéedans cet établissement, monsieur. Les étudiants n'aiment pas trop les menaces!"
 
 #: data/bases/bartender.py:34
 msgid "One of the great things about running a bar on a university planet...  is that there is quite an 'archive' of alcoholic beverages stored for both 'historical' purposes and 'hands-on' learning."
-msgstr ""
+msgstr "Un des plus grands avantages à tenir un bar sur une planète universitaire... est qu'il y a souvent une collection de beuvrages alcoolisés stockés dans un but historique, mais aussi de travaux pratiques."
 
 #: data/bases/bartender.py:35
 msgid "I went to a university planet myself back in the day. Not this one, of cousre, but a nicer one. It was really great to live on a planet full of 'loose' teenagers and open liquor cabinets. Now I'm married though...  and I had to swear off alcohol."
-msgstr ""
+msgstr "J'ai moi-même été sur une planète universitaire, dans le temps. Pas celle-ci, bien-sûr, mais une plus sympa. C'était vraiment le pied de vivre sur une planète pleine d'adolescentes faciles et d'armoires à liqueurs ouvertes. Maintenant je suis marié en revanche... et l'alcool m'est interdit."
 
 #: data/bases/bartender.py:36
 msgid "There was an ISO discussion group in here last night. I let them use the bar, because they're good customers.  Some of them don't believe in money, though, so it can be kind of tense trying to collect on their tabs sometimes.  Mostly, I'm afraid if I push too hard, I'll come to work one afternoon and find my bar burned to the ground!  Crazy revolutionaries."
-msgstr ""
+msgstr "Il y a eu un groupe de discussion ISO ici l'autre soir. Je les laisse utiliser le bar, car ce sont de bons clients. Toutefois, certains ne croient pas en l'argent, ce qui peut parfois poser problème quand je leur demande de payer l'addition. Surtout, je crains que si j'insiste un peu trop, j'arriverai un soir au boulot et trouverai mon bar réduit en cendres. Cinglés de révolutionnaires."
 
 #: data/bases/bartender.py:37
 msgid "You might think it's boring on a university planet. But let me tell you... there's no other place to be.  There're all kinds of fancy cultural artsy things going on, sporting events, music concerts, political groups, revolutionaries...  it's the place to be if you want to be on the cutting edge of society."
-msgstr ""
+msgstr "Vous pensez sûrement que l'ambiance doit être mortelle sur une planète universitaire. Mais laissez-moi vous dire... c'est LE lieu où il faut être. Il se passe plein de choses sur les plans culturels et artistiques, on y trouve des événements sportifs, des concerts, des groupes politiques, des révolutionnaires... c'est l'endroit où se trouver si vous voulez être à la pointe de la société."
 
 #: data/bases/bartender.py:38
 msgid "Eighty percent of the population of a university planet is between the ages of 18 and 24.  So that means forty percent of the population is a young person of the opposite gender. University planets are like the ultimate place for singles, and I run a bar there. So it's like I'm running the ultimate singles bar."
-msgstr ""
+msgstr "80 % de la population d'une planète universitaire a un âge compris entre 18 et 24 ans. Ce qui signifie que 40 % de la popultion est constitué de jeunes personnes du sexe opposé. Les planètes universitaires représentent donc l'endroit ultime pour les célibataires, et je tiens un bar sur l'une d'entre elles. On peut donc dire que je tiens le bar ultime pour les célibataires."
 
 #: data/bases/bartender.py:39
 msgid "Sometimes I really hate living on a university.  There are so many snobs, arrogant rebels, naive revolutionaries, violent protesters, anarchists, deadbrains, drunkards, and rich idiots.  And they ALL come through MY BAR!"
-msgstr ""
+msgstr "Il m'arrive de détester vivre dans une université. Il y a tellement de snobs, de rebelles arrogants, de révolutionnaires naïfs, de protestataires violents, d'anarchistes, de cervelles en morceaux, d'ivrognes, et de riches idiots. Et ils passent TOUS dans MON bar!"
 
 #: data/bases/bartender.py:40
 msgid "There was a performance by the local symphony orchestra last night. I couldn't go, 'cause of the bar, but I hear they played some great classical composers. Some Beethoven, some Beatles, and some Suguro. Great stuff!"
-msgstr ""
+msgstr "Il y a eu un concert donné par la symphonie locale, l'autre soir. Je n'ai pas pu y aller, \"à cause du bar\", mais je les ai entendus jouer des morceaux de grands compositeurs classiques. Beethoven, les Beatles et du Suguro. Que du bon!"
 
 #: data/bases/bartender.py:41
 msgid "There's some really incredible research going on at the Advanced Spatial Theory Laboratory here.  They say they're close to developing an interstellar jump drive that doesn't need to utilize pre-existing wormholes!  It's incredible research because it's a wonder it's getting any funding.  They've been working on that for almost a century, and no progress!"
-msgstr ""
+msgstr "Il y a des sujets de recherche vraiment incroyables dans le Labo Avancé de Théorie Spatiale, ici. Il prétendent qu'ils ont sur le point de développer un moteur de saut interstellaire qui n'aurait pas besoin d'une singularité pré-existante! Ces recherches sont vraiment incroyables, car c'est un petit miracle d'avoir trouvé les fonds nécessaire. Ils travaillent dessus depuis près d'un siècle, et aucun progrès!"
 
 #: data/bases/bartender.py:42
 msgid "There are some very interesting studies going on at the campus here.  On grad student was telling me about how he was working on 'The Mating Habits of the Rlaan Component Species'. If you ask me, that will make for some pretty good reading."
-msgstr ""
+msgstr "Il y a des études vraiment intéressantes en cours sur ce campus. Un étudiant diplômé me parlait l'autre jour de son travail sur 'les moeurs sexuelles des espèces Rlaans'. Si vous voulez mon avis, ce peut faire de la bonne lecture."
 
 #: data/bases/bartender.py:43
 msgid "We had some Aera corpses delivered here recently. The Confederation Navy scooped them up after a battle, and asked us to do some classified research on them. They were only sent here AFTER the Navy intel boys got through with them of course.  I wonder what they figured out, and if they're telling us everything."
-msgstr ""
+msgstr "Nous avons reçu des cadavres des cadavres Areans récemment. La Marine de la Confédération les a ramassés après une bataille, et nous a demandé de mener des recherhes secrètes dessus. Ils nous ont été envoyés bien-sûr APRES que les gars des services de renseignement en aient fini avec eux. Je me demande ce qu'ils s'imaginaient, et s'ils nous disent tout."
 
 #: data/bases/bartender.py:44
 msgid "The big money these days is in heavy weapons developement and dentistry.  So when the kids with credit signs in their eyes figure out that they either CAN'T do the work, or HATE it, they switch their majors to English or history, or orbital engineering.  You know, stuff that's easy."
-msgstr ""
+msgstr "Les bons placements ces temps-ci sont dans le développement d'armes lourdes, et la chirurgie dentaire.  Alors quand les gamins qui ont des dollars dans les yeux se rendent comptent qu'ils ne PEUVENT PAS faire ces métiers, ou qu'ils les DETESTENT, ils se tournent vers le Français ou l'histoire, ou encore l'ingénierie en orbite. Vous savez, la solution de facilité..."
 
 #: data/bases/bartender.py:45
 msgid "Contracts for defense research have skyrocketed since the Aera turned out to be hostile.  It's easy money if you're into starship or weapons design.  It drives the pacifist student groups wild, but the military has doubled the size of their officer training programs on university planets too.  Interesting times to be on a university planet.  Or anywhere, I guess."
-msgstr ""
+msgstr "Les contrats de recherche militaire ont monté en flèche depuis que les Areas se sont révélés hostiles. Vous vous faites de l'argent facilement si vous êtes dans la conception de vaisseaux ou d'armement. Ca rend rend dingues les groupes d'étudiants pacifistes, mais les militaires ont doublé l'ampleur de leurs programmes d'entraînement pour officiers sur les planètes universitaires également. C'est en ce moment qu'il est intéressant d'être sur une planète universitaire. Ou n'importe-où, j'imagine..."
 
 #: data/bases/bartender.py:46
 msgid "There is entirely too much talking going on in this bar...  and not enough drinking!  DAMN intellectuals."
-msgstr ""
+msgstr "Il y a bien trop de discussions dans ce bar... et pas assez de gens qui boivent! MAUDITS intellectuels!"
 
 #: data/bases/bartender.py:47
 msgid "To the university!  Home of lost causes, and forsaken beliefs, and unpopular names, and impossible loyalties!"
-msgstr ""
+msgstr "Bienvenue à l'université! Le repère des causes perdues, des croyances abandonnées, des noms impopulaires, et des loyautés impossibles!"
 
 #: data/bases/bartender.py:48
 msgid "You know, university degrees are a bit like adultery: you may not want to get involved with that sort of thing, but you don't want to be thought incapable."
-msgstr ""
+msgstr "Vous savez, les diplômes universitaires sont un peu comme l'adultère : vous ne voulez pas être impliqué dans ce genre d'affaire, mais vous ne voulez pas qu'on vous en croit incapable."
 
 #: data/bases/bartender.py:49
 msgid "The Confederation authorities busted a local discussion group last month, and the fallout has been scathing.  Who thought that anyone would actually enforce that silly law they passed banning the Interstellar Socialist Organization?  I mean, they're radical and all...  but it was just a discussion group!"
-msgstr ""
+msgstr "Les autorités confédérées ont pincé un groupe local de discussion le mois dernier, et les réactions ont été cinglantes. Qui pouvait penser que quelqu'un appliquerait leur stupide loi d'éradication de l'Organisation Socialiste Interstellaire? Je veux dire... Ils sont vraiment radicaux, et tout, mais... c'était juste un groupe de discussion!"
 
 #: data/bases/bartender.py:50
 msgid "There was a pro-ISO rally in the central square of the local campus yesterday.  They started calling for all sorts of government and economic reforms, but some hot-heads eventually turned to advocating bloody revolution instead."
-msgstr ""
+msgstr "Il y a eu un meeting pro-ISO sur la place centrale du campus local, hier. Ils ont commencé à demander toutes sortes de réformes gouvernementales et économiques, mais quelques têtes brulées en sont venus à prôner une révolution dans le sang, à la place."
 
 #: data/bases/bartender.py:51
 msgid "A wing of fighters flew into port last week.  No-one I know saw who the pilots were, but everyone suspects that they were part of an ISO flightgroup.  My guess is that they were lying low for a while, waiting for some Confed heat to cool.  Small wonder they chose here, they've got all kinds of supporters on this kind of planet."
