@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-05-06 08:52+0100\n"
-"PO-Revision-Date: 2014-12-02 22:15+0100\n"
+"PO-Revision-Date: 2014-12-24 00:48+0100\n"
 "Last-Translator: Greendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -349,7 +349,7 @@ msgstr "Il y a des études vraiment intéressantes en cours sur ce campus. Un é
 
 #: data/bases/bartender.py:43
 msgid "We had some Aera corpses delivered here recently. The Confederation Navy scooped them up after a battle, and asked us to do some classified research on them. They were only sent here AFTER the Navy intel boys got through with them of course.  I wonder what they figured out, and if they're telling us everything."
-msgstr "Nous avons reçu des cadavres des cadavres Areans récemment. La Marine de la Confédération les a ramassés après une bataille, et nous a demandé de mener des recherhes secrètes dessus. Ils nous ont été envoyés bien-sûr APRES que les gars des services de renseignement en aient fini avec eux. Je me demande ce qu'ils s'imaginaient, et s'ils nous disent tout."
+msgstr "Nous avons reçu des cadavres des cadavres Aerans récemment. La Marine de la Confédération les a ramassés après une bataille, et nous a demandé de mener des recherhes secrètes dessus. Ils nous ont été envoyés bien-sûr APRES que les gars des services de renseignement en aient fini avec eux. Je me demande ce qu'ils s'imaginaient, et s'ils nous disent tout."
 
 #: data/bases/bartender.py:44
 msgid "The big money these days is in heavy weapons developement and dentistry.  So when the kids with credit signs in their eyes figure out that they either CAN'T do the work, or HATE it, they switch their majors to English or history, or orbital engineering.  You know, stuff that's easy."
@@ -357,7 +357,7 @@ msgstr "Les bons placements ces temps-ci sont dans le développement d'armes lou
 
 #: data/bases/bartender.py:45
 msgid "Contracts for defense research have skyrocketed since the Aera turned out to be hostile.  It's easy money if you're into starship or weapons design.  It drives the pacifist student groups wild, but the military has doubled the size of their officer training programs on university planets too.  Interesting times to be on a university planet.  Or anywhere, I guess."
-msgstr "Les contrats de recherche militaire ont monté en flèche depuis que les Areas se sont révélés hostiles. Vous vous faites de l'argent facilement si vous êtes dans la conception de vaisseaux ou d'armement. Ca rend rend dingues les groupes d'étudiants pacifistes, mais les militaires ont doublé l'ampleur de leurs programmes d'entraînement pour officiers sur les planètes universitaires également. C'est en ce moment qu'il est intéressant d'être sur une planète universitaire. Ou n'importe-où, j'imagine..."
+msgstr "Les contrats de recherche militaire ont monté en flèche depuis que les Aeras se sont révélés hostiles. Vous vous faites de l'argent facilement si vous êtes dans la conception de vaisseaux ou d'armement. Ca rend rend dingues les groupes d'étudiants pacifistes, mais les militaires ont doublé l'ampleur de leurs programmes d'entraînement pour officiers sur les planètes universitaires également. C'est en ce moment qu'il est intéressant d'être sur une planète universitaire. Ou n'importe-où, j'imagine..."
 
 #: data/bases/bartender.py:46
 msgid "There is entirely too much talking going on in this bar...  and not enough drinking!  DAMN intellectuals."
@@ -381,155 +381,155 @@ msgstr "Il y a eu un meeting pro-ISO sur la place centrale du campus local, hier
 
 #: data/bases/bartender.py:51
 msgid "A wing of fighters flew into port last week.  No-one I know saw who the pilots were, but everyone suspects that they were part of an ISO flightgroup.  My guess is that they were lying low for a while, waiting for some Confed heat to cool.  Small wonder they chose here, they've got all kinds of supporters on this kind of planet."
-msgstr ""
+msgstr "Un escadron de chasseurs est arrivé au port la semaine dernière. Personne à ma connaissance n'a vu qui étaient les pilotes, mais tout le monde les soupconne de faire partie d'un groupe de combat ISO. Je suppose qu'ils restaient discrets pour un moment, attendant de pouvoir refroidir les ardeurs de la Confed. Facile de deviner pourquoi ils ont choisi cet endroit : ils ont tous les types de supporters sur ce type de planète."
 
 #: data/bases/bartender.py:53
 msgid "If youre looking for a mission, talk to the guys who sometimes sit at the front tables there. Or you can check the mission terminal."
-msgstr ""
+msgstr "Si vous cherchez une mission, parlez aux gars qui s'assoient de temps en temps aux tables devant, ici. Ou vous pouvez consulter le terminal des missions."
 
 #: data/bases/bartender.py:54
 msgid "I used to know a privateer who swore by a standard mining base-agricultural planet run.  He hauled grain one way, and raw metals the other."
-msgstr ""
+msgstr "J'ai connu un mercenaire  qui ne jurait que par un trajet base minière / planète agricole. Il transportait du grain à l'aller, et des métaux bruts au retour."
 
 #: data/bases/bartender.py:55
 msgid "You wouldn't catch me in space without a good shield generator. I want to be able to have time to decide if I want to run or fight."
-msgstr ""
+msgstr "Vous ne me verriez jamais dans l'espace sans un bon générateur de boucliers. Je veux être en mesure de décider si je veux m'enfuir ou combattre."
 
 #: data/bases/bartender.py:56
 msgid "Hey, why don't you see if there are any in-system bounty missions available? People around here would really appreciate any help in cleaning this system up."
-msgstr ""
+msgstr "Hé, pourquoi ne chercheriez-vous pas des missions d'élimination dans ce système? Pas mal de gens ici apprécieraient réellement toute aide pour nettoyer notre système."
 
 #: data/bases/bartender.py:57
 msgid "The jump drive is the key to the galaxy. Without one, you can't access the network of jump points we use for interstellar travel."
-msgstr ""
+msgstr "Le moteur de saut est la clé de la galaxie. Si vous n'en avez pas, vous ne pourrez pas accéder au réseau de points de saut utilisés pour les voyages interstellaires."
 
 #: data/bases/bartender.py:58
 msgid "The best tool for interplanetary trade is common sense. What does an agricultural colony have that a space station probably needs? That's right, food - and booze!."
-msgstr ""
+msgstr "Le meilleur outil pour le commerce interplanétaire est le bon sens. Que possède une colonie agricole, dont une station spatiale aurait probablement besoin? Bonne réponse : de la nourriture - et de l'alcool!"
 
 #: data/bases/bartender.py:59
 msgid "You have to open your communications menu and request docking clearance before a planet or station will let you land."
-msgstr ""
+msgstr "Vous devrez ouvrir votre menu de communication et demander l'autorisation de vous amarrer avant qu'une planète ou une station vous laisse atterir."
 
 #: data/bases/bartender.py:60
 msgid "There is a commodity exchange at every civilized (and most uncivilized) port in the known galaxy. Why? Because trading is a great way to make honest money."
-msgstr ""
+msgstr "Il y a une bourse d'échanges dans tout les ports civilisés (et presque tous les non civilisés) de la galaxie connue. Pourquoi? Parce que faire du commerce est la voie royale pour se faire de l'argent honnêtement."
 
 #: data/bases/bartender.py:61
 msgid "When dogfighting, you can match speeds with your target (HOME key)."
-msgstr ""
+msgstr "Pendant le combat, vous pouvez accorder votre vitesse à celle de votre cible (touche HOME)."
 
 #: data/bases/bartender.py:62
 msgid "You can cycle through the screens on your HUD (V key), and communicate with your targets.  You can taunt them or hold a conversation!"
-msgstr ""
+msgstr "Vous pouvez faire défiler les écrans sur votre HUD (touche V), et communiquer avec vos cibles. Vous pouvez les insulter ou tenir une conversation!"
 
 #: data/bases/bartender.py:63
 msgid "If you get in a fight, it is very important that you lock onto and concentrate on a single target (L key). This will make you targeting box a solid square, and your computer won't lose your target in the heat of battle."
-msgstr ""
+msgstr "Si vous devez combattre, il est très important de verrouiller et de vous concentrer sur une cible (touche L).  Cela transformera votre boits de visée en un carré solide, et votre ordinateur ne perdra pas votre cible dans le feu de l'action."
 
 #: data/bases/bartender.py:64
 msgid "It's a dangerous galaxy out there. A lot of new pilots have accidently wandered into Aera space before they were ready, and ended up floating home."
-msgstr ""
+msgstr "C'est une galaxie dangereuse, là dehors. Beaucoup de jeunes pilotes se sont baladés sans le vouloir dans l'espace Aeran avant d'être prêts, et ont fini dans un cercueil volant."
 
 #: data/bases/bartender.py:65
 msgid "The first thing a pilot needs to know to be successful, is how to fly his ship. If you aren't an old hand at the flight stick, I would suggest printing off a list of controls to glance at while you're off making your fortune hunting pirates."
-msgstr ""
+msgstr "La première chose qu'un pilote doit savoir pour réussir, c'est comment piloter son vaisseau. Si vous n'êtes pas un expert dans le maniement du joystick, je vous suggère de vous imprimer une liste des contrôles à visualiser, jusqu'à ce que vous soyez prêt à faire fortune en chassant les pirates."
 
 #: data/bases/bartender.py:66
 msgid "Space is big. A pilot has to utilize his ship's in-system jump engine to get from planet to planet in less than a month (A key to travel to target)."
-msgstr ""
+msgstr "L'espace est grand. Un pilote doit utiliser ses moteurs SPEC pour aller de planète enplanète en moins d'un mois (touche TAB)."
 
 #: data/bases/bartender.py:67
 msgid "Make sure you bring a few tracking missiles with you, like FFs or IRs. They can help you take down an enemy more quickly than just using your guns."
-msgstr ""
+msgstr "Assurez-vous d'embarquer quelques missiles à tête chercheuse avec vous, comme les Amis-Ennemis (FF) ou les infra-rouges (IR). Il speuvent vous aider à abattre un ennemi bien plus rapidement qu'en utilisant vos canons."
 
 #: data/bases/bartender.py:68
 msgid "Watch your primary capacitors as you fire your guns. If you're running out of energy too quickly, considering buying a more powerful reactor to produce more power."
-msgstr ""
+msgstr "Regardez vos condensateurs primaires lorsque vous tirez au canon. Si vous tombez à court d'énergie trop rapidement, pensez à acheter un réacteur plus puissant afin de produire plus d'énergie."
 
 #: data/bases/bartender.py:69
 msgid "Don't attack ships from groups that you want to be friends with. If you make the Merchants angry enough, they'll put a bounty on your head so big that every bounty hunter in sector would be after you!"
-msgstr ""
+msgstr "N'attaquez pas de vaisseaux appartenant à des factions dont vous voulez vous faire des alliés. Si vous agacez suffisamment les Marchands, ils mettront votre tête à un tel prix que tous les chasseurs de primes du secteur en auront après vous!"
 
 #: data/bases/bartender.py:71
 msgid "Got any stories to tell? Last week I had a patron who just could not stop talking about his battles with pirates."
-msgstr ""
+msgstr "Vous avez des histoires à raconter? La semaine dernière, j'ai reçu un patron de vaisseau qui n'arrêtait pas de parler de ses batailles contre les pirates."
 
 #: data/bases/bartender.py:72
 msgid "This fellow brought a jhorg in here yesterday. Ever heard about the jhorg? They're small scaly creatures from New Bremen that can mimic everything you say with perfect accuracy. Forget parrots, these things are better than tape recorders!"
-msgstr ""
+msgstr "Ce type a apporté un jhorg ici hier. Jamais entendu parler des jhorgs? Ce sont de petites créatures écailleuses venant de New Bremen, qui peuvent imiter tout ce que vous dites avec une précision absolue. Oubliez les perroquets, ces choses sont meilleures que des enregistreurs numériques!"
 
 #: data/bases/bartender.py:73
 msgid "So, clue me in on something - why do Andolians still sometimes go to bars if all they're going to order is water, and they won't even drink that until they run it through the purifiers in their suits? I mean, look around, it can't be for the ambiance. I tell you, sometimes it scares me trying to figure out what they're thinking inside those suits. Sitting in the back of my bar, staring at the wall and seeing something only the other linked can see - if I still had skin it'd give me goosebumps."
-msgstr ""
+msgstr "Alors, dites-moi - pourquoi les Andolians viennent parfois dans les bars si tout ce qu'ils vont commander est de l'eau, qu'ils ne boiront même pas avant de l'avoir passée dans les purificateurs de leur combinaison? Je veux dire, regardez autour de vous, ce n'est sûrement pas pour l'ambiance! Je vais vous dire : des fois, ça me fait peur d'essayer d'imaginer à quoi ils peuvent bien penser dans leurs combinaisons. Assis au fond mon bar, en train de regarder le mur et de voir quelque-chose que seuls les autre connectés peuvent voir - si j'avais encore une peau, j'en aurais la chair de poule!"
 
 #: data/bases/bartender.py:74
 msgid "A couple of goons from the IntelSec came in here earlier looking for some guy named Jensen. Wouldn't say what it was about, but let me tell you, whatever it was, I was happy when they left. I swear, half the bar found excuses to be elsewhere the moment those two guys entered, and I don't blame them."
-msgstr ""
+msgstr "Deux gorilles de l'IntelSec sont venus ici un  peu plus tôt, à la recherche d'un gars nommé Jensen. Je ne saurais pas dire de quoi il s'agissait, mais laissez moi vous dire que j'étais heureux quand ils sont partis. Je vous jure, la moitié du bar a trouvé des excuses pour s'éclipser quand ces deux gars sont entrés, et je ne vais pas les en blâmer."
 
 #: data/bases/bartender.py:75
 msgid "Shaper woman comes in here a few weeks back, wearing living clothes, naturally. Some drunken Purist, maybe he was a Luddite sympathizer or just really stupid, he comes up and starts yelling about how she's a desecration of the human species or some junk - next thing you know, some vine from her dress has the guy face down on the bar in a chokehold. Scary thing is, she didn't even bat an eye. She just was smelling the wine I'd just served her the whole time as if nothing was happening. When his unconscious body slid off my bar, I tell you the smile she gave me could have frozen helium."
-msgstr ""
+msgstr "Une femme Shaper est venue ici il y a quelques semaines, portant naturellement des habits biotiques. Un Purist ivre - peut-être était-il un sympathisant Luddite ou tout simplement stupide - est arrivé et a commencé à hurler qu'elle était une profanation de l'espèce humaine et ce genre de trucs. La suite vous la connaissez, une ramure est sortie de sa robe, et a plaqué le gars sur le comptoir tout en l'étranglant. Le plus effrayant était qu'elle n'a même pas bougé un cil. Elle s'est juste contentée de sentir le vin que je venais de lui servir, comme si rien ne se passait. Quand le corps inconscient a glissé du bar, je peux vous dire que le sourire qu'elle m'a lancé avait quelquechose de l'hélium solide."
 
 #: data/bases/bartender.py:76
 msgid "A woman came in here the other day carrying one of those fancy Aera energy pistols in her belt. Don't ask me how she managed to get her hands on one of those, but even the roughest of my customers made sure to stay out of her way."
-msgstr ""
+msgstr "Une femme est venue ici l'autre jour, portant un de ces pistolets énergétiques Aeran de luxe à la ceinture. Ne me demandez pas comment elle a pu se le procurer, mais même mes clients les plus grossiers et brutaux ont fait en sorte de ne pas croiser son chemin."
 
 #: data/bases/bartender.py:77
 msgid "This captain of a Wayfarer came in here the other day, looking like she could really use a drink. I'd figured anyone flying a ship that many decades old might need a couple just to calm their nerves, but it turned out she had been chased by pirates across three systems! Persistant little buggers, aren't they? And the Regional Guard wasn't much help for some reason."
-msgstr ""
+msgstr "La capitaine d'un Wayfarer est venue ici l'autre jour, avec l'air d'avoir vraiment besoin d'un verre. Je m'était dit que quelqu'un volant dans un vaisseau qui avait plusieurs dizaines d'années au compteur aurait de toute façon besoin de plus d'un verre rien que pour se calmer les nerfs, mais il s'est avéré en plus qu'elle avait été prise en chasse par des pirates à travers trois systèmes! Des petits cons tenaces, hein? Et, pour une raison quelconque, la Garde Régionale n'a été d'aucune aide."
 
 #: data/bases/bartender.py:78
 msgid "A mercenary outfit, the 'Red Condors', came in here a while ago. Real tough-looking types. I expected trouble, but they quietly finished their drinks and left. Glad there's still some professionalism out there."
-msgstr ""
+msgstr "Un équipage mercenaire, les 'Condors rouges', est entré ici il y a quelques jours. Z'avaient l'air vraiment rudes. Je m'attendais à du grabuge, mais ils ont tranquillement fini leurs verres et sont partis. Heureux qu'il y ait encore du professionalisme par ici!"
 
 #: data/bases/bartender.py:79
 msgid "There was this one merc in here the other day... he told me that he and the Aera he was fighting crashed on some world on the frontier. There was no human-edible food, so he said he lived off the dead Aera for three weeks! Can you believe that?"
-msgstr ""
+msgstr "Il y a eu ce marchand, qui est entré ici l'autre jour... Il m'a dit que lui et l'Aeran qu'il combattait se sont écrasés sur un monde de la frontière. Il n'y avait pas de nourriture comestible pour l'homme, alors il a vécu du cadavre de l'Aeran pendant trois semaines! Vous pouvez le croire?"
 
 #: data/bases/bartender.py:80
 msgid "This Highborn youth and his lackeys come in last month - boy is total glutton, worst shape I've seen an aristo in in years. Apparently he's got speciesist tendencies among his failings too, because first thing he and his friends do is try to pick a fight with one of the Klk'k at the bar. Rest of the human bar patrons suddenly jump up from their seats in unison, completely clockwork-like - turns out they were all Andolian-steppers who were taking their Bro-chan out for a promotion party. As soon as that Highborn kid noticed the links on the backs of their necks... man, I don't know that I've ever seen a guy that out of shape run that fast."
-msgstr ""
+msgstr "Un jeune Highborn et ses larbins sont venus ici le mois dernier - le gars était un vrai glouton, ça faisait des années que je n'avais pas vu un aristo dans cet état. Apparemment, parmi ses nombreux défauts, il avait également des tendances spécistes, parce que la première chose que lui et ses amis ont faite en entrant a été de provoquer Klk'k au bar, pour déclencher une bagarre. Le reste des clients humains ont subitement sauté de leur siège à l'unisson, avec une synchro parfaite - il s'avère qu'ils étaient tous des danseurs Andolians qui se faisaient une soirée de promotion. Dès que les gamins Highborn ont remarqué les liens à la base de leurs nuques... mon vieux, je crois que je n'avais jamais vu un gars aussi mal en point s'enfuir aussi vite."
 
 #: data/bases/bartender.py:81
 msgid "Some privateer was in here a while back, bragging about his adventures in unknown space. He kept talking about these wonderful alien artifacts that he used to improve his ship. Claimed they were Betan... or was it Alphan? I can't remember, and I bet you 10 to 1 that chump couldn't have told the difference!"
-msgstr ""
+msgstr "Un chasseur de primes est venu ici l'autre jour, fanfaronnant sur ses aventures dans l'espace inconnu. Il a continué en nous décrivant les merveilleux artefacts aliens qu'il utilisait pour améliorer son vaisseau. Affirmant qu'ils étaient Betan... ou peut-être Alphan? Je ne me souviens plus, mais je peux vous parier à 10 contre un que cet idiot n'aurait pas su faire la différence!"
 
 #: data/bases/bartender.py:82
 msgid "Every so often, an Uln comes in here. They have their own civilian sector pretty much like our own, and sometimes a couple of their privateers find their way across the border. But let me tell you, never give them beer. One of them had that, and he got into some sort of violent spasms and threw up over the whole bar. Not a pretty sight."
-msgstr ""
+msgstr "De temps en temps, un Uln vient dans ce bar. Ils ont leur propre secteur civil un peu comme le nôtre, et quelquefois un ou deux de leurs chasseurs de primes traversent la frontière. Mais laissez moi vous dire, ne leur offrez JAMAIS de bière. Un d'entre eux en a eu une fois, et il est parti dans des spasmes violents, et il a vomi dans tout le bar. Pas beau à voir!"
 
 #: data/bases/bartender.py:83
 msgid "Hello there, friend. What can I get you? Sorry, I don't have any of the good stuff left. I had a transport bringing in new beverages from the Uln border, but there was an... accident. Apparently, some of that stuff is more flamable than napalm! How was I to know?"
-msgstr ""
+msgstr "Bonjour, ami. Qu'est-ce que je peux vous offrir? Désolé, je n'ai plus grand-chose de fameux. Un transporteur devait m'amener de nouvelles boissons depuis la frontière Uln, mais il y a eu... un accident. Apparemment, certains de ces alcools sont plus inflammables que le napalm! Comment pouvais-je le savoir?"
 
 #: data/bases/bartender.py:84
 msgid "I think that the craziest story I've ever heard in this bar...  is where this pilot says he was out on the Aeran frontier, flying alone in an uncolonized system. He's running pretty much with zero emissions, so no Aera patrols can spot him. He's thirty thousand clicks out from the jump point, when his passive sensors go CRAZY. He says thats when a sparkling, glowing green orb popped out of the jump point, and just took off to another jump point at insane speeds. The pilot sold his ship right after he left my bar."
-msgstr ""
+msgstr "Je crois que l'histoire la plus loufoque que j'aie jamais entendue dans ce bar... est celle où le pilote prétend qu'il était dehors sur la frontière Aeran, volant seul dans un système non colonisé. Il vole à peu près sans émissions,  pour qu'aucune patrouille Aeran ne puisse le capter. Il est à 30000 clicks du point de saut, quand ses capteurs passifs deviennent DINGUES. Il dit qu'alors, une orbe verte étincelante et incandescente a jailli du point de saut, et est partie à une vitesse hallucinante vers un autre trou de ver. Le pilote a vendu son vaisseau juste après être sorti de mon bar."
 
 #: data/bases/bartender.py:85
 msgid "...and so there I was. Regional Guard patrol to my port, Confed fighter wing to my starboard... and my dumped cargo coasting slowly away from me about 600 kliks to stern. I thought I was home free. Suddenly, they all started powering up their weapons. 'I'm fracked', I thought. Turns out there was a wing of Aeran Nicanders on an attack vector. Then I thought 'Now I'm REALLY fracked'."
-msgstr ""
+msgstr "...et voilà comment ça s'est passé. Une patrouille de gardes régionaux à babord, un escadron de chasseurs de la Confed à tribord... et mon frêt éjecté s'éloignant lentement de moi, à peu près à 600 klicks de ma poupe. Je pensais que j'étais tiré d'affaire. Soudain, ils ont tous commencé à charger leurs armes. Et là je me suis dit que j'étais foutu. Il s'est alors avéré qu'un escadron de Nicanders Aerans était sur un vecteur d'attaque. Alors j'ai pensé \"Maintenant, je suis VRAIMENT foutu\"."
 
 #: data/bases/bartender.py:86
 msgid "There was a guy in here the other day who claimed he was the sole survivor of some colony massacre by the Aera out on the frontier. No one believed him for a minute though - if the Rlaan ever caught the Aera slaughtering a colony's worth of civilians, the Rlaan would be massing on the Aeran border in a heartbeat."
-msgstr ""
+msgstr "Il y a eu un gars l'autre jour qui prétendait être le seul survivant du massacre d'une colonie par des Aerans le long de la frontière. Mais personne ne l'a cru plus d'une minute - si les Rlaans avaient un jour surpris les Aeras à massacrer l'équivalent d'une colonie en civils, ils seraient en train de se masser à la frontière Aerean en l'espace d'un battement de coeur."
 
 #: data/bases/bartender.py:87
 msgid "My brother signed up for the New Farmers of the Confederation program, and got shipped out to a new agricultural colony out on the frontier. I got a trans from him last week, and he said that life was really hard compared to Mars, but that he was happy to be living on a surface habitable planet finally."
-msgstr ""
+msgstr "Mon frère a signé pour le programme Nouveaux fermiers de la Confédération, et a été envoyé dans une nouvelle colonie agricole sur la frontière. J'ai reçu un trans de lui la semaine dernière, où il disait que la vie y était vraiment plus dure que sur Mars, mais qu'il était quand-même content de vivre sur une planète habitable à la surface."
 
 #: data/bases/bartender.py:88
 msgid "By Jupiter, there are some crazy people out there.  Just last week, a shipment of industrial goods destined for the base here got shot up by a wing of Luddite fighters. It's insane!  They lash out against modern technology, but they use the latest weapon systems and starfighters to do it!"
-msgstr ""
+msgstr "Par Jupiter, il y a quand-même des fous, par ici. La semaine dernière, un convoi de biens industriels destiné à notre base s'est fait descendre par un escadron de combattants Luddites. C'est débile! Ils s'en prennent à la technologie moderne, mais ils utilisent les vaisseaux et armements les plus récents pour le faire!"
 
 #: data/bases/bartender.py:89
 msgid "There's got to be someone behind the Luddites. I mean, fanatical social reactionaries don't have the money or the resources to buy ships, train pilots, or construct highly organized terrorist operations all by themselves, even with a bunch of whacked out, tithing followers.  Now who would stand to gain from the Luddite craziness?  Hmmm...."
-msgstr ""
+msgstr "Il y a forcément quelqu'un derrières les Luddites. Je veux dire, des réactionnaires sociaux fanatiques n'ont pas l'argent ou les ressources pour acheter des vaisseaux, entraîner des pilotes, ou monter des opérations terroriste bien organisées par eux-même, même avec un tas d'adeptes dingues et prêts au sacrifice. Maintenant, qui aurait tout à gagner à la folie Luddite? Mmmm..."
 
 #: data/bases/bartender.py:91
 msgid "Have you heard the news? Buster Friendly just died. Remember his show? Buster Friendly and his Friendly Friends? I grew up on that show. I think I need a drink."
-msgstr ""
+msgstr "Vous avez entendu les nouvelles?  Pote Sympa vient de mourir. Vous vous souvenez de son show? Pote Sympa et ses Amis Amicaux? J'ai grandi avec ce spectacle. Je crois que j'ai besoin d'un verre."
 
 #: data/bases/bartender.py:92
 msgid "The criminal consortiums out on the frontier are getting more organized by the day. I hear they're extorting entire colonies and systems. Some of the guys are placing bets on what will bring about our fall first. The pirates from within or the Aera from the outside?"
@@ -6410,7 +6410,7 @@ msgstr "Guerre spatiale totale"
 
 #: data/mission/wingman/aera_1.mission:11
 msgid "Aera escort looking for hire. If you pay on time--you will be protected and will survive.  Money, 14000 first, questions later."
-msgstr "Escorte Area à la recherche d'un emploi. Si vous payez à temps - vous serez protégé et survivrez. 14000 à payer d'avance, les questions plus tard."
+msgstr "Escorte Aeran à la recherche d'un emploi. Si vous payez à temps - vous serez protégé et survivrez. 14000 à payer d'avance, les questions plus tard."
 
 #: data/mission/wingman/confed_1.mission:11
 msgid "A desperate Ex-Star Confederate soldier is in need of work. He will loyally escort your cargo vessel and protect it for a low cost of 7500 for a days work. Thank you dear friends."
