@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vega Strike\n"
 "POT-Creation-Date: 2014-05-06 08:52+0100\n"
-"PO-Revision-Date: 2014-12-24 00:48+0100\n"
+"PO-Revision-Date: 2015-03-06 19:22+0100\n"
 "Last-Translator: Greendreamer <winke59@yahoo.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -533,215 +533,235 @@ msgstr "Vous avez entendu les nouvelles?  Pote Sympa vient de mourir. Vous vous 
 
 #: data/bases/bartender.py:92
 msgid "The criminal consortiums out on the frontier are getting more organized by the day. I hear they're extorting entire colonies and systems. Some of the guys are placing bets on what will bring about our fall first. The pirates from within or the Aera from the outside?"
-msgstr ""
+msgstr "Les consortiums crimiels basés à la frontière deviennent plus organisés chaque jour. J'entends qu'ils extorquent des colonies, voire des systèmes entiers. Certaines perosnnes font des paris sur ce qui va amener notre chute en premier : les pirates de l'intérieur, ou les Area de l'extérieur?"
 
 #: data/bases/bartender.py:93
 msgid "There's a lot of people complaining about the pirates, but I don't mind them so much.  The Confed and the Merchies know they need a running merchant operation in the outlying systems, but they haven't got the resources to patrol every trade lane for pirates, so they need people who can look after themselves. People like you and me. And that's why they go easy on drafting our kind."
-msgstr ""
+msgstr "Il y a beaucoup de gens qui se plaignent des pirates, mais ils ne me dérangent pas tant que ça. La Confed et les Marchands savent qu'ils ont besoin d'un système marchand qui fonctionne dans les systèmes périphériques, mais ils n'ont pas  les moyens de surveiller chaque toute commerciale contre les pirates, alors ils ont besoin de gens qui peuvent se surveiller eux-même. Des gens comme vous et moi. Et c'est pourquoi ils y vont gentiment avec nous."
 
 #: data/bases/bartender.py:95
 msgid "Myself, I used to fly for the Exploratory Service til I saved up enough to buy this bar. Its a good living. Theyre not real picky about who they take and the pays nothing to sneeze at. If you dont mind getting shot at, from time to time, you oughtta look into it."
-msgstr ""
+msgstr "Moi-même, j'ai volé pour le Service d'Exploration jusqu'à ce que j'aie gagné assez pour me payer ce bar. C'est une vie chouette. Ils ne sont pas très pointilleux sur qui ils engagent, et le salaire est respectable. Si ça ne vous dérange pas de vous faire tirer dessus, de temps en temps, vous devriez y réfléchir."
 
 #: data/bases/bartender.py:96
 msgid "I've heard some funny stories of strange things going on in the Enigma system. It supposedly has something to do with the black hole there, but that's only the official explanation."
-msgstr ""
+msgstr "J'ai entendu de drôles d'histoires, sur des choses étranges qui se passeraient dans le système Enigma. On suppose que cela proviendrait du trou noir qui s'y trouve, mais c'est seulement l'explication officielle."
 
 #: data/bases/bartender.py:99
 msgid "Hey, did you hear the news? Word is that the 5th Fleet under Admiral Johansson managed to bag a whole bunch of those nasty Aeran cruisers in a battle not far from here! Maybe this war is winnable after all!"
-msgstr ""
+msgstr "Hé, vous avez entendu les nouvelles? On dit que la 5ème flotte sous les ordres de l'Amiral Johansson a réussi à descendre tout un tas d'affreux croiseurs Arean dans une bataille non loin d'ici! Cette guerre est peut-être gagnable, après-tout!"
 
 #: data/bases/bartender.py:100
 msgid "A toast to the men and women of the Confederate Armed Forces! If not for them, we'd all be learning how to speak Aera right about now. If those things even have vocal chords."
-msgstr ""
+msgstr "Un toast pour les hommes et les femmes des Forces Armées Confédérées! Sans eux, nous serions en train d'apprendre à parler Aera. A supposer que ces choses possèdent des cordes vocales."
 
 #: data/bases/bartender.py:101
 msgid "We might have had some luck raiding some of the outlying Aeran outposts, but I hear their planets are going to be a tough nut to crack. An old friend of mine from the HCS Zhukov told me that, back during the Rlaan-Aera war, they tracked a Rlaan battle fleet as it entered orbit around one of the planets, but then it simply disappeared off their scopes! The fleet that is, not the planet."
-msgstr ""
+msgstr "Nous avons sans doute eu de la chance lors des derniers raids contre les avant-postes Aerans, mais je me suis laissé dire que pour leurs planètes, ce sera une autre paire de manches. Un vieil ami à moi qui a servi à bord du HCS Zhukov m'a dit que, lors de la guerre Rlaan-Aera, ils ont capté une flotte de bataille Rlaan qui entrait en orbite autour d'un planète Aera. Ils ont alors simplement disparu de leurs radars! La flotte, bien-sûr! Pas la planète!"
 
 #: data/bases/bartender.py:102
 msgid "So what's your take on the war? A friend of mine in the Navy told me that the Aera-Rlaan border is still deadly silent. Word is that the unofficial cease-fire might as well be an official one. Some are even saying the Aera might redeploy even more of their fleet units from that front. If that happens, the Aera will bring all of their high-tech weapons to bear on us, and I don't just mean those poor bastard in Forsaken space. Things aren't looking good."
-msgstr ""
+msgstr "Alors quel est votre point de vue sur la guerre? Un ami à moi de la Navy m'a dit que la frontière Aera-Rlaan était toujours terriblement silencieuse. Il paraîtrait que le cessez-le-feu officieux pourrait très bien être officiel. Certains disent même que les Aera pourraient redéployer encore plus d'unités depuis ce front.  Si ça arrive, the Aera ramèneront toutes leurs armes high-tech contre nous, et je ne parle pas juste de ces pauvres batards de l'espace Forsaken. Ca ne sent pas bon."
 
 #: data/bases/bartender.py:103
 msgid "It's hard to tell what this war with the Aera is going to be like, because we aren't really into it yet. I suggest you don't put too much weight on the first few skirmishes... I suspect we'll be in this one for the long haul."
-msgstr ""
+msgstr "C'est difficile de dire comment va tourner cette guerre contre les Aera, parce-que nous ne sommes pas encore tout à fait dedans. Je vous conseille de ne pas accorder trop d'importance aux premières escarmouches... j'ai l'impression qu'on est parti sur du long terme."
 
 #: data/bases/bartender.py:104
 msgid "Have you heard that the 5th Fleet and the 9th Fleet are actually made up of mostly the same ships?  It's the 5th Fleet when under Admiral Johansson, and the 9th when under Admiral Nogura. The 3rd and the 4th Fleets are the same way. I hear it confused the hell out of the Aera for a while. They thought we were magically growing new fleets out of our armpits!"
-msgstr ""
+msgstr "Saviez-vous que la 5ème flotte et la 9ème flotte sont constituées pratiquement des même vaisseaux? C'était la 5ème flotte sous l'amiral Johansson, et la 9ème sous l'amiral Nogura. Idem pour les 3ème et 4ème flottes. J'ai entendu que ça a donné des migraines aux Aera pendant un moment. Ils pensaient que nous sortions magiquement de nouvelles flottes de nos aisselles!"
 
 #: data/bases/bartender.py:105
 msgid "I've got a sister in the Navy. She's a weapons officer in the 6th Fleet out near the Aera-Confed-Shmrn border. I asked her to fry a few aliens for me, but so far neither side is committing in full to that sector. To be honest, I still hope she doesn't have to actually fight against a full on Aeran assault - it's murder out there, but I wanted her to think I wasn't worried."
-msgstr ""
+msgstr "J'ai une soeur dans la Navy. Elle est officier de l'armement dans la 6ème flotte, près de la frontière Aera-Confed-Shmrn. Je lui ai demandé de faire frire quelques aliens pour moi, mais jusqu'ici aucune des parties ne s'est engagée à fond dans ce secteur. Pour être honnête, j'espère toujours qu'elle n'ait pas à vraiment à combattre lors d'un assaut Aeran - la mort rode là haut, mais je ne voulais pas qu'elle ressente mon inquiétude."
 
 #: data/bases/bartender.py:106
 msgid "I've got a buddy in the Confed Marines, attached to the 10th Fleet. He's out on the Rlaan border, corward of Shaper space, the complete opposite side of the Confederation from the fighting. He complains about it being boring out there... but if I was him I'd be pretty happy."
-msgstr ""
+msgstr "J'ai un pote dans les Marines de la Confed, rattaché à la 10ème flotte.  Il est sur la frontière Rlaan, près de l'espace Shaper, à l'opposé des combats. Il se plaint parce qu'il s'ennuie...mais si j'étais lui je serais plutôt content!"
 
 #: data/bases/bartender.py:107
 msgid "There's a rumor going around that the Aera have some big capital ships deep inside their home territory. I don't mean just big... I mean BIG big. Big enough to use one of the old Starrunners for a pinnace. Then again, it's just a rumor."
-msgstr ""
+msgstr "Il y a une rumeur qui circule au sujet des Aeras. Ils posséderaient d'énormes vaisseaux-mère loin à l'intérieur de leur territoire. Je ne veux pas dire juste énormes... Je veux dire vraiment énnooormes. Assez grands pour utiliser les vieux Starrunnners comme canots de sauvetage. Bien-sûr, c'est juste une rumeur..."
 
 #: data/bases/bartender.py:108
 msgid "I've heard that the Aera don't have a very well-defined concept of 'prisoners of war'. The Rlaan help keep them honest when it comes to civilians, but I hear that the Navy started to give cyanide pills to pilots in case the wrong side picks them up after they bail out."
-msgstr ""
+msgstr "J'ai entendu que les Aeras ne comprenaient pas bien le concept de \"prisonniers de guerre\". Les Rlaans leur ont appris à rester \"humains\" lorsqu'il s'agissait de civils, mais j'ai entendu que la Navy commencait à donner des pillules de cyanure à leurs pilotes au cas où ils seraient récupérés par la mauvaise faction après éjection."
 
 #: data/bases/bartender.py:109
 msgid "The Aera might seem to be more powerful than us at first glance... but how much of their economy is dedicated to war? Most of it, I'd say. The Confederation spends only a few percent of its gross product on the military. If push comes to shove... we'll knock 'em over for sure, provided we can ever get the Senate to agree to anything useful before the whole bloody war is over!"
-msgstr ""
+msgstr "Les Aera ont l'air plus puissants que nous à première vue... mais quel pourcentage de leur économie est consacré à la guerre? La majeurs partie, je dirais. Tandis que el Confédération ne dépense que qulques pourcents de sa production brute à des fins militaires. Dans le pire des cas, on les exterminera à coup sur,  à condition que nous puissions amener le Sénat à approuver tout ce qui pourrait être utile avant que cette guerre sanglante soit terminée!!"
 
 #: data/bases/bartender.py:110
 msgid "I've heard that the Confed Navy has been trying to slip intel teams behind and around Aeran lines to set up listening posts. I'd hate to be working that duty...  out there, all alone. Only kilometers away from Aeran fleets. Always afraid of being discovered...  brrrrr."
-msgstr ""
+msgstr "J'ai entendu que la Marine confédérée essayait d'infiltrer des équipes de l'Intel derrière les lignes Aerans, pour mettre en place des points d'écoutes. J'aurais horreur de faire ce job... dehors, tout seul. A seulement quelques kilomètres des flottes Aerans. Vivant dans la peur d'être découvert... brrrrr."
 
 #: data/bases/bartender.py:111
 msgid "You know what they say... 'War is good for business'?  Well it ain't true. How many pilots that were regulars here have been drafted?  How many freelancers have gotten fried on escort duty?  A lot.  That's a lot of people NOT buying drinks from me.  Lousy war."
-msgstr ""
+msgstr "Vous savez ce qu'ils disent... \"La guerre est bonne pour le business\"? Ben ce n'est pas vrai. Combien de pilotes qui venaient régulièrement ici ont été enrôlés? Combien de mercenaires ont été grillés lors de missions d'escorte? Beaucoup. Ca fait beaucoup de monde qui ne vient PLUS boire chez  moi. Pourriture de guerre."
 
 #: data/bases/bartender.py:112
 msgid "Have you heard about the anti-war protests back home?  I could understand that if we were invading Aera space, being aggressive and all...  but those protesters have NO idea what's going on out on the Frontier, do they?  Not one damn clue!  Maybe someone should send them out to the Justman Colony, so they can see just how 'peaceful' the Aera really are!"
-msgstr ""
+msgstr "Vous avez entendu les protestataires anti-guerre qui veulent rappeler nos soldats à la maison? Je pourrais comprendre si nous étions en train d'envahir l'espace Aera, de nous montrer agressifs, et tout ça... Mais ces protestataires n'ont AUCUNE idée de ce qui se passe dehors à la frontière. Pas la moindre putain d'idée! Peut-être que quelqu'un pourrait les envoyer sur la colonie Justman, qu'ils puissent voir comment les Aears se montrent \"pacifiques\"!"
 
 #: data/bases/bartender.py:114
 msgid "Man, you go through life, you try to be nice to people, you struggle to resist the urge to punch 'em in the face, and for what?"
-msgstr ""
+msgstr "Hé, mec, tu traverses la vie, t'essaies d'être cool avec les gens, tu luttes pour résister à l'envie de leur mettre un gnon en pleine poire, et tout ça pour quoi?"
 
 #: data/bases/bartender.py:115
 msgid "Listen, here's the thing. If you can't spot the sucker in your first half hour at the table, then you are the sucker."
-msgstr ""
+msgstr "Ecoutez, voilà où je veux en venir. Si vous ne pouvez pas localiser le pigeon autour de la table en une demi-heure, alors le pigeon c'est vous."
 
 #: data/bases/bartender.py:116
 msgid "Remember, ability can take you to the top, but it takes character to keep you there."
-msgstr ""
+msgstr "Souvenez-vous, vos aptitudes vous amènent au top, mais il faut du caractère pour y rester."
 
+# Quote  Kurt Vonnegut
 #: data/bases/bartender.py:117
 msgid "Eat, drink, and be merry... for tomorrow we die!"
-msgstr ""
+msgstr "Buvez, mangez et soyez heureux... car demain nous mourrons!"
 
 #: data/bases/bartender.py:118
 msgid "When sorrows come, they come not single spies, but in batallions."
-msgstr ""
+msgstr "Quand viennent les regrets, ils n'arrivent pas solitaires, mais en bataillons."
 
 #: data/bases/bartender.py:119
 msgid "Be not afraid of greatness. Some are born great, some achieve greatness, and some have greatness thrust upon 'em."
-msgstr ""
+msgstr "N'ayez pas peur de la grandeur. Certains sont nés grands et nobles, d'autres accomplissent de grandes choses, et d'autres encore ont la grandeur marquée sur eux."
 
 #: data/bases/bartender.py:120
 msgid "Cowards die many times before their deaths...    The valiant never taste of death but once."
-msgstr ""
+msgstr "Les lâches meurent de nombreuses fois avant leur mort... Le vaillant n'y goûte qu'une fois."
 
 #: data/bases/bartender.py:121
 msgid "I will eat with you, drink with you, talk with you, and so following; but I will not trade with you, fly with you, nor pray with you."
-msgstr ""
+msgstr "Je  mangerai avec toi, boirai avec toi, discuterai avec toi, et tout ce qui s'ensuit; mais je ne commercerai pas avec toi, ne volerai pas avec toi, ni ne prierai avec toi."
 
+# Quote William Shakespeare
 #: data/bases/bartender.py:122
 msgid "All that lives must die... passing through nature to eternity."
-msgstr ""
+msgstr "Tout ce qui vit doit mourir... emporté par la nature dans l’éternité."
 
 #: data/bases/bartender.py:123
 msgid "Women will forgive anything. Otherwise, the race would have died out long ago."
-msgstr ""
+msgstr "Les femmes pardonnent tout. Sinon, notre espèce se serait éteinte depuis très longtemps."
 
 #: data/bases/bartender.py:124
 msgid "Happiness is having a large, loving, caring, close-knit family... on another planet."
-msgstr ""
+msgstr "Le bonheur c'est d'avoir une famille nombreuse, aimante, attentive, très unie... sur une autre planète."
 
+# Quote Winston Churchill
 #: data/bases/bartender.py:125
 msgid "If you're going through hell, just keep going."
-msgstr ""
+msgstr "Si vous traversez l'enfer, contentez vous de continuer."
 
 #: data/bases/bartender.py:126
 msgid "Beware of small expenses; a small leak will decompress even a great starship."
-msgstr ""
+msgstr "Méfiez-vous des petits prix; une petite fuite dépressurisera même un grand vaisseau."
 
+# Quote William Shakespeare
 #: data/bases/bartender.py:127
 msgid "Our doubts are traitors, and make us lose the good we oft might win by fearing to attempt."
-msgstr ""
+msgstr "Nos doutes sont des traîtres, et nous font perdre tout le bien que nous pourrions gagner, juste en nous empêchant d'essayer."
 
+# Quote Shakespeare
 #: data/bases/bartender.py:128
 msgid "This above all: to thine own self be true! And it must follow as the night the day, thou canst not then be false to any man."
-msgstr ""
+msgstr "Avant tout, sois loyal envers toi-même ; et aussi infailliblement que la nuit suit le jour, tu ne pourras être déloyal envers personne."
 
+# Quote William Trogdon
 #: data/bases/bartender.py:129
 msgid "There are two kinds of adventurers: those who go truly hoping to find adventure, and those who go secretly hoping they won't."
-msgstr ""
+msgstr "Il y a deux sortes d'aventuriers : ceux qui y vont en espérant sincèrement trouver l'aventure, et ceux qui espèrent secrètement ne rien trouver."
 
+# Quote Alfred North Whitehead
 #: data/bases/bartender.py:130
 msgid "Without adventure civilization is in full decay."
-msgstr ""
+msgstr "Une civilisation sans aventure est en plein décadence."
 
+# Quote Edgar Fiedler
 #: data/bases/bartender.py:131
 msgid "Ask five economists and you'll get five different explanations. Seven if one went to Berkeley in the Defiance system."
-msgstr ""
+msgstr "Demandez à cinq économistes et vous aurez cinq explications différentes. Sept si l'un d'eux vient de Berkeley dans le système Defiance."
 
+# Quote Thomas Chandler Haliburton
 #: data/bases/bartender.py:132
 msgid "No one is rich whose expenditures exceed his means, and no one is poor whose incomings exceed his outgoings."
-msgstr ""
+msgstr "Personne n'est riche si ses dépenses excèdent ses moyens, et personne n'est pauvre si ses rentrées d'argent excèdent ses dépenses."
 
 #: data/bases/bartender.py:133
 msgid "I HAVE TEH POWER"
-msgstr ""
+msgstr "J'AI LE POUVOIR"
 
+# Arthur Koestler Quote
+# About the first moon landing.
 #: data/bases/bartender.py:134
 msgid "Prometheus is reaching out for the stars with an empty grin on his face."
-msgstr ""
+msgstr "Promethée atteint les étoiles, une expressions vide accrochée à la face."
 
+# Quote Blaise Pascal
 #: data/bases/bartender.py:135
 msgid "The eternal silence of these infinite spaces fills me with dread."
-msgstr ""
+msgstr "Le silence éternel de ces espaces infinis m'effraie."
 
+# Quote Friedriech Nietzsche
+# Twilight of the idols
 #: data/bases/bartender.py:136
 msgid "Where does one not find that bland degeneration which beer produces in the spirit!"
-msgstr ""
+msgstr "Où ne la trouverait-on pas, cette douce dégénérescence que produit la bière dans l’esprit ?"
 
+# Quote William Butler Yeats
 #: data/bases/bartender.py:137
 msgid "The worst thing about some men is that when they are not drunk they are sober."
-msgstr ""
+msgstr "La plus mauvaise chose à propos de certains hommes est que, quand ils ne sont pas souls, ils sont sobres."
 
+# Quote Samuel Taylor Coleridge
 #: data/bases/bartender.py:138
 msgid "Some men are like musical glasses; to produce their finest tones you must keep them wet."
-msgstr ""
+msgstr "Certains hommes sont comme des verres musicaux ; pour qu'ils produisent leur meilleur son, vous devez les maintenir mouillés."
 
 #: data/bases/bartender.py:139
 msgid "It was a woman who drove me to drink, and I never had the courtesy to thank her for it."
-msgstr ""
+msgstr "C'est une femme qui m'a poussé à la boisson, et je n'ai jamais eu la courtoisie de la remercier."
 
 #: data/bases/bartender.py:140
 msgid "The cost of living has gone up another credit a liter."
-msgstr ""
+msgstr "Le coût de la vie a monté d'un crédit par litre."
 
+# Quote Napoléon Bonaparte
 #: data/bases/bartender.py:141
 msgid "Glory is fleeting, but obscurity is forever."
-msgstr ""
+msgstr "La gloire est éphémère, mais l’obscurité est éternelle."
 
+# Quote Mark Twain
 #: data/bases/bartender.py:142
 msgid "To refuse awards is another way of accepting them with more noise than is normal."
-msgstr ""
+msgstr "Refuser des récompenses est une autre façon de les accepter avec plus de bruit qu'il n'est d'usage."
 
+# Quote Hiram Johnson
 #: data/bases/bartender.py:143
 msgid "The first casualty when war comes is truth."
-msgstr ""
+msgstr "La première victime lorsque la guerre vient est la vérité."
 
+# Quote William Westmoreland
 #: data/bases/bartender.py:144
 msgid "The military don't start wars. Politicians start wars."
-msgstr ""
+msgstr "Les militaires ne commencent pas les guerres. Ce sont les politiciens qui commencent les guerres."
 
 #: data/bases/bartender.py:149
 msgid "A Special Forces unit came through here this morning. Real quiet guys. Looked like they'd seen a lot of action. From what I could gather, they were going to catch a transport out of here and into the fray again later tonight."
-msgstr ""
+msgstr "Une unité des Forces Spéciales est passée par ici ce matin. Des gars vraiment calmes. Ils avaient l'air d'avoir eu leur lot d'action. D'après ce que j'ai pu comprendre, ils allaient attraper un transport pour retourner dans la mélée plus tard dans la soirée."
 
 #: data/bases/bartender.py:150
 msgid "This Army captain had a drink here yesterday. Tall guy from Mars. Now, I've seen a lot, but this guy... half his face, both of his legs and his left arm had all been replaced with cybernetics due to injuries he'd taken on the field. If it was all with the Mechanist aesthetic, it might have been impressive, but he visually reeked of military hack job. He looked a bit clumsy, it was obvious there hadn't been many nerve endings left to connect to anything."
-msgstr ""
+msgstr "Un capitaine a bu un verre ici, hier. Un grand gaillard de Mars. J'en ai vu beaucoup dans ma vie, mais ce gars... la moitié de son visage, ses deux jambes et son bras gauche ont été remplacés par des implants cybernétiques à cause des blessures récoltées sur le champ de bataille. Si ça avait été fait avec l'esthétique des Mechanists, ça aurait été impressionant, mais ça puait le travail baclé. Il avait l'air un peu gauche, apparemment il n'y avait plus assez de terminaisons nerveuses pour connecter l'ensemble correctement."
 
 #: data/bases/bartender.py:151
 msgid "Some idiots from the ISO came in here yesterday handing out phamphlets and bothering the customers. They wouldn't take a hint, so I had them thrown out. Some days I almost don't know who's worst, the ISO or those Luddite religious fanatics that fight with you all the time."
-msgstr ""
+msgstr "Des idiots de l'ISO sont venus hier avec des brochures, et ont dérangé les clients. Ils n'ont pas écouté mes conseils, alors je les ai fait jeter dehors. Certains jours je ne sais pas ce qu'il y a de pire, entre les ISO ou ces fanatiques religieux Luddites qui ont tout le temps envie d'en découdre."
 
 #: data/bases/bartender.py:152
 msgid "You know about those Rlaan? Supposedly, they never attack unarmed vessels. Well, word is there's this rogue Rlaan corvette hiding out near here. Fled to our side of the border when their own Enforcers caught up with it. I hear the whole crew went completely sideways in the head after some botched gray-op, and now it'll attack anything or anyone that comes in its way."
-msgstr ""
+msgstr "Vous savez, à propos des Rlaans? Ils n'ont jamais attaqué un vaisseau désarmé. Et bien il paraît qu'il y a une corvette Rlaan criminelle qui se cache pas loin d'ici. Ils ont fui de notre côté de la frontière avant que leurs poursuivants les rattrapent. J'ai entendu dire que tout l'équipage est devenu complètement barge après des opérations baclées sur leurs organe cognitifs, et ils vont maintenant attaquer n'importe quoi ou n'importe qui, qui aurait le malheur de les croiser."
 
 #: data/bases/bartender.py:153
 msgid "A couple of guys from the Confederate Air Corp were here a while back. We don't get many of those here usually. They may rely on the Navy for transportation between planets, but those Air Corp boys and girls are solid gold when it comes to campaigns planetside!"
@@ -1150,15 +1170,15 @@ msgstr ""
 
 #: data/bases/bartender.py:270
 msgid "Hello"
-msgstr ""
+msgstr "Bonjour"
 
 #: data/bases/bartender.py:312
 msgid "Hello!"
-msgstr ""
+msgstr "Salut!"
 
 #: data/bases/carribean.py:24
 msgid "Hardware Purchases/Sales"
-msgstr ""
+msgstr "Achats/Ventes de matériel"
 
 #: data/bases/carribean.py:27
 msgid "Pool"
@@ -1183,7 +1203,7 @@ msgstr ""
 
 #: data/bases/computer_lib.py:232
 msgid "Press SAVE again to do it."
-msgstr ""
+msgstr "Pressez SAVE une fois encore pour le faire."
 
 #: data/bases/desert.py:45
 #: data/bases/desert.py:53
@@ -1249,7 +1269,7 @@ msgstr "Négocier du fret"
 
 #: data/bases/desert.py:55
 msgid "Explore_Surface"
-msgstr ""
+msgstr "Explorer la surface"
 
 #: data/bases/desert.py:56
 #: data/bases/mining_lib.py:50
@@ -1281,7 +1301,7 @@ msgstr "Hall principal"
 #: data/bases/desert.py:59
 #: data/bases/desert.py:65
 msgid "Explore_Dishes"
-msgstr ""
+msgstr "Explorer_les_paraboles"
 
 #: data/bases/desert.py:60
 msgid "Hike_To_Farther_Dishes"
@@ -1290,7 +1310,7 @@ msgstr ""
 #: data/bases/desert.py:61
 #: data/bases/desert.py:64
 msgid "News"
-msgstr ""
+msgstr "Infos"
 
 #: data/bases/desert.py:62
 #: data/bases/desert.py:63
@@ -6175,7 +6195,7 @@ msgstr "L'un de nos vaisseaux les plus précieux subit une attaque dans ce syst�
 
 #: data/mission/escort/confed/insystem_escort.mission:10
 msgid "A craft with supplies for the front line is in distress. Please assure it can make it to our escort before it is destroyed. If you can successfully do this, we will pay 8120."
-msgstr "U vaisseau transportant des équipements pour la ligne de front est en détresse. Assurez-vous qu'il puisse rejoindre notre escorte avant d'être détruit. Si vous pouvez le faire, nous paierons 8120."
+msgstr "Un vaisseau transportant des équipements pour la ligne de front est en détresse. Assurez-vous qu'il puisse rejoindre notre escorte avant d'être détruit. Si vous pouvez le faire, nous paierons 8120."
 
 #: data/mission/escort/confed/outsystem_critical_escort.mission:10
 msgid "A critical craft carying medical supplies for the front lines is under attack. You must assist it in reaching our escort craft on the other side of the jump point before it is too late. If you succeed we will offer 13280."
