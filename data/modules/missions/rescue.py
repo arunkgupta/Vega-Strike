@@ -9,6 +9,8 @@ import quest
 import VS
 import go_to_adjacent_systems
 import go_somewhere_significant
+import gettext
+
 class rescue (Director.Mission):
 
     def __init__ (self, creds,numsysaway, fac,numenemy,enfac,enfg='', jumps=(),var_when_done=''):
